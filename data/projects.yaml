@@ -395,6 +395,19 @@ entries:
   updated_at: '2025-10-22'
   license: AGPL-3.0
   why_included: Represents context infrastructure beyond prompt-level tricks.
+- name: Agentic Legibility Score
+  repo_url: https://github.com/LatencyTDH/agentic-legibility
+  category: Context & Working-State Engineering
+  summary_en: Repository audit tool that scores setup, commands, docs, tests, and governance for coding-agent readiness.
+  summary_zh: 评估仓库搭建、命令、文档、测试与治理等要素，以衡量 coding agent 就绪度的审计工具。
+  tags:
+  - repo-audit
+  - readiness
+  - coding-agent
+  stars_snapshot: 3
+  updated_at: '2026-04-14'
+  license: MIT
+  why_included: Helps teams spot missing repo-local scaffolding before asking coding agents to work autonomously.
 - name: Daytona
   repo_url: https://github.com/daytonaio/daytona
   category: Execution Substrates & Sandboxing

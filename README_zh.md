@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **146**
-- GitHub 条目: **122 (83.6%)**
-- 项目分类 GitHub 占比（不含阅读类）: **118/118 (100.0%)**
+- 当前条目数: **147**
+- GitHub 条目: **123 (83.7%)**
+- 项目分类 GitHub 占比（不含阅读类）: **119/119 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-04-13**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -45,7 +45,7 @@
 | 分类 | 条目数 |
 | --- | ---: |
 | Harness Architecture & Orchestration | 19 |
-| Context & Working-State Engineering | 8 |
+| Context & Working-State Engineering | 9 |
 | Execution Substrates & Sandboxing | 11 |
 | Protocols, Tool Interfaces & Agent Contracts | 11 |
 | Evaluation Harnesses & Benchmarks | 18 |
@@ -99,6 +99,7 @@
 | Trellis | [GitHub](https://github.com/mindfold-ai/Trellis) | [![star](https://img.shields.io/badge/star-5150-f4b400?style=flat-square)](https://github.com/mindfold-ai/Trellis) | specs, memory, workflow | 面向多平台编码代理的工作流框架，提供任务上下文、项目记忆与规范注入。 |
 | Awesome Context Engineering | [GitHub](https://github.com/Meirtz/Awesome-Context-Engineering) | [![star](https://img.shields.io/badge/star-3049-f4b400?style=flat-square)](https://github.com/Meirtz/Awesome-Context-Engineering) | awesome-list, context, survey | 面向上下文工程的综述型清单，覆盖资源与框架。 |
 | context-space | [GitHub](https://github.com/context-space/context-space) | [![star](https://img.shields.io/badge/star-810-f4b400?style=flat-square)](https://github.com/context-space/context-space) | context, infrastructure, mcp | 聚焦上下文工程基础设施的项目，强调 MCP 生态集成能力。 |
+| Agentic Legibility Score | [GitHub](https://github.com/LatencyTDH/agentic-legibility) | [![star](https://img.shields.io/badge/star-3-f4b400?style=flat-square)](https://github.com/LatencyTDH/agentic-legibility) | repo-audit, readiness, coding-agent | 评估仓库搭建、命令、文档、测试与治理等要素，以衡量 coding agent 就绪度的审计工具。 |
 
 <a id="execution-substrates-sandboxing"></a>
 ### Execution Substrates & Sandboxing

@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **146**
-- GitHub entries: **122 (83.6%)**
-- GitHub in project categories (excluding readings): **118/118 (100.0%)**
+- Total entries: **147**
+- GitHub entries: **123 (83.7%)**
+- GitHub in project categories (excluding readings): **119/119 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-04-13**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -45,7 +45,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Category | Entries |
 | --- | ---: |
 | Harness Architecture & Orchestration | 19 |
-| Context & Working-State Engineering | 8 |
+| Context & Working-State Engineering | 9 |
 | Execution Substrates & Sandboxing | 11 |
 | Protocols, Tool Interfaces & Agent Contracts | 11 |
 | Evaluation Harnesses & Benchmarks | 18 |
@@ -99,6 +99,7 @@ Notes:
 | Trellis | [GitHub](https://github.com/mindfold-ai/Trellis) | [![star](https://img.shields.io/badge/star-5150-f4b400?style=flat-square)](https://github.com/mindfold-ai/Trellis) | specs, memory, workflow | Multi-platform coding-agent workflow framework with task context, project memory, and spec injection. |
 | Awesome Context Engineering | [GitHub](https://github.com/Meirtz/Awesome-Context-Engineering) | [![star](https://img.shields.io/badge/star-3049-f4b400?style=flat-square)](https://github.com/Meirtz/Awesome-Context-Engineering) | awesome-list, context, survey | Survey-style list for context engineering resources and frameworks. |
 | context-space | [GitHub](https://github.com/context-space/context-space) | [![star](https://img.shields.io/badge/star-810-f4b400?style=flat-square)](https://github.com/context-space/context-space) | context, infrastructure, mcp | Infrastructure project focused on context engineering building blocks and MCP-centric integrations. |
+| Agentic Legibility Score | [GitHub](https://github.com/LatencyTDH/agentic-legibility) | [![star](https://img.shields.io/badge/star-3-f4b400?style=flat-square)](https://github.com/LatencyTDH/agentic-legibility) | repo-audit, readiness, coding-agent | Repository audit tool that scores setup, commands, docs, tests, and governance for coding-agent readiness. |
 
 <a id="execution-substrates-sandboxing"></a>
 ### Execution Substrates & Sandboxing
