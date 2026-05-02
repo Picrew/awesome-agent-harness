@@ -1,7 +1,7 @@
 catalog:
   title_en: Awesome Agent Harness
   title_zh: Awesome Agent Harness
-  last_verified: '2026-04-28'
+  last_verified: '2026-05-03'
   description_en: Curated implementation-first list for agent harness engineering.
   description_zh: 面向 Agent Harness Engineering 的工程实践清单。
 categories:
@@ -1235,6 +1235,19 @@ entries:
   updated_at: '2026-04-28'
   license: Apache-2.0
   why_included: Strong example of a unified reliability control plane spanning pre-production simulation and live agent operations.
+- name: agenttrace
+  repo_url: https://github.com/luoyuctl/agenttrace
+  category: Observability & Reliability Operations
+  summary_en: Local-first TUI for inspecting AI coding agent sessions, cost, tool failures, latency, anomalies, health, diffs, and CI gates.
+  summary_zh: 本地优先的 TUI，用于检查 AI 编码代理会话、成本、工具失败、延迟、异常、健康度、差异与 CI 门禁。
+  tags:
+  - observability
+  - tui
+  - coding-agent
+  stars_snapshot: 3
+  updated_at: '2026-05-03'
+  license: MIT
+  why_included: Adds a terminal-native local observability path for debugging coding-agent harness runs across multiple CLIs.
 - name: LiteLLM
   repo_url: https://github.com/BerriAI/litellm
   category: Guardrails, Security & Governance
