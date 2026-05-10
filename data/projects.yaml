@@ -1917,6 +1917,21 @@ entries:
   updated_at: '2026-04-07'
   license: Apache-2.0
   why_included: Readable end-to-end reference for core coding-agent harness components.
+- name: AgentPlane
+  repo_url: https://github.com/basilisk-labs/agentplane
+  category: Reference Harness Implementations
+  summary_en: Local-first Git-native CLI harness for auditable coding-agent work with task, plan, verification, and finish
+    records.
+  summary_zh: 本地优先、Git 原生的编码代理 harness，将任务、计划、验证与收尾记录保存在仓库内。
+  tags:
+  - coding-agent
+  - git-native
+  - workflow-control
+  stars_snapshot: 46
+  updated_at: '2026-05-10'
+  license: MIT
+  why_included: Shows repo-local workflow control and verification records around Claude Code, Codex, Cursor, Aider, and similar
+    coding-agent workflows.
 - name: awesome-claude-code
   repo_url: https://github.com/hesreallyhim/awesome-claude-code
   category: Essential Readings & Ecosystem Maps
