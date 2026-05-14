@@ -50,7 +50,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Protocols, Tool Interfaces & Agent Contracts | 12 |
 | Evaluation Harnesses & Benchmarks | 21 |
 | Observability & Reliability Operations | 14 |
-| Guardrails, Security & Governance | 12 |
+| Guardrails, Security & Governance | 13 |
 | Reference Harness Implementations | 38 |
 | Essential Readings & Ecosystem Maps | 29 |
 
@@ -213,6 +213,7 @@ Notes:
 | Tracecat | [GitHub](https://github.com/TracecatHQ/tracecat) | [![star](https://img.shields.io/badge/star-3598-f4b400?style=flat-square)](https://github.com/TracecatHQ/tracecat) | security, automation, policy | AI automation platform for security teams with policy and workflow controls. |
 | AgentGateway | [GitHub](https://github.com/agentgateway/agentgateway) | [![star](https://img.shields.io/badge/star-2687-f4b400?style=flat-square)](https://github.com/agentgateway/agentgateway) | gateway, mcp, proxy | Agentic proxy gateway for AI agents and MCP server ecosystems. |
 | Haft | [GitHub](https://github.com/m0n0x41d/haft) | [![star](https://img.shields.io/badge/star-1322-f4b400?style=flat-square)](https://github.com/m0n0x41d/haft) | governance, decisions, mcp | Decision-governance harness that records falsifiable contracts, evidence, and commissions before agents execute. |
+| APort Integrations | [GitHub](https://github.com/aporthq/aport-integrations) | [![star](https://img.shields.io/badge/star-4-f4b400?style=flat-square)](https://github.com/aporthq/aport-integrations) | agent-identity, policy, guardrails | Agent identity and policy enforcement examples for LangChain and CrewAI tool calls, adding pre-action authorization guardrails. |
 
 <a id="reference-harness-implementations"></a>
 ### Reference Harness Implementations
