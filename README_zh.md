@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **186**
-- GitHub 条目: **161 (86.6%)**
-- 项目分类 GitHub 占比（不含阅读类）: **157/157 (100.0%)**
+- 当前条目数: **187**
+- GitHub 条目: **162 (86.6%)**
+- 项目分类 GitHub 占比（不含阅读类）: **158/158 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-05-21**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -51,7 +51,7 @@
 | Evaluation Harnesses & Benchmarks | 22 |
 | Observability & Reliability Operations | 14 |
 | Guardrails, Security & Governance | 13 |
-| Reference Harness Implementations | 42 |
+| Reference Harness Implementations | 43 |
 | Essential Readings & Ecosystem Maps | 29 |
 
 ## 项目清单
@@ -265,6 +265,7 @@
 | Amazon Bedrock AgentCore Samples | [GitHub](https://github.com/awslabs/agentcore-samples) | [![star](https://img.shields.io/badge/star-2843-f4b400?style=flat-square)](https://github.com/awslabs/agentcore-samples) | aws, runtime, operations | 官方示例套件，覆盖基于 Runtime、Gateway、Memory、可观测、评测与策略层的代理部署与运维。 |
 | Open Cowork | [GitHub](https://github.com/OpenCoworkAI/open-cowork) | [![star](https://img.shields.io/badge/star-1387-f4b400?style=flat-square)](https://github.com/OpenCoworkAI/open-cowork) | desktop, sandbox, mcp | 桌面代理应用，集成 VM 级沙箱、MCP 连接器、GUI 控制与内置技能工作流。 |
 | mini-coding-agent | [GitHub](https://github.com/rasbt/mini-coding-agent) | [![star](https://img.shields.io/badge/star-870-f4b400?style=flat-square)](https://github.com/rasbt/mini-coding-agent) | coding-agent, minimal, approvals | 极简编码 agent harness，实现了审批、记忆、受限委派与持久化转录等核心机制。 |
+| Centaur | [GitHub](https://github.com/paradigmxyz/centaur) | [![star](https://img.shields.io/badge/star-154-f4b400?style=flat-square)](https://github.com/paradigmxyz/centaur) | self-hosted, slack, sandbox | 面向团队的自托管代理平台，集成 Slack/API 入口、Kubernetes 沙箱、工具、工作流与凭证边界。 |
 
 <a id="essential-readings-ecosystem-maps"></a>
 ### Essential Readings & Ecosystem Maps

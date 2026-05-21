@@ -2130,6 +2130,21 @@ entries:
   updated_at: '2026-04-07'
   license: Apache-2.0
   why_included: Readable end-to-end reference for core coding-agent harness components.
+- name: Centaur
+  repo_url: https://github.com/paradigmxyz/centaur
+  category: Reference Harness Implementations
+  summary_en: Self-hosted team agent platform with Slack/API entry points, Kubernetes sandboxes, tools, workflows, and credential
+    boundaries.
+  summary_zh: 面向团队的自托管代理平台，集成 Slack/API 入口、Kubernetes 沙箱、工具、工作流与凭证边界。
+  tags:
+  - self-hosted
+  - slack
+  - sandbox
+  stars_snapshot: 154
+  updated_at: '2026-05-21'
+  license: NOASSERTION
+  why_included: End-to-end platform showing shared agent operation, sandbox assignment, durable state, and controlled tool
+    access for teams.
 - name: awesome-claude-code
   repo_url: https://github.com/hesreallyhim/awesome-claude-code
   category: Essential Readings & Ecosystem Maps

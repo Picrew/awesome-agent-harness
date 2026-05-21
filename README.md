@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **186**
-- GitHub entries: **161 (86.6%)**
-- GitHub in project categories (excluding readings): **157/157 (100.0%)**
+- Total entries: **187**
+- GitHub entries: **162 (86.6%)**
+- GitHub in project categories (excluding readings): **158/158 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-05-21**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -51,7 +51,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Evaluation Harnesses & Benchmarks | 22 |
 | Observability & Reliability Operations | 14 |
 | Guardrails, Security & Governance | 13 |
-| Reference Harness Implementations | 42 |
+| Reference Harness Implementations | 43 |
 | Essential Readings & Ecosystem Maps | 29 |
 
 ## Catalog
@@ -265,6 +265,7 @@ Notes:
 | Amazon Bedrock AgentCore Samples | [GitHub](https://github.com/awslabs/agentcore-samples) | [![star](https://img.shields.io/badge/star-2843-f4b400?style=flat-square)](https://github.com/awslabs/agentcore-samples) | aws, runtime, operations | Official sample suite for deploying and operating agents with runtime, gateway, memory, observability, evaluation, and policy layers. |
 | Open Cowork | [GitHub](https://github.com/OpenCoworkAI/open-cowork) | [![star](https://img.shields.io/badge/star-1387-f4b400?style=flat-square)](https://github.com/OpenCoworkAI/open-cowork) | desktop, sandbox, mcp | Desktop agent app with VM-backed sandboxing, MCP connectors, GUI control, and built-in skill workflows. |
 | mini-coding-agent | [GitHub](https://github.com/rasbt/mini-coding-agent) | [![star](https://img.shields.io/badge/star-870-f4b400?style=flat-square)](https://github.com/rasbt/mini-coding-agent) | coding-agent, minimal, approvals | Minimal coding agent harness illustrating approvals, memory, bounded delegation, and durable transcripts. |
+| Centaur | [GitHub](https://github.com/paradigmxyz/centaur) | [![star](https://img.shields.io/badge/star-154-f4b400?style=flat-square)](https://github.com/paradigmxyz/centaur) | self-hosted, slack, sandbox | Self-hosted team agent platform with Slack/API entry points, Kubernetes sandboxes, tools, workflows, and credential boundaries. |
 
 <a id="essential-readings-ecosystem-maps"></a>
 ### Essential Readings & Ecosystem Maps
