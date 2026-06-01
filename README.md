@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **249**
-- GitHub entries: **224 (90.0%)**
-- GitHub in project categories (excluding readings): **220/220 (100.0%)**
+- Total entries: **251**
+- GitHub entries: **226 (90.0%)**
+- GitHub in project categories (excluding readings): **222/222 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-05-31**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -49,8 +49,8 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Execution Substrates & Sandboxing | 26 |
 | Protocols, Tool Interfaces & Agent Contracts | 16 |
 | Evaluation Harnesses & Benchmarks | 27 |
-| Observability & Reliability Operations | 14 |
-| Guardrails, Security & Governance | 18 |
+| Observability & Reliability Operations | 15 |
+| Guardrails, Security & Governance | 19 |
 | Reference Harness Implementations | 65 |
 | Essential Readings & Ecosystem Maps | 29 |
 
@@ -233,6 +233,7 @@ Notes:
 | claude-code-reverse | [GitHub](https://github.com/Yuyz0112/claude-code-reverse) | [![star](https://img.shields.io/badge/star-2370-f4b400?style=flat-square)](https://github.com/Yuyz0112/claude-code-reverse) | trace, visualization, debugging | Tooling to visualize and inspect Claude Code LLM interaction traces. |
 | Future AGI | [GitHub](https://github.com/future-agi/future-agi) | [![star](https://img.shields.io/badge/star-1064-f4b400?style=flat-square)](https://github.com/future-agi/future-agi) | observability, evaluation, guardrails | Self-hostable platform that closes the loop across agent tracing, evaluation, simulation, guardrails, and gateway operations. |
 | OpenInference | [GitHub](https://github.com/Arize-ai/openinference) | [![star](https://img.shields.io/badge/star-998-f4b400?style=flat-square)](https://github.com/Arize-ai/openinference) | spec, instrumentation, observability | Open instrumentation specification and tooling for AI observability. |
+| AgentSight | [GitHub](https://github.com/eunomia-bpf/AgentSight) | [![star](https://img.shields.io/badge/star-357-f4b400?style=flat-square)](https://github.com/eunomia-bpf/AgentSight) | ebpf, tracing, zero-instrumentation | Zero-instrumentation eBPF observability for LLM agents (supports major coding agents) — captures syscall-level traces without modifying the agent or its tools. |
 
 <a id="guardrails-security-governance"></a>
 ### Guardrails, Security & Governance
@@ -257,6 +258,7 @@ Notes:
 | Haft | [GitHub](https://github.com/m0n0x41d/haft) | [![star](https://img.shields.io/badge/star-1335-f4b400?style=flat-square)](https://github.com/m0n0x41d/haft) | governance, decisions, mcp | Decision-governance harness that records falsifiable contracts, evidence, and commissions before agents execute. |
 | Sponsio | [GitHub](https://github.com/SponsioLabs/Sponsio) | [![star](https://img.shields.io/badge/star-469-f4b400?style=flat-square)](https://github.com/SponsioLabs/Sponsio) | contracts, runtime-safety, guardrails | Runtime enforcement layer that checks every agent action against deterministic contracts before execution. |
 | DashClaw | [GitHub](https://github.com/ucsandman/DashClaw) | [![star](https://img.shields.io/badge/star-269-f4b400?style=flat-square)](https://github.com/ucsandman/DashClaw) | approvals, policy, audit | Governance layer that intercepts risky agent actions, enforces policy, routes approvals, and records audit-ready decision trails. |
+| ActPlane | [GitHub](https://github.com/eunomia-bpf/ActPlane) | [![star](https://img.shields.io/badge/star-19-f4b400?style=flat-square)](https://github.com/eunomia-bpf/ActPlane) | ebpf, kernel, policy | OS-level agent harness that compiles a policy DSL to an eBPF engine enforcing labeled information-flow control at the syscall boundary, with corrective feedback. |
 
 <a id="reference-harness-implementations"></a>
 ### Reference Harness Implementations

@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **249**
-- GitHub 条目: **224 (90.0%)**
-- 项目分类 GitHub 占比（不含阅读类）: **220/220 (100.0%)**
+- 当前条目数: **251**
+- GitHub 条目: **226 (90.0%)**
+- 项目分类 GitHub 占比（不含阅读类）: **222/222 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-05-31**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -49,8 +49,8 @@
 | Execution Substrates & Sandboxing | 26 |
 | Protocols, Tool Interfaces & Agent Contracts | 16 |
 | Evaluation Harnesses & Benchmarks | 27 |
-| Observability & Reliability Operations | 14 |
-| Guardrails, Security & Governance | 18 |
+| Observability & Reliability Operations | 15 |
+| Guardrails, Security & Governance | 19 |
 | Reference Harness Implementations | 65 |
 | Essential Readings & Ecosystem Maps | 29 |
 
@@ -233,6 +233,7 @@
 | claude-code-reverse | [GitHub](https://github.com/Yuyz0112/claude-code-reverse) | [![star](https://img.shields.io/badge/star-2370-f4b400?style=flat-square)](https://github.com/Yuyz0112/claude-code-reverse) | trace, visualization, debugging | 可视化并分析 Claude Code 大模型交互链路的工具。 |
 | Future AGI | [GitHub](https://github.com/future-agi/future-agi) | [![star](https://img.shields.io/badge/star-1064-f4b400?style=flat-square)](https://github.com/future-agi/future-agi) | observability, evaluation, guardrails | 可自托管的平台，将代理追踪、评测、模拟、护栏与网关运维闭环整合在一起。 |
 | OpenInference | [GitHub](https://github.com/Arize-ai/openinference) | [![star](https://img.shields.io/badge/star-998-f4b400?style=flat-square)](https://github.com/Arize-ai/openinference) | spec, instrumentation, observability | 面向 AI 可观测性的开放埋点规范与工具。 |
+| AgentSight | [GitHub](https://github.com/eunomia-bpf/AgentSight) | [![star](https://img.shields.io/badge/star-357-f4b400?style=flat-square)](https://github.com/eunomia-bpf/AgentSight) | ebpf, tracing, zero-instrumentation | 基于 eBPF 的零侵入 LLM 代理可观测性工具（支持主流编码代理），在系统调用层采集追踪数据，无需修改代理或工具。 |
 
 <a id="guardrails-security-governance"></a>
 ### Guardrails, Security & Governance
@@ -257,6 +258,7 @@
 | Haft | [GitHub](https://github.com/m0n0x41d/haft) | [![star](https://img.shields.io/badge/star-1335-f4b400?style=flat-square)](https://github.com/m0n0x41d/haft) | governance, decisions, mcp | 面向决策治理的 harness，在代理执行前沉淀可证伪契约、证据与 commission 生命周期。 |
 | Sponsio | [GitHub](https://github.com/SponsioLabs/Sponsio) | [![star](https://img.shields.io/badge/star-469-f4b400?style=flat-square)](https://github.com/SponsioLabs/Sponsio) | contracts, runtime-safety, guardrails | 运行时强制执行层，在代理动作执行前用确定性契约逐项检查。 |
 | DashClaw | [GitHub](https://github.com/ucsandman/DashClaw) | [![star](https://img.shields.io/badge/star-269-f4b400?style=flat-square)](https://github.com/ucsandman/DashClaw) | approvals, policy, audit | 面向代理的治理层，可拦截高风险动作、执行策略、路由审批，并记录可审计的决策轨迹。 |
+| ActPlane | [GitHub](https://github.com/eunomia-bpf/ActPlane) | [![star](https://img.shields.io/badge/star-19-f4b400?style=flat-square)](https://github.com/eunomia-bpf/ActPlane) | ebpf, kernel, policy | 操作系统级代理约束工具，将策略 DSL 编译为 eBPF 引擎，在系统调用边界执行带标签的信息流控制并提供纠正反馈。 |
 
 <a id="reference-harness-implementations"></a>
 ### Reference Harness Implementations
