@@ -1906,6 +1906,21 @@ entries:
   updated_at: '2026-05-29'
   license: Apache-2.0
   why_included: Helps standardize trace semantics across harness stacks.
+- name: AgentSight
+  repo_url: https://github.com/eunomia-bpf/AgentSight
+  category: Observability & Reliability Operations
+  summary_en: Zero-instrumentation eBPF observability for LLM agents (supports major coding agents) — captures syscall-level
+    traces without modifying the agent or its tools.
+  summary_zh: 基于 eBPF 的零侵入 LLM 代理可观测性工具（支持主流编码代理），在系统调用层采集追踪数据，无需修改代理或工具。
+  tags:
+  - ebpf
+  - tracing
+  - zero-instrumentation
+  stars_snapshot: 357
+  updated_at: '2026-05-28'
+  license: MIT
+  why_included: Only eBPF/kernel-level observability entry; captures agent behavior at the syscall boundary without any
+    instrumentation or agent modification.
 - name: LiteLLM
   repo_url: https://github.com/BerriAI/litellm
   category: Guardrails, Security & Governance
@@ -2151,6 +2166,21 @@ entries:
   license: MIT
   why_included: High-signal example of action-level governance for existing coding-agent and MCP runtimes without requiring
     a full framework rewrite.
+- name: ActPlane
+  repo_url: https://github.com/eunomia-bpf/ActPlane
+  category: Guardrails, Security & Governance
+  summary_en: OS-level agent harness that compiles a policy DSL to an eBPF engine enforcing labeled information-flow control
+    at the syscall boundary, with corrective feedback.
+  summary_zh: 操作系统级代理约束工具，将策略 DSL 编译为 eBPF 引擎，在系统调用边界执行带标签的信息流控制并提供纠正反馈。
+  tags:
+  - ebpf
+  - kernel
+  - policy
+  stars_snapshot: 19
+  updated_at: '2026-06-01'
+  license: MIT
+  why_included: Only OS-level enforcement entry; compiles a policy DSL to eBPF for syscall-boundary information-flow control
+    across any tool or subprocess an agent uses.
 - name: OpenClaw
   repo_url: https://github.com/openclaw/openclaw
   category: Reference Harness Implementations
