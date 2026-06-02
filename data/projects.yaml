@@ -1919,7 +1919,7 @@ entries:
   stars_snapshot: 357
   updated_at: '2026-05-28'
   license: MIT
-  why_included: Only eBPF/kernel-level observability entry; captures agent behavior at the syscall boundary without any
+  why_included: eBPF/kernel-level observability entry; captures agent behavior at the syscall boundary without any
     instrumentation or agent modification.
 - name: LiteLLM
   repo_url: https://github.com/BerriAI/litellm
@@ -2179,7 +2179,7 @@ entries:
   stars_snapshot: 19
   updated_at: '2026-06-01'
   license: MIT
-  why_included: Only OS-level enforcement entry; compiles a policy DSL to eBPF for syscall-boundary information-flow control
+  why_included: OS-level enforcement entry; compiles a policy DSL to eBPF for syscall-boundary information-flow control
     across any tool or subprocess an agent uses.
 - name: OpenClaw
   repo_url: https://github.com/openclaw/openclaw
