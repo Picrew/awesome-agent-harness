@@ -272,6 +272,7 @@ Notes:
 | Sponsio | [GitHub](https://github.com/SponsioLabs/Sponsio) | [![star](https://img.shields.io/badge/star-472-f4b400?style=flat-square)](https://github.com/SponsioLabs/Sponsio) | contracts, runtime-safety, guardrails | Runtime enforcement layer that checks every agent action against deterministic contracts before execution. |
 | DashClaw | [GitHub](https://github.com/ucsandman/DashClaw) | [![star](https://img.shields.io/badge/star-273-f4b400?style=flat-square)](https://github.com/ucsandman/DashClaw) | approvals, policy, audit | Governance layer that intercepts risky agent actions, enforces policy, routes approvals, and records audit-ready decision trails. |
 | Tandem | [GitHub](https://github.com/frumu-ai/tandem) | [![star](https://img.shields.io/badge/star-106-f4b400?style=flat-square)](https://github.com/frumu-ai/tandem) | runtime-authority, approvals, audit | Governed runtime authority layer for agents with scoped execution, tool visibility, permissioned memory, approval gates, and audit trails. |
+| TWZRD Agent Intel | [Website](https://intel.twzrd.xyz) | N/A | trust-scoring, pre-dispatch, on-chain-identity | On-chain AI agent trust scoring and pre-dispatch gating MCP server for Solana. Provides identity resolution, reputation scoring, pre-payment verification, and signed V5 x402 trust receipts. |
 
 <a id="reference-harness-implementations"></a>
 ### Reference Harness Implementations
