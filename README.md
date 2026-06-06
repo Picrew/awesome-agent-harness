@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **268**
-- GitHub entries: **241 (89.9%)**
-- GitHub in project categories (excluding readings): **236/236 (100.0%)**
+- Total entries: **269**
+- GitHub entries: **242 (90.0%)**
+- GitHub in project categories (excluding readings): **237/237 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-06-05**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -48,7 +48,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | --- | ---: |
 | Harness Architecture & Orchestration | 44 |
 | Context & Working-State Engineering | 16 |
-| Execution Substrates & Sandboxing | 25 |
+| Execution Substrates & Sandboxing | 26 |
 | Protocols, Tool Interfaces & Agent Contracts | 23 |
 | Evaluation Harnesses & Benchmarks | 27 |
 | Observability & Reliability Operations | 14 |
@@ -165,6 +165,7 @@ Notes:
 | agentbox | [GitHub](https://github.com/mattolson/agent-sandbox) | [![star](https://img.shields.io/badge/star-176-f4b400?style=flat-square)](https://github.com/mattolson/agent-sandbox) | sandbox, coding-agents, network-policy | Locked-down local sandbox for AI coding agents with scoped filesystem access, egress policy, secret injection, firewalling, and persistent agent state. |
 | HexAgent | [GitHub](https://github.com/UnicomAI/hexagent) | [![star](https://img.shields.io/badge/star-125-f4b400?style=flat-square)](https://github.com/UnicomAI/hexagent) | computer-layer, sandbox, runtime | Agent harness that separates the runtime from the computer it operates on through local, VM, and cloud sandbox backends. |
 | terminal-bench-env | [GitHub](https://github.com/ucsb-mlsec/terminal-bench-env) | [![star](https://img.shields.io/badge/star-83-f4b400?style=flat-square)](https://github.com/ucsb-mlsec/terminal-bench-env) | terminal, benchmark-env, sandbox | Environment layer for terminal-agent benchmark execution. |
+| AgentBox (madarco) | [GitHub](https://github.com/madarco/agentbox) | [![star](https://img.shields.io/badge/star-41-f4b400?style=flat-square)](https://github.com/madarco/agentbox) | sandbox, parallel, claude-code | CLI that runs coding agents in parallel, each teleported into its own sandboxed box (local Docker or cloud VMs) with checkpoints and a per-box browser/VS Code. |
 
 <a id="protocols-tool-interfaces-agent-contracts"></a>
 ### Protocols, Tool Interfaces & Agent Contracts
