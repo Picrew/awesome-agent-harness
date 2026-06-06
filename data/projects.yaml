@@ -3725,3 +3725,16 @@ entries:
   updated_at: '2025-01-01'
   license: n/a
   why_included: High-signal practitioner framing for harness-first implementation.
+- name: TWZRD Agent Intel
+  repo_url: https://intel.twzrd.xyz
+  category: Guardrails, Security & Governance
+  summary_en: On-chain AI agent trust scoring and pre-dispatch gating MCP server for Solana. Provides identity resolution, reputation scoring, pre-payment verification, and signed V5 x402 trust receipts.
+  summary_zh: 基于 Solana 链上的 AI 代理信任评分与预调度门控 MCP 服务器，提供身份解析、信誉评分、预支付校验及签名 V5 x402 信任凭证。
+  tags:
+  - trust-scoring
+  - pre-dispatch
+  - on-chain-identity
+  stars_snapshot: 0
+  updated_at: '2026-06-06'
+  license: NOASSERTION
+  why_included: Provides on-chain agent trust verification as a guardrail before agents dispatch sub-tasks or payments to unknown peers — directly applicable to multi-agent Solana harness stacks.
