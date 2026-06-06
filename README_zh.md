@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **268**
-- GitHub 条目: **241 (89.9%)**
-- 项目分类 GitHub 占比（不含阅读类）: **236/236 (100.0%)**
+- 当前条目数: **269**
+- GitHub 条目: **242 (90.0%)**
+- 项目分类 GitHub 占比（不含阅读类）: **237/237 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-06-05**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -48,7 +48,7 @@
 | --- | ---: |
 | Harness Architecture & Orchestration | 44 |
 | Context & Working-State Engineering | 16 |
-| Execution Substrates & Sandboxing | 25 |
+| Execution Substrates & Sandboxing | 26 |
 | Protocols, Tool Interfaces & Agent Contracts | 23 |
 | Evaluation Harnesses & Benchmarks | 27 |
 | Observability & Reliability Operations | 14 |
@@ -165,6 +165,7 @@
 | agentbox | [GitHub](https://github.com/mattolson/agent-sandbox) | [![star](https://img.shields.io/badge/star-176-f4b400?style=flat-square)](https://github.com/mattolson/agent-sandbox) | sandbox, coding-agents, network-policy | 面向 AI 编码代理的本地锁定沙箱，提供限定文件访问、出站策略、密钥注入、防火墙与持久代理状态。 |
 | HexAgent | [GitHub](https://github.com/UnicomAI/hexagent) | [![star](https://img.shields.io/badge/star-125-f4b400?style=flat-square)](https://github.com/UnicomAI/hexagent) | computer-layer, sandbox, runtime | 将代理运行时与其操作的计算机分离的 agent harness，支持本地、VM 与云端沙箱后端。 |
 | terminal-bench-env | [GitHub](https://github.com/ucsb-mlsec/terminal-bench-env) | [![star](https://img.shields.io/badge/star-83-f4b400?style=flat-square)](https://github.com/ucsb-mlsec/terminal-bench-env) | terminal, benchmark-env, sandbox | 为终端代理基准测试提供执行环境层。 |
+| AgentBox (madarco) | [GitHub](https://github.com/madarco/agentbox) | [![star](https://img.shields.io/badge/star-41-f4b400?style=flat-square)](https://github.com/madarco/agentbox) | sandbox, parallel, claude-code | 在并行的独立沙箱（本地 Docker 或云端虚拟机）中运行多个编码代理的 CLI，支持检查点以及每个盒子内置的浏览器/VS Code。 |
 
 <a id="protocols-tool-interfaces-agent-contracts"></a>
 ### Protocols, Tool Interfaces & Agent Contracts

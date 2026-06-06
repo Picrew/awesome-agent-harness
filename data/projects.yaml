@@ -3725,3 +3725,16 @@ entries:
   updated_at: '2025-01-01'
   license: n/a
   why_included: High-signal practitioner framing for harness-first implementation.
+- name: AgentBox (madarco)
+  repo_url: https://github.com/madarco/agentbox
+  category: Execution Substrates & Sandboxing
+  summary_en: CLI that runs coding agents in parallel, each teleported into its own sandboxed box (local Docker or cloud VMs) with checkpoints and a per-box browser/VS Code.
+  summary_zh: 在并行的独立沙箱（本地 Docker 或云端虚拟机）中运行多个编码代理的 CLI，支持检查点以及每个盒子内置的浏览器/VS Code。
+  tags:
+  - sandbox
+  - parallel
+  - claude-code
+  stars_snapshot: 41
+  updated_at: '2026-06-06'
+  license: MIT
+  why_included: Self-hostable execution substrate that teleports a project into an isolated box per agent (local Docker FUSE overlay or Hetzner/Daytona/Vercel/E2B), with sub-1s checkpoint starts and host-held git credentials; works with Claude Code, Codex, and OpenCode.
