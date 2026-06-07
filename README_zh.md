@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **268**
-- GitHub 条目: **241 (89.9%)**
-- 项目分类 GitHub 占比（不含阅读类）: **236/236 (100.0%)**
+- 当前条目数: **269**
+- GitHub 条目: **242 (90.0%)**
+- 项目分类 GitHub 占比（不含阅读类）: **237/237 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-06-05**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -52,7 +52,7 @@
 | Protocols, Tool Interfaces & Agent Contracts | 23 |
 | Evaluation Harnesses & Benchmarks | 27 |
 | Observability & Reliability Operations | 14 |
-| Guardrails, Security & Governance | 19 |
+| Guardrails, Security & Governance | 20 |
 | Reference Harness Implementations | 68 |
 | Essential Readings & Ecosystem Maps | 32 |
 
@@ -271,6 +271,7 @@
 | Haft | [GitHub](https://github.com/m0n0x41d/haft) | [![star](https://img.shields.io/badge/star-1337-f4b400?style=flat-square)](https://github.com/m0n0x41d/haft) | governance, decisions, mcp | 面向决策治理的 harness，在代理执行前沉淀可证伪契约、证据与 commission 生命周期。 |
 | Sponsio | [GitHub](https://github.com/SponsioLabs/Sponsio) | [![star](https://img.shields.io/badge/star-472-f4b400?style=flat-square)](https://github.com/SponsioLabs/Sponsio) | contracts, runtime-safety, guardrails | 运行时强制执行层，在代理动作执行前用确定性契约逐项检查。 |
 | DashClaw | [GitHub](https://github.com/ucsandman/DashClaw) | [![star](https://img.shields.io/badge/star-273-f4b400?style=flat-square)](https://github.com/ucsandman/DashClaw) | approvals, policy, audit | 面向代理的治理层，可拦截高风险动作、执行策略、路由审批，并记录可审计的决策轨迹。 |
+| BitRouter | [GitHub](https://github.com/bitrouter/bitrouter) | [![star](https://img.shields.io/badge/star-166-f4b400?style=flat-square)](https://github.com/bitrouter/bitrouter) | gateway, proxy, routing | 面向智能体的 LLM 路由器，每次运行都为你的智能体持续优化——无需改动 harness，让每一次模型调用都可靠、可追踪、安全且经济高效。通过单一本地端点路由到 OpenAI、Anthropic、Google、OpenRouter、Bedrock 等，内置 MCP 网关、护栏与多账号故障转移。 |
 | Tandem | [GitHub](https://github.com/frumu-ai/tandem) | [![star](https://img.shields.io/badge/star-106-f4b400?style=flat-square)](https://github.com/frumu-ai/tandem) | runtime-authority, approvals, audit | 面向代理的运行时权限治理层，提供作用域执行、工具可见性、权限化记忆、审批门禁与审计轨迹。 |
 
 <a id="reference-harness-implementations"></a>

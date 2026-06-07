@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **268**
-- GitHub entries: **241 (89.9%)**
-- GitHub in project categories (excluding readings): **236/236 (100.0%)**
+- Total entries: **269**
+- GitHub entries: **242 (90.0%)**
+- GitHub in project categories (excluding readings): **237/237 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-06-05**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -52,7 +52,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Protocols, Tool Interfaces & Agent Contracts | 23 |
 | Evaluation Harnesses & Benchmarks | 27 |
 | Observability & Reliability Operations | 14 |
-| Guardrails, Security & Governance | 19 |
+| Guardrails, Security & Governance | 20 |
 | Reference Harness Implementations | 68 |
 | Essential Readings & Ecosystem Maps | 32 |
 
@@ -271,6 +271,7 @@ Notes:
 | Haft | [GitHub](https://github.com/m0n0x41d/haft) | [![star](https://img.shields.io/badge/star-1337-f4b400?style=flat-square)](https://github.com/m0n0x41d/haft) | governance, decisions, mcp | Decision-governance harness that records falsifiable contracts, evidence, and commissions before agents execute. |
 | Sponsio | [GitHub](https://github.com/SponsioLabs/Sponsio) | [![star](https://img.shields.io/badge/star-472-f4b400?style=flat-square)](https://github.com/SponsioLabs/Sponsio) | contracts, runtime-safety, guardrails | Runtime enforcement layer that checks every agent action against deterministic contracts before execution. |
 | DashClaw | [GitHub](https://github.com/ucsandman/DashClaw) | [![star](https://img.shields.io/badge/star-273-f4b400?style=flat-square)](https://github.com/ucsandman/DashClaw) | approvals, policy, audit | Governance layer that intercepts risky agent actions, enforces policy, routes approvals, and records audit-ready decision trails. |
+| BitRouter | [GitHub](https://github.com/bitrouter/bitrouter) | [![star](https://img.shields.io/badge/star-166-f4b400?style=flat-square)](https://github.com/bitrouter/bitrouter) | gateway, proxy, routing | Agent-native LLM router that optimizes your agent with every run — zero harness changes, every model call reliable, traceable, secure, and cost-effective. Routes across OpenAI, Anthropic, Google, OpenRouter, Bedrock, and more through one local endpoint, with an MCP gateway, guardrails, and multi-account failover. |
 | Tandem | [GitHub](https://github.com/frumu-ai/tandem) | [![star](https://img.shields.io/badge/star-106-f4b400?style=flat-square)](https://github.com/frumu-ai/tandem) | runtime-authority, approvals, audit | Governed runtime authority layer for agents with scoped execution, tool visibility, permissioned memory, approval gates, and audit trails. |
 
 <a id="reference-harness-implementations"></a>
