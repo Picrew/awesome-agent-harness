@@ -2257,6 +2257,19 @@ entries:
   updated_at: '2026-06-04'
   license: Apache-2.0
   why_included: Focuses specifically on gateway-layer controls for agents.
+- name: BitRouter
+  repo_url: https://github.com/bitrouter/bitrouter
+  category: Guardrails, Security & Governance
+  summary_en: Agent-native LLM router that optimizes your agent with every run — zero harness changes, every model call reliable, traceable, secure, and cost-effective. Routes across OpenAI, Anthropic, Google, OpenRouter, Bedrock, and more through one local endpoint, with an MCP gateway, guardrails, and multi-account failover.
+  summary_zh: 面向智能体的 LLM 路由器，每次运行都为你的智能体持续优化——无需改动 harness，让每一次模型调用都可靠、可追踪、安全且经济高效。通过单一本地端点路由到 OpenAI、Anthropic、Google、OpenRouter、Bedrock 等，内置 MCP 网关、护栏与多账号故障转移。
+  tags:
+  - gateway
+  - proxy
+  - routing
+  stars_snapshot: 166
+  updated_at: '2026-06-07'
+  license: Apache-2.0
+  why_included: Single local control point for cross-protocol model routing with guardrails and failover, built to sit inside agent harnesses.
 - name: ClawManager
   repo_url: https://github.com/Yuan-lab-LLM/ClawManager
   category: Guardrails, Security & Governance
