@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **288**
-- GitHub 条目: **261 (90.6%)**
-- 项目分类 GitHub 占比（不含阅读类）: **256/256 (100.0%)**
+- 当前条目数: **289**
+- GitHub 条目: **262 (90.7%)**
+- 项目分类 GitHub 占比（不含阅读类）: **257/257 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-06-11**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -47,7 +47,7 @@
 | 分类 | 条目数 |
 | --- | ---: |
 | Harness Architecture & Orchestration | 48 |
-| Context & Working-State Engineering | 17 |
+| Context & Working-State Engineering | 18 |
 | Execution Substrates & Sandboxing | 25 |
 | Protocols, Tool Interfaces & Agent Contracts | 27 |
 | Evaluation Harnesses & Benchmarks | 27 |
@@ -139,6 +139,7 @@
 | context-space | [GitHub](https://github.com/context-space/context-space) | [![star](https://img.shields.io/badge/star-810-f4b400?style=flat-square)](https://github.com/context-space/context-space) | context, infrastructure, mcp | 聚焦上下文工程基础设施的项目，强调 MCP 生态集成能力。 |
 | Memorix | [GitHub](https://github.com/AVIDS2/memorix) | [![star](https://img.shields.io/badge/star-512-f4b400?style=flat-square)](https://github.com/AVIDS2/memorix) | memory, mcp, cross-agent | 本地优先的跨代理记忆控制平面，支持 MCP、工作区同步、会话与编排状态。 |
 | sd0x-dev-flow | [GitHub](https://github.com/sd0xdev/sd0x-dev-flow) | [![star](https://img.shields.io/badge/star-164-f4b400?style=flat-square)](https://github.com/sd0xdev/sd0x-dev-flow) | hooks, state-machine, claude-code | Claude Code harness 层，提供钩子强制双重评审、持久状态机门禁、上下文压缩恢复与 fail-closed 安全机制。 |
+| Project Tiny Context Harness | [GitHub](https://github.com/Seven128/project-tiny-context-harness) | - | context, memory, coding-agents, validation | Minimal Context Harness 包，用于安装仓库本地项目记忆、AGENTS.md 指引、角色 Skills 与验证入口，帮助新的编码代理会话恢复项目事实，而不引入 SDLC 阶段仪式。 |
 
 <a id="execution-substrates-sandboxing"></a>
 ### Execution Substrates & Sandboxing

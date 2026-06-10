@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **288**
-- GitHub entries: **261 (90.6%)**
-- GitHub in project categories (excluding readings): **256/256 (100.0%)**
+- Total entries: **289**
+- GitHub entries: **262 (90.7%)**
+- GitHub in project categories (excluding readings): **257/257 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-06-11**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -47,7 +47,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Category | Entries |
 | --- | ---: |
 | Harness Architecture & Orchestration | 48 |
-| Context & Working-State Engineering | 17 |
+| Context & Working-State Engineering | 18 |
 | Execution Substrates & Sandboxing | 25 |
 | Protocols, Tool Interfaces & Agent Contracts | 27 |
 | Evaluation Harnesses & Benchmarks | 27 |
@@ -139,6 +139,7 @@ Notes:
 | context-space | [GitHub](https://github.com/context-space/context-space) | [![star](https://img.shields.io/badge/star-810-f4b400?style=flat-square)](https://github.com/context-space/context-space) | context, infrastructure, mcp | Infrastructure project focused on context engineering building blocks and MCP-centric integrations. |
 | Memorix | [GitHub](https://github.com/AVIDS2/memorix) | [![star](https://img.shields.io/badge/star-512-f4b400?style=flat-square)](https://github.com/AVIDS2/memorix) | memory, mcp, cross-agent | Local-first cross-agent memory control plane with MCP support, workspace sync, sessions, and orchestration state. |
 | sd0x-dev-flow | [GitHub](https://github.com/sd0xdev/sd0x-dev-flow) | [![star](https://img.shields.io/badge/star-164-f4b400?style=flat-square)](https://github.com/sd0xdev/sd0x-dev-flow) | hooks, state-machine, claude-code | Claude Code harness layer with hook-enforced dual review, durable state-machine gates, context-compaction recovery, and fail-closed safety. |
+| Project Tiny Context Harness | [GitHub](https://github.com/Seven128/project-tiny-context-harness) | - | context, memory, coding-agents, validation | Minimal Context Harness package that installs repo-local project memory, AGENTS.md guidance, role Skills, and validation for fresh-agent recovery without SDLC phase ceremony. |
 
 <a id="execution-substrates-sandboxing"></a>
 ### Execution Substrates & Sandboxing
