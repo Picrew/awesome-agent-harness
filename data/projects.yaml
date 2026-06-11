@@ -957,6 +957,20 @@ entries:
   license: MIT
   why_included: README maps concrete code to harness sub-problems including state-machine gates, lifecycle interceptors, context
     recovery across compaction, tool gating, and review loops.
+- name: Project Tiny Context Harness
+  repo_url: https://github.com/Seven128/project-tiny-context-harness
+  category: Context & Working-State Engineering
+  summary_en: Minimal Context Harness package that installs repo-local project memory, AGENTS.md guidance, role Skills, and validation for fresh-agent recovery without SDLC phase ceremony.
+  summary_zh: Minimal Context Harness 包，用于安装仓库本地项目记忆、AGENTS.md 指引、角色 Skills 与验证入口，帮助新的编码代理会话恢复项目事实，而不引入 SDLC 阶段仪式。
+  tags:
+  - context
+  - memory
+  - coding-agents
+  - validation
+  stars_snapshot: 0
+  updated_at: '2026-06-10'
+  license: MIT
+  why_included: Helps fresh AI coding-agent sessions recover durable project intent, boundaries, ownership, and validation paths from repo-local files.
 - name: Daytona
   repo_url: https://github.com/daytonaio/daytona
   category: Execution Substrates & Sandboxing
