@@ -1046,6 +1046,22 @@ entries:
   license: MIT
   why_included: README maps concrete code to harness sub-problems including state-machine gates, lifecycle interceptors, context
     recovery across compaction, tool gating, and review loops.
+- name: agentmap
+  repo_url: https://github.com/raymondchins/agentmap
+  category: Context & Working-State Engineering
+  summary_en: Queryable TS/JS import/symbol map with PageRank ranking, token-budgeted digests, --any router, post-commit refresh,
+    and PreToolUse hook nudges for coding agents.
+  summary_zh: 可查询的 TS/JS 导入/符号图谱，含 PageRank 排序、token 预算摘要、--any 路由、提交后自动刷新，以及面向编码代理的 PreToolUse 钩子引导。
+  tags:
+  - repo-map
+  - hooks
+  - typescript
+  stars_snapshot: 22
+  updated_at: '2026-06-14'
+  license: MIT
+  why_included: README documents benchmarked context-token savings on real repos, hook-based agent-loop integration (post-commit
+    refresh and PreToolUse nudge), optional MCP exposure, and cross-agent setup for Claude Code, Cursor, and other coding agents;
+    scope is TS/JS import graphs rather than multi-language call graphs.
 - name: Daytona
   repo_url: https://github.com/daytonaio/daytona
   category: Execution Substrates & Sandboxing
