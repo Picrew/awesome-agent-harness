@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **307**
-- GitHub entries: **280 (91.2%)**
-- GitHub in project categories (excluding readings): **275/275 (100.0%)**
+- Total entries: **308**
+- GitHub entries: **281 (91.2%)**
+- GitHub in project categories (excluding readings): **276/276 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-06-14**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -47,7 +47,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Category | Entries |
 | --- | ---: |
 | Harness Architecture & Orchestration | 50 |
-| Context & Working-State Engineering | 21 |
+| Context & Working-State Engineering | 22 |
 | Execution Substrates & Sandboxing | 27 |
 | Protocols, Tool Interfaces & Agent Contracts | 29 |
 | Evaluation Harnesses & Benchmarks | 29 |
@@ -145,6 +145,7 @@ Notes:
 | context-space | [GitHub](https://github.com/context-space/context-space) | [![star](https://img.shields.io/badge/star-810-f4b400?style=flat-square)](https://github.com/context-space/context-space) | context, infrastructure, mcp | Infrastructure project focused on context engineering building blocks and MCP-centric integrations. |
 | Memorix | [GitHub](https://github.com/AVIDS2/memorix) | [![star](https://img.shields.io/badge/star-521-f4b400?style=flat-square)](https://github.com/AVIDS2/memorix) | memory, mcp, cross-agent | Local-first cross-agent memory control plane with MCP support, workspace sync, sessions, and orchestration state. |
 | sd0x-dev-flow | [GitHub](https://github.com/sd0xdev/sd0x-dev-flow) | [![star](https://img.shields.io/badge/star-165-f4b400?style=flat-square)](https://github.com/sd0xdev/sd0x-dev-flow) | hooks, state-machine, claude-code | Claude Code harness layer with hook-enforced dual review, durable state-machine gates, context-compaction recovery, and fail-closed safety. |
+| agentmap | [GitHub](https://github.com/raymondchins/agentmap) | [![star](https://img.shields.io/badge/star-22-f4b400?style=flat-square)](https://github.com/raymondchins/agentmap) | repo-map, hooks, typescript | Queryable TS/JS import/symbol map with PageRank ranking, token-budgeted digests, --any router, post-commit refresh, and PreToolUse hook nudges for coding agents. |
 
 <a id="execution-substrates-sandboxing"></a>
 ### Execution Substrates & Sandboxing
