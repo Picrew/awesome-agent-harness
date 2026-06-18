@@ -4501,3 +4501,16 @@ entries:
   updated_at: '2025-01-01'
   license: n/a
   why_included: High-signal practitioner framing for harness-first implementation.
+- name: Agent AFK
+  repo_url: https://github.com/griffinwork40/agent-afk
+  category: Reference Harness Implementations
+  summary_en: Four-surface coding-agent harness (CLI, REPL, cron daemon, Telegram bot) for unattended away-from-keyboard runs, with an editable loop, MCP client, lifecycle hooks, background sub-agents, cross-session memory, and a provider-agnostic event stream.
+  summary_zh: 面向无人值守、离开键盘场景的四端编码代理 harness（CLI、REPL、定时守护进程、Telegram 机器人），具备可编辑循环、MCP 客户端、生命周期钩子、后台子代理、跨会话记忆，以及与模型无关的事件流。
+  tags:
+  - coding-agent
+  - away-from-keyboard
+  - mcp
+  stars_snapshot: 16
+  updated_at: '2026-06-17'
+  license: Apache-2.0
+  why_included: README documents an editable agent loop (prompts, permission gates, model routing, explicit terminal states), four surfaces sharing one session manager, an MCP client, lifecycle hooks, background sub-agents, cross-session memory, and provider-agnostic routing across Anthropic and OpenAI-compatible backends including local runners.
