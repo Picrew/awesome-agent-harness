@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **320**
-- GitHub entries: **293 (91.6%)**
-- GitHub in project categories (excluding readings): **288/288 (100.0%)**
+- Total entries: **321**
+- GitHub entries: **294 (91.6%)**
+- GitHub in project categories (excluding readings): **289/289 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-06-17**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -53,7 +53,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 20 |
 | Guardrails, Security & Governance | 24 |
-| Reference Harness Implementations | 82 |
+| Reference Harness Implementations | 83 |
 | Essential Readings & Ecosystem Maps | 32 |
 
 ## Catalog
@@ -398,6 +398,7 @@ Notes:
 | Munder Difflin | [GitHub](https://github.com/chaitanyagiri/munder-difflin) | [![star](https://img.shields.io/badge/star-533-f4b400?style=flat-square)](https://github.com/chaitanyagiri/munder-difflin) | multi-agent, desktop, memory | Desktop multi-agent harness that wraps terminal-agent CLIs with hive mailboxes, shared memory, an orchestrator, approvals, worktrees, and telemetry. |
 | OpenClaw.NET | [GitHub](https://github.com/clawdotnet/openclaw.net) | [![star](https://img.shields.io/badge/star-392-f4b400?style=flat-square)](https://github.com/clawdotnet/openclaw.net) | dotnet, gateway, governance | NativeAOT-friendly .NET agent runtime and gateway with tools, memory, MCP, governance ledger, evidence bundles, and harness regression tests. |
 | Utah | [GitHub](https://github.com/inngest/utah) | [![star](https://img.shields.io/badge/star-118-f4b400?style=flat-square)](https://github.com/inngest/utah) | durable-execution, event-driven, multi-channel | Inngest-powered durable agent harness with a think-act-observe loop, step-level retries, singleton concurrency, cancellation, and multi-channel adapters. |
+| Agent AFK | [GitHub](https://github.com/griffinwork40/agent-afk) | [![star](https://img.shields.io/badge/star-16-f4b400?style=flat-square)](https://github.com/griffinwork40/agent-afk) | coding-agent, away-from-keyboard, mcp | Four-surface coding-agent harness (CLI, REPL, cron daemon, Telegram bot) for unattended away-from-keyboard runs, with an editable loop, MCP client, lifecycle hooks, background sub-agents, cross-session memory, and a provider-agnostic event stream. |
 
 <a id="essential-readings-ecosystem-maps"></a>
 ### Essential Readings & Ecosystem Maps
