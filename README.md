@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **326**
-- GitHub entries: **299 (91.7%)**
-- GitHub in project categories (excluding readings): **294/294 (100.0%)**
+- Total entries: **327**
+- GitHub entries: **300 (91.7%)**
+- GitHub in project categories (excluding readings): **295/295 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-06-19**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -53,7 +53,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 20 |
 | Guardrails, Security & Governance | 24 |
-| Reference Harness Implementations | 82 |
+| Reference Harness Implementations | 83 |
 | Essential Readings & Ecosystem Maps | 32 |
 
 ## Catalog
@@ -404,6 +404,7 @@ Notes:
 | Munder Difflin | [GitHub](https://github.com/chaitanyagiri/munder-difflin) | [![star](https://img.shields.io/badge/star-540-f4b400?style=flat-square)](https://github.com/chaitanyagiri/munder-difflin) | multi-agent, desktop, memory | Desktop multi-agent harness that wraps terminal-agent CLIs with hive mailboxes, shared memory, an orchestrator, approvals, worktrees, and telemetry. |
 | OpenClaw.NET | [GitHub](https://github.com/clawdotnet/openclaw.net) | [![star](https://img.shields.io/badge/star-400-f4b400?style=flat-square)](https://github.com/clawdotnet/openclaw.net) | dotnet, gateway, governance | NativeAOT-friendly .NET agent runtime and gateway with tools, memory, MCP, governance ledger, evidence bundles, and harness regression tests. |
 | Utah | [GitHub](https://github.com/inngest/utah) | [![star](https://img.shields.io/badge/star-118-f4b400?style=flat-square)](https://github.com/inngest/utah) | durable-execution, event-driven, multi-channel | Inngest-powered durable agent harness with a think-act-observe loop, step-level retries, singleton concurrency, cancellation, and multi-channel adapters. |
+| LoopTroop | [GitHub](https://github.com/looptroop-ai/LoopTroop) | [![star](https://img.shields.io/badge/star-20-f4b400?style=flat-square)](https://github.com/looptroop-ai/LoopTroop) | local-first, gui, coding-agent, sandboxing | Local-first GUI harness for long-running AI coding featuring LLM-Council planning, atomic Beads in isolated git worktrees, and fresh-context Ralph-Loop recovery. |
 
 <a id="essential-readings-ecosystem-maps"></a>
 ### Essential Readings & Ecosystem Maps
