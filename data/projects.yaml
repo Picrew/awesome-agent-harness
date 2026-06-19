@@ -4169,6 +4169,20 @@ entries:
   license: Apache-2.0
   why_included: README expands Utah as Universally Triggered Agent Harness and documents durable LLM/tool steps, retries,
     singleton concurrency, cancellation, channels, and local worker operation.
+- name: LoopTroop
+  repo_url: https://github.com/looptroop-ai/LoopTroop
+  category: Reference Harness Implementations
+  summary_en: Local-first GUI harness for long-running AI coding featuring LLM-Council planning, atomic Beads in isolated git worktrees, and fresh-context Ralph-Loop recovery.
+  summary_zh: 本地优先的 GUI 编码代理 harness，支持委员会多模型决策、隔离工作区中的原子任务执行与失败自动恢复。
+  tags:
+  - local-first
+  - gui
+  - coding-agent
+  - sandboxing
+  stars_snapshot: 20
+  updated_at: '2026-06-19'
+  license: MIT
+  why_included: Represents a fully featured GUI and local-first repository-scale agent harness with multi-model planning, atomic task verification, and automated recovery loops.
 - name: awesome-claude-code
   repo_url: https://github.com/hesreallyhim/awesome-claude-code
   category: Essential Readings & Ecosystem Maps

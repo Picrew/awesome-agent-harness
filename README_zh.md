@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **326**
-- GitHub 条目: **299 (91.7%)**
-- 项目分类 GitHub 占比（不含阅读类）: **294/294 (100.0%)**
+- 当前条目数: **327**
+- GitHub 条目: **300 (91.7%)**
+- 项目分类 GitHub 占比（不含阅读类）: **295/295 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-06-19**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -53,7 +53,7 @@
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 20 |
 | Guardrails, Security & Governance | 24 |
-| Reference Harness Implementations | 82 |
+| Reference Harness Implementations | 83 |
 | Essential Readings & Ecosystem Maps | 32 |
 
 ## 项目清单
@@ -404,6 +404,7 @@
 | Munder Difflin | [GitHub](https://github.com/chaitanyagiri/munder-difflin) | [![star](https://img.shields.io/badge/star-540-f4b400?style=flat-square)](https://github.com/chaitanyagiri/munder-difflin) | multi-agent, desktop, memory | 桌面多代理 harness，将终端代理 CLI 包装为带蜂巢邮箱、共享记忆、编排器、审批、worktree 与遥测的协作系统。 |
 | OpenClaw.NET | [GitHub](https://github.com/clawdotnet/openclaw.net) | [![star](https://img.shields.io/badge/star-400-f4b400?style=flat-square)](https://github.com/clawdotnet/openclaw.net) | dotnet, gateway, governance | NativeAOT 友好的 .NET 代理运行时与网关，提供工具、记忆、MCP、治理账本、证据包与 harness 回归测试。 |
 | Utah | [GitHub](https://github.com/inngest/utah) | [![star](https://img.shields.io/badge/star-118-f4b400?style=flat-square)](https://github.com/inngest/utah) | durable-execution, event-driven, multi-channel | 基于 Inngest 的持久代理 harness，提供思考-行动-观察循环、步骤级重试、单例并发、取消与多通道适配。 |
+| LoopTroop | [GitHub](https://github.com/looptroop-ai/LoopTroop) | [![star](https://img.shields.io/badge/star-20-f4b400?style=flat-square)](https://github.com/looptroop-ai/LoopTroop) | local-first, gui, coding-agent, sandboxing | 本地优先的 GUI 编码代理 harness，支持委员会多模型决策、隔离工作区中的原子任务执行与失败自动恢复。 |
 
 <a id="essential-readings-ecosystem-maps"></a>
 ### Essential Readings & Ecosystem Maps
