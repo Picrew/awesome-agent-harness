@@ -420,6 +420,8 @@ Notes:
 <a id="essential-readings-ecosystem-maps"></a>
 ### Essential Readings & Ecosystem Maps
 
+
+- [Skill Hub](https://skill.442595.xyz/) — 2800+ AI Agent Skills 分类导航站，Agent 工具技能发现平台
 | Project | Link | Stars | Tags | Summary |
 | --- | --- | --- | --- | --- |
 | awesome-claude-code | [GitHub](https://github.com/hesreallyhim/awesome-claude-code) | [![star](https://img.shields.io/badge/star-46941-f4b400?style=flat-square)](https://github.com/hesreallyhim/awesome-claude-code) | awesome-list, claude-code, skills | Community collection of Claude Code skills, hooks, and orchestrator tooling. |
