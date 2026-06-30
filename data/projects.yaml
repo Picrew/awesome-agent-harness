@@ -2816,6 +2816,22 @@ entries:
   license: MIT
   why_included: README describes an open system that traces coding-agent rollouts, distills failures, and applies auditable
     edits to prompts, tools, middleware, skills, subagents, and memory.
+- name: Necmttn ax
+  repo_url: https://github.com/Necmttn/ax
+  category: Observability & Reliability Operations
+  summary_en: Local-first telemetry and memory graph for AI coding agents with CLI, dashboard, and MCP access over multi-harness
+    histories.
+  summary_zh: 面向 AI 编码代理的本地优先遥测与记忆图，可通过 CLI、仪表盘和 MCP 查询多种 harness 的历史记录。
+  tags:
+  - local-first
+  - telemetry
+  - coding-agents
+  stars_snapshot: 31
+  updated_at: '2026-06-19'
+  license: AGPL-3.0
+  why_included: README documents cross-harness ingest for Claude Code, Codex, Pi, OpenCode, and Cursor histories, normalized
+    session/turn/tool graphs, OTLP capture, cost and skill analytics, workflow extraction, a dashboard, and a read-only MCP
+    server.
 - name: LiteLLM
   repo_url: https://github.com/BerriAI/litellm
   category: Guardrails, Security & Governance
