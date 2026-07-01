@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **338**
-- GitHub entries: **311 (92.0%)**
-- GitHub in project categories (excluding readings): **306/306 (100.0%)**
+- Total entries: **339**
+- GitHub entries: **312 (92.0%)**
+- GitHub in project categories (excluding readings): **307/307 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-06-21**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -48,7 +48,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | --- | ---: |
 | Harness Architecture & Orchestration | 57 |
 | Context & Working-State Engineering | 24 |
-| Execution Substrates & Sandboxing | 27 |
+| Execution Substrates & Sandboxing | 28 |
 | Protocols, Tool Interfaces & Agent Contracts | 41 |
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 20 |
@@ -188,6 +188,7 @@ Notes:
 | agentbox | [GitHub](https://github.com/mattolson/agent-sandbox) | [![star](https://img.shields.io/badge/star-185-f4b400?style=flat-square)](https://github.com/mattolson/agent-sandbox) | sandbox, coding-agents, network-policy | Locked-down local sandbox for AI coding agents with scoped filesystem access, egress policy, secret injection, firewalling, and persistent agent state. |
 | HexAgent | [GitHub](https://github.com/UnicomAI/hexagent) | [![star](https://img.shields.io/badge/star-124-f4b400?style=flat-square)](https://github.com/UnicomAI/hexagent) | computer-layer, sandbox, runtime | Agent harness that separates the runtime from the computer it operates on through local, VM, and cloud sandbox backends. |
 | terminal-bench-env | [GitHub](https://github.com/ucsb-mlsec/terminal-bench-env) | [![star](https://img.shields.io/badge/star-70-f4b400?style=flat-square)](https://github.com/ucsb-mlsec/terminal-bench-env) | terminal, benchmark-env, sandbox | Environment layer for terminal-agent benchmark execution. |
+| cc-sandbox-server | [GitHub](https://github.com/weijiafu14/cc-sandbox-server) | - | split-brain, sandbox, claude-code | Split-brain sandboxing for Claude Code-compatible runtimes — keeps the harness, session, and credentials on the host and forwards only tool execution into a disposable sandbox, with seamless crash recovery. |
 
 <a id="protocols-tool-interfaces-agent-contracts"></a>
 ### Protocols, Tool Interfaces & Agent Contracts
