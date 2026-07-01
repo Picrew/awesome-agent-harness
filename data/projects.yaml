@@ -4771,3 +4771,16 @@ entries:
   updated_at: '2025-01-01'
   license: n/a
   why_included: High-signal practitioner framing for harness-first implementation.
+- name: cc-sandbox-server
+  repo_url: https://github.com/weijiafu14/cc-sandbox-server
+  category: Execution Substrates & Sandboxing
+  summary_en: Split-brain sandboxing for Claude Code-compatible runtimes — keeps the harness, session, and credentials on the host and forwards only tool execution into a disposable sandbox, with seamless crash recovery.
+  summary_zh: 面向 Claude Code 兼容运行时的「脑手分离」式沙箱——harness、session 与凭据留在 host，只把工具执行转发进一次性沙箱，并支持崩溃无缝恢复。
+  tags:
+  - split-brain
+  - sandbox
+  - claude-code
+  stars_snapshot: 0
+  updated_at: '2026-06-12'
+  license: Apache-2.0
+  why_included: An open-source implementation of the "decouple the brain from the hands" architecture featured in the list's blogs — the harness stays outside the sandbox, distinct from the whole-agent-in-a-container substrates alongside it.
