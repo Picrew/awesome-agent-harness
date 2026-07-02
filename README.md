@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **338**
-- GitHub entries: **311 (92.0%)**
-- GitHub in project categories (excluding readings): **306/306 (100.0%)**
+- Total entries: **339**
+- GitHub entries: **312 (92.0%)**
+- GitHub in project categories (excluding readings): **307/307 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-06-21**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -53,7 +53,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 20 |
 | Guardrails, Security & Governance | 26 |
-| Reference Harness Implementations | 82 |
+| Reference Harness Implementations | 83 |
 | Essential Readings & Ecosystem Maps | 32 |
 
 ## Catalog
@@ -415,6 +415,7 @@ Notes:
 | Dexto | [GitHub](https://github.com/truffle-ai/dexto) | [![star](https://img.shields.io/badge/star-634-f4b400?style=flat-square)](https://github.com/truffle-ai/dexto) | coding-agent, sessions, mcp | Open agent harness for AI applications with YAML configs, stateful sessions, tool orchestration, memory, observability, permissions, and subagents. |
 | Munder Difflin | [GitHub](https://github.com/chaitanyagiri/munder-difflin) | [![star](https://img.shields.io/badge/star-558-f4b400?style=flat-square)](https://github.com/chaitanyagiri/munder-difflin) | multi-agent, desktop, memory | Desktop multi-agent harness that wraps terminal-agent CLIs with hive mailboxes, shared memory, an orchestrator, approvals, worktrees, and telemetry. |
 | OpenClaw.NET | [GitHub](https://github.com/clawdotnet/openclaw.net) | [![star](https://img.shields.io/badge/star-410-f4b400?style=flat-square)](https://github.com/clawdotnet/openclaw.net) | dotnet, gateway, governance | NativeAOT-friendly .NET agent runtime and gateway with tools, memory, MCP, governance ledger, evidence bundles, and harness regression tests. |
+| agent-qa | [GitHub](https://github.com/vostride/agent-qa) | [![star](https://img.shields.io/badge/star-152-f4b400?style=flat-square)](https://github.com/vostride/agent-qa) | qa, testing, mcp | Agentic QA harness for natural-language web and mobile test execution with self-healing actions, run memory, CLI/dashboard workflows, and MCP support. |
 | Utah | [GitHub](https://github.com/inngest/utah) | [![star](https://img.shields.io/badge/star-125-f4b400?style=flat-square)](https://github.com/inngest/utah) | durable-execution, event-driven, multi-channel | Inngest-powered durable agent harness with a think-act-observe loop, step-level retries, singleton concurrency, cancellation, and multi-channel adapters. |
 
 <a id="essential-readings-ecosystem-maps"></a>

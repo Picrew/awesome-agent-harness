@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **338**
-- GitHub 条目: **311 (92.0%)**
-- 项目分类 GitHub 占比（不含阅读类）: **306/306 (100.0%)**
+- 当前条目数: **339**
+- GitHub 条目: **312 (92.0%)**
+- 项目分类 GitHub 占比（不含阅读类）: **307/307 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-06-21**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -53,7 +53,7 @@
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 20 |
 | Guardrails, Security & Governance | 26 |
-| Reference Harness Implementations | 82 |
+| Reference Harness Implementations | 83 |
 | Essential Readings & Ecosystem Maps | 32 |
 
 ## 项目清单
@@ -415,6 +415,7 @@
 | Dexto | [GitHub](https://github.com/truffle-ai/dexto) | [![star](https://img.shields.io/badge/star-634-f4b400?style=flat-square)](https://github.com/truffle-ai/dexto) | coding-agent, sessions, mcp | 面向 AI 应用的开放 agent harness，提供 YAML 配置、有状态会话、工具编排、记忆、可观测性、权限与子代理。 |
 | Munder Difflin | [GitHub](https://github.com/chaitanyagiri/munder-difflin) | [![star](https://img.shields.io/badge/star-558-f4b400?style=flat-square)](https://github.com/chaitanyagiri/munder-difflin) | multi-agent, desktop, memory | 桌面多代理 harness，将终端代理 CLI 包装为带蜂巢邮箱、共享记忆、编排器、审批、worktree 与遥测的协作系统。 |
 | OpenClaw.NET | [GitHub](https://github.com/clawdotnet/openclaw.net) | [![star](https://img.shields.io/badge/star-410-f4b400?style=flat-square)](https://github.com/clawdotnet/openclaw.net) | dotnet, gateway, governance | NativeAOT 友好的 .NET 代理运行时与网关，提供工具、记忆、MCP、治理账本、证据包与 harness 回归测试。 |
+| agent-qa | [GitHub](https://github.com/vostride/agent-qa) | [![star](https://img.shields.io/badge/star-152-f4b400?style=flat-square)](https://github.com/vostride/agent-qa) | qa, testing, mcp | 面向 Web 与移动测试的 agentic QA harness，支持自然语言用例、自愈操作、运行记忆、CLI/仪表盘和 MCP 集成。 |
 | Utah | [GitHub](https://github.com/inngest/utah) | [![star](https://img.shields.io/badge/star-125-f4b400?style=flat-square)](https://github.com/inngest/utah) | durable-execution, event-driven, multi-channel | 基于 Inngest 的持久代理 harness，提供思考-行动-观察循环、步骤级重试、单例并发、取消与多通道适配。 |
 
 <a id="essential-readings-ecosystem-maps"></a>

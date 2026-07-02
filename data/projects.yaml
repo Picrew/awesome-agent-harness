@@ -4333,6 +4333,21 @@ entries:
   license: MIT
   why_included: README lists agent runtime, gateway, passive harness contracts, evidence bundles, plan-execute-verify mode,
     governance ledger, and harness regression suite as shipped capabilities.
+- name: agent-qa
+  repo_url: https://github.com/vostride/agent-qa
+  category: Reference Harness Implementations
+  summary_en: Agentic QA harness for natural-language web and mobile test execution with self-healing actions, run memory,
+    CLI/dashboard workflows, and MCP support.
+  summary_zh: 面向 Web 与移动测试的 agentic QA harness，支持自然语言用例、自愈操作、运行记忆、CLI/仪表盘和 MCP 集成。
+  tags:
+  - qa
+  - testing
+  - mcp
+  stars_snapshot: 152
+  updated_at: '2026-07-02'
+  license: NOASSERTION
+  why_included: Concrete product-QA harness that combines natural-language tests, self-healing browser/mobile actions, execution
+    memory, version-controlled test artifacts, and MCP/CLI surfaces for agent-driven regression workflows.
 - name: Utah
   repo_url: https://github.com/inngest/utah
   category: Reference Harness Implementations
