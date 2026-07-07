@@ -1196,6 +1196,21 @@ entries:
   license: MIT
   why_included: README maps concrete code to harness sub-problems including state-machine gates, lifecycle interceptors, context
     recovery across compaction, tool gating, and review loops.
+- name: Tree Ring Memory
+  repo_url: https://github.com/TerminallyLazy/Tree-Ring-Memory
+  category: Context & Working-State Engineering
+  summary_en: Framework-agnostic local-first memory lifecycle for AI agents with Rust CLI/TUI operation, SQLite/FTS recall,
+    forgetting, audit, and consolidation.
+  summary_zh: 面向 AI 代理的框架无关本地优先记忆生命周期，提供 Rust CLI/TUI、SQLite/FTS 召回、遗忘、审计与合并。
+  tags:
+  - memory
+  - local-first
+  - cli
+  stars_snapshot: 2
+  updated_at: '2026-07-07'
+  license: NOASSERTION
+  why_included: README documents a concrete local-first memory lifecycle for AI agents with recall, forgetting, audit reports,
+    consolidation, CLI/TUI operation, and SQLite/FTS storage.
 - name: Daytona
   repo_url: https://github.com/daytonaio/daytona
   category: Execution Substrates & Sandboxing
