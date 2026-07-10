@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **358**
-- GitHub entries: **324 (90.5%)**
-- GitHub in project categories (excluding readings): **319/319 (100.0%)**
+- Total entries: **357**
+- GitHub entries: **323 (90.5%)**
+- GitHub in project categories (excluding readings): **318/318 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-08-24**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -51,12 +51,12 @@ A curated, implementation-first list of **agent harness engineering** resources,
 
 | Category | Entries |
 | --- | ---: |
-| Harness Architecture & Orchestration | 62 |
+| Harness Architecture & Orchestration | 63 |
 | Context & Working-State Engineering | 27 |
 | Execution Substrates & Sandboxing | 27 |
-| Protocols, Tool Interfaces & Agent Contracts | 42 |
+| Protocols, Tool Interfaces & Agent Contracts | 41 |
 | Evaluation Harnesses & Benchmarks | 29 |
-| Observability & Reliability Operations | 20 |
+| Observability & Reliability Operations | 19 |
 | Guardrails, Security & Governance | 26 |
 | Reference Harness Implementations | 86 |
 | Essential Readings & Ecosystem Maps | 39 |
@@ -131,6 +131,7 @@ Notes:
 | oh-my-agent | [GitHub](https://github.com/first-fluke/oh-my-agent) | [![star](https://img.shields.io/badge/star-1245-f4b400?style=flat-square)](https://github.com/first-fluke/oh-my-agent) | multi-agent, skills, cross-runtime | Portable multi-agent harness that projects shared agents, skills, workflows, and rules into multiple coding-agent runtimes. |
 | LiteLLM Agent Control Plane | [GitHub](https://github.com/LiteLLM-Labs/litellm-agent-control-plane) | [![star](https://img.shields.io/badge/star-1229-f4b400?style=flat-square)](https://github.com/LiteLLM-Labs/litellm-agent-control-plane) | control-plane, sessions, runtime | Agent control plane that provides one API and UI across OpenCode, Hermes, Claude Managed Agents, Cursor Agents API, DeepAgents, and OpenClaw runtimes. |
 | Chorus | [GitHub](https://github.com/Chorus-AIDLC/Chorus) | [![star](https://img.shields.io/badge/star-1150-f4b400?style=flat-square)](https://github.com/Chorus-AIDLC/Chorus) | ai-dlc, permissions, task-state | AI-human collaboration harness for session lifecycle, task state, sub-agent orchestration, observability, and recovery. |
+| Agentlas OS | [GitHub](https://github.com/agentlas-ai/Agentlas-OS) | [![star](https://img.shields.io/badge/star-1115-f4b400?style=flat-square)](https://github.com/agentlas-ai/Agentlas-OS) | agent-os, cross-harness, governance | Local-first agent operation environment that builds portable agent and team packages and routes them across supported coding hosts with governed memory, policy gates, MCP/A2A boundaries, and verification receipts. |
 | Pydantic AI Harness | [GitHub](https://github.com/pydantic/pydantic-ai-harness) | [![star](https://img.shields.io/badge/star-805-f4b400?style=flat-square)](https://github.com/pydantic/pydantic-ai-harness) | capabilities, hooks, pydantic | Official Pydantic AI capability library for composing tools, lifecycle hooks, instructions, and model settings into reusable agent harnesses. |
 | Water | [GitHub](https://github.com/manthanguptaa/water) | [![star](https://img.shields.io/badge/star-334-f4b400?style=flat-square)](https://github.com/manthanguptaa/water) | python, framework, approval-gates | Python agent harness framework for orchestration, resilience, observability, guardrails, approval gates, sandboxing, and deployment. |
 | OmniCoreAgent | [GitHub](https://github.com/omnirexflora-labs/omnicoreagent) | [![star](https://img.shields.io/badge/star-245-f4b400?style=flat-square)](https://github.com/omnirexflora-labs/omnicoreagent) | python, mcp, serving | Python production harness with model loop, tools, MCP, memory, workspace files, guardrails, events, subagents, background tasks, and REST/SSE serving. |
@@ -248,7 +249,6 @@ Notes:
 | OpenGAP | [GitHub](https://github.com/open-gitagent/opengap) | [![star](https://img.shields.io/badge/star-2920-f4b400?style=flat-square)](https://github.com/open-gitagent/opengap) | git-native, cli, agent-contract | Reference CLI for the Git Agent Protocol, turning repository files into portable agent manifests, rules, skills, workflows, tools, memory, hooks, and compliance contracts. |
 | Microsoft Learn MCP | [GitHub](https://github.com/MicrosoftDocs/mcp) | [![star](https://img.shields.io/badge/star-1853-f4b400?style=flat-square)](https://github.com/MicrosoftDocs/mcp) | mcp, docs, grounding | MCP server and CLI for grounding agents with Microsoft documentation sources. |
 | IBM MCP | [GitHub](https://github.com/IBM/mcp) | [![star](https://img.shields.io/badge/star-401-f4b400?style=flat-square)](https://github.com/IBM/mcp) | mcp, clients, tooling | IBM collection of MCP servers, clients, and developer tooling. |
-| AGENT.md | [GitHub](https://github.com/agentmd/agent.md) | [![star](https://img.shields.io/badge/star-89-f4b400?style=flat-square)](https://github.com/agentmd/agent.md) | standard, agent-file, interoperability | Standardized machine-readable file format for agentic coding tools. |
 
 <a id="evaluation-harnesses-benchmarks"></a>
 ### Evaluation Harnesses & Benchmarks
@@ -305,7 +305,6 @@ Notes:
 | Laminar | [GitHub](https://github.com/lmnr-ai/lmnr) | [![star](https://img.shields.io/badge/star-3187-f4b400?style=flat-square)](https://github.com/lmnr-ai/lmnr) | observability, tracing, evals | Agent-focused observability stack with tracing, evaluation runs, monitoring, and dashboards. |
 | Desloppify | [GitHub](https://github.com/peteromallet/desloppify) | [![star](https://img.shields.io/badge/star-3029-f4b400?style=flat-square)](https://github.com/peteromallet/desloppify) | quality-gates, codebase-health, ci | Agent-facing codebase quality harness with scans, scoring, LLM review, prioritized fix loops, persistent state, and CI gates. |
 | OpenLIT | [GitHub](https://github.com/openlit/openlit) | [![star](https://img.shields.io/badge/star-2714-f4b400?style=flat-square)](https://github.com/openlit/openlit) | opentelemetry, observability, evaluations | OpenTelemetry-native AI engineering platform for LLM and coding-agent observability, evaluations, guardrails, prompt management, secrets, and dashboards. |
-| claude-code-reverse | [GitHub](https://github.com/Yuyz0112/claude-code-reverse) | [![star](https://img.shields.io/badge/star-2427-f4b400?style=flat-square)](https://github.com/Yuyz0112/claude-code-reverse) | trace, visualization, debugging | Tooling to visualize and inspect Claude Code LLM interaction traces. |
 | Future AGI | [GitHub](https://github.com/future-agi/future-agi) | [![star](https://img.shields.io/badge/star-1795-f4b400?style=flat-square)](https://github.com/future-agi/future-agi) | observability, evaluation, guardrails | Self-hostable platform that closes the loop across agent tracing, evaluation, simulation, guardrails, and gateway operations. |
 | OpenInference | [GitHub](https://github.com/Arize-ai/openinference) | [![star](https://img.shields.io/badge/star-1167-f4b400?style=flat-square)](https://github.com/Arize-ai/openinference) | spec, instrumentation, observability | Open instrumentation specification and tooling for AI observability. |
 | Judgeval | [GitHub](https://github.com/JudgmentLabs/judgeval) | [![star](https://img.shields.io/badge/star-1058-f4b400?style=flat-square)](https://github.com/JudgmentLabs/judgeval) | tracing, agent-judges, monitoring | Agent improvement SDK with OpenTelemetry tracing, agent judges, online monitoring, replay evaluations, CLI workflows, and MCP access to traces and behaviors. |

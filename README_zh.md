@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **358**
-- GitHub 条目: **324 (90.5%)**
-- 项目分类 GitHub 占比（不含阅读类）: **319/319 (100.0%)**
+- 当前条目数: **357**
+- GitHub 条目: **323 (90.5%)**
+- 项目分类 GitHub 占比（不含阅读类）: **318/318 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-08-24**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -51,12 +51,12 @@
 
 | 分类 | 条目数 |
 | --- | ---: |
-| Harness Architecture & Orchestration | 62 |
+| Harness Architecture & Orchestration | 63 |
 | Context & Working-State Engineering | 27 |
 | Execution Substrates & Sandboxing | 27 |
-| Protocols, Tool Interfaces & Agent Contracts | 42 |
+| Protocols, Tool Interfaces & Agent Contracts | 41 |
 | Evaluation Harnesses & Benchmarks | 29 |
-| Observability & Reliability Operations | 20 |
+| Observability & Reliability Operations | 19 |
 | Guardrails, Security & Governance | 26 |
 | Reference Harness Implementations | 86 |
 | Essential Readings & Ecosystem Maps | 39 |
@@ -131,6 +131,7 @@
 | oh-my-agent | [GitHub](https://github.com/first-fluke/oh-my-agent) | [![star](https://img.shields.io/badge/star-1245-f4b400?style=flat-square)](https://github.com/first-fluke/oh-my-agent) | multi-agent, skills, cross-runtime | 可移植多代理 harness，可将共享代理、技能、工作流与规则投射到多个编码代理运行时。 |
 | LiteLLM Agent Control Plane | [GitHub](https://github.com/LiteLLM-Labs/litellm-agent-control-plane) | [![star](https://img.shields.io/badge/star-1229-f4b400?style=flat-square)](https://github.com/LiteLLM-Labs/litellm-agent-control-plane) | control-plane, sessions, runtime | 面向 OpenCode、Hermes、Claude Managed Agents、Cursor Agents API、DeepAgents 与 OpenClaw 等运行时的一体化代理控制平面。 |
 | Chorus | [GitHub](https://github.com/Chorus-AIDLC/Chorus) | [![star](https://img.shields.io/badge/star-1150-f4b400?style=flat-square)](https://github.com/Chorus-AIDLC/Chorus) | ai-dlc, permissions, task-state | 面向人机协作的 harness，管理会话生命周期、任务状态、子代理编排、可观测性与故障恢复。 |
+| Agentlas OS | [GitHub](https://github.com/agentlas-ai/Agentlas-OS) | [![star](https://img.shields.io/badge/star-1115-f4b400?style=flat-square)](https://github.com/agentlas-ai/Agentlas-OS) | agent-os, cross-harness, governance | 本地优先的代理操作环境，可构建可移植的代理与团队包，并跨受支持的编码主机进行路由，同时提供受治理的记忆、策略门禁、MCP/A2A 边界与验证回执。 |
 | Pydantic AI Harness | [GitHub](https://github.com/pydantic/pydantic-ai-harness) | [![star](https://img.shields.io/badge/star-805-f4b400?style=flat-square)](https://github.com/pydantic/pydantic-ai-harness) | capabilities, hooks, pydantic | Pydantic AI 官方能力库，可将工具、生命周期钩子、指令与模型设置组合为可复用的 agent harness。 |
 | Water | [GitHub](https://github.com/manthanguptaa/water) | [![star](https://img.shields.io/badge/star-334-f4b400?style=flat-square)](https://github.com/manthanguptaa/water) | python, framework, approval-gates | Python agent harness 框架，覆盖编排、韧性、可观测性、护栏、审批门禁、沙箱与部署。 |
 | OmniCoreAgent | [GitHub](https://github.com/omnirexflora-labs/omnicoreagent) | [![star](https://img.shields.io/badge/star-245-f4b400?style=flat-square)](https://github.com/omnirexflora-labs/omnicoreagent) | python, mcp, serving | Python 生产级 harness，包含模型循环、工具、MCP、记忆、工作区文件、护栏、事件、子代理、后台任务与 REST/SSE 服务。 |
@@ -248,7 +249,6 @@
 | OpenGAP | [GitHub](https://github.com/open-gitagent/opengap) | [![star](https://img.shields.io/badge/star-2920-f4b400?style=flat-square)](https://github.com/open-gitagent/opengap) | git-native, cli, agent-contract | Git Agent Protocol 的参考 CLI，可将仓库文件组织成可移植的代理 manifest、规则、技能、工作流、工具、记忆、钩子与合规契约。 |
 | Microsoft Learn MCP | [GitHub](https://github.com/MicrosoftDocs/mcp) | [![star](https://img.shields.io/badge/star-1853-f4b400?style=flat-square)](https://github.com/MicrosoftDocs/mcp) | mcp, docs, grounding | 为代理接入微软文档知识提供的 MCP server 与 CLI。 |
 | IBM MCP | [GitHub](https://github.com/IBM/mcp) | [![star](https://img.shields.io/badge/star-401-f4b400?style=flat-square)](https://github.com/IBM/mcp) | mcp, clients, tooling | IBM 提供的 MCP server、client 与开发工具集合。 |
-| AGENT.md | [GitHub](https://github.com/agentmd/agent.md) | [![star](https://img.shields.io/badge/star-89-f4b400?style=flat-square)](https://github.com/agentmd/agent.md) | standard, agent-file, interoperability | 面向代理编码工具的标准化机器可读文件格式。 |
 
 <a id="evaluation-harnesses-benchmarks"></a>
 ### Evaluation Harnesses & Benchmarks
@@ -305,7 +305,6 @@
 | Laminar | [GitHub](https://github.com/lmnr-ai/lmnr) | [![star](https://img.shields.io/badge/star-3187-f4b400?style=flat-square)](https://github.com/lmnr-ai/lmnr) | observability, tracing, evals | 面向代理系统的可观测平台，覆盖追踪、评测运行、监控与仪表盘。 |
 | Desloppify | [GitHub](https://github.com/peteromallet/desloppify) | [![star](https://img.shields.io/badge/star-3029-f4b400?style=flat-square)](https://github.com/peteromallet/desloppify) | quality-gates, codebase-health, ci | 面向编码代理的代码库质量 harness，提供扫描、评分、LLM 评审、优先级修复循环、持久状态与 CI 门禁。 |
 | OpenLIT | [GitHub](https://github.com/openlit/openlit) | [![star](https://img.shields.io/badge/star-2714-f4b400?style=flat-square)](https://github.com/openlit/openlit) | opentelemetry, observability, evaluations | OpenTelemetry 原生 AI 工程平台，覆盖 LLM 与编码代理可观测性、评测、护栏、提示词管理、密钥与仪表盘。 |
-| claude-code-reverse | [GitHub](https://github.com/Yuyz0112/claude-code-reverse) | [![star](https://img.shields.io/badge/star-2427-f4b400?style=flat-square)](https://github.com/Yuyz0112/claude-code-reverse) | trace, visualization, debugging | 可视化并分析 Claude Code 大模型交互链路的工具。 |
 | Future AGI | [GitHub](https://github.com/future-agi/future-agi) | [![star](https://img.shields.io/badge/star-1795-f4b400?style=flat-square)](https://github.com/future-agi/future-agi) | observability, evaluation, guardrails | 可自托管的平台，将代理追踪、评测、模拟、护栏与网关运维闭环整合在一起。 |
 | OpenInference | [GitHub](https://github.com/Arize-ai/openinference) | [![star](https://img.shields.io/badge/star-1167-f4b400?style=flat-square)](https://github.com/Arize-ai/openinference) | spec, instrumentation, observability | 面向 AI 可观测性的开放埋点规范与工具。 |
 | Judgeval | [GitHub](https://github.com/JudgmentLabs/judgeval) | [![star](https://img.shields.io/badge/star-1058-f4b400?style=flat-square)](https://github.com/JudgmentLabs/judgeval) | tracing, agent-judges, monitoring | 面向代理改进的 SDK，提供 OpenTelemetry 追踪、agent judge、在线监控、回放评测、CLI 流程与 MCP 访问轨迹/行为。 |
