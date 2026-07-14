@@ -4771,3 +4771,16 @@ entries:
   updated_at: '2025-01-01'
   license: n/a
   why_included: High-signal practitioner framing for harness-first implementation.
+- name: OpenAgentRelay
+  repo_url: https://github.com/ShakespeareLabs/open-agent-relay
+  category: Harness Architecture & Orchestration
+  summary_en: Minimal trusted-LAN boundary that exposes one existing local agent or automation as a keyed, machine-callable capability.
+  summary_zh: 极简受信局域网调用边界，将一个已有本地 Agent 或自动化暴露为带密钥、可机器调用的能力。
+  tags:
+  - remote-delegation
+  - local-first
+  - runtime-boundary
+  stars_snapshot: 0
+  updated_at: '2026-07-14'
+  license: Apache-2.0
+  why_included: Provides an inspectable delegation boundary with target-name verification, bounded conversations, JSON output, explicit exit codes, and local retention of source, prompts, dependencies, and credentials.
