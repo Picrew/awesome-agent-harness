@@ -4598,6 +4598,19 @@ entries:
   updated_at: '2026-01-01'
   license: n/a
   why_included: High-signal methodology reference directly focused on harness engineering.
+- name: 'Harness Engineering for Language Agents: The Harness Layer as Control, Agency, and Runtime'
+  repo_url: https://sciety.org/articles/activity/10.20944/preprints202603.1756.v2
+  category: Essential Readings & Ecosystem Maps
+  summary_en: Position paper decomposing the harness layer into control, agency, and runtime (CAR); audits 63 harness-relevant works and proposes HarnessCard for structured harness reporting.
+  summary_zh: 将 harness 层解构为控制、代理与运行时（CAR）的立场论文；梳理 63 项相关工作，并提出用于结构化披露 harness 配置的 HarnessCard。
+  tags:
+  - reading
+  - research
+  - taxonomy
+  stars_snapshot: 0
+  updated_at: '2026-04-23'
+  license: n/a
+  why_included: Academic framing of the harness layer as a research object, complementing the practitioner readings with a CAR taxonomy and a reporting artifact.
 - name: How we built our multi-agent research system
   repo_url: https://www.anthropic.com/engineering/multi-agent-research-system
   category: Essential Readings & Ecosystem Maps
