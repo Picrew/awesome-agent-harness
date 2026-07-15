@@ -2138,19 +2138,6 @@ entries:
   updated_at: '2026-05-04'
   license: Apache-2.0
   why_included: Adds vendor-diverse protocol ecosystem coverage.
-- name: AGENT.md
-  repo_url: https://github.com/agentmd/agent.md
-  category: Protocols, Tool Interfaces & Agent Contracts
-  summary_en: Standardized machine-readable file format for agentic coding tools.
-  summary_zh: 面向代理编码工具的标准化机器可读文件格式。
-  tags:
-  - standard
-  - agent-file
-  - interoperability
-  stars_snapshot: 83
-  updated_at: '2025-07-10'
-  license: MIT
-  why_included: Alternative standardization path worth tracking in harness ecosystems.
 - name: Promptfoo
   repo_url: https://github.com/promptfoo/promptfoo
   category: Evaluation Harnesses & Benchmarks
@@ -4348,6 +4335,22 @@ entries:
   license: Apache-2.0
   why_included: README expands Utah as Universally Triggered Agent Harness and documents durable LLM/tool steps, retries,
     singleton concurrency, cancellation, channels, and local worker operation.
+- name: Tura
+  repo_url: https://github.com/Tura-AI/tura
+  category: Reference Harness Implementations
+  summary_en: Local coding-agent harness with CLI, TUI, and GUI workflows, task-scoped context, command execution, verification,
+    and public long-horizon benchmark artifacts.
+  summary_zh: 本地编码代理 harness，提供 CLI、TUI 与 GUI 工作流、任务级上下文、命令执行、验证以及公开的长周期基准产物。
+  tags:
+  - coding-agent
+  - local-first
+  - verification
+  - benchmarks
+  stars_snapshot: 8
+  updated_at: '2026-07-16'
+  license: AGPL-3.0
+  why_included: The project exposes inspectable repository-editing and command-execution workflows, explicit task state and
+    context management, verification steps, and reproducible benchmark manifests for long-horizon coding tasks.
 - name: awesome-claude-code
   repo_url: https://github.com/hesreallyhim/awesome-claude-code
   category: Essential Readings & Ecosystem Maps
