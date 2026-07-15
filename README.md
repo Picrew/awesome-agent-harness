@@ -2,8 +2,8 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **338**
-- GitHub entries: **311 (92.0%)**
+- Total entries: **339**
+- GitHub entries: **311 (91.7%)**
 - GitHub in project categories (excluding readings): **306/306 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-06-21**
@@ -54,7 +54,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Observability & Reliability Operations | 20 |
 | Guardrails, Security & Governance | 26 |
 | Reference Harness Implementations | 82 |
-| Essential Readings & Ecosystem Maps | 32 |
+| Essential Readings & Ecosystem Maps | 33 |
 
 ## Catalog
 
@@ -441,6 +441,7 @@ Notes:
 | Harness design for long-running application development | [Reference](https://www.anthropic.com/engineering/harness-design-long-running-apps) | - | reading, app-dev, anthropic | Follow-up article on improving long-running app generation through harness structure. |
 | Harness Engineering (Martin Fowler) | [Reference](https://martinfowler.com/articles/exploring-gen-ai/harness-engineering.html) | - | reading, architecture, fowler | Architectural perspective on harness engineering and entropy control. |
 | Harness engineering (OpenAI) | [Reference](https://openai.com/index/harness-engineering/) | - | reading, methodology, openai | Field report on building reliable agent-first software via harness constraints and verification. |
+| Harness Engineering for Language Agents: The Harness Layer as Control, Agency, and Runtime | [Reference](https://sciety.org/articles/activity/10.20944/preprints202603.1756.v2) | - | reading, research, taxonomy | Position paper decomposing the harness layer into control, agency, and runtime (CAR); audits 63 harness-relevant works and proposes HarnessCard for structured harness reporting. |
 | How we built our multi-agent research system | [Reference](https://www.anthropic.com/engineering/multi-agent-research-system) | - | reading, anthropic, multi-agent | Anthropic architecture write-up on role separation and coordination in multi-agent systems. |
 | Improving Deep Agents with harness engineering | [Reference](https://blog.langchain.com/improving-deep-agents-with-harness-engineering/) | - | reading, langchain, harness | Evidence that harness improvements alone can move benchmark performance. |
 | Making Claude Code more secure and autonomous with sandboxing | [Reference](https://www.anthropic.com/engineering/claude-code-sandboxing) | - | reading, anthropic, sandboxing | How Anthropic uses sandbox boundaries to raise agent autonomy without giving up security controls. |

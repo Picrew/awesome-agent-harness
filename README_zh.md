@@ -2,8 +2,8 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **338**
-- GitHub 条目: **311 (92.0%)**
+- 当前条目数: **339**
+- GitHub 条目: **311 (91.7%)**
 - 项目分类 GitHub 占比（不含阅读类）: **306/306 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-06-21**
@@ -54,7 +54,7 @@
 | Observability & Reliability Operations | 20 |
 | Guardrails, Security & Governance | 26 |
 | Reference Harness Implementations | 82 |
-| Essential Readings & Ecosystem Maps | 32 |
+| Essential Readings & Ecosystem Maps | 33 |
 
 ## 项目清单
 
@@ -441,6 +441,7 @@
 | Harness design for long-running application development | [Reference](https://www.anthropic.com/engineering/harness-design-long-running-apps) | - | reading, app-dev, anthropic | 关于通过 harness 结构改进长任务应用生成的后续文章。 |
 | Harness Engineering (Martin Fowler) | [Reference](https://martinfowler.com/articles/exploring-gen-ai/harness-engineering.html) | - | reading, architecture, fowler | 从架构视角讨论 harness engineering 与系统熵控制。 |
 | Harness engineering (OpenAI) | [Reference](https://openai.com/index/harness-engineering/) | - | reading, methodology, openai | 关于如何通过约束与验证构建可靠 agent-first 软件的实践报告。 |
+| Harness Engineering for Language Agents: The Harness Layer as Control, Agency, and Runtime | [Reference](https://sciety.org/articles/activity/10.20944/preprints202603.1756.v2) | - | reading, research, taxonomy | 将 harness 层解构为控制、代理与运行时（CAR）的立场论文；梳理 63 项相关工作，并提出用于结构化披露 harness 配置的 HarnessCard。 |
 | How we built our multi-agent research system | [Reference](https://www.anthropic.com/engineering/multi-agent-research-system) | - | reading, anthropic, multi-agent | Anthropic 对多代理系统中角色分工与协同机制的架构复盘。 |
 | Improving Deep Agents with harness engineering | [Reference](https://blog.langchain.com/improving-deep-agents-with-harness-engineering/) | - | reading, langchain, harness | 说明仅通过 harness 改进也能显著提升基准表现。 |
 | Making Claude Code more secure and autonomous with sandboxing | [Reference](https://www.anthropic.com/engineering/claude-code-sandboxing) | - | reading, anthropic, sandboxing | 讲解 Anthropic 如何借助沙箱边界在不放松安全控制的前提下提升代理自治性。 |
