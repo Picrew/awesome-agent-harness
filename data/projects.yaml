@@ -4338,15 +4338,15 @@ entries:
 - name: Tura
   repo_url: https://github.com/Tura-AI/tura
   category: Reference Harness Implementations
-  summary_en: Local coding-agent harness with CLI, TUI, and GUI workflows, task-scoped context, command execution, verification,
-    and public long-horizon benchmark artifacts.
-  summary_zh: 本地编码代理 harness，提供 CLI、TUI 与 GUI 工作流、任务级上下文、命令执行、验证以及公开的长周期基准产物。
+  summary_en: Tura is a local, open-source coding agent for developers who are tired of vague skill claims, token-saving
+    extensions with no evidence, and agents that change a repository before understanding it.
+  summary_zh: Tura 是一个本地开源编码代理，面向厌倦了含糊技能宣传、缺乏证据的 token-saving 扩展，以及尚未理解仓库便开始修改的 agent 的开发者。
   tags:
   - coding-agent
   - local-first
   - verification
   - benchmarks
-  stars_snapshot: 8
+  stars_snapshot: 93
   updated_at: '2026-07-16'
   license: AGPL-3.0
   why_included: The project exposes inspectable repository-editing and command-execution workflows, explicit task state and

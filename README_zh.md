@@ -415,7 +415,7 @@
 | Munder Difflin | [GitHub](https://github.com/chaitanyagiri/munder-difflin) | [![star](https://img.shields.io/badge/star-558-f4b400?style=flat-square)](https://github.com/chaitanyagiri/munder-difflin) | multi-agent, desktop, memory | 桌面多代理 harness，将终端代理 CLI 包装为带蜂巢邮箱、共享记忆、编排器、审批、worktree 与遥测的协作系统。 |
 | OpenClaw.NET | [GitHub](https://github.com/clawdotnet/openclaw.net) | [![star](https://img.shields.io/badge/star-410-f4b400?style=flat-square)](https://github.com/clawdotnet/openclaw.net) | dotnet, gateway, governance | NativeAOT 友好的 .NET 代理运行时与网关，提供工具、记忆、MCP、治理账本、证据包与 harness 回归测试。 |
 | Utah | [GitHub](https://github.com/inngest/utah) | [![star](https://img.shields.io/badge/star-125-f4b400?style=flat-square)](https://github.com/inngest/utah) | durable-execution, event-driven, multi-channel | 基于 Inngest 的持久代理 harness，提供思考-行动-观察循环、步骤级重试、单例并发、取消与多通道适配。 |
-| Tura | [GitHub](https://github.com/Tura-AI/tura) | [![star](https://img.shields.io/badge/star-8-f4b400?style=flat-square)](https://github.com/Tura-AI/tura) | coding-agent, local-first, verification, benchmarks | 本地编码代理 harness，提供 CLI、TUI 与 GUI 工作流、任务级上下文、命令执行、验证以及公开的长周期基准产物。 |
+| Tura | [GitHub](https://github.com/Tura-AI/tura) | [![star](https://img.shields.io/badge/star-93-f4b400?style=flat-square)](https://github.com/Tura-AI/tura) | coding-agent, local-first, verification, benchmarks | Tura 是一个本地开源编码代理，面向厌倦了含糊技能宣传、缺乏证据的 token-saving 扩展，以及尚未理解仓库便开始修改的 agent 的开发者。 |
 
 <a id="essential-readings-ecosystem-maps"></a>
 ### Essential Readings & Ecosystem Maps
