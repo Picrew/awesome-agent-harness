@@ -49,11 +49,11 @@
 | Harness Architecture & Orchestration | 57 |
 | Context & Working-State Engineering | 24 |
 | Execution Substrates & Sandboxing | 27 |
-| Protocols, Tool Interfaces & Agent Contracts | 41 |
+| Protocols, Tool Interfaces & Agent Contracts | 40 |
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 20 |
 | Guardrails, Security & Governance | 26 |
-| Reference Harness Implementations | 82 |
+| Reference Harness Implementations | 83 |
 | Essential Readings & Ecosystem Maps | 32 |
 
 ## 项目清单
@@ -234,7 +234,6 @@
 | Builder.io Agent Skills | [GitHub](https://github.com/BuilderIO/skills) | [![star](https://img.shields.io/badge/star-2262-f4b400?style=flat-square)](https://github.com/BuilderIO/skills) | skills, review, planning | 面向编码代理的可组合技能，覆盖可视化规划、可视化复盘、看护式评审、方案仲裁与自治执行纪律。 |
 | Microsoft Learn MCP | [GitHub](https://github.com/MicrosoftDocs/mcp) | [![star](https://img.shields.io/badge/star-1717-f4b400?style=flat-square)](https://github.com/MicrosoftDocs/mcp) | mcp, docs, grounding | 为代理接入微软文档知识提供的 MCP server 与 CLI。 |
 | IBM MCP | [GitHub](https://github.com/IBM/mcp) | [![star](https://img.shields.io/badge/star-384-f4b400?style=flat-square)](https://github.com/IBM/mcp) | mcp, clients, tooling | IBM 提供的 MCP server、client 与开发工具集合。 |
-| AGENT.md | [GitHub](https://github.com/agentmd/agent.md) | [![star](https://img.shields.io/badge/star-83-f4b400?style=flat-square)](https://github.com/agentmd/agent.md) | standard, agent-file, interoperability | 面向代理编码工具的标准化机器可读文件格式。 |
 
 <a id="evaluation-harnesses-benchmarks"></a>
 ### Evaluation Harnesses & Benchmarks
@@ -416,6 +415,7 @@
 | Munder Difflin | [GitHub](https://github.com/chaitanyagiri/munder-difflin) | [![star](https://img.shields.io/badge/star-558-f4b400?style=flat-square)](https://github.com/chaitanyagiri/munder-difflin) | multi-agent, desktop, memory | 桌面多代理 harness，将终端代理 CLI 包装为带蜂巢邮箱、共享记忆、编排器、审批、worktree 与遥测的协作系统。 |
 | OpenClaw.NET | [GitHub](https://github.com/clawdotnet/openclaw.net) | [![star](https://img.shields.io/badge/star-410-f4b400?style=flat-square)](https://github.com/clawdotnet/openclaw.net) | dotnet, gateway, governance | NativeAOT 友好的 .NET 代理运行时与网关，提供工具、记忆、MCP、治理账本、证据包与 harness 回归测试。 |
 | Utah | [GitHub](https://github.com/inngest/utah) | [![star](https://img.shields.io/badge/star-125-f4b400?style=flat-square)](https://github.com/inngest/utah) | durable-execution, event-driven, multi-channel | 基于 Inngest 的持久代理 harness，提供思考-行动-观察循环、步骤级重试、单例并发、取消与多通道适配。 |
+| Tura | [GitHub](https://github.com/Tura-AI/tura) | [![star](https://img.shields.io/badge/star-93-f4b400?style=flat-square)](https://github.com/Tura-AI/tura) | coding-agent, local-first, verification, benchmarks | Tura 是一个本地开源编码代理，面向厌倦了含糊技能宣传、缺乏证据的 token-saving 扩展，以及尚未理解仓库便开始修改的 agent 的开发者。 |
 
 <a id="essential-readings-ecosystem-maps"></a>
 ### Essential Readings & Ecosystem Maps
