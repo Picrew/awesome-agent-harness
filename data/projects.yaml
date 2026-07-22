@@ -1,7 +1,7 @@
 catalog:
   title_en: Awesome Agent Harness
   title_zh: Awesome Agent Harness
-  last_verified: '2026-06-21'
+  last_verified: '2026-07-22'
   description_en: Curated implementation-first list for agent harness engineering.
   description_zh: 面向 Agent Harness Engineering 的工程实践清单。
 categories:
@@ -854,6 +854,21 @@ entries:
   updated_at: '2026-06-10'
   license: Apache-2.0
   why_included: Strong example of a harness runtime built around repairability, rollback, and controlled long-running execution.
+- name: Garcon
+  repo_url: https://github.com/cfal/garcon
+  category: Harness Architecture & Orchestration
+  summary_en: Self-hosted browser and mobile workspace for running, steering, and reviewing parallel coding-agent sessions with
+    integrated terminal, file, diff, Git, and pull-request workflows.
+  summary_zh: 自托管的浏览器与移动端编码代理工作区，可并行运行和实时引导 Claude Code、Codex、Cursor Agent、OpenCode、Amp、Droid 与 Pi 会话，并集成终端、文件编辑、差异审查及 Git/PR 工作流。
+  tags:
+  - control-plane
+  - sessions
+  - code-review
+  stars_snapshot: 40
+  updated_at: '2026-07-22'
+  license: GPL-3.0
+  why_included: README documents native multi-agent session orchestration, live steering and approvals, integrated terminal/file/diff/Git/PR
+    workflows, mobile access, scheduling, and cross-agent session transfer.
 - name: claude-mem
   repo_url: https://github.com/thedotmack/claude-mem
   category: Context & Working-State Engineering
