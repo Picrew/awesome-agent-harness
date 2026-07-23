@@ -57,6 +57,19 @@ entries:
   license: MIT
   why_included: README documents install paths for Claude Code, Codex, Codex App, Gemini CLI, OpenCode, Cursor, and Copilot
     CLI plus mandatory planning, worktree, TDD, review, and subagent workflows.
+- name: TierDecay
+  repo_url: https://github.com/alebgl77/tierdecay
+  category: Harness Architecture & Orchestration
+  summary_en: Self-distilling tier router that solves each task class once at an expensive model tier, distills it into a low-tier playbook entry, and decays the class's default tier down via a ledger of predicted-vs-executed tiers.
+  summary_zh: 自蒸馏分层路由：将每类任务在高价模型层解决一次，蒸馏为低层 playbook 条目，并依据预测层与实际执行层的账本，逐步下调该类任务的默认层级。
+  tags:
+  - routing
+  - workflow
+  - cross-agent
+  stars_snapshot: 1
+  updated_at: '2026-07-23'
+  license: MIT
+  why_included: Ships a native Claude Code pipeline (scout/executor/heavy-executor/oracle subagents, skills, a PreToolUse integrity hook, a routing ledger) plus AGENTS.md, Cursor, Gemini CLI, Aider, Cline, Goose, and Windsurf adapters that decay recurring task classes to cheaper model tiers.
 - name: ECC
   repo_url: https://github.com/affaan-m/ECC
   category: Harness Architecture & Orchestration

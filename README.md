@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **338**
-- GitHub entries: **311 (92.0%)**
-- GitHub in project categories (excluding readings): **306/306 (100.0%)**
+- Total entries: **339**
+- GitHub entries: **312 (92.0%)**
+- GitHub in project categories (excluding readings): **307/307 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-06-21**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -46,7 +46,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 
 | Category | Entries |
 | --- | ---: |
-| Harness Architecture & Orchestration | 57 |
+| Harness Architecture & Orchestration | 58 |
 | Context & Working-State Engineering | 24 |
 | Execution Substrates & Sandboxing | 27 |
 | Protocols, Tool Interfaces & Agent Contracts | 41 |
@@ -125,6 +125,7 @@ Notes:
 | Water | [GitHub](https://github.com/manthanguptaa/water) | [![star](https://img.shields.io/badge/star-292-f4b400?style=flat-square)](https://github.com/manthanguptaa/water) | python, framework, approval-gates | Python agent harness framework for orchestration, resilience, observability, guardrails, approval gates, sandboxing, and deployment. |
 | OmniCoreAgent | [GitHub](https://github.com/omnirexflora-labs/omnicoreagent) | [![star](https://img.shields.io/badge/star-243-f4b400?style=flat-square)](https://github.com/omnirexflora-labs/omnicoreagent) | python, mcp, serving | Python production harness with model loop, tools, MCP, memory, workspace files, guardrails, events, subagents, background tasks, and REST/SSE serving. |
 | hankweave | [GitHub](https://github.com/SouthBridgeAI/hankweave-runtime) | [![star](https://img.shields.io/badge/star-129-f4b400?style=flat-square)](https://github.com/SouthBridgeAI/hankweave-runtime) | long-horizon, runtime, checkpoints | Headless-first long-horizon runtime that orchestrates existing agent harnesses with sentinels, loops, checkpoints, and event journals. |
+| TierDecay | [GitHub](https://github.com/alebgl77/tierdecay) | [![star](https://img.shields.io/badge/star-1-f4b400?style=flat-square)](https://github.com/alebgl77/tierdecay) | routing, workflow, cross-agent | Self-distilling tier router that solves each task class once at an expensive model tier, distills it into a low-tier playbook entry, and decays the class's default tier down via a ledger of predicted-vs-executed tiers. |
 
 <a id="context-working-state-engineering"></a>
 ### Context & Working-State Engineering
