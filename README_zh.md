@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **338**
-- GitHub 条目: **311 (92.0%)**
-- 项目分类 GitHub 占比（不含阅读类）: **306/306 (100.0%)**
+- 当前条目数: **339**
+- GitHub 条目: **312 (92.0%)**
+- 项目分类 GitHub 占比（不含阅读类）: **307/307 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-06-21**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -46,7 +46,7 @@
 
 | 分类 | 条目数 |
 | --- | ---: |
-| Harness Architecture & Orchestration | 57 |
+| Harness Architecture & Orchestration | 58 |
 | Context & Working-State Engineering | 24 |
 | Execution Substrates & Sandboxing | 27 |
 | Protocols, Tool Interfaces & Agent Contracts | 41 |
@@ -122,6 +122,7 @@
 | Chorus | [GitHub](https://github.com/Chorus-AIDLC/Chorus) | [![star](https://img.shields.io/badge/star-1009-f4b400?style=flat-square)](https://github.com/Chorus-AIDLC/Chorus) | ai-dlc, permissions, task-state | 面向人机协作的 harness，管理会话生命周期、任务状态、子代理编排、可观测性与故障恢复。 |
 | LiteLLM Agent Control Plane | [GitHub](https://github.com/LiteLLM-Labs/litellm-agent-control-plane) | [![star](https://img.shields.io/badge/star-970-f4b400?style=flat-square)](https://github.com/LiteLLM-Labs/litellm-agent-control-plane) | control-plane, sessions, runtime | 面向 OpenCode、Hermes、Claude Managed Agents、Cursor Agents API、DeepAgents 与 OpenClaw 等运行时的一体化代理控制平面。 |
 | Pydantic AI Harness | [GitHub](https://github.com/pydantic/pydantic-ai-harness) | [![star](https://img.shields.io/badge/star-568-f4b400?style=flat-square)](https://github.com/pydantic/pydantic-ai-harness) | capabilities, hooks, pydantic | Pydantic AI 官方能力库，可将工具、生命周期钩子、指令与模型设置组合为可复用的 agent harness。 |
+| fractal | [GitHub](https://github.com/plasma-ai/fractal) | [![star](https://img.shields.io/badge/star-561-f4b400?style=flat-square)](https://github.com/plasma-ai/fractal) | hierarchical, worktrees, recursive-delegation | 层级式编码代理运行时，可将可分离的子任务递归委派给在独立 Git worktree 中运行的子节点，支持实时监控和人工干预，并对深度、成本和时间设置硬性上限。 |
 | Water | [GitHub](https://github.com/manthanguptaa/water) | [![star](https://img.shields.io/badge/star-292-f4b400?style=flat-square)](https://github.com/manthanguptaa/water) | python, framework, approval-gates | Python agent harness 框架，覆盖编排、韧性、可观测性、护栏、审批门禁、沙箱与部署。 |
 | OmniCoreAgent | [GitHub](https://github.com/omnirexflora-labs/omnicoreagent) | [![star](https://img.shields.io/badge/star-243-f4b400?style=flat-square)](https://github.com/omnirexflora-labs/omnicoreagent) | python, mcp, serving | Python 生产级 harness，包含模型循环、工具、MCP、记忆、工作区文件、护栏、事件、子代理、后台任务与 REST/SSE 服务。 |
 | hankweave | [GitHub](https://github.com/SouthBridgeAI/hankweave-runtime) | [![star](https://img.shields.io/badge/star-129-f4b400?style=flat-square)](https://github.com/SouthBridgeAI/hankweave-runtime) | long-horizon, runtime, checkpoints | 面向长任务的无界面运行时，可编排现有 agent harness，并提供 sentinels、循环、检查点与事件日志。 |

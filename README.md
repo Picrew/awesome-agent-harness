@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **338**
-- GitHub entries: **311 (92.0%)**
-- GitHub in project categories (excluding readings): **306/306 (100.0%)**
+- Total entries: **339**
+- GitHub entries: **312 (92.0%)**
+- GitHub in project categories (excluding readings): **307/307 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-06-21**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -46,7 +46,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 
 | Category | Entries |
 | --- | ---: |
-| Harness Architecture & Orchestration | 57 |
+| Harness Architecture & Orchestration | 58 |
 | Context & Working-State Engineering | 24 |
 | Execution Substrates & Sandboxing | 27 |
 | Protocols, Tool Interfaces & Agent Contracts | 41 |
@@ -122,6 +122,7 @@ Notes:
 | Chorus | [GitHub](https://github.com/Chorus-AIDLC/Chorus) | [![star](https://img.shields.io/badge/star-1009-f4b400?style=flat-square)](https://github.com/Chorus-AIDLC/Chorus) | ai-dlc, permissions, task-state | AI-human collaboration harness for session lifecycle, task state, sub-agent orchestration, observability, and recovery. |
 | LiteLLM Agent Control Plane | [GitHub](https://github.com/LiteLLM-Labs/litellm-agent-control-plane) | [![star](https://img.shields.io/badge/star-970-f4b400?style=flat-square)](https://github.com/LiteLLM-Labs/litellm-agent-control-plane) | control-plane, sessions, runtime | Agent control plane that provides one API and UI across OpenCode, Hermes, Claude Managed Agents, Cursor Agents API, DeepAgents, and OpenClaw runtimes. |
 | Pydantic AI Harness | [GitHub](https://github.com/pydantic/pydantic-ai-harness) | [![star](https://img.shields.io/badge/star-568-f4b400?style=flat-square)](https://github.com/pydantic/pydantic-ai-harness) | capabilities, hooks, pydantic | Official Pydantic AI capability library for composing tools, lifecycle hooks, instructions, and model settings into reusable agent harnesses. |
+| fractal | [GitHub](https://github.com/plasma-ai/fractal) | [![star](https://img.shields.io/badge/star-561-f4b400?style=flat-square)](https://github.com/plasma-ai/fractal) | hierarchical, worktrees, recursive-delegation | Hierarchical coding-agent runtime that delegates separable subtasks recursively to child nodes in isolated Git worktrees, with live operator monitoring and intervention and hard limits on depth, cost, and time. |
 | Water | [GitHub](https://github.com/manthanguptaa/water) | [![star](https://img.shields.io/badge/star-292-f4b400?style=flat-square)](https://github.com/manthanguptaa/water) | python, framework, approval-gates | Python agent harness framework for orchestration, resilience, observability, guardrails, approval gates, sandboxing, and deployment. |
 | OmniCoreAgent | [GitHub](https://github.com/omnirexflora-labs/omnicoreagent) | [![star](https://img.shields.io/badge/star-243-f4b400?style=flat-square)](https://github.com/omnirexflora-labs/omnicoreagent) | python, mcp, serving | Python production harness with model loop, tools, MCP, memory, workspace files, guardrails, events, subagents, background tasks, and REST/SSE serving. |
 | hankweave | [GitHub](https://github.com/SouthBridgeAI/hankweave-runtime) | [![star](https://img.shields.io/badge/star-129-f4b400?style=flat-square)](https://github.com/SouthBridgeAI/hankweave-runtime) | long-horizon, runtime, checkpoints | Headless-first long-horizon runtime that orchestrates existing agent harnesses with sentinels, loops, checkpoints, and event journals. |

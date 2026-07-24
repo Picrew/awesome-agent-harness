@@ -810,6 +810,21 @@ entries:
   updated_at: '2026-06-20'
   license: MIT
   why_included: README explicitly defines Pydantic AI capabilities and hooks as the harness layer for agents.
+- name: fractal
+  repo_url: https://github.com/plasma-ai/fractal
+  category: Harness Architecture & Orchestration
+  summary_en: Hierarchical coding-agent runtime that delegates separable subtasks recursively to child nodes in isolated Git
+    worktrees, with live operator monitoring and intervention and hard limits on depth, cost, and time.
+  summary_zh: 层级式编码代理运行时，可将可分离的子任务递归委派给在独立 Git worktree 中运行的子节点，支持实时监控和人工干预，并对深度、成本和时间设置硬性上限。
+  tags:
+  - hierarchical
+  - worktrees
+  - recursive-delegation
+  stars_snapshot: 561
+  updated_at: '2026-07-22'
+  license: Apache-2.0
+  why_included: README documents recursive child-agent delegation, isolated git worktrees, five coding-agent backends, live
+    terminal monitoring and intervention, local SQLite run state, and configurable depth, cost, and time limits.
 - name: Water
   repo_url: https://github.com/manthanguptaa/water
   category: Harness Architecture & Orchestration
