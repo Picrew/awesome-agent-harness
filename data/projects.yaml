@@ -4771,3 +4771,17 @@ entries:
   updated_at: '2025-01-01'
   license: n/a
   why_included: High-signal practitioner framing for harness-first implementation.
+
+- name: AOHP
+  repo_url: https://github.com/aohp-os/aohp
+  category: Reference Harness Implementations
+  summary_en: OS-level agent harness to enable personalized, efficient and secure interaction. And let the OS proactively adapt to its user via agentic AI.
+  summary_zh: OS 级 Agent Harness，面向个性化、高效且安全的交互，让操作系统借助 agentic AI 主动适应用户。
+  tags:
+  - agent-os
+  - personalization
+  - security
+  stars_snapshot: 139
+  updated_at: '2026-07-25'
+  license: Apache-2.0
+  why_included: An OS-level agent harness that redesigns system and framework components to enable personalized, efficient and secure interaction, letting the OS proactively adapt to its user via agentic AI.
