@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **338**
-- GitHub entries: **311 (92.0%)**
-- GitHub in project categories (excluding readings): **306/306 (100.0%)**
+- Total entries: **339**
+- GitHub entries: **312 (92.0%)**
+- GitHub in project categories (excluding readings): **307/307 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-06-21**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -50,7 +50,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Context & Working-State Engineering | 24 |
 | Execution Substrates & Sandboxing | 27 |
 | Protocols, Tool Interfaces & Agent Contracts | 41 |
-| Evaluation Harnesses & Benchmarks | 29 |
+| Evaluation Harnesses & Benchmarks | 30 |
 | Observability & Reliability Operations | 20 |
 | Guardrails, Security & Governance | 26 |
 | Reference Harness Implementations | 82 |
@@ -267,6 +267,7 @@ Notes:
 | ClawBench | [GitHub](https://github.com/TIGER-AI-Lab/ClawBench) | [![star](https://img.shields.io/badge/star-411-f4b400?style=flat-square)](https://github.com/TIGER-AI-Lab/ClawBench) | browser-agent, benchmark, recording | Browser-agent benchmark with live-site tasks, isolated containers, five-layer recording, and agentic scoring. |
 | Agent Evaluation | [GitHub](https://github.com/awslabs/agent-evaluation) | [![star](https://img.shields.io/badge/star-368-f4b400?style=flat-square)](https://github.com/awslabs/agent-evaluation) | evaluation, testing, ci | AWS framework for testing virtual agents with evaluator-driven multi-turn conversations, hooks, and CI-friendly workflows. |
 | WorkArena | [GitHub](https://github.com/ServiceNow/WorkArena) | [![star](https://img.shields.io/badge/star-256-f4b400?style=flat-square)](https://github.com/ServiceNow/WorkArena) | browser, benchmark, enterprise | Browser benchmark for practical enterprise-like knowledge work tasks. |
+| Coder Eval | [GitHub](https://github.com/UiPath/coder_eval) | [![star](https://img.shields.io/badge/star-107-f4b400?style=flat-square)](https://github.com/UiPath/coder_eval) | coding-agents, skills, ci | Sandboxed eval harness for coding agents and their skills, with declarative YAML tasks, weighted scoring, A/B experiments, and CI gating. |
 | OpenHands Benchmarks | [GitHub](https://github.com/OpenHands/benchmarks) | [![star](https://img.shields.io/badge/star-91-f4b400?style=flat-square)](https://github.com/OpenHands/benchmarks) | openhands, eval, harness | Evaluation harness and benchmark definitions for OpenHands systems. |
 | WebArena-Verified | [GitHub](https://github.com/ServiceNow/webarena-verified) | [![star](https://img.shields.io/badge/star-43-f4b400?style=flat-square)](https://github.com/ServiceNow/webarena-verified) | web-agent, benchmark, deterministic | Verified web-agent benchmark with deterministic evaluators. |
 | HarnessBench | [GitHub](https://github.com/reacher-z/HarnessBench) | [![star](https://img.shields.io/badge/star-17-f4b400?style=flat-square)](https://github.com/reacher-z/HarnessBench) | harness-comparison, browser-agent, benchmark | Benchmark for comparing agent harnesses on the same everyday web tasks with fixed models and per-harness containers. |

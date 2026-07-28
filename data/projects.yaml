@@ -2504,6 +2504,21 @@ entries:
   updated_at: '2026-04-25'
   license: NOASSERTION
   why_included: Measures harness quality on realistic business workflows.
+- name: Coder Eval
+  repo_url: https://github.com/UiPath/coder_eval
+  category: Evaluation Harnesses & Benchmarks
+  summary_en: Sandboxed eval harness for coding agents and their skills, with declarative
+    YAML tasks, weighted scoring, A/B experiments, and CI gating.
+  summary_zh: 面向编码代理及其技能的沙箱化评测 harness，支持声明式 YAML 任务、加权评分、A/B 实验与 CI 门禁。
+  tags:
+  - coding-agents
+  - skills
+  - ci
+  stars_snapshot: 107
+  updated_at: '2026-07-28'
+  license: Apache-2.0
+  why_included: Harness-level eval for the tasks and skills a team ships, with skill-activation
+    precision/recall and cross-agent A/B runs.
 - name: OpenHands Benchmarks
   repo_url: https://github.com/OpenHands/benchmarks
   category: Evaluation Harnesses & Benchmarks
