@@ -839,6 +839,20 @@ entries:
   updated_at: '2026-06-10'
   license: Apache-2.0
   why_included: Strong example of a harness runtime built around repairability, rollback, and controlled long-running execution.
+- name: LoopTroop
+  repo_url: https://github.com/looptroop-ai/LoopTroop
+  category: Harness Architecture & Orchestration
+  summary_en: Open-source full-lifecycle agent harness with LLM Council planning, atomic Beads, fresh-context retries, and Git worktree isolation.
+  summary_zh: 开源全生命周期代理 harness，具备 LLM Council 规划、原子 Beads 执行、全新上下文重试和 Git worktree 隔离。
+  tags:
+  - full-lifecycle
+  - multi-agent
+  - worktree
+  - planning
+  stars_snapshot: 113
+  updated_at: '2026-08-06'
+  license: MIT
+  why_included: Open-source agent harness providing multi-agent council planning, atomic work units (Beads), fresh-context recovery loops, and review gates.
 - name: claude-mem
   repo_url: https://github.com/thedotmack/claude-mem
   category: Context & Working-State Engineering
