@@ -840,6 +840,21 @@ entries:
   license: MIT
   why_included: README explicitly distinguishes a harness from a generic agent library and documents runtime boundaries for
     model loop, tools, memory, guardrails, serving, and background execution.
+- name: NXTG-Forge Orchestrator
+  repo_url: https://github.com/nxtg-ai/forge-orchestrator
+  category: Harness Architecture & Orchestration
+  summary_en: Rust multi-AI task orchestration harness with a fixed research-to-plan-to-delegate-to-adversarial-verify-to-deploy
+    pipeline, file-locking for parallel agents, knowledge capture, and drift detection.
+  summary_zh: 基于 Rust 的多 AI 任务编排 harness，采用固定的 研究→规划→委派→对抗式验证→部署 流水线，并提供面向并行代理的文件锁、知识捕获与漂移检测。
+  tags:
+  - rust
+  - multi-agent
+  - orchestration
+  stars_snapshot: 134
+  updated_at: '2026-07-30'
+  license: NOASSERTION
+  why_included: Inspectable coding-agent harness with a fixed multi-stage orchestration pipeline, file-locking for parallel
+    agents, knowledge capture, and drift detection.
 - name: hankweave
   repo_url: https://github.com/SouthBridgeAI/hankweave-runtime
   category: Harness Architecture & Orchestration
