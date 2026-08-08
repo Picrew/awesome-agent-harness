@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **338**
-- GitHub entries: **311 (92.0%)**
-- GitHub in project categories (excluding readings): **306/306 (100.0%)**
+- Total entries: **339**
+- GitHub entries: **312 (92.0%)**
+- GitHub in project categories (excluding readings): **307/307 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-06-21**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -52,7 +52,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Protocols, Tool Interfaces & Agent Contracts | 41 |
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 20 |
-| Guardrails, Security & Governance | 26 |
+| Guardrails, Security & Governance | 27 |
 | Reference Harness Implementations | 82 |
 | Essential Readings & Ecosystem Maps | 32 |
 
@@ -328,6 +328,7 @@ Notes:
 | Sponsio | [GitHub](https://github.com/SponsioLabs/Sponsio) | [![star](https://img.shields.io/badge/star-477-f4b400?style=flat-square)](https://github.com/SponsioLabs/Sponsio) | contracts, runtime-safety, guardrails | Runtime enforcement layer that checks every agent action against deterministic contracts before execution. |
 | DashClaw | [GitHub](https://github.com/ucsandman/DashClaw) | [![star](https://img.shields.io/badge/star-276-f4b400?style=flat-square)](https://github.com/ucsandman/DashClaw) | approvals, policy, audit | Governance layer that intercepts risky agent actions, enforces policy, routes approvals, and records audit-ready decision trails. |
 | Tandem | [GitHub](https://github.com/frumu-ai/tandem) | [![star](https://img.shields.io/badge/star-108-f4b400?style=flat-square)](https://github.com/frumu-ai/tandem) | runtime-authority, approvals, audit | Governed runtime authority layer for agents with scoped execution, tool visibility, permissioned memory, approval gates, and audit trails. |
+| red-team-blue-team-agent-fabric | [GitHub](https://github.com/msaleme/red-team-blue-team-agent-fabric) | [![star](https://img.shields.io/badge/star-25-f4b400?style=flat-square)](https://github.com/msaleme/red-team-blue-team-agent-fabric) | security, red-team, testing, mcp | Adversarial test harness for agent systems — 603 executable tests across MCP, A2A, x402/L402, decision governance, benchmark integrity, human-in-the-loop, and skill supply chain, with commit-pinned OWASP Agentic v1.1 T1-T17 coverage. |
 
 <a id="reference-harness-implementations"></a>
 ### Reference Harness Implementations

@@ -3180,6 +3180,23 @@ entries:
   license: NOASSERTION
   why_included: README explicitly frames Tandem as a runtime authority layer below the model, governing tools, memory, approvals,
     tenant-aware state, artifacts, and audit evidence.
+- name: red-team-blue-team-agent-fabric
+  repo_url: https://github.com/msaleme/red-team-blue-team-agent-fabric
+  category: Guardrails, Security & Governance
+  summary_en: Adversarial test harness for agent systems — 603 executable tests across MCP, A2A, x402/L402, decision governance,
+    benchmark integrity, human-in-the-loop, and skill supply chain, with commit-pinned OWASP Agentic v1.1 T1-T17 coverage.
+  summary_zh: 面向代理系统的对抗性测试 harness，覆盖 MCP、A2A、x402/L402、决策治理、基准完整性、人机协同与技能供应链共 603 项可执行测试，并与
+    OWASP Agentic v1.1 T1-T17 覆盖范围锁定提交版本对齐。
+  tags:
+  - security
+  - red-team
+  - testing
+  - mcp
+  stars_snapshot: 25
+  updated_at: '2026-08-08'
+  license: Apache-2.0
+  why_included: Validates governance/guardrail claims (this repo's own category) against real adversarial test execution rather
+    than static policy review — commit-pinned OWASP Agentic v1.1 T1-T17 coverage and an AIUC-1 crosswalk, not a self-graded checklist.
 - name: OpenClaw
   repo_url: https://github.com/openclaw/openclaw
   category: Reference Harness Implementations
