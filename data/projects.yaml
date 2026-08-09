@@ -2816,6 +2816,20 @@ entries:
   license: MIT
   why_included: README describes an open system that traces coding-agent rollouts, distills failures, and applies auditable
     edits to prompts, tools, middleware, skills, subagents, and memory.
+- name: flameox
+  repo_url: https://github.com/morluto/flameox
+  category: Observability & Reliability Operations
+  summary_en: Profiling and optimization toolkit for agents that captures traces, compares runs, and preserves runtime evidence.
+  summary_zh: 面向智能体的性能分析与优化工具包，可捕获追踪、比较运行并保留运行时证据。
+  tags:
+  - profiling
+  - mcp
+  - runtime-evidence
+  stars_snapshot: 5
+  updated_at: '2026-08-09'
+  license: none
+  why_included: Coordinates maintained profilers while retaining native artifacts and provenance, allowing agents to test
+    runtime-performance hypotheses against inspectable evidence.
 - name: LiteLLM
   repo_url: https://github.com/BerriAI/litellm
   category: Guardrails, Security & Governance

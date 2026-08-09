@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **338**
-- GitHub 条目: **311 (92.0%)**
-- 项目分类 GitHub 占比（不含阅读类）: **306/306 (100.0%)**
+- 当前条目数: **339**
+- GitHub 条目: **312 (92.0%)**
+- 项目分类 GitHub 占比（不含阅读类）: **307/307 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-06-21**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -51,7 +51,7 @@
 | Execution Substrates & Sandboxing | 27 |
 | Protocols, Tool Interfaces & Agent Contracts | 41 |
 | Evaluation Harnesses & Benchmarks | 29 |
-| Observability & Reliability Operations | 20 |
+| Observability & Reliability Operations | 21 |
 | Guardrails, Security & Governance | 26 |
 | Reference Harness Implementations | 82 |
 | Essential Readings & Ecosystem Maps | 32 |
@@ -296,6 +296,7 @@
 | OpenInference | [GitHub](https://github.com/Arize-ai/openinference) | [![star](https://img.shields.io/badge/star-1044-f4b400?style=flat-square)](https://github.com/Arize-ai/openinference) | spec, instrumentation, observability | 面向 AI 可观测性的开放埋点规范与工具。 |
 | Judgeval | [GitHub](https://github.com/JudgmentLabs/judgeval) | [![star](https://img.shields.io/badge/star-1038-f4b400?style=flat-square)](https://github.com/JudgmentLabs/judgeval) | tracing, agent-judges, monitoring | 面向代理改进的 SDK，提供 OpenTelemetry 追踪、agent judge、在线监控、回放评测、CLI 流程与 MCP 访问轨迹/行为。 |
 | Agentic Harness Engineering | [GitHub](https://github.com/china-qijizhifeng/agentic-harness-engineering) | [![star](https://img.shields.io/badge/star-603-f4b400?style=flat-square)](https://github.com/china-qijizhifeng/agentic-harness-engineering) | harness-optimization, trace-analysis, terminal-bench | 通过评测、分析与改进闭环自动演进编码代理 harness 组件的可观测系统。 |
+| flameox | [GitHub](https://github.com/morluto/flameox) | [![star](https://img.shields.io/badge/star-5-f4b400?style=flat-square)](https://github.com/morluto/flameox) | profiling, mcp, runtime-evidence | 面向智能体的性能分析与优化工具包，可捕获追踪、比较运行并保留运行时证据。 |
 
 <a id="guardrails-security-governance"></a>
 ### Guardrails, Security & Governance
