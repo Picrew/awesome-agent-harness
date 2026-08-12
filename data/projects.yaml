@@ -3180,6 +3180,22 @@ entries:
   license: NOASSERTION
   why_included: README explicitly frames Tandem as a runtime authority layer below the model, governing tools, memory, approvals,
     tenant-aware state, artifacts, and audit evidence.
+- name: stipend
+  repo_url: https://github.com/stipend-sh/stipend
+  category: Guardrails, Security & Governance
+  summary_en: Non-custodial USDC wallet for agents where per-transaction, per-day and per-counterparty caps and a destination
+    allowlist are enforced in the signing path rather than in a system prompt.
+  summary_zh: 面向 Agent 的非托管 USDC 钱包，单笔、每日与单一收款方限额及收款地址白名单在签名路径中强制执行，而非写在系统提示词里。
+  tags:
+  - guardrails
+  - payments
+  - policy-enforcement
+  stars_snapshot: 0
+  updated_at: '2026-08-12'
+  license: Apache-2.0
+  why_included: Worked implementation of pre-action authorization for an irreversible action - policy.py sits between the
+    agent decision and the signature, with one-time approvals bound to recipient/amount/expiry and a pre-check tool that
+    answers whether an action would be allowed without performing it.
 - name: OpenClaw
   repo_url: https://github.com/openclaw/openclaw
   category: Reference Harness Implementations
