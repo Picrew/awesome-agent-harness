@@ -1594,6 +1594,21 @@ entries:
   updated_at: '2026-03-24'
   license: none
   why_included: Shows environment packaging patterns for reproducible evaluations.
+- name: DSH Dev Actions
+  repo_url: https://github.com/skitse/dsh-dev-actions
+  category: Protocols, Tool Interfaces & Agent Contracts
+  summary_en: DeepSeek Harness plugin that lets the active AI turn repeated shell commands, acceptance prompts, and recurring
+    instructions into visible, user-triggered sidebar actions.
+  summary_zh: DeepSeek Harness 插件，让当前 AI 将重复的终端命令、验收 Prompt 与习惯性指令主动沉淀为可见且由用户触发的侧栏动作。
+  tags:
+  - human-in-the-loop
+  - developer-actions
+  - deepseek-harness
+  stars_snapshot: 1
+  updated_at: '2026-08-13'
+  license: MIT
+  why_included: README and browser E2E document a concrete human-in-the-loop contract where the model maintains durable,
+    deduplicated action data while fixed host executors and explicit user clicks retain execution authority.
 - name: Anthropic Agent Skills
   repo_url: https://github.com/anthropics/skills
   category: Protocols, Tool Interfaces & Agent Contracts

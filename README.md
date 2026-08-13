@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **350**
-- GitHub entries: **316 (90.3%)**
-- GitHub in project categories (excluding readings): **311/311 (100.0%)**
+- Total entries: **351**
+- GitHub entries: **317 (90.3%)**
+- GitHub in project categories (excluding readings): **312/312 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-08-13**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -54,7 +54,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Harness Architecture & Orchestration | 59 |
 | Context & Working-State Engineering | 24 |
 | Execution Substrates & Sandboxing | 27 |
-| Protocols, Tool Interfaces & Agent Contracts | 41 |
+| Protocols, Tool Interfaces & Agent Contracts | 42 |
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 20 |
 | Guardrails, Security & Governance | 26 |
@@ -242,6 +242,7 @@ Notes:
 | Microsoft Learn MCP | [GitHub](https://github.com/MicrosoftDocs/mcp) | [![star](https://img.shields.io/badge/star-1832-f4b400?style=flat-square)](https://github.com/MicrosoftDocs/mcp) | mcp, docs, grounding | MCP server and CLI for grounding agents with Microsoft documentation sources. |
 | IBM MCP | [GitHub](https://github.com/IBM/mcp) | [![star](https://img.shields.io/badge/star-399-f4b400?style=flat-square)](https://github.com/IBM/mcp) | mcp, clients, tooling | IBM collection of MCP servers, clients, and developer tooling. |
 | AGENT.md | [GitHub](https://github.com/agentmd/agent.md) | [![star](https://img.shields.io/badge/star-89-f4b400?style=flat-square)](https://github.com/agentmd/agent.md) | standard, agent-file, interoperability | Standardized machine-readable file format for agentic coding tools. |
+| DSH Dev Actions | [GitHub](https://github.com/skitse/dsh-dev-actions) | [![star](https://img.shields.io/badge/star-1-f4b400?style=flat-square)](https://github.com/skitse/dsh-dev-actions) | human-in-the-loop, developer-actions, deepseek-harness | DeepSeek Harness plugin that lets the active AI turn repeated shell commands, acceptance prompts, and recurring instructions into visible, user-triggered sidebar actions. |
 
 <a id="evaluation-harnesses-benchmarks"></a>
 ### Evaluation Harnesses & Benchmarks
