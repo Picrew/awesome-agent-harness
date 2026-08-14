@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **350**
-- GitHub entries: **316 (90.3%)**
-- GitHub in project categories (excluding readings): **311/311 (100.0%)**
+- Total entries: **351**
+- GitHub entries: **317 (90.3%)**
+- GitHub in project categories (excluding readings): **312/312 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-08-13**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -52,7 +52,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Category | Entries |
 | --- | ---: |
 | Harness Architecture & Orchestration | 59 |
-| Context & Working-State Engineering | 24 |
+| Context & Working-State Engineering | 25 |
 | Execution Substrates & Sandboxing | 27 |
 | Protocols, Tool Interfaces & Agent Contracts | 41 |
 | Evaluation Harnesses & Benchmarks | 29 |
@@ -162,6 +162,7 @@ Notes:
 | context-space | [GitHub](https://github.com/context-space/context-space) | [![star](https://img.shields.io/badge/star-812-f4b400?style=flat-square)](https://github.com/context-space/context-space) | context, infrastructure, mcp | Infrastructure project focused on context engineering building blocks and MCP-centric integrations. |
 | Memorix | [GitHub](https://github.com/AVIDS2/memorix) | [![star](https://img.shields.io/badge/star-629-f4b400?style=flat-square)](https://github.com/AVIDS2/memorix) | memory, mcp, cross-agent | Local-first cross-agent memory control plane with MCP support, workspace sync, sessions, and orchestration state. |
 | sd0x-dev-flow | [GitHub](https://github.com/sd0xdev/sd0x-dev-flow) | [![star](https://img.shields.io/badge/star-188-f4b400?style=flat-square)](https://github.com/sd0xdev/sd0x-dev-flow) | hooks, state-machine, claude-code | Claude Code harness layer with hook-enforced dual review, durable state-machine gates, context-compaction recovery, and fail-closed safety. |
+| LWC | [GitHub](https://github.com/JanYork/llm-wiki-cli) | [![star](https://img.shields.io/badge/star-31-f4b400?style=flat-square)](https://github.com/JanYork/llm-wiki-cli) | memory, mcp, coding-agents | Agent-driven proactive project-memory CLI with source-grounded durable knowledge, SQLite/FTS5 retrieval, optional document and code graphs, and lifecycle integration across coding-agent hosts. |
 
 <a id="execution-substrates-sandboxing"></a>
 ### Execution Substrates & Sandboxing
