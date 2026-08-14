@@ -4,7 +4,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 
 - Total entries: **350**
 - GitHub entries: **316 (90.3%)**
-- GitHub in project categories (excluding readings): **311/311 (100.0%)**
+- GitHub in project categories (excluding readings): **310/310 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-08-13**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -54,12 +54,12 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Harness Architecture & Orchestration | 59 |
 | Context & Working-State Engineering | 24 |
 | Execution Substrates & Sandboxing | 27 |
-| Protocols, Tool Interfaces & Agent Contracts | 41 |
+| Protocols, Tool Interfaces & Agent Contracts | 40 |
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 20 |
 | Guardrails, Security & Governance | 26 |
 | Reference Harness Implementations | 85 |
-| Essential Readings & Ecosystem Maps | 39 |
+| Essential Readings & Ecosystem Maps | 40 |
 
 ## Catalog
 
@@ -241,7 +241,6 @@ Notes:
 | Microsoft Agent Skills | [GitHub](https://github.com/microsoft/skills) | [![star](https://img.shields.io/badge/star-2886-f4b400?style=flat-square)](https://github.com/microsoft/skills) | skills, mcp, official | Microsoft-maintained skills, custom agents, AGENTS.md templates, and MCP configurations for Azure SDK and Microsoft AI Foundry coding-agent workflows. |
 | Microsoft Learn MCP | [GitHub](https://github.com/MicrosoftDocs/mcp) | [![star](https://img.shields.io/badge/star-1832-f4b400?style=flat-square)](https://github.com/MicrosoftDocs/mcp) | mcp, docs, grounding | MCP server and CLI for grounding agents with Microsoft documentation sources. |
 | IBM MCP | [GitHub](https://github.com/IBM/mcp) | [![star](https://img.shields.io/badge/star-399-f4b400?style=flat-square)](https://github.com/IBM/mcp) | mcp, clients, tooling | IBM collection of MCP servers, clients, and developer tooling. |
-| AGENT.md | [GitHub](https://github.com/agentmd/agent.md) | [![star](https://img.shields.io/badge/star-89-f4b400?style=flat-square)](https://github.com/agentmd/agent.md) | standard, agent-file, interoperability | Standardized machine-readable file format for agentic coding tools. |
 
 <a id="evaluation-harnesses-benchmarks"></a>
 ### Evaluation Harnesses & Benchmarks
@@ -437,6 +436,7 @@ Notes:
 | awesome-agentic-patterns | [GitHub](https://github.com/nibzard/awesome-agentic-patterns) | [![star](https://img.shields.io/badge/star-4875-f4b400?style=flat-square)](https://github.com/nibzard/awesome-agentic-patterns) | awesome-list, patterns, design | Catalog of reusable agentic design patterns and implementation motifs. |
 | awesome-mcp-servers | [GitHub](https://github.com/wong2/awesome-mcp-servers) | [![star](https://img.shields.io/badge/star-4262-f4b400?style=flat-square)](https://github.com/wong2/awesome-mcp-servers) | awesome-list, mcp, tools | Curated MCP server index for tool interoperability in agent systems. |
 | awesome-harness-engineering | [GitHub](https://github.com/walkinglabs/awesome-harness-engineering) | [![star](https://img.shields.io/badge/star-3812-f4b400?style=flat-square)](https://github.com/walkinglabs/awesome-harness-engineering) | awesome-list, curation, harness | Curated list focused on harness engineering articles, benchmarks, and implementations. |
+| DeepSeek Harness Handbook | [GitHub](https://github.com/sandbaseai/deepseek-harness-handbook) | [![star](https://img.shields.io/badge/star-3-f4b400?style=flat-square)](https://github.com/sandbaseai/deepseek-harness-handbook) | deepseek-harness, handbook, agent-runtime | Source-backed, agent-first operating handbook for DeepSeek Harness, covering runtime composition, durable sessions, tool policy, sandbox boundaries, MCP, headless CI, and platform troubleshooting. |
 | 12 Factor Agents | [Reference](https://www.humanlayer.dev/blog/12-factor-agents) | - | reading, operations, principles | Operations-oriented principles for building maintainable production agents. |
 | Agent Frameworks, Runtimes, and Harnesses, oh my! | [Reference](https://blog.langchain.com/agent-frameworks-runtimes-and-harnesses-oh-my/) | - | reading, langchain, architecture | Clear decomposition of framework vs runtime vs harness responsibilities. |
 | An open-source spec for Codex orchestration: Symphony. | [Reference](https://openai.com/index/open-source-codex-orchestration-symphony/) | - | reading, openai, orchestration | OpenAI's orchestration write-up on turning issue trackers into always-on control planes for coding agents. |
