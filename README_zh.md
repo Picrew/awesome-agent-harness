@@ -4,7 +4,7 @@
 
 - 当前条目数: **350**
 - GitHub 条目: **316 (90.3%)**
-- 项目分类 GitHub 占比（不含阅读类）: **311/311 (100.0%)**
+- 项目分类 GitHub 占比（不含阅读类）: **310/310 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-08-13**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -54,12 +54,12 @@
 | Harness Architecture & Orchestration | 59 |
 | Context & Working-State Engineering | 24 |
 | Execution Substrates & Sandboxing | 27 |
-| Protocols, Tool Interfaces & Agent Contracts | 41 |
+| Protocols, Tool Interfaces & Agent Contracts | 40 |
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 20 |
 | Guardrails, Security & Governance | 26 |
 | Reference Harness Implementations | 85 |
-| Essential Readings & Ecosystem Maps | 39 |
+| Essential Readings & Ecosystem Maps | 40 |
 
 ## 项目清单
 
@@ -241,7 +241,6 @@
 | Microsoft Agent Skills | [GitHub](https://github.com/microsoft/skills) | [![star](https://img.shields.io/badge/star-2886-f4b400?style=flat-square)](https://github.com/microsoft/skills) | skills, mcp, official | Microsoft 维护的技能、自定义代理、AGENTS.md 模板与 MCP 配置，用于 Azure SDK 和 Microsoft AI Foundry 编码代理工作流。 |
 | Microsoft Learn MCP | [GitHub](https://github.com/MicrosoftDocs/mcp) | [![star](https://img.shields.io/badge/star-1832-f4b400?style=flat-square)](https://github.com/MicrosoftDocs/mcp) | mcp, docs, grounding | 为代理接入微软文档知识提供的 MCP server 与 CLI。 |
 | IBM MCP | [GitHub](https://github.com/IBM/mcp) | [![star](https://img.shields.io/badge/star-399-f4b400?style=flat-square)](https://github.com/IBM/mcp) | mcp, clients, tooling | IBM 提供的 MCP server、client 与开发工具集合。 |
-| AGENT.md | [GitHub](https://github.com/agentmd/agent.md) | [![star](https://img.shields.io/badge/star-89-f4b400?style=flat-square)](https://github.com/agentmd/agent.md) | standard, agent-file, interoperability | 面向代理编码工具的标准化机器可读文件格式。 |
 
 <a id="evaluation-harnesses-benchmarks"></a>
 ### Evaluation Harnesses & Benchmarks
@@ -437,6 +436,7 @@
 | awesome-agentic-patterns | [GitHub](https://github.com/nibzard/awesome-agentic-patterns) | [![star](https://img.shields.io/badge/star-4875-f4b400?style=flat-square)](https://github.com/nibzard/awesome-agentic-patterns) | awesome-list, patterns, design | 可复用的 agentic 设计模式与实现范式目录。 |
 | awesome-mcp-servers | [GitHub](https://github.com/wong2/awesome-mcp-servers) | [![star](https://img.shields.io/badge/star-4262-f4b400?style=flat-square)](https://github.com/wong2/awesome-mcp-servers) | awesome-list, mcp, tools | MCP server 精选索引，便于代理系统进行工具互操作。 |
 | awesome-harness-engineering | [GitHub](https://github.com/walkinglabs/awesome-harness-engineering) | [![star](https://img.shields.io/badge/star-3812-f4b400?style=flat-square)](https://github.com/walkinglabs/awesome-harness-engineering) | awesome-list, curation, harness | 聚焦 harness engineering 的精选清单，覆盖文章、基准与实现。 |
+| DeepSeek Harness Handbook | [GitHub](https://github.com/sandbaseai/deepseek-harness-handbook) | [![star](https://img.shields.io/badge/star-3-f4b400?style=flat-square)](https://github.com/sandbaseai/deepseek-harness-handbook) | deepseek-harness, handbook, agent-runtime | 面向 DeepSeek Harness 的 Agent 视角实操手册，基于官方来源讲解运行时组合、持久会话、工具策略、沙箱边界、MCP、无头 CI 与跨平台排障。 |
 | 12 Factor Agents | [Reference](https://www.humanlayer.dev/blog/12-factor-agents) | - | reading, operations, principles | 面向生产代理可维护性的运维原则总结。 |
 | Agent Frameworks, Runtimes, and Harnesses, oh my! | [Reference](https://blog.langchain.com/agent-frameworks-runtimes-and-harnesses-oh-my/) | - | reading, langchain, architecture | 清晰拆解 framework、runtime 与 harness 的职责边界。 |
 | An open-source spec for Codex orchestration: Symphony. | [Reference](https://openai.com/index/open-source-codex-orchestration-symphony/) | - | reading, openai, orchestration | OpenAI 对编排层的实践拆解，介绍如何把 issue 跟踪器变成面向编码代理的常驻控制平面。 |

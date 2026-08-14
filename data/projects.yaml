@@ -2168,19 +2168,6 @@ entries:
   updated_at: '2026-07-28'
   license: Apache-2.0
   why_included: Adds vendor-diverse protocol ecosystem coverage.
-- name: AGENT.md
-  repo_url: https://github.com/agentmd/agent.md
-  category: Protocols, Tool Interfaces & Agent Contracts
-  summary_en: Standardized machine-readable file format for agentic coding tools.
-  summary_zh: 面向代理编码工具的标准化机器可读文件格式。
-  tags:
-  - standard
-  - agent-file
-  - interoperability
-  stars_snapshot: 89
-  updated_at: '2025-07-10'
-  license: MIT
-  why_included: Alternative standardization path worth tracking in harness ecosystems.
 - name: Promptfoo
   repo_url: https://github.com/promptfoo/promptfoo
   category: Evaluation Harnesses & Benchmarks
@@ -4952,3 +4939,18 @@ entries:
   updated_at: '2025-01-01'
   license: n/a
   why_included: High-signal practitioner framing for harness-first implementation.
+- name: DeepSeek Harness Handbook
+  repo_url: https://github.com/sandbaseai/deepseek-harness-handbook
+  category: Essential Readings & Ecosystem Maps
+  summary_en: Source-backed, agent-first operating handbook for DeepSeek Harness, covering runtime composition, durable sessions,
+    tool policy, sandbox boundaries, MCP, headless CI, and platform troubleshooting.
+  summary_zh: 面向 DeepSeek Harness 的 Agent 视角实操手册，基于官方来源讲解运行时组合、持久会话、工具策略、沙箱边界、MCP、无头 CI 与跨平台排障。
+  tags:
+  - deepseek-harness
+  - handbook
+  - agent-runtime
+  stars_snapshot: 3
+  updated_at: '2026-08-14'
+  license: Apache-2.0
+  why_included: Practical companion to the official DeepSeek Harness runtime entry, with reproducible workflows, explicit safety
+    boundaries, source links, verification dates, multilingual navigation, and a downloadable field guide.
