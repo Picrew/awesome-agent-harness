@@ -1226,6 +1226,21 @@ entries:
   license: MIT
   why_included: README maps concrete code to harness sub-problems including state-machine gates, lifecycle interceptors, context
     recovery across compaction, tool gating, and review loops.
+- name: LWC
+  repo_url: https://github.com/JanYork/llm-wiki-cli
+  category: Context & Working-State Engineering
+  summary_en: Agent-driven proactive project-memory CLI with source-grounded durable knowledge, SQLite/FTS5 retrieval, optional
+    document and code graphs, and lifecycle integration across coding-agent hosts.
+  summary_zh: Agent 驱动的主动项目记忆 CLI，提供可追溯来源的持久知识、SQLite/FTS5 检索、可选文档图与代码图，以及跨编码代理宿主的生命周期集成。
+  tags:
+  - memory
+  - mcp
+  - coding-agents
+  stars_snapshot: 31
+  updated_at: '2026-08-14'
+  license: Apache-2.0
+  why_included: README documents proactive cross-session recall and maintenance, source provenance, atomic changesets, MCP plus
+    Skill and Hook integration, and explicit support for multiple coding-agent hosts.
 - name: Daytona
   repo_url: https://github.com/daytonaio/daytona
   category: Execution Substrates & Sandboxing
