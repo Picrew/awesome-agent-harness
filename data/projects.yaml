@@ -884,6 +884,22 @@ entries:
   updated_at: '2026-08-10'
   license: Apache-2.0
   why_included: Strong example of a harness runtime built around repairability, rollback, and controlled long-running execution.
+- name: Sudarshan
+  repo_url: https://github.com/Suraj1235/sudarshan-superharness
+  category: Harness Architecture & Orchestration
+  summary_en: Provider-neutral build harness driving one schema-validated action per turn to verification-gated completion,
+    with immutable plans, budget ceilings, and kill-and-resume durable state.
+  summary_zh: 供应商中立的构建 Harness:每轮仅执行一个通过模式校验的动作,直至通过验证门禁完成;具备不可变计划、预算上限与可中断恢复的持久状态。
+  tags:
+  - durable-state
+  - verification
+  - provider-neutral
+  stars_snapshot: 1
+  updated_at: '2026-08-16'
+  license: MIT
+  why_included: 'Implements harness control as engine policy rather than prompts: schema-validated single actions, workspace-confined
+    tools, operator verification the model cannot remove, and atomic checkpoints that resume across processes; exercised over
+    OpenAI-compatible, Anthropic, Gemini, and command-bridge providers.'
 - name: Graphify
   repo_url: https://github.com/safishamsi/graphify
   category: Context & Working-State Engineering
