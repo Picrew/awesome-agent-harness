@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **350**
-- GitHub entries: **316 (90.3%)**
-- GitHub in project categories (excluding readings): **311/311 (100.0%)**
+- Total entries: **351**
+- GitHub entries: **317 (90.3%)**
+- GitHub in project categories (excluding readings): **312/312 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-08-13**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -51,7 +51,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 
 | Category | Entries |
 | --- | ---: |
-| Harness Architecture & Orchestration | 59 |
+| Harness Architecture & Orchestration | 60 |
 | Context & Working-State Engineering | 24 |
 | Execution Substrates & Sandboxing | 27 |
 | Protocols, Tool Interfaces & Agent Contracts | 41 |
@@ -132,6 +132,7 @@ Notes:
 | Water | [GitHub](https://github.com/manthanguptaa/water) | [![star](https://img.shields.io/badge/star-334-f4b400?style=flat-square)](https://github.com/manthanguptaa/water) | python, framework, approval-gates | Python agent harness framework for orchestration, resilience, observability, guardrails, approval gates, sandboxing, and deployment. |
 | OmniCoreAgent | [GitHub](https://github.com/omnirexflora-labs/omnicoreagent) | [![star](https://img.shields.io/badge/star-246-f4b400?style=flat-square)](https://github.com/omnirexflora-labs/omnicoreagent) | python, mcp, serving | Python production harness with model loop, tools, MCP, memory, workspace files, guardrails, events, subagents, background tasks, and REST/SSE serving. |
 | hankweave | [GitHub](https://github.com/SouthBridgeAI/hankweave-runtime) | [![star](https://img.shields.io/badge/star-135-f4b400?style=flat-square)](https://github.com/SouthBridgeAI/hankweave-runtime) | long-horizon, runtime, checkpoints | Headless-first long-horizon runtime that orchestrates existing agent harnesses with sentinels, loops, checkpoints, and event journals. |
+| Sudarshan | [GitHub](https://github.com/Suraj1235/sudarshan-superharness) | [![star](https://img.shields.io/badge/star-1-f4b400?style=flat-square)](https://github.com/Suraj1235/sudarshan-superharness) | durable-state, verification, provider-neutral | Provider-neutral build harness driving one schema-validated action per turn to verification-gated completion, with immutable plans, budget ceilings, and kill-and-resume durable state. |
 
 <a id="context-working-state-engineering"></a>
 ### Context & Working-State Engineering
