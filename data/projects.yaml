@@ -840,6 +840,22 @@ entries:
   updated_at: '2026-08-13'
   license: MIT
   why_included: README explicitly defines Pydantic AI capabilities and hooks as the harness layer for agents.
+- name: SandBase Harness
+  repo_url: https://github.com/sandbaseai/sandbase-harness
+  category: Harness Architecture & Orchestration
+  summary_en: Local-first managed runtime for persistent agent sessions, governed MCP tools, memory, audit trails, and local,
+    Docker, Kubernetes, or worker-queue sandboxes behind a Claude Managed Agents-style API.
+  summary_zh: 本地优先的托管式代理运行时，通过 Claude Managed Agents 风格 API 提供持久会话、受控 MCP 工具、记忆、审计轨迹，
+    以及本地、Docker、Kubernetes 或工作队列沙箱。
+  tags:
+  - managed-runtime
+  - sandbox
+  - mcp
+  stars_snapshot: 621
+  updated_at: '2026-08-19'
+  license: Apache-2.0
+  why_included: README explicitly positions the project as the governed runtime layer around SDK-owned model loops and documents
+    persistent sessions, permission policies, multiple sandbox backends, resumable event streams, and a DeepSeek Harness bridge.
 - name: Water
   repo_url: https://github.com/manthanguptaa/water
   category: Harness Architecture & Orchestration
