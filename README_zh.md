@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **350**
-- GitHub 条目: **316 (90.3%)**
-- 项目分类 GitHub 占比（不含阅读类）: **311/311 (100.0%)**
+- 当前条目数: **351**
+- GitHub 条目: **317 (90.3%)**
+- 项目分类 GitHub 占比（不含阅读类）: **312/312 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-08-13**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -54,7 +54,7 @@
 | Harness Architecture & Orchestration | 59 |
 | Context & Working-State Engineering | 24 |
 | Execution Substrates & Sandboxing | 27 |
-| Protocols, Tool Interfaces & Agent Contracts | 41 |
+| Protocols, Tool Interfaces & Agent Contracts | 42 |
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 20 |
 | Guardrails, Security & Governance | 26 |
@@ -242,6 +242,7 @@
 | Microsoft Learn MCP | [GitHub](https://github.com/MicrosoftDocs/mcp) | [![star](https://img.shields.io/badge/star-1832-f4b400?style=flat-square)](https://github.com/MicrosoftDocs/mcp) | mcp, docs, grounding | 为代理接入微软文档知识提供的 MCP server 与 CLI。 |
 | IBM MCP | [GitHub](https://github.com/IBM/mcp) | [![star](https://img.shields.io/badge/star-399-f4b400?style=flat-square)](https://github.com/IBM/mcp) | mcp, clients, tooling | IBM 提供的 MCP server、client 与开发工具集合。 |
 | AGENT.md | [GitHub](https://github.com/agentmd/agent.md) | [![star](https://img.shields.io/badge/star-89-f4b400?style=flat-square)](https://github.com/agentmd/agent.md) | standard, agent-file, interoperability | 面向代理编码工具的标准化机器可读文件格式。 |
+| DSH Plugin Store | [GitHub](https://github.com/sandbaseai/dsh-plugin-store) | [![star](https://img.shields.io/badge/star-1-f4b400?style=flat-square)](https://github.com/sandbaseai/dsh-plugin-store) | plugins, deepseek-harness, supply-chain | DeepSeek Harness 原生插件市场；本地 Web profile 安装以运行时验证为准入门槛，仅接受 npm package spec，并展示已安装的 Cordis loader 状态。 |
 
 <a id="evaluation-harnesses-benchmarks"></a>
 ### Evaluation Harnesses & Benchmarks

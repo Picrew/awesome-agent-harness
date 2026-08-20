@@ -4952,3 +4952,18 @@ entries:
   updated_at: '2025-01-01'
   license: n/a
   why_included: High-signal practitioner framing for harness-first implementation.
+- name: DSH Plugin Store
+  repo_url: https://github.com/sandbaseai/dsh-plugin-store
+  category: Protocols, Tool Interfaces & Agent Contracts
+  summary_en: Native DeepSeek Harness plugin marketplace that gates local Web-profile installs on runtime verification, admits
+    only npm package specs, and reports installed Cordis loader state.
+  summary_zh: DeepSeek Harness 原生插件市场；本地 Web profile 安装以运行时验证为准入门槛，仅接受 npm package spec，并展示已安装的 Cordis loader 状态。
+  tags:
+  - plugins
+  - deepseek-harness
+  - supply-chain
+  stars_snapshot: 1
+  updated_at: '2026-08-20'
+  license: MIT
+  why_included: Source exposes an inspectable plugin-admission boundary from verified catalog metadata through profile-layer installation
+    and installed-state inventory.
