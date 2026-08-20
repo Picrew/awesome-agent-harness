@@ -3210,6 +3210,22 @@ entries:
   license: NOASSERTION
   why_included: README explicitly frames Tandem as a runtime authority layer below the model, governing tools, memory, approvals,
     tenant-aware state, artifacts, and audit evidence.
+- name: MandateGuard
+  repo_url: https://github.com/ezequiellich44-cmd/MandateGuard
+  category: Guardrails, Security & Governance
+  summary_en: Deterministic, auditable payment policy engine for autonomous AI agents - enforces budgets, allowlists, denylists,
+    rate limits, and signed mandates before any money-moving tool executes, with no LLM in the decision path. Ships as an MCP server.
+  summary_zh: 面向自主 AI 代理的确定性、可审计支付策略引擎 - 在任何涉及资金变动的工具执行前强制执行预算、白名单、黑名单、速率限制和签名指令，决策路径中无 LLM。以 MCP 服务器形式发布。
+  tags:
+  - payments
+  - policy
+  - guardrails
+  - mcp
+  stars_snapshot: 0
+  updated_at: '2026-08-19'
+  license: MIT
+  why_included: README documents a pre-action enforcement layer targeting OWASP LLM08 (Excessive Agency), implementing the
+    enforcement behind Google AP2, Coinbase x402, and ERC-8004 mandates with an append-only SHA-256 audit ledger.
 - name: OpenClaw
   repo_url: https://github.com/openclaw/openclaw
   category: Reference Harness Implementations

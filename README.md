@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **350**
-- GitHub entries: **316 (90.3%)**
-- GitHub in project categories (excluding readings): **311/311 (100.0%)**
+- Total entries: **351**
+- GitHub entries: **317 (90.3%)**
+- GitHub in project categories (excluding readings): **312/312 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-08-13**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -57,7 +57,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Protocols, Tool Interfaces & Agent Contracts | 41 |
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 20 |
-| Guardrails, Security & Governance | 26 |
+| Guardrails, Security & Governance | 27 |
 | Reference Harness Implementations | 85 |
 | Essential Readings & Ecosystem Maps | 39 |
 
@@ -335,6 +335,7 @@ Notes:
 | Sponsio | [GitHub](https://github.com/SponsioLabs/Sponsio) | [![star](https://img.shields.io/badge/star-445-f4b400?style=flat-square)](https://github.com/SponsioLabs/Sponsio) | contracts, runtime-safety, guardrails | Runtime enforcement layer that checks every agent action against deterministic contracts before execution. |
 | DashClaw | [GitHub](https://github.com/ucsandman/DashClaw) | [![star](https://img.shields.io/badge/star-292-f4b400?style=flat-square)](https://github.com/ucsandman/DashClaw) | approvals, policy, audit | Governance layer that intercepts risky agent actions, enforces policy, routes approvals, and records audit-ready decision trails. |
 | Tandem | [GitHub](https://github.com/frumu-ai/tandem) | [![star](https://img.shields.io/badge/star-114-f4b400?style=flat-square)](https://github.com/frumu-ai/tandem) | runtime-authority, approvals, audit | Governed runtime authority layer for agents with scoped execution, tool visibility, permissioned memory, approval gates, and audit trails. |
+| MandateGuard | [GitHub](https://github.com/ezequiellich44-cmd/MandateGuard) | - | payments, policy, guardrails, mcp | Deterministic, auditable payment policy engine for autonomous AI agents - enforces budgets, allowlists, denylists, rate limits, and signed mandates before any money-moving tool executes, with no LLM in the decision path. Ships as an MCP server. |
 
 <a id="reference-harness-implementations"></a>
 ### Reference Harness Implementations
