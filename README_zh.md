@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **358**
-- GitHub 条目: **324 (90.5%)**
-- 项目分类 GitHub 占比（不含阅读类）: **319/319 (100.0%)**
+- 当前条目数: **359**
+- GitHub 条目: **325 (90.5%)**
+- 项目分类 GitHub 占比（不含阅读类）: **320/320 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-08-24**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -54,7 +54,7 @@
 | Harness Architecture & Orchestration | 62 |
 | Context & Working-State Engineering | 27 |
 | Execution Substrates & Sandboxing | 27 |
-| Protocols, Tool Interfaces & Agent Contracts | 42 |
+| Protocols, Tool Interfaces & Agent Contracts | 43 |
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 20 |
 | Guardrails, Security & Governance | 26 |
@@ -248,6 +248,7 @@
 | OpenGAP | [GitHub](https://github.com/open-gitagent/opengap) | [![star](https://img.shields.io/badge/star-2920-f4b400?style=flat-square)](https://github.com/open-gitagent/opengap) | git-native, cli, agent-contract | Git Agent Protocol 的参考 CLI，可将仓库文件组织成可移植的代理 manifest、规则、技能、工作流、工具、记忆、钩子与合规契约。 |
 | Microsoft Learn MCP | [GitHub](https://github.com/MicrosoftDocs/mcp) | [![star](https://img.shields.io/badge/star-1853-f4b400?style=flat-square)](https://github.com/MicrosoftDocs/mcp) | mcp, docs, grounding | 为代理接入微软文档知识提供的 MCP server 与 CLI。 |
 | IBM MCP | [GitHub](https://github.com/IBM/mcp) | [![star](https://img.shields.io/badge/star-401-f4b400?style=flat-square)](https://github.com/IBM/mcp) | mcp, clients, tooling | IBM 提供的 MCP server、client 与开发工具集合。 |
+| Concord MCP | [GitHub](https://github.com/Get-Concord-AI/concord-mcp) | [![star](https://img.shields.io/badge/star-243-f4b400?style=flat-square)](https://github.com/Get-Concord-AI/concord-mcp) | mcp, cross-harness, coordination | 面向编码代理的跨 harness 通信与共享工作状态层，通过 MCP 提供任务认领、冲突检测、持久进度更新、所有权转移与证据化交接。 |
 | AGENT.md | [GitHub](https://github.com/agentmd/agent.md) | [![star](https://img.shields.io/badge/star-89-f4b400?style=flat-square)](https://github.com/agentmd/agent.md) | standard, agent-file, interoperability | 面向代理编码工具的标准化机器可读文件格式。 |
 
 <a id="evaluation-harnesses-benchmarks"></a>
