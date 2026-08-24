@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **358**
-- GitHub entries: **324 (90.5%)**
-- GitHub in project categories (excluding readings): **319/319 (100.0%)**
+- Total entries: **360**
+- GitHub entries: **325 (90.3%)**
+- GitHub in project categories (excluding readings): **320/320 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-08-24**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -51,7 +51,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 
 | Category | Entries |
 | --- | ---: |
-| Harness Architecture & Orchestration | 62 |
+| Harness Architecture & Orchestration | 63 |
 | Context & Working-State Engineering | 27 |
 | Execution Substrates & Sandboxing | 27 |
 | Protocols, Tool Interfaces & Agent Contracts | 42 |
@@ -59,7 +59,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Observability & Reliability Operations | 20 |
 | Guardrails, Security & Governance | 26 |
 | Reference Harness Implementations | 86 |
-| Essential Readings & Ecosystem Maps | 39 |
+| Essential Readings & Ecosystem Maps | 40 |
 
 ## Catalog
 
@@ -135,6 +135,7 @@ Notes:
 | Water | [GitHub](https://github.com/manthanguptaa/water) | [![star](https://img.shields.io/badge/star-334-f4b400?style=flat-square)](https://github.com/manthanguptaa/water) | python, framework, approval-gates | Python agent harness framework for orchestration, resilience, observability, guardrails, approval gates, sandboxing, and deployment. |
 | OmniCoreAgent | [GitHub](https://github.com/omnirexflora-labs/omnicoreagent) | [![star](https://img.shields.io/badge/star-245-f4b400?style=flat-square)](https://github.com/omnirexflora-labs/omnicoreagent) | python, mcp, serving | Python production harness with model loop, tools, MCP, memory, workspace files, guardrails, events, subagents, background tasks, and REST/SSE serving. |
 | hankweave | [GitHub](https://github.com/SouthBridgeAI/hankweave-runtime) | [![star](https://img.shields.io/badge/star-135-f4b400?style=flat-square)](https://github.com/SouthBridgeAI/hankweave-runtime) | long-horizon, runtime, checkpoints | Headless-first long-horizon runtime that orchestrates existing agent harnesses with sentinels, loops, checkpoints, and event journals. |
+| NEEDLE | [GitHub](https://github.com/jedarden/NEEDLE) | [![star](https://img.shields.io/badge/star-17-f4b400?style=flat-square)](https://github.com/jedarden/NEEDLE) | orchestration, multi-agent, state-machine, rust | Headless orchestrator for coding-agent fleets that processes a shared bead queue in deterministic order, dispatches to Claude Code, Codex, OpenCode, or Aider, and routes every outcome through an explicit state machine. |
 
 <a id="context-working-state-engineering"></a>
 ### Context & Working-State Engineering
@@ -468,6 +469,7 @@ Notes:
 | Introducing Agent Executor, Google’s distributed Agent Runtime | [Reference](https://cloud.google.com/blog/products/ai-machine-learning/agent-executor-googles-distributed-agent-runtime/) | - | reading, google, runtime | Google's distributed agent runtime design for durable execution, event-log snapshots, secure isolation, session consistency, reconnection, and trajectory branching. |
 | Making Claude Code more secure and autonomous with sandboxing | [Reference](https://www.anthropic.com/engineering/claude-code-sandboxing) | - | reading, anthropic, sandboxing | How Anthropic uses sandbox boundaries to raise agent autonomy without giving up security controls. |
 | Quantifying infrastructure noise in agentic coding evals | [Reference](https://www.anthropic.com/engineering/infrastructure-noise) | - | reading, anthropic, evaluation | Analysis of how infrastructure choices impact coding-agent benchmark outcomes. |
+| Running a Fleet of Headless Coding Agents | [Reference](https://jedarden.com/guides/workflow/) | - | reading, operations, fleet | Fourteen-section practitioner manual for running headless coding agents end to end — research, one plan file, plan gating, decomposition as concurrency control, atomic claims, fleet deployment, operator's day, failure modes — with its lineage credited. |
 | Running Codex safely at OpenAI | [Reference](https://openai.com/index/running-codex-safely/) | - | reading, openai, governance | OpenAI's operational blueprint for governing Codex with sandbox and approval policies, network controls, managed identity, configuration, telemetry, and audit trails. |
 | Scaling Managed Agents: Decoupling the brain from the hands | [Reference](https://www.anthropic.com/engineering/managed-agents) | - | reading, anthropic, architecture | Anthropic's meta-harness architecture for decoupling session logs, harness loops, and sandboxes in long-horizon agents. |
 | Skill Issue: Harness Engineering for Coding Agents | [Reference](https://www.humanlayer.dev/blog/skill-issue-harness-engineering-for-coding-agents) | - | reading, humanlayer, coding-agents | Practical breakdown of why coding-agent quality depends heavily on harness setup. |

@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **358**
-- GitHub 条目: **324 (90.5%)**
-- 项目分类 GitHub 占比（不含阅读类）: **319/319 (100.0%)**
+- 当前条目数: **360**
+- GitHub 条目: **325 (90.3%)**
+- 项目分类 GitHub 占比（不含阅读类）: **320/320 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-08-24**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -51,7 +51,7 @@
 
 | 分类 | 条目数 |
 | --- | ---: |
-| Harness Architecture & Orchestration | 62 |
+| Harness Architecture & Orchestration | 63 |
 | Context & Working-State Engineering | 27 |
 | Execution Substrates & Sandboxing | 27 |
 | Protocols, Tool Interfaces & Agent Contracts | 42 |
@@ -59,7 +59,7 @@
 | Observability & Reliability Operations | 20 |
 | Guardrails, Security & Governance | 26 |
 | Reference Harness Implementations | 86 |
-| Essential Readings & Ecosystem Maps | 39 |
+| Essential Readings & Ecosystem Maps | 40 |
 
 ## 项目清单
 
@@ -135,6 +135,7 @@
 | Water | [GitHub](https://github.com/manthanguptaa/water) | [![star](https://img.shields.io/badge/star-334-f4b400?style=flat-square)](https://github.com/manthanguptaa/water) | python, framework, approval-gates | Python agent harness 框架，覆盖编排、韧性、可观测性、护栏、审批门禁、沙箱与部署。 |
 | OmniCoreAgent | [GitHub](https://github.com/omnirexflora-labs/omnicoreagent) | [![star](https://img.shields.io/badge/star-245-f4b400?style=flat-square)](https://github.com/omnirexflora-labs/omnicoreagent) | python, mcp, serving | Python 生产级 harness，包含模型循环、工具、MCP、记忆、工作区文件、护栏、事件、子代理、后台任务与 REST/SSE 服务。 |
 | hankweave | [GitHub](https://github.com/SouthBridgeAI/hankweave-runtime) | [![star](https://img.shields.io/badge/star-135-f4b400?style=flat-square)](https://github.com/SouthBridgeAI/hankweave-runtime) | long-horizon, runtime, checkpoints | 面向长任务的无界面运行时，可编排现有 agent harness，并提供 sentinels、循环、检查点与事件日志。 |
+| NEEDLE | [GitHub](https://github.com/jedarden/NEEDLE) | [![star](https://img.shields.io/badge/star-17-f4b400?style=flat-square)](https://github.com/jedarden/NEEDLE) | orchestration, multi-agent, state-machine, rust | 面向编码代理集群的无头编排器：按确定性顺序处理共享任务队列（bead），分发到 Claude Code、Codex、OpenCode 或 Aider，并通过显式状态机处理每一种结果。 |
 
 <a id="context-working-state-engineering"></a>
 ### Context & Working-State Engineering
@@ -468,6 +469,7 @@
 | Introducing Agent Executor, Google’s distributed Agent Runtime | [Reference](https://cloud.google.com/blog/products/ai-machine-learning/agent-executor-googles-distributed-agent-runtime/) | - | reading, google, runtime | Google 分布式 agent runtime 的工程设计，覆盖耐久执行、事件日志快照、安全隔离、会话一致性、断线恢复与轨迹分支。 |
 | Making Claude Code more secure and autonomous with sandboxing | [Reference](https://www.anthropic.com/engineering/claude-code-sandboxing) | - | reading, anthropic, sandboxing | 讲解 Anthropic 如何借助沙箱边界在不放松安全控制的前提下提升代理自治性。 |
 | Quantifying infrastructure noise in agentic coding evals | [Reference](https://www.anthropic.com/engineering/infrastructure-noise) | - | reading, anthropic, evaluation | 分析基础设施选择如何显著影响编码代理基准结果。 |
+| Running a Fleet of Headless Coding Agents | [Reference](https://jedarden.com/guides/workflow/) | - | reading, operations, fleet | 运行无头编码代理集群的十四节实践手册：研究、单一计划文件、计划门禁、拆分即并发控制、原子认领、集群部署、运维日常与故障模式，并注明方法来源。 |
 | Running Codex safely at OpenAI | [Reference](https://openai.com/index/running-codex-safely/) | - | reading, openai, governance | OpenAI 在内部治理 Codex 的运维蓝图，涵盖沙箱与审批策略、网络控制、托管身份与配置、遥测和审计轨迹。 |
 | Scaling Managed Agents: Decoupling the brain from the hands | [Reference](https://www.anthropic.com/engineering/managed-agents) | - | reading, anthropic, architecture | Anthropic 提出的 meta-harness 架构，将长任务代理中的 session 日志、harness 循环与 sandbox 解耦。 |
 | Skill Issue: Harness Engineering for Coding Agents | [Reference](https://www.humanlayer.dev/blog/skill-issue-harness-engineering-for-coding-agents) | - | reading, humanlayer, coding-agents | 实践向拆解：编码代理效果很大程度取决于 harness 的工程配置。 |

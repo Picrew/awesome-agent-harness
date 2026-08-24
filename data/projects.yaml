@@ -5073,3 +5073,36 @@ entries:
   updated_at: '2025-01-01'
   license: n/a
   why_included: High-signal practitioner framing for harness-first implementation.
+- name: NEEDLE
+  repo_url: https://github.com/jedarden/NEEDLE
+  category: Harness Architecture & Orchestration
+  summary_en: Headless orchestrator for coding-agent fleets that processes a shared bead queue in deterministic
+    order, dispatches to Claude Code, Codex, OpenCode, or Aider, and routes every outcome through an explicit
+    state machine.
+  summary_zh: 面向编码代理集群的无头编排器：按确定性顺序处理共享任务队列（bead），分发到 Claude Code、Codex、OpenCode 或 Aider，并通过显式状态机处理每一种结果。
+  tags:
+  - orchestration
+  - multi-agent
+  - state-machine
+  - rust
+  stars_snapshot: 17
+  updated_at: '2026-08-24'
+  license: MIT
+  why_included: Treats outcome handling (success, failure, timeout, escalation) as an explicit state machine and
+    does all coordination at decomposition time rather than through an inter-agent channel.
+- name: Running a Fleet of Headless Coding Agents
+  repo_url: https://jedarden.com/guides/workflow/
+  category: Essential Readings & Ecosystem Maps
+  summary_en: Fourteen-section practitioner manual for running headless coding agents end to end — research, one
+    plan file, plan gating, decomposition as concurrency control, atomic claims, fleet deployment, operator's day,
+    failure modes — with its lineage credited.
+  summary_zh: 运行无头编码代理集群的十四节实践手册：研究、单一计划文件、计划门禁、拆分即并发控制、原子认领、集群部署、运维日常与故障模式，并注明方法来源。
+  tags:
+  - reading
+  - operations
+  - fleet
+  stars_snapshot: 0
+  updated_at: '2026-08-24'
+  license: n/a
+  why_included: Documents the operational discipline (design-time file partition, atomic claims, commit tripwire)
+    that separates a few agents from an unattended fleet.
