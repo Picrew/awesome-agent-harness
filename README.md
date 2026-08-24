@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **358**
-- GitHub entries: **324 (90.5%)**
-- GitHub in project categories (excluding readings): **319/319 (100.0%)**
+- Total entries: **359**
+- GitHub entries: **325 (90.5%)**
+- GitHub in project categories (excluding readings): **320/320 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-08-24**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -54,7 +54,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Harness Architecture & Orchestration | 62 |
 | Context & Working-State Engineering | 27 |
 | Execution Substrates & Sandboxing | 27 |
-| Protocols, Tool Interfaces & Agent Contracts | 42 |
+| Protocols, Tool Interfaces & Agent Contracts | 43 |
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 20 |
 | Guardrails, Security & Governance | 26 |
@@ -248,6 +248,7 @@ Notes:
 | OpenGAP | [GitHub](https://github.com/open-gitagent/opengap) | [![star](https://img.shields.io/badge/star-2920-f4b400?style=flat-square)](https://github.com/open-gitagent/opengap) | git-native, cli, agent-contract | Reference CLI for the Git Agent Protocol, turning repository files into portable agent manifests, rules, skills, workflows, tools, memory, hooks, and compliance contracts. |
 | Microsoft Learn MCP | [GitHub](https://github.com/MicrosoftDocs/mcp) | [![star](https://img.shields.io/badge/star-1853-f4b400?style=flat-square)](https://github.com/MicrosoftDocs/mcp) | mcp, docs, grounding | MCP server and CLI for grounding agents with Microsoft documentation sources. |
 | IBM MCP | [GitHub](https://github.com/IBM/mcp) | [![star](https://img.shields.io/badge/star-401-f4b400?style=flat-square)](https://github.com/IBM/mcp) | mcp, clients, tooling | IBM collection of MCP servers, clients, and developer tooling. |
+| Concord MCP | [GitHub](https://github.com/Get-Concord-AI/concord-mcp) | [![star](https://img.shields.io/badge/star-243-f4b400?style=flat-square)](https://github.com/Get-Concord-AI/concord-mcp) | mcp, cross-harness, coordination | Cross-harness communication and shared work-state layer for coding agents, with work claims, overlap detection, durable updates, ownership transfer, and evidence-bearing handoffs through MCP. |
 | AGENT.md | [GitHub](https://github.com/agentmd/agent.md) | [![star](https://img.shields.io/badge/star-89-f4b400?style=flat-square)](https://github.com/agentmd/agent.md) | standard, agent-file, interoperability | Standardized machine-readable file format for agentic coding tools. |
 
 <a id="evaluation-harnesses-benchmarks"></a>

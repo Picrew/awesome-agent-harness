@@ -2273,6 +2273,21 @@ entries:
   updated_at: '2026-07-28'
   license: Apache-2.0
   why_included: Adds vendor-diverse protocol ecosystem coverage.
+- name: Concord MCP
+  repo_url: https://github.com/Get-Concord-AI/concord-mcp
+  category: Protocols, Tool Interfaces & Agent Contracts
+  summary_en: Cross-harness communication and shared work-state layer for coding agents, with work claims, overlap detection,
+    durable updates, ownership transfer, and evidence-bearing handoffs through MCP.
+  summary_zh: 面向编码代理的跨 harness 通信与共享工作状态层，通过 MCP 提供任务认领、冲突检测、持久进度更新、所有权转移与证据化交接。
+  tags:
+  - mcp
+  - cross-harness
+  - coordination
+  stars_snapshot: 243
+  updated_at: '2026-08-24'
+  license: MIT
+  why_included: README and implementation document a small, inspectable coordination protocol spanning Claude Code, Codex,
+    Gemini CLI, OpenCode, and other MCP-capable coding-agent harnesses without replacing their runtimes.
 - name: AGENT.md
   repo_url: https://github.com/agentmd/agent.md
   category: Protocols, Tool Interfaces & Agent Contracts
