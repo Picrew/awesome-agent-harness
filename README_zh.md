@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **358**
-- GitHub 条目: **324 (90.5%)**
-- 项目分类 GitHub 占比（不含阅读类）: **319/319 (100.0%)**
+- 当前条目数: **359**
+- GitHub 条目: **325 (90.5%)**
+- 项目分类 GitHub 占比（不含阅读类）: **320/320 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-08-24**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -57,7 +57,7 @@
 | Protocols, Tool Interfaces & Agent Contracts | 42 |
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 20 |
-| Guardrails, Security & Governance | 26 |
+| Guardrails, Security & Governance | 27 |
 | Reference Harness Implementations | 86 |
 | Essential Readings & Ecosystem Maps | 39 |
 
@@ -323,6 +323,7 @@
 | Portkey Gateway | [GitHub](https://github.com/Portkey-AI/gateway) | [![star](https://img.shields.io/badge/star-12806-f4b400?style=flat-square)](https://github.com/Portkey-AI/gateway) | gateway, guardrails, routing | 支持多模型路由与护栏控制的 AI 网关。 |
 | CAI (Cybersecurity AI) | [GitHub](https://github.com/aliasrobotics/cai) | [![star](https://img.shields.io/badge/star-9797-f4b400?style=flat-square)](https://github.com/aliasrobotics/cai) | security, governance, framework | 面向攻防场景的安全型代理框架。 |
 | Higress | [GitHub](https://github.com/higress-group/higress) | [![star](https://img.shields.io/badge/star-9165-f4b400?style=flat-square)](https://github.com/higress-group/higress) | ai-gateway, mcp, governance | CNCF AI-native gateway，用于统一管理 LLM API 与 MCP API，支持托管远程 MCP server，并为代理工具访问提供网关控制。 |
+| Bifrost | [GitHub](https://github.com/maximhq/bifrost) | [![star](https://img.shields.io/badge/star-7554-f4b400?style=flat-square)](https://github.com/maximhq/bifrost) | gateway, proxy, routing, governance | 面向生产 AI 应用的高性能 Go AI 网关，提供兼容 OpenAI 的 API、多供应商路由、自动故障转移与治理能力。 |
 | Plano | [GitHub](https://github.com/katanemo/plano) | [![star](https://img.shields.io/badge/star-7015-f4b400?style=flat-square)](https://github.com/katanemo/plano) | proxy, safety, data-plane | 内置编排、安全与可观测性的 AI 原生代理与数据平面。 |
 | OpenAI Realtime Agents | [GitHub](https://github.com/openai/openai-realtime-agents) | [![star](https://img.shields.io/badge/star-6966-f4b400?style=flat-square)](https://github.com/openai/openai-realtime-agents) | realtime, orchestration, control | 展示高级实时代理模式，强调结构化控制与交互回路。 |
 | OpenAI CS Agents Demo | [GitHub](https://github.com/openai/openai-cs-agents-demo) | [![star](https://img.shields.io/badge/star-6557-f4b400?style=flat-square)](https://github.com/openai/openai-cs-agents-demo) | demo, handoffs, governance | 客服多代理示例，展示交接流程与类似护栏的控制节点。 |

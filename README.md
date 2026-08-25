@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **358**
-- GitHub entries: **324 (90.5%)**
-- GitHub in project categories (excluding readings): **319/319 (100.0%)**
+- Total entries: **359**
+- GitHub entries: **325 (90.5%)**
+- GitHub in project categories (excluding readings): **320/320 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-08-24**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -57,7 +57,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Protocols, Tool Interfaces & Agent Contracts | 42 |
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 20 |
-| Guardrails, Security & Governance | 26 |
+| Guardrails, Security & Governance | 27 |
 | Reference Harness Implementations | 86 |
 | Essential Readings & Ecosystem Maps | 39 |
 
@@ -323,6 +323,7 @@ Notes:
 | Portkey Gateway | [GitHub](https://github.com/Portkey-AI/gateway) | [![star](https://img.shields.io/badge/star-12806-f4b400?style=flat-square)](https://github.com/Portkey-AI/gateway) | gateway, guardrails, routing | AI gateway with routing and guardrails for multi-model production traffic. |
 | CAI (Cybersecurity AI) | [GitHub](https://github.com/aliasrobotics/cai) | [![star](https://img.shields.io/badge/star-9797-f4b400?style=flat-square)](https://github.com/aliasrobotics/cai) | security, governance, framework | Security-focused agent framework for offensive/defensive AI workflows. |
 | Higress | [GitHub](https://github.com/higress-group/higress) | [![star](https://img.shields.io/badge/star-9165-f4b400?style=flat-square)](https://github.com/higress-group/higress) | ai-gateway, mcp, governance | CNCF AI-native gateway for unified LLM API and MCP API management, including hosted remote MCP servers and gateway controls for agent tool access. |
+| Bifrost | [GitHub](https://github.com/maximhq/bifrost) | [![star](https://img.shields.io/badge/star-7554-f4b400?style=flat-square)](https://github.com/maximhq/bifrost) | gateway, proxy, routing, governance | High-performance Go AI gateway with an OpenAI-compatible API, multi-provider routing, automatic failover, and governance. |
 | Plano | [GitHub](https://github.com/katanemo/plano) | [![star](https://img.shields.io/badge/star-7015-f4b400?style=flat-square)](https://github.com/katanemo/plano) | proxy, safety, data-plane | AI-native proxy and data plane with orchestration, safety, and observability. |
 | OpenAI Realtime Agents | [GitHub](https://github.com/openai/openai-realtime-agents) | [![star](https://img.shields.io/badge/star-6966-f4b400?style=flat-square)](https://github.com/openai/openai-realtime-agents) | realtime, orchestration, control | Advanced agentic realtime patterns with structured control and interaction loops. |
 | OpenAI CS Agents Demo | [GitHub](https://github.com/openai/openai-cs-agents-demo) | [![star](https://img.shields.io/badge/star-6557-f4b400?style=flat-square)](https://github.com/openai/openai-cs-agents-demo) | demo, handoffs, governance | Customer-service multi-agent demo highlighting handoffs and guardrail-like control points. |

@@ -3019,6 +3019,20 @@ entries:
   updated_at: '2026-05-25'
   license: MIT
   why_included: Centralized policy and routing control for harness governance.
+- name: Bifrost
+  repo_url: https://github.com/maximhq/bifrost
+  category: Guardrails, Security & Governance
+  summary_en: High-performance Go AI gateway with an OpenAI-compatible API, multi-provider routing, automatic failover, and governance.
+  summary_zh: 面向生产 AI 应用的高性能 Go AI 网关，提供兼容 OpenAI 的 API、多供应商路由、自动故障转移与治理能力。
+  tags:
+  - gateway
+  - proxy
+  - routing
+  - governance
+  stars_snapshot: 7554
+  updated_at: '2026-08-25'
+  license: Apache-2.0
+  why_included: Self-hosted gateway with routing, failover, load balancing, MCP support, budgets, guardrails, and observability for production agent traffic.
 - name: CAI (Cybersecurity AI)
   repo_url: https://github.com/aliasrobotics/cai
   category: Guardrails, Security & Governance
