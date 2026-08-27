@@ -4548,19 +4548,20 @@ entries:
 - name: Remote Agent Server
   repo_url: https://github.com/ma-pony/remote-agent-server
   category: Reference Harness Implementations
-  summary_en: Self-hosted ACP execution service for Codex and Claude Code with isolated workspaces, persistent sessions, asynchronous
-    task APIs, per-agent MCP and Skills configuration, and concurrency controls.
-  summary_zh: 面向 Codex 与 Claude Code 的自托管 ACP 执行服务，提供隔离工作区、持久会话、异步任务 API、按 Agent 管理的 MCP 与 Skills，以及并发控制。
+  summary_en: Self-hosted ACP agent execution gateway for external systems that runs Codex and Claude Code through asynchronous
+    task APIs, with isolated workspaces, persistent sessions, per-agent MCP and Skills, durable events, SSE, signed Webhooks,
+    and concurrency controls.
+  summary_zh: 面向外部业务系统的自托管 ACP Agent 执行网关，通过异步任务 API 运行 Codex 与 Claude Code，并提供隔离工作区、持久会话、按 Agent 管理的 MCP 与 Skills、持久事件、SSE、签名 Webhook 和并发控制。
   tags:
   - acp
   - coding-agents
   - self-hosted
   stars_snapshot: 1
   updated_at: '2026-08-27'
-  license: none
-  why_included: README documents an end-to-end control plane that connects existing coding-agent CLIs through ACP to a Web
-    UI and HTTP task API, with copy-on-write workspaces, resumable sessions, run history, MCP tool filtering, and bounded
-    concurrency.
+  license: MIT
+  why_included: README documents an API-first execution gateway that connects existing coding-agent CLIs through ACP to external
+    systems, with copy-on-write workspaces, resumable sessions, durable event history, MCP tool filtering, SSE, signed Webhooks,
+    and bounded concurrency.
 - name: awesome-claude-code
   repo_url: https://github.com/hesreallyhim/awesome-claude-code
   category: Essential Readings & Ecosystem Maps

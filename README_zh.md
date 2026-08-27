@@ -434,7 +434,7 @@
 | Dexto | [GitHub](https://github.com/truffle-ai/dexto) | [![star](https://img.shields.io/badge/star-649-f4b400?style=flat-square)](https://github.com/truffle-ai/dexto) | coding-agent, sessions, mcp | 面向 AI 应用的开放 agent harness，提供 YAML 配置、有状态会话、工具编排、记忆、可观测性、权限与子代理。 |
 | OpenClaw.NET | [GitHub](https://github.com/clawdotnet/openclaw.net) | [![star](https://img.shields.io/badge/star-487-f4b400?style=flat-square)](https://github.com/clawdotnet/openclaw.net) | dotnet, gateway, governance | NativeAOT 友好的 .NET 代理运行时与网关，提供工具、记忆、MCP、治理账本、证据包与 harness 回归测试。 |
 | Utah | [GitHub](https://github.com/inngest/utah) | [![star](https://img.shields.io/badge/star-135-f4b400?style=flat-square)](https://github.com/inngest/utah) | durable-execution, event-driven, multi-channel | 基于 Inngest 的持久代理 harness，提供思考-行动-观察循环、步骤级重试、单例并发、取消与多通道适配。 |
-| Remote Agent Server | [GitHub](https://github.com/ma-pony/remote-agent-server) | [![star](https://img.shields.io/badge/star-1-f4b400?style=flat-square)](https://github.com/ma-pony/remote-agent-server) | acp, coding-agents, self-hosted | 面向 Codex 与 Claude Code 的自托管 ACP 执行服务，提供隔离工作区、持久会话、异步任务 API、按 Agent 管理的 MCP 与 Skills，以及并发控制。 |
+| Remote Agent Server | [GitHub](https://github.com/ma-pony/remote-agent-server) | [![star](https://img.shields.io/badge/star-1-f4b400?style=flat-square)](https://github.com/ma-pony/remote-agent-server) | acp, coding-agents, self-hosted | 面向外部业务系统的自托管 ACP Agent 执行网关，通过异步任务 API 运行 Codex 与 Claude Code，并提供隔离工作区、持久会话、按 Agent 管理的 MCP 与 Skills、持久事件、SSE、签名 Webhook 和并发控制。 |
 
 <a id="essential-readings-ecosystem-maps"></a>
 ### Essential Readings & Ecosystem Maps
