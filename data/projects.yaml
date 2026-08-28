@@ -4612,6 +4612,19 @@ entries:
   updated_at: '2026-08-19'
   license: NOASSERTION
   why_included: Directly related sibling list and high-quality seed source.
+- name: DeepSeek Harness Handbook
+  repo_url: https://github.com/sandbaseai/deepseek-harness-handbook
+  category: Essential Readings & Ecosystem Maps
+  summary_en: English-canonical, multilingual field guide for operating and extending DeepSeek Harness with source-backed Agent runtime maps, plugin contracts, MCP, sandboxing, evaluation, and troubleshooting.
+  summary_zh: 以英文为主、面向多语言的 DeepSeek Harness 实战手册，提供有源码依据的 Agent 运行时图谱、插件契约、MCP、沙箱、评测与故障排查。
+  tags:
+  - handbook
+  - deepseek-harness
+  - agent-runtime
+  stars_snapshot: 74
+  updated_at: '2026-08-28'
+  license: MIT
+  why_included: Community-maintained handbook with 153 canonical English guides and 162 localized documents, linking each operational claim to an upstream source revision and an acceptance or recovery path.
 - name: 12 Factor Agents
   repo_url: https://www.humanlayer.dev/blog/12-factor-agents
   category: Essential Readings & Ecosystem Maps
