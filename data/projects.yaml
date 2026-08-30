@@ -929,6 +929,19 @@ entries:
   updated_at: '2026-08-18'
   license: Apache-2.0
   why_included: Strong example of a harness runtime built around repairability, rollback, and controlled long-running execution.
+- name: Agentlas OS
+  repo_url: https://github.com/agentlas-ai/Agentlas-OS
+  category: Harness Architecture & Orchestration
+  summary_en: Local-first agent operation environment that builds portable agent and team packages and routes them across supported coding hosts with governed memory, policy gates, MCP/A2A boundaries, and verification receipts.
+  summary_zh: 本地优先的代理操作环境，可构建可移植的代理与团队包，并跨受支持的编码主机进行路由，同时提供受治理的记忆、策略门禁、MCP/A2A 边界与验证回执。
+  tags:
+  - agent-os
+  - cross-harness
+  - governance
+  stars_snapshot: 1115
+  updated_at: '2026-08-28'
+  license: Apache-2.0
+  why_included: The README documents portable agent and team packages, multi-runtime adapters, governed memory, policy gates, browser execution, MCP/A2A contracts, and auditable routing and verification receipts.
 - name: Graphify
   repo_url: https://github.com/Graphify-Labs/graphify
   category: Context & Working-State Engineering
@@ -2273,19 +2286,6 @@ entries:
   updated_at: '2026-07-28'
   license: Apache-2.0
   why_included: Adds vendor-diverse protocol ecosystem coverage.
-- name: AGENT.md
-  repo_url: https://github.com/agentmd/agent.md
-  category: Protocols, Tool Interfaces & Agent Contracts
-  summary_en: Standardized machine-readable file format for agentic coding tools.
-  summary_zh: 面向代理编码工具的标准化机器可读文件格式。
-  tags:
-  - standard
-  - agent-file
-  - interoperability
-  stars_snapshot: 89
-  updated_at: '2025-07-10'
-  license: MIT
-  why_included: Alternative standardization path worth tracking in harness ecosystems.
 - name: Promptfoo
   repo_url: https://github.com/promptfoo/promptfoo
   category: Evaluation Harnesses & Benchmarks
@@ -2881,19 +2881,6 @@ entries:
   license: Apache-2.0
   why_included: README documents OTel-native tracing for Claude Code, Cursor, and Codex sessions, prompts, tool calls, file
     edits, subagent spawns, costs, evaluations, guardrails, and framework integrations.
-- name: claude-code-reverse
-  repo_url: https://github.com/Yuyz0112/claude-code-reverse
-  category: Observability & Reliability Operations
-  summary_en: Tooling to visualize and inspect Claude Code LLM interaction traces.
-  summary_zh: 可视化并分析 Claude Code 大模型交互链路的工具。
-  tags:
-  - trace
-  - visualization
-  - debugging
-  stars_snapshot: 2427
-  updated_at: '2025-08-26'
-  license: none
-  why_included: Useful lightweight approach for harness behavior introspection.
 - name: Future AGI
   repo_url: https://github.com/future-agi/future-agi
   category: Observability & Reliability Operations
