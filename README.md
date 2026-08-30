@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **358**
-- GitHub entries: **324 (90.5%)**
-- GitHub in project categories (excluding readings): **319/319 (100.0%)**
+- Total entries: **359**
+- GitHub entries: **325 (90.5%)**
+- GitHub in project categories (excluding readings): **320/320 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-08-24**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -53,7 +53,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | --- | ---: |
 | Harness Architecture & Orchestration | 62 |
 | Context & Working-State Engineering | 27 |
-| Execution Substrates & Sandboxing | 27 |
+| Execution Substrates & Sandboxing | 28 |
 | Protocols, Tool Interfaces & Agent Contracts | 42 |
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 20 |
@@ -195,6 +195,7 @@ Notes:
 | AgentBay SDK | [GitHub](https://github.com/agentbay-ai/wuying-agentbay-sdk) | [![star](https://img.shields.io/badge/star-1148-f4b400?style=flat-square)](https://github.com/agentbay-ai/wuying-agentbay-sdk) | cloud-sandbox, computer-use, sdk | Cloud sandbox SDK for agents spanning browser, desktop, mobile, and code execution environments. |
 | Tensorlake | [GitHub](https://github.com/tensorlakeai/tensorlake) | [![star](https://img.shields.io/badge/star-993-f4b400?style=flat-square)](https://github.com/tensorlakeai/tensorlake) | microvm, sandbox, orchestration | Serverless runtime for agent sandboxes with MicroVM isolation, snapshots, suspend-resume, and background orchestration. |
 | AgentScope Runtime | [GitHub](https://github.com/agentscope-ai/agentscope-runtime) | [![star](https://img.shields.io/badge/star-857-f4b400?style=flat-square)](https://github.com/agentscope-ai/agentscope-runtime) | runtime, sandbox, deployment | Production runtime for agent apps with secure tool sandboxes, deployment APIs, observability, and state services. |
+| SandBase Harness | [GitHub](https://github.com/sandbaseai/sandbase-harness) | [![star](https://img.shields.io/badge/star-638-f4b400?style=flat-square)](https://github.com/sandbaseai/sandbase-harness) | typescript, runtime, sandbox, mcp, audit | Local-first TypeScript agent runtime with sandboxed sessions, MCP tools, credentials, approval policies, audit logs, and replay. |
 | SWE-ReX | [GitHub](https://github.com/SWE-agent/SWE-ReX) | [![star](https://img.shields.io/badge/star-577-f4b400?style=flat-square)](https://github.com/SWE-agent/SWE-ReX) | sandbox, execution, coding-agent | Sandboxed execution infrastructure for AI coding agents at local and cloud scale. |
 | sandboxed.sh | [GitHub](https://github.com/Th0rgal/sandboxed.sh) | [![star](https://img.shields.io/badge/star-490-f4b400?style=flat-square)](https://github.com/Th0rgal/sandboxed.sh) | self-hosted, isolation, orchestrator | Self-hosted orchestrator running coding agents inside isolated Linux workspaces. |
 | Capsule | [GitHub](https://github.com/capsulerun/capsule) | [![star](https://img.shields.io/badge/star-294-f4b400?style=flat-square)](https://github.com/capsulerun/capsule) | wasm, sandbox, task-runtime | Durable runtime that coordinates agent tasks inside isolated WebAssembly sandboxes with retries and lifecycle tracking. |

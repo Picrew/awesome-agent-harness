@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **358**
-- GitHub 条目: **324 (90.5%)**
-- 项目分类 GitHub 占比（不含阅读类）: **319/319 (100.0%)**
+- 当前条目数: **359**
+- GitHub 条目: **325 (90.5%)**
+- 项目分类 GitHub 占比（不含阅读类）: **320/320 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-08-24**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -53,7 +53,7 @@
 | --- | ---: |
 | Harness Architecture & Orchestration | 62 |
 | Context & Working-State Engineering | 27 |
-| Execution Substrates & Sandboxing | 27 |
+| Execution Substrates & Sandboxing | 28 |
 | Protocols, Tool Interfaces & Agent Contracts | 42 |
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 20 |
@@ -195,6 +195,7 @@
 | AgentBay SDK | [GitHub](https://github.com/agentbay-ai/wuying-agentbay-sdk) | [![star](https://img.shields.io/badge/star-1148-f4b400?style=flat-square)](https://github.com/agentbay-ai/wuying-agentbay-sdk) | cloud-sandbox, computer-use, sdk | 面向代理的云沙箱 SDK，覆盖浏览器、桌面、移动端与代码执行环境。 |
 | Tensorlake | [GitHub](https://github.com/tensorlakeai/tensorlake) | [![star](https://img.shields.io/badge/star-993-f4b400?style=flat-square)](https://github.com/tensorlakeai/tensorlake) | microvm, sandbox, orchestration | 面向 agent 沙箱的无服务器运行时，提供 MicroVM 隔离、快照、挂起恢复与后台编排能力。 |
 | AgentScope Runtime | [GitHub](https://github.com/agentscope-ai/agentscope-runtime) | [![star](https://img.shields.io/badge/star-857-f4b400?style=flat-square)](https://github.com/agentscope-ai/agentscope-runtime) | runtime, sandbox, deployment | 面向代理应用的生产运行时，提供安全工具沙箱、部署 API、可观测能力与状态服务。 |
+| SandBase Harness | [GitHub](https://github.com/sandbaseai/sandbase-harness) | [![star](https://img.shields.io/badge/star-638-f4b400?style=flat-square)](https://github.com/sandbaseai/sandbase-harness) | typescript, runtime, sandbox, mcp, audit | 本地优先的 TypeScript agent runtime，提供沙箱会话、MCP 工具、凭据、审批策略、审计日志与回放。 |
 | SWE-ReX | [GitHub](https://github.com/SWE-agent/SWE-ReX) | [![star](https://img.shields.io/badge/star-577-f4b400?style=flat-square)](https://github.com/SWE-agent/SWE-ReX) | sandbox, execution, coding-agent | 面向 AI 编码代理的沙箱执行基础设施，支持本地与云端扩展。 |
 | sandboxed.sh | [GitHub](https://github.com/Th0rgal/sandboxed.sh) | [![star](https://img.shields.io/badge/star-490-f4b400?style=flat-square)](https://github.com/Th0rgal/sandboxed.sh) | self-hosted, isolation, orchestrator | 在隔离 Linux 工作区中运行编码代理的自托管编排器。 |
 | Capsule | [GitHub](https://github.com/capsulerun/capsule) | [![star](https://img.shields.io/badge/star-294-f4b400?style=flat-square)](https://github.com/capsulerun/capsule) | wasm, sandbox, task-runtime | 在隔离 WebAssembly 沙箱中协调 agent 任务的耐久运行时，提供重试与生命周期跟踪。 |
