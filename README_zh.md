@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **358**
-- GitHub 条目: **324 (90.5%)**
-- 项目分类 GitHub 占比（不含阅读类）: **319/319 (100.0%)**
+- 当前条目数: **359**
+- GitHub 条目: **325 (90.5%)**
+- 项目分类 GitHub 占比（不含阅读类）: **320/320 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-08-24**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -58,7 +58,7 @@
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 20 |
 | Guardrails, Security & Governance | 26 |
-| Reference Harness Implementations | 86 |
+| Reference Harness Implementations | 87 |
 | Essential Readings & Ecosystem Maps | 39 |
 
 ## 项目清单
@@ -432,6 +432,7 @@
 | CUGA | [GitHub](https://github.com/cuga-project/cuga-agent) | [![star](https://img.shields.io/badge/star-869-f4b400?style=flat-square)](https://github.com/cuga-project/cuga-agent) | enterprise, policies, mcp | 企业级通用代理 harness，集成 MCP/OpenAPI 工具、策略控制、人工审批、记忆、技能与 API/浏览器混合执行。 |
 | CheetahClaws | [GitHub](https://github.com/SafeRL-Lab/cheetahclaws) | [![star](https://img.shields.io/badge/star-768-f4b400?style=flat-square)](https://github.com/SafeRL-Lab/cheetahclaws) | coding-agent, python, mcp | 面向长任务、多模型、工具调用编码助手的 Python agent harness 基础设施，集成 MCP、技能、记忆、审批、检查点与多通道桥接。 |
 | Dexto | [GitHub](https://github.com/truffle-ai/dexto) | [![star](https://img.shields.io/badge/star-648-f4b400?style=flat-square)](https://github.com/truffle-ai/dexto) | coding-agent, sessions, mcp | 面向 AI 应用的开放 agent harness，提供 YAML 配置、有状态会话、工具编排、记忆、可观测性、权限与子代理。 |
+| SandBase Harness | [GitHub](https://github.com/sandbaseai/sandbase-harness) | [![star](https://img.shields.io/badge/star-637-f4b400?style=flat-square)](https://github.com/sandbaseai/sandbase-harness) | runtime, mcp, sandboxing | 自托管 agent runtime，提供 MCP 工具、沙箱、审批、凭证、产物与审计回放。 |
 | OpenClaw.NET | [GitHub](https://github.com/clawdotnet/openclaw.net) | [![star](https://img.shields.io/badge/star-482-f4b400?style=flat-square)](https://github.com/clawdotnet/openclaw.net) | dotnet, gateway, governance | NativeAOT 友好的 .NET 代理运行时与网关，提供工具、记忆、MCP、治理账本、证据包与 harness 回归测试。 |
 | Utah | [GitHub](https://github.com/inngest/utah) | [![star](https://img.shields.io/badge/star-135-f4b400?style=flat-square)](https://github.com/inngest/utah) | durable-execution, event-driven, multi-channel | 基于 Inngest 的持久代理 harness，提供思考-行动-观察循环、步骤级重试、单例并发、取消与多通道适配。 |
 

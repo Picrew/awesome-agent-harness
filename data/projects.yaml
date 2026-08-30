@@ -4515,6 +4515,20 @@ entries:
   license: NOASSERTION
   why_included: README defines Dexto as the orchestration layer for reliable stateful agents and documents coding-agent CLI,
     sessions, memory, MCP tools, permissions, observability, and multi-agent systems.
+- name: SandBase Harness
+  repo_url: https://github.com/sandbaseai/sandbase-harness
+  category: Reference Harness Implementations
+  summary_en: Self-hosted agent runtime with MCP tools, sandboxing, approvals, credentials, artifacts, and audit replay.
+  summary_zh: 自托管 agent runtime，提供 MCP 工具、沙箱、审批、凭证、产物与审计回放。
+  tags:
+  - runtime
+  - mcp
+  - sandboxing
+  stars_snapshot: 637
+  updated_at: '2026-08-30'
+  license: Apache-2.0
+  why_included: README and MCP metadata document a self-hosted runtime with managed sessions, MCP toolsets, sandboxed execution,
+    approvals, credential handling, artifacts, and audit-friendly state.
 - name: OpenClaw.NET
   repo_url: https://github.com/clawdotnet/openclaw.net
   category: Reference Harness Implementations

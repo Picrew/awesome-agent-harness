@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **358**
-- GitHub entries: **324 (90.5%)**
-- GitHub in project categories (excluding readings): **319/319 (100.0%)**
+- Total entries: **359**
+- GitHub entries: **325 (90.5%)**
+- GitHub in project categories (excluding readings): **320/320 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-08-24**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -58,7 +58,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 20 |
 | Guardrails, Security & Governance | 26 |
-| Reference Harness Implementations | 86 |
+| Reference Harness Implementations | 87 |
 | Essential Readings & Ecosystem Maps | 39 |
 
 ## Catalog
@@ -432,6 +432,7 @@ Notes:
 | CUGA | [GitHub](https://github.com/cuga-project/cuga-agent) | [![star](https://img.shields.io/badge/star-869-f4b400?style=flat-square)](https://github.com/cuga-project/cuga-agent) | enterprise, policies, mcp | Enterprise generalist agent harness with MCP/OpenAPI tools, policy controls, HITL gates, memory, skills, and hybrid API/browser execution. |
 | CheetahClaws | [GitHub](https://github.com/SafeRL-Lab/cheetahclaws) | [![star](https://img.shields.io/badge/star-768-f4b400?style=flat-square)](https://github.com/SafeRL-Lab/cheetahclaws) | coding-agent, python, mcp | Python agent harness infrastructure for long-horizon, multi-model, tool-using coding assistants with MCP, skills, memory, approvals, checkpoints, and bridges. |
 | Dexto | [GitHub](https://github.com/truffle-ai/dexto) | [![star](https://img.shields.io/badge/star-648-f4b400?style=flat-square)](https://github.com/truffle-ai/dexto) | coding-agent, sessions, mcp | Open agent harness for AI applications with YAML configs, stateful sessions, tool orchestration, memory, observability, permissions, and subagents. |
+| SandBase Harness | [GitHub](https://github.com/sandbaseai/sandbase-harness) | [![star](https://img.shields.io/badge/star-637-f4b400?style=flat-square)](https://github.com/sandbaseai/sandbase-harness) | runtime, mcp, sandboxing | Self-hosted agent runtime with MCP tools, sandboxing, approvals, credentials, artifacts, and audit replay. |
 | OpenClaw.NET | [GitHub](https://github.com/clawdotnet/openclaw.net) | [![star](https://img.shields.io/badge/star-482-f4b400?style=flat-square)](https://github.com/clawdotnet/openclaw.net) | dotnet, gateway, governance | NativeAOT-friendly .NET agent runtime and gateway with tools, memory, MCP, governance ledger, evidence bundles, and harness regression tests. |
 | Utah | [GitHub](https://github.com/inngest/utah) | [![star](https://img.shields.io/badge/star-135-f4b400?style=flat-square)](https://github.com/inngest/utah) | durable-execution, event-driven, multi-channel | Inngest-powered durable agent harness with a think-act-observe loop, step-level retries, singleton concurrency, cancellation, and multi-channel adapters. |
 
