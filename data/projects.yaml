@@ -3420,6 +3420,22 @@ entries:
   license: NOASSERTION
   why_included: README documents a local-first gateway, multi-channel routing, session tools, managed skills, and sandboxing
     controls for non-main agents.
+- name: LocalHarness
+  repo_url: https://github.com/ahwurm/localharness
+  category: Reference Harness Implementations
+  summary_en: Model-agnostic, config-driven (YAML) agent harness built for local LLMs (vLLM/Ollama/LM Studio/llama.cpp); orchestrator
+    → divisions → agents with isolated per-agent memory, deny-first permissions, an event-bus audit trail, and a built-in benchmark.
+  summary_zh: 面向本地 LLM（vLLM/Ollama/LM Studio/llama.cpp）的模型无关、配置驱动（YAML）Agent Harness；编排器 → 部门 → 代理层级，具备按代理隔离记忆、deny-first 权限、事件总线审计与内置基准测试。
+  tags:
+  - local-llm
+  - yaml-config
+  - orchestration
+  stars_snapshot: 6
+  updated_at: '2026-06-19'
+  license: MIT
+  why_included: A full agent harness designed for local models — defines agents, divisions, and permissions in YAML and runs
+    them against any OpenAI-compatible local endpoint, with an event-bus audit trail, a built-in bench, and an autoresearch
+    self-improvement loop.
 - name: Hermes Agent
   repo_url: https://github.com/NousResearch/hermes-agent
   category: Reference Harness Implementations
