@@ -1661,6 +1661,21 @@ entries:
   license: Apache-2.0
   why_included: Official runtime project that treats sandboxing, state, deployment, and observability as first-class harness
     primitives.
+- name: SandBase Harness
+  repo_url: https://github.com/sandbaseai/sandbase-harness
+  category: Execution Substrates & Sandboxing
+  summary_en: Local-first TypeScript agent runtime with sandboxed sessions, MCP tools, credentials, approval policies, audit logs, and replay.
+  summary_zh: 本地优先的 TypeScript agent runtime，提供沙箱会话、MCP 工具、凭据、审批策略、审计日志与回放。
+  tags:
+  - typescript
+  - runtime
+  - sandbox
+  - mcp
+  - audit
+  stars_snapshot: 638
+  updated_at: '2026-08-30'
+  license: Apache-2.0
+  why_included: README documents a self-hostable runtime that combines persistent sessions, governed tool access, multiple sandbox backends, and inspectable audit/replay workflows.
 - name: SWE-ReX
   repo_url: https://github.com/SWE-agent/SWE-ReX
   category: Execution Substrates & Sandboxing
