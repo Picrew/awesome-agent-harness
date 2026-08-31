@@ -5208,3 +5208,16 @@ entries:
   updated_at: '2025-01-01'
   license: n/a
   why_included: High-signal practitioner framing for harness-first implementation.
+- name: HarnessHub
+  repo_url: https://github.com/spikesubingrui-design/harnesshub
+  category: Reference Harness Implementations
+  summary_en: Zero-dependency Node CLI that aggregates extracted frontier-model harnesses (system prompts + tool-loops) from multiple upstreams, normalizes them into one canonical JSON schema, diffs them across versions, watches upstreams for drift, and one-click applies a harness into your own agent via AGENTS.md; includes a web catalog.
+  summary_zh: 零依赖 Node CLI，聚合多个上游提取的前沿模型 harness（系统提示词 + 工具循环），规范化为统一 canonical JSON schema，跨版本 diff，监控上游漂移，并通过 AGENTS.md 一键应用到你自己的 agent；附带 web 目录。
+  tags:
+  - system-prompts
+  - reference-harness
+  - cli
+  stars_snapshot: 0
+  updated_at: '2026-06-16'
+  license: MIT
+  why_included: Normalizes and version-tracks extracted frontier-model reference harnesses into a canonical schema, diffs and watches them across versions, and applies them into agents via AGENTS.md.
