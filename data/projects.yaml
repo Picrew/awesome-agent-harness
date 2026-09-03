@@ -959,6 +959,22 @@ entries:
   updated_at: '2026-08-18'
   license: Apache-2.0
   why_included: Strong example of a harness runtime built around repairability, rollback, and controlled long-running execution.
+- name: YYLO
+  repo_url: https://github.com/yylo-dev/yylo
+  category: Harness Architecture & Orchestration
+  summary_en: Command-line orchestrator for coding agents with typed tasks, receipt-backed execution, bounded iteration loops,
+    and merge and release-readiness gates.
+  summary_zh: 面向编码代理的命令行编排器，提供类型化任务、回执式执行、有界迭代循环以及合并与发布就绪门禁。
+  tags:
+  - orchestration
+  - coding-agents
+  - cli
+  - workflows
+  stars_snapshot: 56
+  updated_at: '2026-09-03'
+  license: MIT
+  why_included: README documents orchestration of Pi, Claude Code, and Codex coding agents with typed task, validation,
+    merge, and release-readiness workflows plus receipt-backed loop execution.
 - name: Graphify
   repo_url: https://github.com/Graphify-Labs/graphify
   category: Context & Working-State Engineering
