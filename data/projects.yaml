@@ -5208,3 +5208,19 @@ entries:
   updated_at: '2025-01-01'
   license: n/a
   why_included: High-signal practitioner framing for harness-first implementation.
+- name: Reef
+  repo_url: https://github.com/Human-Agent-Society/reef
+  category: Harness Architecture & Orchestration
+  summary_en: Continual-learning serving layer that records agent interactions, matches later feedback back to them,
+    and promotes evaluated updates to model weights or the harness as versioned artifacts.
+  summary_zh: 持续学习服务层，记录 agent 交互并回匹后续反馈，将通过评测的模型权重或 harness 更新以带版本的产物发布。
+  tags:
+  - continual-learning
+  - harness-evolution
+  - serving
+  stars_snapshot: 345
+  updated_at: '2026-09-04'
+  license: Apache-2.0
+  why_included: Treats the harness as a versioned artifact behind an automated promotion gate rather than static
+    config, keeping the endpoint live across updates; documents the serve/observe/grow/commit loop against concrete
+    modules.
