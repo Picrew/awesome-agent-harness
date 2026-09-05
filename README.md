@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **367**
-- GitHub entries: **333 (90.7%)**
-- GitHub in project categories (excluding readings): **328/328 (100.0%)**
+- Total entries: **368**
+- GitHub entries: **334 (90.8%)**
+- GitHub in project categories (excluding readings): **329/329 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-08-31**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -58,7 +58,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 21 |
 | Guardrails, Security & Governance | 27 |
-| Reference Harness Implementations | 89 |
+| Reference Harness Implementations | 90 |
 | Essential Readings & Ecosystem Maps | 39 |
 
 ## Catalog
@@ -437,6 +437,7 @@ Notes:
 | mini-coding-agent | [GitHub](https://github.com/rasbt/mini-coding-agent) | [![star](https://img.shields.io/badge/star-1135-f4b400?style=flat-square)](https://github.com/rasbt/mini-coding-agent) | coding-agent, minimal, approvals | Minimal coding agent harness illustrating approvals, memory, bounded delegation, and durable transcripts. |
 | Flock | [GitHub](https://github.com/Onelevenvy/flock) | [![star](https://img.shields.io/badge/star-1102-f4b400?style=flat-square)](https://github.com/Onelevenvy/flock) | desktop, visual-workflow, sandbox | Desktop multi-agent harness with visual workflows, local and sandboxed execution, tool approvals, VNC takeover, MCP, skills, and scheduled tasks. |
 | MateClaw | [GitHub](https://github.com/matevip/mateclaw) | [![star](https://img.shields.io/badge/star-1059-f4b400?style=flat-square)](https://github.com/matevip/mateclaw) | self-hosted, approvals, channels | Self-hosted multi-user agent harness with StateGraph reasoning, skills, MCP/ACP registry, approvals, audit trail, and channel adapters. |
+| agent-qa | [GitHub](https://github.com/vostride/agent-qa) | [![star](https://img.shields.io/badge/star-901-f4b400?style=flat-square)](https://github.com/vostride/agent-qa) | qa, testing, mcp | Source-available agentic QA harness for natural-language web and mobile test execution with self-healing actions, run memory, CLI/dashboard workflows, and MCP support. |
 | codex-autorunner | [GitHub](https://github.com/Git-on-my-level/codex-autorunner) | [![star](https://img.shields.io/badge/star-879-f4b400?style=flat-square)](https://github.com/Git-on-my-level/codex-autorunner) | meta-harness, tickets, long-running | Meta-harness that treats tickets as the control plane for long-running coding agents, with queue execution, hub UI, and chat notifications. |
 | CUGA | [GitHub](https://github.com/cuga-project/cuga-agent) | [![star](https://img.shields.io/badge/star-875-f4b400?style=flat-square)](https://github.com/cuga-project/cuga-agent) | enterprise, policies, mcp | Enterprise generalist agent harness with MCP/OpenAPI tools, policy controls, HITL gates, memory, skills, and hybrid API/browser execution. |
 | CheetahClaws | [GitHub](https://github.com/SafeRL-Lab/cheetahclaws) | [![star](https://img.shields.io/badge/star-768-f4b400?style=flat-square)](https://github.com/SafeRL-Lab/cheetahclaws) | coding-agent, python, mcp | Python agent harness infrastructure for long-horizon, multi-model, tool-using coding assistants with MCP, skills, memory, approvals, checkpoints, and bridges. |

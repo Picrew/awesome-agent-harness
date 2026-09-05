@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **367**
-- GitHub 条目: **333 (90.7%)**
-- 项目分类 GitHub 占比（不含阅读类）: **328/328 (100.0%)**
+- 当前条目数: **368**
+- GitHub 条目: **334 (90.8%)**
+- 项目分类 GitHub 占比（不含阅读类）: **329/329 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-08-31**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -58,7 +58,7 @@
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 21 |
 | Guardrails, Security & Governance | 27 |
-| Reference Harness Implementations | 89 |
+| Reference Harness Implementations | 90 |
 | Essential Readings & Ecosystem Maps | 39 |
 
 ## 项目清单
@@ -437,6 +437,7 @@
 | mini-coding-agent | [GitHub](https://github.com/rasbt/mini-coding-agent) | [![star](https://img.shields.io/badge/star-1135-f4b400?style=flat-square)](https://github.com/rasbt/mini-coding-agent) | coding-agent, minimal, approvals | 极简编码 agent harness，实现了审批、记忆、受限委派与持久化转录等核心机制。 |
 | Flock | [GitHub](https://github.com/Onelevenvy/flock) | [![star](https://img.shields.io/badge/star-1102-f4b400?style=flat-square)](https://github.com/Onelevenvy/flock) | desktop, visual-workflow, sandbox | 桌面多代理 harness，提供可视化工作流、本地与沙箱执行、工具审批、VNC 接管、MCP、技能与定时任务。 |
 | MateClaw | [GitHub](https://github.com/matevip/mateclaw) | [![star](https://img.shields.io/badge/star-1059-f4b400?style=flat-square)](https://github.com/matevip/mateclaw) | self-hosted, approvals, channels | 自托管多用户 agent harness，集成 StateGraph 推理、技能、MCP/ACP 注册表、审批、审计轨迹与多通道适配。 |
+| agent-qa | [GitHub](https://github.com/vostride/agent-qa) | [![star](https://img.shields.io/badge/star-901-f4b400?style=flat-square)](https://github.com/vostride/agent-qa) | qa, testing, mcp | 源码可用的 Web 与移动测试 agentic QA harness，支持自然语言用例、自愈操作、运行记忆、CLI/仪表盘和 MCP 集成。 |
 | codex-autorunner | [GitHub](https://github.com/Git-on-my-level/codex-autorunner) | [![star](https://img.shields.io/badge/star-879-f4b400?style=flat-square)](https://github.com/Git-on-my-level/codex-autorunner) | meta-harness, tickets, long-running | 将 ticket 作为控制平面的长时编码代理 meta-harness，提供队列执行、hub 控制台与聊天通知。 |
 | CUGA | [GitHub](https://github.com/cuga-project/cuga-agent) | [![star](https://img.shields.io/badge/star-875-f4b400?style=flat-square)](https://github.com/cuga-project/cuga-agent) | enterprise, policies, mcp | 企业级通用代理 harness，集成 MCP/OpenAPI 工具、策略控制、人工审批、记忆、技能与 API/浏览器混合执行。 |
 | CheetahClaws | [GitHub](https://github.com/SafeRL-Lab/cheetahclaws) | [![star](https://img.shields.io/badge/star-768-f4b400?style=flat-square)](https://github.com/SafeRL-Lab/cheetahclaws) | coding-agent, python, mcp | 面向长任务、多模型、工具调用编码助手的 Python agent harness 基础设施，集成 MCP、技能、记忆、审批、检查点与多通道桥接。 |
