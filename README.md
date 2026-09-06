@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **367**
-- GitHub entries: **333 (90.7%)**
-- GitHub in project categories (excluding readings): **328/328 (100.0%)**
+- Total entries: **368**
+- GitHub entries: **334 (90.8%)**
+- GitHub in project categories (excluding readings): **329/329 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-08-31**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -58,7 +58,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 21 |
 | Guardrails, Security & Governance | 27 |
-| Reference Harness Implementations | 89 |
+| Reference Harness Implementations | 90 |
 | Essential Readings & Ecosystem Maps | 39 |
 
 ## Catalog
@@ -443,6 +443,7 @@ Notes:
 | Dexto | [GitHub](https://github.com/truffle-ai/dexto) | [![star](https://img.shields.io/badge/star-648-f4b400?style=flat-square)](https://github.com/truffle-ai/dexto) | coding-agent, sessions, mcp | Open agent harness for AI applications with YAML configs, stateful sessions, tool orchestration, memory, observability, permissions, and subagents. |
 | OpenClaw.NET | [GitHub](https://github.com/clawdotnet/openclaw.net) | [![star](https://img.shields.io/badge/star-487-f4b400?style=flat-square)](https://github.com/clawdotnet/openclaw.net) | dotnet, gateway, governance | NativeAOT-friendly .NET agent runtime and gateway with tools, memory, MCP, governance ledger, evidence bundles, and harness regression tests. |
 | Utah | [GitHub](https://github.com/inngest/utah) | [![star](https://img.shields.io/badge/star-135-f4b400?style=flat-square)](https://github.com/inngest/utah) | durable-execution, event-driven, multi-channel | Inngest-powered durable agent harness with a think-act-observe loop, step-level retries, singleton concurrency, cancellation, and multi-channel adapters. |
+| MaskShift | [GitHub](https://github.com/nafeeur/MaskShift) | [![star](https://img.shields.io/badge/star-1-f4b400?style=flat-square)](https://github.com/nafeeur/MaskShift) | terminal, model-agnostic, lazy-context | Maximalist, model-agnostic terminal coding harness with 148 native tools and 44 skills lazily masked into context by description, zero runtime dependencies, and a text protocol that gives tool-calling-free models the full tool surface. |
 
 <a id="essential-readings-ecosystem-maps"></a>
 ### Essential Readings & Ecosystem Maps

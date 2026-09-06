@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **367**
-- GitHub 条目: **333 (90.7%)**
-- 项目分类 GitHub 占比（不含阅读类）: **328/328 (100.0%)**
+- 当前条目数: **368**
+- GitHub 条目: **334 (90.8%)**
+- 项目分类 GitHub 占比（不含阅读类）: **329/329 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-08-31**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -58,7 +58,7 @@
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 21 |
 | Guardrails, Security & Governance | 27 |
-| Reference Harness Implementations | 89 |
+| Reference Harness Implementations | 90 |
 | Essential Readings & Ecosystem Maps | 39 |
 
 ## 项目清单
@@ -443,6 +443,7 @@
 | Dexto | [GitHub](https://github.com/truffle-ai/dexto) | [![star](https://img.shields.io/badge/star-648-f4b400?style=flat-square)](https://github.com/truffle-ai/dexto) | coding-agent, sessions, mcp | 面向 AI 应用的开放 agent harness，提供 YAML 配置、有状态会话、工具编排、记忆、可观测性、权限与子代理。 |
 | OpenClaw.NET | [GitHub](https://github.com/clawdotnet/openclaw.net) | [![star](https://img.shields.io/badge/star-487-f4b400?style=flat-square)](https://github.com/clawdotnet/openclaw.net) | dotnet, gateway, governance | NativeAOT 友好的 .NET 代理运行时与网关，提供工具、记忆、MCP、治理账本、证据包与 harness 回归测试。 |
 | Utah | [GitHub](https://github.com/inngest/utah) | [![star](https://img.shields.io/badge/star-135-f4b400?style=flat-square)](https://github.com/inngest/utah) | durable-execution, event-driven, multi-channel | 基于 Inngest 的持久代理 harness，提供思考-行动-观察循环、步骤级重试、单例并发、取消与多通道适配。 |
+| MaskShift | [GitHub](https://github.com/nafeeur/MaskShift) | [![star](https://img.shields.io/badge/star-1-f4b400?style=flat-square)](https://github.com/nafeeur/MaskShift) | terminal, model-agnostic, lazy-context | 面向终端的模型无关型编码 harness，内置 148 个原生工具与 44 个技能，按描述惰性加载进上下文，零运行时依赖，并通过文本协议为不支持工具调用的模型提供完整工具能力。 |
 
 <a id="essential-readings-ecosystem-maps"></a>
 ### Essential Readings & Ecosystem Maps

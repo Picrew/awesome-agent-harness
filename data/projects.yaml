@@ -3506,6 +3506,22 @@ entries:
   updated_at: '2026-08-30'
   license: Apache-2.0
   why_included: High-signal open implementation of a local coding-agent harness from a primary platform vendor.
+- name: MaskShift
+  repo_url: https://github.com/nafeeur/MaskShift
+  category: Reference Harness Implementations
+  summary_en: Maximalist, model-agnostic terminal coding harness with 148 native tools and 44 skills lazily masked into
+    context by description, zero runtime dependencies, and a text protocol that gives tool-calling-free models the full
+    tool surface.
+  summary_zh: 面向终端的模型无关型编码 harness，内置 148 个原生工具与 44 个技能，按描述惰性加载进上下文，零运行时依赖，并通过文本协议为不支持工具调用的模型提供完整工具能力。
+  tags:
+  - terminal
+  - model-agnostic
+  - lazy-context
+  stars_snapshot: 1
+  updated_at: '2026-09-06'
+  license: GPL-3.0
+  why_included: Distinct lazy-loading harness design (full tool/skill catalog held outside context, inserted only per
+    step) plus a text-based tool protocol that extends tool-use workflows to models without native function calling.
 - name: Browser Use
   repo_url: https://github.com/browser-use/browser-use
   category: Reference Harness Implementations
