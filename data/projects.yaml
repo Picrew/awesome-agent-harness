@@ -4680,6 +4680,23 @@ entries:
   license: Apache-2.0
   why_included: README expands Utah as Universally Triggered Agent Harness and documents durable LLM/tool steps, retries,
     singleton concurrency, cancellation, channels, and local worker operation.
+- name: Nausicaa
+  repo_url: https://github.com/jackispm/nausicaa-harness
+  category: Reference Harness Implementations
+  summary_en: General-purpose TypeScript agent runtime built from addressable Lanes, an optional Teto observer lane, durable
+    Run ledgers, daemon/worker lifecycle, and cross-Run A2A.
+  summary_zh: 面向通用任务的 TypeScript Agent 运行时，由可寻址 Lane、按需 Teto 观察 Lane、Durable Run ledger、daemon/worker
+    生命周期与跨 Run A2A 构成。
+  tags:
+  - multi-agent
+  - multi-topology
+  - a2a
+  - durable-runs
+  stars_snapshot: 1
+  updated_at: '2026-09-06'
+  license: MIT
+  why_included: README documents an installable npm CLI and runtime contracts for Teto observation, multi-lane topology,
+    resumable runs, daemon workers, and cross-Run A2A.
 - name: awesome-claude-code
   repo_url: https://github.com/hesreallyhim/awesome-claude-code
   category: Essential Readings & Ecosystem Maps
