@@ -2739,6 +2739,22 @@ entries:
   license: Apache-2.0
   why_included: README explicitly frames HarnessBench as a benchmark for comparing agent harnesses, fixing the base model
     while varying harnesses, containers, and leaderboard outputs.
+- name: OrcaReplay
+  repo_url: https://github.com/Continuum-AI-Corp/OrcaReplay
+  category: Observability & Reliability Operations
+  summary_en: Records a coding-agent run below the harness and replays it offline byte-for-byte,
+    or forks it from a checkpoint onto another model.
+  summary_zh: 在 harness 之下记录编码 agent 的运行，可离线逐字节重放，或从任一检查点分叉到另一个模型。
+  tags:
+  - record-replay
+  - tracing
+  - reproducibility
+  stars_snapshot: 150
+  updated_at: '2026-09-07'
+  license: Apache-2.0
+  why_included: Capture sits at the process and socket boundary rather than in the agent, so model
+    traffic, shell exit codes, per-turn file changes and MCP JSON-RPC land on one timeline, and the
+    run re-executes offline instead of only being viewed.
 - name: Langfuse
   repo_url: https://github.com/langfuse/langfuse
   category: Observability & Reliability Operations

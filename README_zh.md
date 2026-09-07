@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **367**
-- GitHub 条目: **333 (90.7%)**
-- 项目分类 GitHub 占比（不含阅读类）: **328/328 (100.0%)**
+- 当前条目数: **368**
+- GitHub 条目: **334 (90.8%)**
+- 项目分类 GitHub 占比（不含阅读类）: **329/329 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-08-31**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -56,7 +56,7 @@
 | Execution Substrates & Sandboxing | 27 |
 | Protocols, Tool Interfaces & Agent Contracts | 42 |
 | Evaluation Harnesses & Benchmarks | 29 |
-| Observability & Reliability Operations | 21 |
+| Observability & Reliability Operations | 22 |
 | Guardrails, Security & Governance | 27 |
 | Reference Harness Implementations | 89 |
 | Essential Readings & Ecosystem Maps | 39 |
@@ -315,6 +315,7 @@
 | OpenInference | [GitHub](https://github.com/Arize-ai/openinference) | [![star](https://img.shields.io/badge/star-1186-f4b400?style=flat-square)](https://github.com/Arize-ai/openinference) | spec, instrumentation, observability | 面向 AI 可观测性的开放埋点规范与工具。 |
 | Judgeval | [GitHub](https://github.com/JudgmentLabs/judgeval) | [![star](https://img.shields.io/badge/star-1058-f4b400?style=flat-square)](https://github.com/JudgmentLabs/judgeval) | tracing, agent-judges, monitoring | 面向代理改进的 SDK，提供 OpenTelemetry 追踪、agent judge、在线监控、回放评测、CLI 流程与 MCP 访问轨迹/行为。 |
 | Agentic Harness Engineering | [GitHub](https://github.com/china-qijizhifeng/agentic-harness-engineering) | [![star](https://img.shields.io/badge/star-859-f4b400?style=flat-square)](https://github.com/china-qijizhifeng/agentic-harness-engineering) | harness-optimization, trace-analysis, terminal-bench | 通过评测、分析与改进闭环自动演进编码代理 harness 组件的可观测系统。 |
+| OrcaReplay | [GitHub](https://github.com/Continuum-AI-Corp/OrcaReplay) | [![star](https://img.shields.io/badge/star-150-f4b400?style=flat-square)](https://github.com/Continuum-AI-Corp/OrcaReplay) | record-replay, tracing, reproducibility | 在 harness 之下记录编码 agent 的运行，可离线逐字节重放，或从任一检查点分叉到另一个模型。 |
 
 <a id="guardrails-security-governance"></a>
 ### Guardrails, Security & Governance
