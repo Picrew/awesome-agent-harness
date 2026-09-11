@@ -1,7 +1,7 @@
 catalog:
   title_en: Awesome Agent Harness
   title_zh: Awesome Agent Harness
-  last_verified: '2026-08-31'
+  last_verified: '2026-09-11'
   description_en: Curated implementation-first list for agent harness engineering.
   description_zh: 面向 Agent Harness Engineering 的工程实践清单。
 categories:
@@ -3026,6 +3026,21 @@ entries:
   license: MIT
   why_included: README describes an open system that traces coding-agent rollouts, distills failures, and applies auditable
     edits to prompts, tools, middleware, skills, subagents, and memory.
+- name: crap4ts
+  repo_url: https://github.com/dearlordylord/crap4ts
+  category: Observability & Reliability Operations
+  summary_en: TypeScript and TSX CLI that combines cyclomatic complexity with test coverage to report per-function CRAP scores
+    and enforce CI thresholds.
+  summary_zh: 面向 TypeScript 和 TSX 的 CLI，将圈复杂度与测试覆盖率结合，报告每个函数的 CRAP 分数并执行 CI 阈值检查。
+  tags:
+  - quality-gates
+  - codebase-health
+  - ci
+  stars_snapshot: 0
+  updated_at: '2026-09-11'
+  license: MIT
+  why_included: Provides a deterministic verification step for coding-agent workflows through per-function complexity and
+    coverage analysis, machine-readable reports, and configurable CI failure thresholds.
 - name: OmniRoute
   repo_url: https://github.com/diegosouzapw/OmniRoute
   category: Guardrails, Security & Governance
