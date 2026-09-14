@@ -56,7 +56,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Execution Substrates & Sandboxing | 27 |
 | Protocols, Tool Interfaces & Agent Contracts | 42 |
 | Evaluation Harnesses & Benchmarks | 29 |
-| Observability & Reliability Operations | 21 |
+| Observability & Reliability Operations | 22 |
 | Guardrails, Security & Governance | 27 |
 | Reference Harness Implementations | 89 |
 | Essential Readings & Ecosystem Maps | 39 |
@@ -316,6 +316,7 @@ Notes:
 | OpenInference | [GitHub](https://github.com/Arize-ai/openinference) | [![star](https://img.shields.io/badge/star-1186-f4b400?style=flat-square)](https://github.com/Arize-ai/openinference) | spec, instrumentation, observability | Open instrumentation specification and tooling for AI observability. |
 | Judgeval | [GitHub](https://github.com/JudgmentLabs/judgeval) | [![star](https://img.shields.io/badge/star-1058-f4b400?style=flat-square)](https://github.com/JudgmentLabs/judgeval) | tracing, agent-judges, monitoring | Agent improvement SDK with OpenTelemetry tracing, agent judges, online monitoring, replay evaluations, CLI workflows, and MCP access to traces and behaviors. |
 | Agentic Harness Engineering | [GitHub](https://github.com/china-qijizhifeng/agentic-harness-engineering) | [![star](https://img.shields.io/badge/star-859-f4b400?style=flat-square)](https://github.com/china-qijizhifeng/agentic-harness-engineering) | harness-optimization, trace-analysis, terminal-bench | Observability-driven system for evolving coding-agent harness components through evaluate, analyze, and improve loops. |
+| OrcaReplay | [GitHub](https://github.com/Continuum-AI-Corp/OrcaReplay) | [![star](https://img.shields.io/badge/star-150-f4b400?style=flat-square)](https://github.com/Continuum-AI-Corp/OrcaReplay) | record-replay, tracing, reproducibility | Records a coding-agent run below the harness and replays it offline with the network off, or forks it from a checkpoint onto another model. |
 
 <a id="guardrails-security-governance"></a>
 ### Guardrails, Security & Governance
