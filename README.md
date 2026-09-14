@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **368**
-- GitHub entries: **334 (90.8%)**
-- GitHub in project categories (excluding readings): **329/329 (100.0%)**
+- Total entries: **369**
+- GitHub entries: **335 (90.8%)**
+- GitHub in project categories (excluding readings): **330/330 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-09-14**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -58,7 +58,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 21 |
 | Guardrails, Security & Governance | 27 |
-| Reference Harness Implementations | 89 |
+| Reference Harness Implementations | 90 |
 | Essential Readings & Ecosystem Maps | 39 |
 
 ## Catalog
@@ -444,6 +444,7 @@ Notes:
 | Dexto | [GitHub](https://github.com/truffle-ai/dexto) | [![star](https://img.shields.io/badge/star-648-f4b400?style=flat-square)](https://github.com/truffle-ai/dexto) | coding-agent, sessions, mcp | Open agent harness for AI applications with YAML configs, stateful sessions, tool orchestration, memory, observability, permissions, and subagents. |
 | OpenClaw.NET | [GitHub](https://github.com/clawdotnet/openclaw.net) | [![star](https://img.shields.io/badge/star-487-f4b400?style=flat-square)](https://github.com/clawdotnet/openclaw.net) | dotnet, gateway, governance | NativeAOT-friendly .NET agent runtime and gateway with tools, memory, MCP, governance ledger, evidence bundles, and harness regression tests. |
 | Utah | [GitHub](https://github.com/inngest/utah) | [![star](https://img.shields.io/badge/star-135-f4b400?style=flat-square)](https://github.com/inngest/utah) | durable-execution, event-driven, multi-channel | Inngest-powered durable agent harness with a think-act-observe loop, step-level retries, singleton concurrency, cancellation, and multi-channel adapters. |
+| Revo | [GitHub](https://github.com/shyringo/revo) | - | continuous-cognition, persistent-memory, terminal | Experimental terminal harness with continuous cognition while awake, persistent sleep/wake state, proactive conversation, and human interruption of parallel work. |
 
 <a id="essential-readings-ecosystem-maps"></a>
 ### Essential Readings & Ecosystem Maps

@@ -4695,6 +4695,21 @@ entries:
   license: Apache-2.0
   why_included: README expands Utah as Universally Triggered Agent Harness and documents durable LLM/tool steps, retries,
     singleton concurrency, cancellation, channels, and local worker operation.
+- name: Revo
+  repo_url: https://github.com/shyringo/revo
+  category: Reference Harness Implementations
+  summary_en: Experimental terminal harness with continuous cognition while awake, persistent sleep/wake state, proactive conversation,
+    and human interruption of parallel work.
+  summary_zh: 实验性终端 harness，醒着时持续思考和行动，睡醒后接续记忆与未完成的工作，支持主动交流和随时打断并行工作。
+  tags:
+  - continuous-cognition
+  - persistent-memory
+  - terminal
+  stars_snapshot: 0
+  updated_at: '2026-09-11'
+  license: MIT
+  why_included: Inspectable self-seeding model loop, append-only life log, durable deliveries, and bounded parallel cognition
+    provide a reference for continuity and human preemption beyond task-scoped runs.
 - name: awesome-claude-code
   repo_url: https://github.com/hesreallyhim/awesome-claude-code
   category: Essential Readings & Ecosystem Maps
