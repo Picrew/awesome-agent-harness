@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **372**
-- GitHub entries: **338 (90.9%)**
-- GitHub in project categories (excluding readings): **333/333 (100.0%)**
+- Total entries: **373**
+- GitHub entries: **339 (90.9%)**
+- GitHub in project categories (excluding readings): **334/334 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-09-21**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -55,7 +55,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Context & Working-State Engineering | 30 |
 | Execution Substrates & Sandboxing | 27 |
 | Protocols, Tool Interfaces & Agent Contracts | 42 |
-| Evaluation Harnesses & Benchmarks | 29 |
+| Evaluation Harnesses & Benchmarks | 30 |
 | Observability & Reliability Operations | 21 |
 | Guardrails, Security & Governance | 27 |
 | Reference Harness Implementations | 91 |
@@ -291,6 +291,7 @@ Notes:
 | OpenHands Benchmarks | [GitHub](https://github.com/OpenHands/benchmarks) | [![star](https://img.shields.io/badge/star-124-f4b400?style=flat-square)](https://github.com/OpenHands/benchmarks) | openhands, eval, harness | Evaluation harness and benchmark definitions for OpenHands systems. |
 | WebArena-Verified | [GitHub](https://github.com/ServiceNow/webarena-verified) | [![star](https://img.shields.io/badge/star-60-f4b400?style=flat-square)](https://github.com/ServiceNow/webarena-verified) | web-agent, benchmark, deterministic | Verified web-agent benchmark with deterministic evaluators. |
 | HarnessBench | [GitHub](https://github.com/reacher-z/HarnessBench) | [![star](https://img.shields.io/badge/star-54-f4b400?style=flat-square)](https://github.com/reacher-z/HarnessBench) | harness-comparison, browser-agent, benchmark | Benchmark for comparing agent harnesses on the same everyday web tasks with fixed models and per-harness containers. |
+| AOBench | [GitHub](https://github.com/MSKazemi/aobench) | [![star](https://img.shields.io/badge/star-8-f4b400?style=flat-square)](https://github.com/MSKazemi/aobench) | benchmark, hpc, rbac | Role-aware, RBAC-enforced benchmark for LLM agents operating HPC systems, where a policy violation hard-fails the entire task rather than costing a weighted fraction. |
 
 <a id="observability-reliability-operations"></a>
 ### Observability & Reliability Operations
