@@ -4695,6 +4695,23 @@ entries:
   license: Apache-2.0
   why_included: README expands Utah as Universally Triggered Agent Harness and documents durable LLM/tool steps, retries,
     singleton concurrency, cancellation, channels, and local worker operation.
+- name: langgraph-harness
+  repo_url: https://github.com/vrajpal-jhala/langgraph-harness
+  category: Reference Harness Implementations
+  summary_en: Self-hosted, webhook-driven GitLab agent harness built on LangGraph — reviews MRs, resolves issues in a
+    sandboxed checkout, and holds durable project memory across runs, with guardrails and pre/post-publish comment verification.
+  summary_zh: 基于 LangGraph 构建的自托管、webhook 驱动的 GitLab agent harness —— 评审 MR、在沙箱中解决 issue，并在多次运行间保留项目记忆，配备护栏与发布前后的评论校验。
+  tags:
+  - gitlab
+  - code-review
+  - memory
+  - guardrails
+  stars_snapshot: 3
+  updated_at: '2026-09-20'
+  license: MIT
+  why_included: Production-run GitLab review/issue-resolution harness (800+ runs, 23 users) with a durable memory curator,
+    comment-quality screening before publish, pre/post-publish diff-position verification, and sandboxed issue-resolution
+    execution — guardrails earned from real failure modes rather than designed upfront.
 - name: awesome-claude-code
   repo_url: https://github.com/hesreallyhim/awesome-claude-code
   category: Essential Readings & Ecosystem Maps
