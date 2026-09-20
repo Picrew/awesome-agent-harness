@@ -4756,6 +4756,21 @@ entries:
   license: Apache-2.0
   why_included: README expands Utah as Universally Triggered Agent Harness and documents durable LLM/tool steps, retries,
     singleton concurrency, cancellation, channels, and local worker operation.
+- name: Jev Social
+  repo_url: https://github.com/socai-io/jev-social
+  category: Reference Harness Implementations
+  summary_en: Read-only social-research harness where Jev selects bounded Instagram, TikTok, and LinkedIn operations, socai
+    executes them in an existing Chrome session, and the run streams source-linked evidence into a report.
+  summary_zh: 只读社交研究 harness：由 Jev 选择受限的 Instagram、TikTok 与 LinkedIn 操作，socai 在现有 Chrome 会话中执行，并将带来源链接的证据流式汇入报告。
+  tags:
+  - browser
+  - social-research
+  - typed-actions
+  stars_snapshot: 22
+  updated_at: '2026-09-20'
+  license: MIT
+  why_included: Implements an inspectable decide-act-observe loop over a typed, read-only action space, with per-operation
+    histories, explicit partial and failure states, evidence capture, bounded steps, and a local UI and CLI.
 - name: awesome-claude-code
   repo_url: https://github.com/hesreallyhim/awesome-claude-code
   category: Essential Readings & Ecosystem Maps

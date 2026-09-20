@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **372**
-- GitHub entries: **338 (90.9%)**
-- GitHub in project categories (excluding readings): **333/333 (100.0%)**
+- Total entries: **373**
+- GitHub entries: **339 (90.9%)**
+- GitHub in project categories (excluding readings): **334/334 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-09-21**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -58,7 +58,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 21 |
 | Guardrails, Security & Governance | 27 |
-| Reference Harness Implementations | 91 |
+| Reference Harness Implementations | 92 |
 | Essential Readings & Ecosystem Maps | 39 |
 
 ## Catalog
@@ -448,6 +448,7 @@ Notes:
 | Dexto | [GitHub](https://github.com/truffle-ai/dexto) | [![star](https://img.shields.io/badge/star-650-f4b400?style=flat-square)](https://github.com/truffle-ai/dexto) | coding-agent, sessions, mcp | Open agent harness for AI applications with YAML configs, stateful sessions, tool orchestration, memory, observability, permissions, and subagents. |
 | OpenClaw.NET | [GitHub](https://github.com/clawdotnet/openclaw.net) | [![star](https://img.shields.io/badge/star-508-f4b400?style=flat-square)](https://github.com/clawdotnet/openclaw.net) | dotnet, gateway, governance | NativeAOT-friendly .NET agent runtime and gateway with tools, memory, MCP, governance ledger, evidence bundles, and harness regression tests. |
 | Utah | [GitHub](https://github.com/inngest/utah) | [![star](https://img.shields.io/badge/star-137-f4b400?style=flat-square)](https://github.com/inngest/utah) | durable-execution, event-driven, multi-channel | Inngest-powered durable agent harness with a think-act-observe loop, step-level retries, singleton concurrency, cancellation, and multi-channel adapters. |
+| Jev Social | [GitHub](https://github.com/socai-io/jev-social) | [![star](https://img.shields.io/badge/star-22-f4b400?style=flat-square)](https://github.com/socai-io/jev-social) | browser, social-research, typed-actions | Read-only social-research harness where Jev selects bounded Instagram, TikTok, and LinkedIn operations, socai executes them in an existing Chrome session, and the run streams source-linked evidence into a report. |
 
 <a id="essential-readings-ecosystem-maps"></a>
 ### Essential Readings & Ecosystem Maps
