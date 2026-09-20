@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **372**
-- GitHub 条目: **338 (90.9%)**
-- 项目分类 GitHub 占比（不含阅读类）: **333/333 (100.0%)**
+- 当前条目数: **373**
+- GitHub 条目: **339 (90.9%)**
+- 项目分类 GitHub 占比（不含阅读类）: **334/334 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-09-21**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -55,7 +55,7 @@
 | Context & Working-State Engineering | 30 |
 | Execution Substrates & Sandboxing | 27 |
 | Protocols, Tool Interfaces & Agent Contracts | 42 |
-| Evaluation Harnesses & Benchmarks | 29 |
+| Evaluation Harnesses & Benchmarks | 30 |
 | Observability & Reliability Operations | 21 |
 | Guardrails, Security & Governance | 27 |
 | Reference Harness Implementations | 91 |
@@ -291,6 +291,7 @@
 | OpenHands Benchmarks | [GitHub](https://github.com/OpenHands/benchmarks) | [![star](https://img.shields.io/badge/star-124-f4b400?style=flat-square)](https://github.com/OpenHands/benchmarks) | openhands, eval, harness | OpenHands 体系的评测 harness 与基准定义。 |
 | WebArena-Verified | [GitHub](https://github.com/ServiceNow/webarena-verified) | [![star](https://img.shields.io/badge/star-60-f4b400?style=flat-square)](https://github.com/ServiceNow/webarena-verified) | web-agent, benchmark, deterministic | 带确定性评测器的已验证 Web 代理基准。 |
 | HarnessBench | [GitHub](https://github.com/reacher-z/HarnessBench) | [![star](https://img.shields.io/badge/star-54-f4b400?style=flat-square)](https://github.com/reacher-z/HarnessBench) | harness-comparison, browser-agent, benchmark | 用固定模型在相同日常网页任务上比较不同 agent harness 的基准，并为每个 harness 使用独立容器。 |
+| AOBench | [GitHub](https://github.com/MSKazemi/aobench) | [![star](https://img.shields.io/badge/star-8-f4b400?style=flat-square)](https://github.com/MSKazemi/aobench) | benchmark, hpc, rbac | 面向操作高性能计算系统的 LLM 代理基准，强制执行基于角色的访问控制（RBAC）；一次策略违规会使整个任务直接判为失败，而非仅扣除部分权重分。 |
 
 <a id="observability-reliability-operations"></a>
 ### Observability & Reliability Operations

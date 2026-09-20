@@ -2784,6 +2784,19 @@ entries:
   license: Apache-2.0
   why_included: README explicitly frames HarnessBench as a benchmark for comparing agent harnesses, fixing the base model
     while varying harnesses, containers, and leaderboard outputs.
+- name: AOBench
+  repo_url: https://github.com/MSKazemi/aobench
+  category: Evaluation Harnesses & Benchmarks
+  summary_en: Role-aware, RBAC-enforced benchmark for LLM agents operating HPC systems, where a policy violation hard-fails the entire task rather than costing a weighted fraction.
+  summary_zh: 面向操作高性能计算系统的 LLM 代理基准，强制执行基于角色的访问控制（RBAC）；一次策略违规会使整个任务直接判为失败，而非仅扣除部分权重分。
+  tags:
+  - benchmark
+  - hpc
+  - rbac
+  stars_snapshot: 8
+  updated_at: '2026-09-20'
+  license: Apache-2.0
+  why_included: 90 tasks across 29 reproducible HPC environments (6 grounded in real Marconi100 telemetry), 7 scored dimensions over the full execution trace; runs offline with no API key.
 - name: Langfuse
   repo_url: https://github.com/langfuse/langfuse
   category: Observability & Reliability Operations
