@@ -1,7 +1,7 @@
 catalog:
   title_en: Awesome Agent Harness
   title_zh: Awesome Agent Harness
-  last_verified: '2026-09-21'
+  last_verified: '2026-09-22'
   description_en: Curated implementation-first list for agent harness engineering.
   description_zh: 面向 Agent Harness Engineering 的工程实践清单。
 categories:
@@ -4756,6 +4756,27 @@ entries:
   license: Apache-2.0
   why_included: README expands Utah as Universally Triggered Agent Harness and documents durable LLM/tool steps, retries,
     singleton concurrency, cancellation, channels, and local worker operation.
+- name: Atlarix
+  repo_url: https://github.com/AmariahAK/atlarix-releases
+  category: Reference Harness Implementations
+  summary_en: Cross-platform desktop agent workstation harness with bundled-ripgrep lexical search, a per-OS
+    write-confining command sandbox, hunk-level write approvals, read-only Explore/Plan/Review profiles, parallel
+    subagent workers, and per-note project memory kept outside the repo.
+  summary_zh: 跨平台桌面代理工作站 harness，提供 bundled ripgrep 词法检索、按操作系统限制写入的命令沙箱、按 hunk 的写入审批、只读 Explore/Plan/Review 模式、并行子代理 worker，以及存放在仓库外的按笔记项目记忆。
+  tags:
+  - desktop
+  - sandboxing
+  - approvals
+  - subagents
+  - multi-provider
+  stars_snapshot: 8
+  updated_at: '2026-09-21'
+  license: none
+  why_included: README documents the harness rather than the model itself. Shell commands are confined by a per-OS write
+    sandbox, file writes wait on hunk-level approvals scoped per workspace, Explore/Plan/Review run read-only, subagent
+    edits return as reviewable proposals before they reach disk, per-note project memory lives under ~/.atlarix/projects/
+    outside the repo, MCP and skills are configured per workspace, and an Electron-free headless CLI drives the same agent
+    loop for benchmarks and CI. The app itself is proprietary; this repo is its public release and configuration home.
 - name: awesome-claude-code
   repo_url: https://github.com/hesreallyhim/awesome-claude-code
   category: Essential Readings & Ecosystem Maps

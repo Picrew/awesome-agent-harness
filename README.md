@@ -2,11 +2,11 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **372**
-- GitHub entries: **338 (90.9%)**
-- GitHub in project categories (excluding readings): **333/333 (100.0%)**
+- Total entries: **373**
+- GitHub entries: **339 (90.9%)**
+- GitHub in project categories (excluding readings): **334/334 (100.0%)**
 - Categories: **9**
-- Last verified: **2026-09-21**
+- Last verified: **2026-09-22**
 - Language: [English](./README.md) | [中文](./README_zh.md)
 
 <a id="featured-harness-blogs"></a>
@@ -58,7 +58,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 21 |
 | Guardrails, Security & Governance | 27 |
-| Reference Harness Implementations | 91 |
+| Reference Harness Implementations | 92 |
 | Essential Readings & Ecosystem Maps | 39 |
 
 ## Catalog
@@ -448,6 +448,7 @@ Notes:
 | Dexto | [GitHub](https://github.com/truffle-ai/dexto) | [![star](https://img.shields.io/badge/star-650-f4b400?style=flat-square)](https://github.com/truffle-ai/dexto) | coding-agent, sessions, mcp | Open agent harness for AI applications with YAML configs, stateful sessions, tool orchestration, memory, observability, permissions, and subagents. |
 | OpenClaw.NET | [GitHub](https://github.com/clawdotnet/openclaw.net) | [![star](https://img.shields.io/badge/star-508-f4b400?style=flat-square)](https://github.com/clawdotnet/openclaw.net) | dotnet, gateway, governance | NativeAOT-friendly .NET agent runtime and gateway with tools, memory, MCP, governance ledger, evidence bundles, and harness regression tests. |
 | Utah | [GitHub](https://github.com/inngest/utah) | [![star](https://img.shields.io/badge/star-137-f4b400?style=flat-square)](https://github.com/inngest/utah) | durable-execution, event-driven, multi-channel | Inngest-powered durable agent harness with a think-act-observe loop, step-level retries, singleton concurrency, cancellation, and multi-channel adapters. |
+| Atlarix | [GitHub](https://github.com/AmariahAK/atlarix-releases) | [![star](https://img.shields.io/badge/star-8-f4b400?style=flat-square)](https://github.com/AmariahAK/atlarix-releases) | desktop, sandboxing, approvals, subagents, multi-provider | Cross-platform desktop agent workstation harness with bundled-ripgrep lexical search, a per-OS write-confining command sandbox, hunk-level write approvals, read-only Explore/Plan/Review profiles, parallel subagent workers, and per-note project memory kept outside the repo. |
 
 <a id="essential-readings-ecosystem-maps"></a>
 ### Essential Readings & Ecosystem Maps
