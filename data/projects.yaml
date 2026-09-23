@@ -2391,6 +2391,21 @@ entries:
   updated_at: '2025-07-10'
   license: MIT
   why_included: Alternative standardization path worth tracking in harness ecosystems.
+- name: Cortex
+  repo_url: https://github.com/cortex-docs/cortex
+  category: Protocols, Tool Interfaces & Agent Contracts
+  summary_en: API development CLI that generates MCP servers, typed SDKs, and interactive documentation from OpenAPI, AsyncAPI,
+    GraphQL, gRPC, OpenRPC, and Markdown.
+  summary_zh: API 开发 CLI，可从 OpenAPI、AsyncAPI、GraphQL、gRPC、OpenRPC 与 Markdown 生成 MCP server、类型化 SDK 和交互式文档。
+  tags:
+  - mcp
+  - api-contracts
+  - code-generation
+  stars_snapshot: 3209
+  updated_at: '2026-09-23'
+  license: MIT
+  why_included: README documents an MCP server generator that derives tools from API operations, exposing API contracts to agent
+    harnesses alongside typed SDK and documentation outputs.
 - name: Promptfoo
   repo_url: https://github.com/promptfoo/promptfoo
   category: Evaluation Harnesses & Benchmarks
