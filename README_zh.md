@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **372**
-- GitHub 条目: **338 (90.9%)**
-- 项目分类 GitHub 占比（不含阅读类）: **333/333 (100.0%)**
+- 当前条目数: **373**
+- GitHub 条目: **339 (90.9%)**
+- 项目分类 GitHub 占比（不含阅读类）: **334/334 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-09-21**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -54,7 +54,7 @@
 | Harness Architecture & Orchestration | 66 |
 | Context & Working-State Engineering | 30 |
 | Execution Substrates & Sandboxing | 27 |
-| Protocols, Tool Interfaces & Agent Contracts | 42 |
+| Protocols, Tool Interfaces & Agent Contracts | 43 |
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 21 |
 | Guardrails, Security & Governance | 27 |
@@ -250,6 +250,7 @@
 | Microsoft MCP Servers | [GitHub](https://github.com/microsoft/mcp) | [![star](https://img.shields.io/badge/star-3689-f4b400?style=flat-square)](https://github.com/microsoft/mcp) | mcp, enterprise, servers | 微软官方 MCP server 目录，连接企业数据与工具。 |
 | LangChain MCP Adapters | [GitHub](https://github.com/langchain-ai/langchain-mcp-adapters) | [![star](https://img.shields.io/badge/star-3659-f4b400?style=flat-square)](https://github.com/langchain-ai/langchain-mcp-adapters) | mcp, adapters, integration | 用于连接 LangChain 组件与 MCP server 的适配层。 |
 | ACPX | [GitHub](https://github.com/openclaw/acpx) | [![star](https://img.shields.io/badge/star-3267-f4b400?style=flat-square)](https://github.com/openclaw/acpx) | acp, client, sessions | 面向有状态 Agent Client Protocol 会话的无头 CLI 客户端。 |
+| Cortex | [GitHub](https://github.com/cortex-docs/cortex) | [![star](https://img.shields.io/badge/star-3209-f4b400?style=flat-square)](https://github.com/cortex-docs/cortex) | mcp, api-contracts, code-generation | API 开发 CLI，可从 OpenAPI、AsyncAPI、GraphQL、gRPC、OpenRPC 与 Markdown 生成 MCP server、类型化 SDK 和交互式文档。 |
 | Microsoft Agent Skills | [GitHub](https://github.com/microsoft/skills) | [![star](https://img.shields.io/badge/star-3039-f4b400?style=flat-square)](https://github.com/microsoft/skills) | skills, mcp, official | Microsoft 维护的技能、自定义代理、AGENTS.md 模板与 MCP 配置，用于 Azure SDK 和 Microsoft AI Foundry 编码代理工作流。 |
 | GitAgentProtocol | [GitHub](https://github.com/open-gitagent/gitagent-protocol) | [![star](https://img.shields.io/badge/star-2948-f4b400?style=flat-square)](https://github.com/open-gitagent/gitagent-protocol) | standard, git-native, workflows | 以 Git 为原生载体、框架无关的代理定义标准，可在仓库内组织 agents、skills、workflows、tools 与运行时记忆。 |
 | OpenGAP | [GitHub](https://github.com/open-gitagent/opengap) | [![star](https://img.shields.io/badge/star-2948-f4b400?style=flat-square)](https://github.com/open-gitagent/opengap) | git-native, cli, agent-contract | Git Agent Protocol 的参考 CLI，可将仓库文件组织成可移植的代理 manifest、规则、技能、工作流、工具、记忆、钩子与合规契约。 |

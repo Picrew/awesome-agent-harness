@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **372**
-- GitHub entries: **338 (90.9%)**
-- GitHub in project categories (excluding readings): **333/333 (100.0%)**
+- Total entries: **373**
+- GitHub entries: **339 (90.9%)**
+- GitHub in project categories (excluding readings): **334/334 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-09-21**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -54,7 +54,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Harness Architecture & Orchestration | 66 |
 | Context & Working-State Engineering | 30 |
 | Execution Substrates & Sandboxing | 27 |
-| Protocols, Tool Interfaces & Agent Contracts | 42 |
+| Protocols, Tool Interfaces & Agent Contracts | 43 |
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 21 |
 | Guardrails, Security & Governance | 27 |
@@ -250,6 +250,7 @@ Notes:
 | Microsoft MCP Servers | [GitHub](https://github.com/microsoft/mcp) | [![star](https://img.shields.io/badge/star-3689-f4b400?style=flat-square)](https://github.com/microsoft/mcp) | mcp, enterprise, servers | Microsoft's official MCP server catalog for enterprise data and tools. |
 | LangChain MCP Adapters | [GitHub](https://github.com/langchain-ai/langchain-mcp-adapters) | [![star](https://img.shields.io/badge/star-3659-f4b400?style=flat-square)](https://github.com/langchain-ai/langchain-mcp-adapters) | mcp, adapters, integration | Adapters connecting LangChain components with MCP servers. |
 | ACPX | [GitHub](https://github.com/openclaw/acpx) | [![star](https://img.shields.io/badge/star-3267-f4b400?style=flat-square)](https://github.com/openclaw/acpx) | acp, client, sessions | Headless CLI client for stateful Agent Client Protocol sessions. |
+| Cortex | [GitHub](https://github.com/cortex-docs/cortex) | [![star](https://img.shields.io/badge/star-3209-f4b400?style=flat-square)](https://github.com/cortex-docs/cortex) | mcp, api-contracts, code-generation | API development CLI that generates MCP servers, typed SDKs, and interactive documentation from OpenAPI, AsyncAPI, GraphQL, gRPC, OpenRPC, and Markdown. |
 | Microsoft Agent Skills | [GitHub](https://github.com/microsoft/skills) | [![star](https://img.shields.io/badge/star-3039-f4b400?style=flat-square)](https://github.com/microsoft/skills) | skills, mcp, official | Microsoft-maintained skills, custom agents, AGENTS.md templates, and MCP configurations for Azure SDK and Microsoft AI Foundry coding-agent workflows. |
 | GitAgentProtocol | [GitHub](https://github.com/open-gitagent/gitagent-protocol) | [![star](https://img.shields.io/badge/star-2948-f4b400?style=flat-square)](https://github.com/open-gitagent/gitagent-protocol) | standard, git-native, workflows | Git-native, framework-agnostic standard for defining agents, skills, workflows, tools, and runtime memory in repositories. |
 | OpenGAP | [GitHub](https://github.com/open-gitagent/opengap) | [![star](https://img.shields.io/badge/star-2948-f4b400?style=flat-square)](https://github.com/open-gitagent/opengap) | git-native, cli, agent-contract | Reference CLI for the Git Agent Protocol, turning repository files into portable agent manifests, rules, skills, workflows, tools, memory, hooks, and compliance contracts. |
