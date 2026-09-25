@@ -2,11 +2,11 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **372**
-- GitHub 条目: **338 (90.9%)**
-- 项目分类 GitHub 占比（不含阅读类）: **333/333 (100.0%)**
+- 当前条目数: **373**
+- GitHub 条目: **339 (90.9%)**
+- 项目分类 GitHub 占比（不含阅读类）: **334/334 (100.0%)**
 - 分类数量: **9**
-- 最近核对日期: **2026-09-21**
+- 最近核对日期: **2026-09-25**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
 
 <a id="featured-harness-blogs"></a>
@@ -52,7 +52,7 @@
 | 分类 | 条目数 |
 | --- | ---: |
 | Harness Architecture & Orchestration | 66 |
-| Context & Working-State Engineering | 30 |
+| Context & Working-State Engineering | 31 |
 | Execution Substrates & Sandboxing | 27 |
 | Protocols, Tool Interfaces & Agent Contracts | 42 |
 | Evaluation Harnesses & Benchmarks | 29 |
@@ -159,6 +159,7 @@
 | planning-with-files | [GitHub](https://github.com/OthmanAdi/planning-with-files) | [![star](https://img.shields.io/badge/star-27020-f4b400?style=flat-square)](https://github.com/OthmanAdi/planning-with-files) | planning, skills, persistence | 用于编码代理工作流的持久化文件规划技能包。 |
 | Hindsight | [GitHub](https://github.com/vectorize-io/hindsight) | [![star](https://img.shields.io/badge/star-24051-f4b400?style=flat-square)](https://github.com/vectorize-io/hindsight) | memory, learning, mcp | 生产级代理记忆系统，提供 retain、recall、reflect 操作、隔离记忆库、带证据的观察、编码代理集成、MCP 与记忆防护策略。 |
 | Context Mode | [GitHub](https://github.com/mksglu/context-mode) | [![star](https://img.shields.io/badge/star-23749-f4b400?style=flat-square)](https://github.com/mksglu/context-mode) | context, mcp, session | MCP 上下文优化服务器，可隔离工具输出、索引会话事件，并在代理压缩上下文后恢复连续性。 |
+| Screenpipe | [GitHub](https://github.com/screenpipe/screenpipe) | [![star](https://img.shields.io/badge/star-21708-f4b400?style=flat-square)](https://github.com/screenpipe/screenpipe) | context-capture, memory, mcp | 在本机采集屏幕文字与音频，通过 MCP 和本地 API 提供可检索的工作历史作为代理上下文。源码可查看；配置的云服务可能将上下文传出设备。 |
 | Agent Skills for Context Engineering | [GitHub](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) | [![star](https://img.shields.io/badge/star-18010-f4b400?style=flat-square)](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) | skills, context, production | 面向上下文工程与生产代理的大型技能库。 |
 | SkillOpt | [GitHub](https://github.com/microsoft/SkillOpt) | [![star](https://img.shields.io/badge/star-17287-f4b400?style=flat-square)](https://github.com/microsoft/SkillOpt) | skills, optimization, validation-gates | Microsoft 的自然语言 agent skill 优化器，通过轨迹驱动编辑、验证门禁与可部署技能产物训练可复用技能。 |
 | Trellis | [GitHub](https://github.com/mindfold-ai/Trellis) | [![star](https://img.shields.io/badge/star-14744-f4b400?style=flat-square)](https://github.com/mindfold-ai/Trellis) | specs, memory, workflow | 面向多平台编码代理的工作流框架，提供任务上下文、项目记忆与规范注入。 |

@@ -2,11 +2,11 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **372**
-- GitHub entries: **338 (90.9%)**
-- GitHub in project categories (excluding readings): **333/333 (100.0%)**
+- Total entries: **373**
+- GitHub entries: **339 (90.9%)**
+- GitHub in project categories (excluding readings): **334/334 (100.0%)**
 - Categories: **9**
-- Last verified: **2026-09-21**
+- Last verified: **2026-09-25**
 - Language: [English](./README.md) | [中文](./README_zh.md)
 
 <a id="featured-harness-blogs"></a>
@@ -52,7 +52,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Category | Entries |
 | --- | ---: |
 | Harness Architecture & Orchestration | 66 |
-| Context & Working-State Engineering | 30 |
+| Context & Working-State Engineering | 31 |
 | Execution Substrates & Sandboxing | 27 |
 | Protocols, Tool Interfaces & Agent Contracts | 42 |
 | Evaluation Harnesses & Benchmarks | 29 |
@@ -159,6 +159,7 @@ Notes:
 | planning-with-files | [GitHub](https://github.com/OthmanAdi/planning-with-files) | [![star](https://img.shields.io/badge/star-27020-f4b400?style=flat-square)](https://github.com/OthmanAdi/planning-with-files) | planning, skills, persistence | Skill package for persistent file-based planning in coding-agent workflows. |
 | Hindsight | [GitHub](https://github.com/vectorize-io/hindsight) | [![star](https://img.shields.io/badge/star-24051-f4b400?style=flat-square)](https://github.com/vectorize-io/hindsight) | memory, learning, mcp | Production agent memory system with retain, recall, and reflect operations, isolated memory banks, evidence-backed observations, coding-agent integrations, MCP, and memory-defense policies. |
 | Context Mode | [GitHub](https://github.com/mksglu/context-mode) | [![star](https://img.shields.io/badge/star-23749-f4b400?style=flat-square)](https://github.com/mksglu/context-mode) | context, mcp, session | MCP context optimization server that sandboxes tool output, indexes session events, and restores continuity across agent compactions. |
+| Screenpipe | [GitHub](https://github.com/screenpipe/screenpipe) | [![star](https://img.shields.io/badge/star-21708-f4b400?style=flat-square)](https://github.com/screenpipe/screenpipe) | context-capture, memory, mcp | Captures screen text and audio locally and exposes searchable work history through MCP and a local API for agent context. Source-available; configured cloud services can transmit context off-device. |
 | Agent Skills for Context Engineering | [GitHub](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) | [![star](https://img.shields.io/badge/star-18010-f4b400?style=flat-square)](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) | skills, context, production | Large skill library oriented around context engineering and production agents. |
 | SkillOpt | [GitHub](https://github.com/microsoft/SkillOpt) | [![star](https://img.shields.io/badge/star-17287-f4b400?style=flat-square)](https://github.com/microsoft/SkillOpt) | skills, optimization, validation-gates | Microsoft optimizer that trains reusable natural-language agent skills through trajectory edits, validation gates, and deployable skill artifacts. |
 | Trellis | [GitHub](https://github.com/mindfold-ai/Trellis) | [![star](https://img.shields.io/badge/star-14744-f4b400?style=flat-square)](https://github.com/mindfold-ai/Trellis) | specs, memory, workflow | Multi-platform coding-agent workflow framework with task context, project memory, and spec injection. |
