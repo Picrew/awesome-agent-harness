@@ -1421,6 +1421,21 @@ entries:
   license: MIT
   why_included: README maps concrete code to harness sub-problems including state-machine gates, lifecycle interceptors, context
     recovery across compaction, tool gating, and review loops.
+- name: Hyperconsciousness
+  repo_url: https://github.com/louis030195/hyperconsciousness
+  category: Context & Working-State Engineering
+  summary_en: Developer-alpha Rust engine, CLI, and MCP server for encrypted, append-only knowledge records, with scoped,
+    expiring grants for agent retrieval and optional capture. Requires source installation.
+  summary_zh: 开发者 alpha 阶段的 Rust 引擎、CLI 和 MCP 服务器，用于加密的只追加知识记录，通过限定范围且可过期的授权支持代理检索和可选写入。需要从源码安装。
+  tags:
+  - memory
+  - mcp
+  - encrypted
+  stars_snapshot: 1
+  updated_at: '2026-09-26'
+  why_included: Provides persistent knowledge and revocable, scoped MCP access for agent context workflows. Grants constrain
+    HC tool access, not the host process; hosted models can see returned plaintext.
+  license: MIT
 - name: Daytona
   repo_url: https://github.com/daytonaio/daytona
   category: Execution Substrates & Sandboxing
