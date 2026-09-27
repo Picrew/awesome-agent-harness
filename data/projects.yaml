@@ -989,6 +989,21 @@ entries:
   updated_at: '2026-09-18'
   license: Apache-2.0
   why_included: Strong example of a harness runtime built around repairability, rollback, and controlled long-running execution.
+- name: Coven
+  repo_url: https://github.com/OpenCoven/coven
+  category: Harness Architecture & Orchestration
+  summary_en: Local-first daemon and CLI that runs Codex, Claude Code, and other harnesses as PTY sessions inside explicit
+    project-root boundaries, with SQLite-persisted history and a versioned local socket API.
+  summary_zh: 本地优先的守护进程与 CLI，在明确的项目根目录边界内以 PTY 会话运行 Codex、Claude Code 等 harness，并提供 SQLite 持久化的会话历史与版本化的本地 socket API。
+  tags:
+  - session-runtime
+  - pty
+  - local-first
+  stars_snapshot: 50
+  updated_at: '2026-09-26'
+  license: MIT
+  why_included: Harness runtime that enforces project-root boundaries in the daemon, rejecting working directories that escape
+    the root, and exposes sessions through a versioned local socket API (coven.daemon.v1).
 - name: Graphify
   repo_url: https://github.com/Graphify-Labs/graphify
   category: Context & Working-State Engineering
@@ -2391,6 +2406,21 @@ entries:
   updated_at: '2025-07-10'
   license: MIT
   why_included: Alternative standardization path worth tracking in harness ecosystems.
+- name: Familiar Contract
+  repo_url: https://github.com/OpenCoven/familiar-contract
+  category: Protocols, Tool Interfaces & Agent Contracts
+  summary_en: Open specification (Draft RFC-0001, spec v0.7.0) for persistent agent identity, bounded authority, memory, and
+    protected self-modification boundaries, with a JSON Schema and a Node reference validator.
+  summary_zh: 开放规范（Draft RFC-0001，规范 v0.7.0），定义持久化代理身份、有界权限、记忆以及受保护的自我修改边界，并提供 JSON Schema 与 Node 参考校验器。
+  tags:
+  - specification
+  - agent-identity
+  - json-schema
+  stars_snapshot: 6
+  updated_at: '2026-09-03'
+  license: MIT
+  why_included: Machine-checkable contract for what a long-lived agent may remember, act on, and change about itself, shipped
+    with a schema and a reference validator.
 - name: Promptfoo
   repo_url: https://github.com/promptfoo/promptfoo
   category: Evaluation Harnesses & Benchmarks

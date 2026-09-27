@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **372**
-- GitHub entries: **338 (90.9%)**
-- GitHub in project categories (excluding readings): **333/333 (100.0%)**
+- Total entries: **374**
+- GitHub entries: **340 (90.9%)**
+- GitHub in project categories (excluding readings): **335/335 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-09-21**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -51,10 +51,10 @@ A curated, implementation-first list of **agent harness engineering** resources,
 
 | Category | Entries |
 | --- | ---: |
-| Harness Architecture & Orchestration | 66 |
+| Harness Architecture & Orchestration | 67 |
 | Context & Working-State Engineering | 30 |
 | Execution Substrates & Sandboxing | 27 |
-| Protocols, Tool Interfaces & Agent Contracts | 42 |
+| Protocols, Tool Interfaces & Agent Contracts | 43 |
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 21 |
 | Guardrails, Security & Governance | 27 |
@@ -139,6 +139,7 @@ Notes:
 | Water | [GitHub](https://github.com/manthanguptaa/water) | [![star](https://img.shields.io/badge/star-337-f4b400?style=flat-square)](https://github.com/manthanguptaa/water) | python, framework, approval-gates | Python agent harness framework for orchestration, resilience, observability, guardrails, approval gates, sandboxing, and deployment. |
 | OmniCoreAgent | [GitHub](https://github.com/omnirexflora-labs/omnicoreagent) | [![star](https://img.shields.io/badge/star-245-f4b400?style=flat-square)](https://github.com/omnirexflora-labs/omnicoreagent) | python, mcp, serving | Python production harness with model loop, tools, MCP, memory, workspace files, guardrails, events, subagents, background tasks, and REST/SSE serving. |
 | hankweave | [GitHub](https://github.com/SouthBridgeAI/hankweave-runtime) | [![star](https://img.shields.io/badge/star-135-f4b400?style=flat-square)](https://github.com/SouthBridgeAI/hankweave-runtime) | long-horizon, runtime, checkpoints | Headless-first long-horizon runtime that orchestrates existing agent harnesses with sentinels, loops, checkpoints, and event journals. |
+| Coven | [GitHub](https://github.com/OpenCoven/coven) | [![star](https://img.shields.io/badge/star-50-f4b400?style=flat-square)](https://github.com/OpenCoven/coven) | session-runtime, pty, local-first | Local-first daemon and CLI that runs Codex, Claude Code, and other harnesses as PTY sessions inside explicit project-root boundaries, with SQLite-persisted history and a versioned local socket API. |
 
 <a id="context-working-state-engineering"></a>
 ### Context & Working-State Engineering
@@ -256,6 +257,7 @@ Notes:
 | Microsoft Learn MCP | [GitHub](https://github.com/MicrosoftDocs/mcp) | [![star](https://img.shields.io/badge/star-1896-f4b400?style=flat-square)](https://github.com/MicrosoftDocs/mcp) | mcp, docs, grounding | MCP server and CLI for grounding agents with Microsoft documentation sources. |
 | IBM MCP | [GitHub](https://github.com/IBM/mcp) | [![star](https://img.shields.io/badge/star-405-f4b400?style=flat-square)](https://github.com/IBM/mcp) | mcp, clients, tooling | IBM collection of MCP servers, clients, and developer tooling. |
 | AGENT.md | [GitHub](https://github.com/agentmd/agent.md) | [![star](https://img.shields.io/badge/star-105-f4b400?style=flat-square)](https://github.com/agentmd/agent.md) | standard, agent-file, interoperability | Standardized machine-readable file format for agentic coding tools. |
+| Familiar Contract | [GitHub](https://github.com/OpenCoven/familiar-contract) | [![star](https://img.shields.io/badge/star-6-f4b400?style=flat-square)](https://github.com/OpenCoven/familiar-contract) | specification, agent-identity, json-schema | Open specification (Draft RFC-0001, spec v0.7.0) for persistent agent identity, bounded authority, memory, and protected self-modification boundaries, with a JSON Schema and a Node reference validator. |
 
 <a id="evaluation-harnesses-benchmarks"></a>
 ### Evaluation Harnesses & Benchmarks
