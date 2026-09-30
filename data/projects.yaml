@@ -2784,6 +2784,21 @@ entries:
   license: Apache-2.0
   why_included: README explicitly frames HarnessBench as a benchmark for comparing agent harnesses, fixing the base model
     while varying harnesses, containers, and leaderboard outputs.
+- name: Harness-Zero
+  repo_url: https://github.com/metaevo-ai/harness-zero
+  category: Evaluation Harnesses & Benchmarks
+  summary_en: Research implementation that evolves tools, middleware, skills, and memory over three failure-driven rounds,
+    then distills harness-induced behavior into model weights so the specialized harness can be removed at deployment.
+  summary_zh: 研究实现：先对工具、中间件、技能与记忆进行三轮失败驱动的演化，再将 harness 诱导的行为蒸馏进模型权重，部署时可移除专用 harness。
+  tags:
+  - harness-evolution
+  - distillation
+  - self-improvement
+  stars_snapshot: 67
+  updated_at: '2026-09-22'
+  license: Apache-2.0
+  why_included: Official implementation of arXiv:2609.24974; pairs evaluation-gated harness evolution with agent-as-harness
+    distillation, raising macro-average task success from 23.3% to 44.3% with the harness removed at deployment.
 - name: Langfuse
   repo_url: https://github.com/langfuse/langfuse
   category: Observability & Reliability Operations
