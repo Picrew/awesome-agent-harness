@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **372**
-- GitHub entries: **338 (90.9%)**
-- GitHub in project categories (excluding readings): **333/333 (100.0%)**
+- Total entries: **373**
+- GitHub entries: **339 (90.9%)**
+- GitHub in project categories (excluding readings): **334/334 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-09-21**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -55,7 +55,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Context & Working-State Engineering | 30 |
 | Execution Substrates & Sandboxing | 27 |
 | Protocols, Tool Interfaces & Agent Contracts | 42 |
-| Evaluation Harnesses & Benchmarks | 29 |
+| Evaluation Harnesses & Benchmarks | 30 |
 | Observability & Reliability Operations | 21 |
 | Guardrails, Security & Governance | 27 |
 | Reference Harness Implementations | 91 |
@@ -289,6 +289,7 @@ Notes:
 | Agent Evaluation | [GitHub](https://github.com/awslabs/agent-evaluation) | [![star](https://img.shields.io/badge/star-374-f4b400?style=flat-square)](https://github.com/awslabs/agent-evaluation) | evaluation, testing, ci | AWS framework for testing virtual agents with evaluator-driven multi-turn conversations, hooks, and CI-friendly workflows. |
 | WorkArena | [GitHub](https://github.com/ServiceNow/WorkArena) | [![star](https://img.shields.io/badge/star-273-f4b400?style=flat-square)](https://github.com/ServiceNow/WorkArena) | browser, benchmark, enterprise | Browser benchmark for practical enterprise-like knowledge work tasks. |
 | OpenHands Benchmarks | [GitHub](https://github.com/OpenHands/benchmarks) | [![star](https://img.shields.io/badge/star-124-f4b400?style=flat-square)](https://github.com/OpenHands/benchmarks) | openhands, eval, harness | Evaluation harness and benchmark definitions for OpenHands systems. |
+| Harness-Zero | [GitHub](https://github.com/metaevo-ai/harness-zero) | [![star](https://img.shields.io/badge/star-67-f4b400?style=flat-square)](https://github.com/metaevo-ai/harness-zero) | harness-evolution, distillation, self-improvement | Research implementation that evolves tools, middleware, skills, and memory over three failure-driven rounds, then distills harness-induced behavior into model weights so the specialized harness can be removed at deployment. |
 | WebArena-Verified | [GitHub](https://github.com/ServiceNow/webarena-verified) | [![star](https://img.shields.io/badge/star-60-f4b400?style=flat-square)](https://github.com/ServiceNow/webarena-verified) | web-agent, benchmark, deterministic | Verified web-agent benchmark with deterministic evaluators. |
 | HarnessBench | [GitHub](https://github.com/reacher-z/HarnessBench) | [![star](https://img.shields.io/badge/star-54-f4b400?style=flat-square)](https://github.com/reacher-z/HarnessBench) | harness-comparison, browser-agent, benchmark | Benchmark for comparing agent harnesses on the same everyday web tasks with fixed models and per-harness containers. |
 

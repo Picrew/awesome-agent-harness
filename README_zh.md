@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **372**
-- GitHub 条目: **338 (90.9%)**
-- 项目分类 GitHub 占比（不含阅读类）: **333/333 (100.0%)**
+- 当前条目数: **373**
+- GitHub 条目: **339 (90.9%)**
+- 项目分类 GitHub 占比（不含阅读类）: **334/334 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-09-21**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -55,7 +55,7 @@
 | Context & Working-State Engineering | 30 |
 | Execution Substrates & Sandboxing | 27 |
 | Protocols, Tool Interfaces & Agent Contracts | 42 |
-| Evaluation Harnesses & Benchmarks | 29 |
+| Evaluation Harnesses & Benchmarks | 30 |
 | Observability & Reliability Operations | 21 |
 | Guardrails, Security & Governance | 27 |
 | Reference Harness Implementations | 91 |
@@ -289,6 +289,7 @@
 | Agent Evaluation | [GitHub](https://github.com/awslabs/agent-evaluation) | [![star](https://img.shields.io/badge/star-374-f4b400?style=flat-square)](https://github.com/awslabs/agent-evaluation) | evaluation, testing, ci | AWS 的虚拟代理测试框架，支持评估器驱动的多轮对话、钩子扩展与 CI 友好工作流。 |
 | WorkArena | [GitHub](https://github.com/ServiceNow/WorkArena) | [![star](https://img.shields.io/badge/star-273-f4b400?style=flat-square)](https://github.com/ServiceNow/WorkArena) | browser, benchmark, enterprise | 面向企业知识工作任务的浏览器代理基准。 |
 | OpenHands Benchmarks | [GitHub](https://github.com/OpenHands/benchmarks) | [![star](https://img.shields.io/badge/star-124-f4b400?style=flat-square)](https://github.com/OpenHands/benchmarks) | openhands, eval, harness | OpenHands 体系的评测 harness 与基准定义。 |
+| Harness-Zero | [GitHub](https://github.com/metaevo-ai/harness-zero) | [![star](https://img.shields.io/badge/star-67-f4b400?style=flat-square)](https://github.com/metaevo-ai/harness-zero) | harness-evolution, distillation, self-improvement | 研究实现：先对工具、中间件、技能与记忆进行三轮失败驱动的演化，再将 harness 诱导的行为蒸馏进模型权重，部署时可移除专用 harness。 |
 | WebArena-Verified | [GitHub](https://github.com/ServiceNow/webarena-verified) | [![star](https://img.shields.io/badge/star-60-f4b400?style=flat-square)](https://github.com/ServiceNow/webarena-verified) | web-agent, benchmark, deterministic | 带确定性评测器的已验证 Web 代理基准。 |
 | HarnessBench | [GitHub](https://github.com/reacher-z/HarnessBench) | [![star](https://img.shields.io/badge/star-54-f4b400?style=flat-square)](https://github.com/reacher-z/HarnessBench) | harness-comparison, browser-agent, benchmark | 用固定模型在相同日常网页任务上比较不同 agent harness 的基准，并为每个 harness 使用独立容器。 |
 
