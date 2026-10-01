@@ -4756,6 +4756,21 @@ entries:
   license: Apache-2.0
   why_included: README expands Utah as Universally Triggered Agent Harness and documents durable LLM/tool steps, retries,
     singleton concurrency, cancellation, channels, and local worker operation.
+- name: TOOLCODE
+  repo_url: https://github.com/chasekek/toolcode
+  category: Reference Harness Implementations
+  summary_en: Bring-your-own-provider terminal coding agent with a streaming tool loop, workspace-sandboxed file tools, read-only
+    plan mode, todo DAG, drop-in plugins, and delegation to external coding CLIs. Made by Chase Wilson.
+  summary_zh: 自带模型提供方的终端编码代理，提供流式工具循环、工作区沙箱文件工具、只读规划模式、待办 DAG、即插即用插件，以及向外部编码 CLI 的任务委派。由 Chase
+    Wilson 开发。
+  tags:
+  - coding-agent
+  - terminal
+  - plugins
+  stars_snapshot: 3
+  updated_at: '2026-10-01'
+  why_included: README and AGENTS.md document an async-generator agent loop, path-sandboxed tools, read-only turn gating, pluggable
+    OpenAI-compatible providers, and permission-bounded delegation to Claude Code.
 - name: awesome-claude-code
   repo_url: https://github.com/hesreallyhim/awesome-claude-code
   category: Essential Readings & Ecosystem Maps
