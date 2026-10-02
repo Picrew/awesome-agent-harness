@@ -47,6 +47,11 @@ FEATURED_READING_NAMES = [
     "Improving Deep Agents with harness engineering",
     "Evaluating Deep Agents: Our Learnings",
     "Your Agent Needs a Harness, Not a Framework",
+    "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+    "How we contain Claude across products",
+    "Introducing Agent Executor, Google’s distributed Agent Runtime",
+    "Building a safe, effective sandbox to enable Codex on Windows",
+    "Running Codex safely at OpenAI",
     "Skill Issue: Harness Engineering for Coding Agents",
     "Harness Engineering (Martin Fowler)",
 ]
@@ -124,7 +129,7 @@ def render_readmes(catalog: dict[str, Any]) -> tuple[str, str]:
     gh_count, total_count, ratio = github_ratio(entries)
     project_entries = [e for e in entries if e.get("category") != READINGS_CATEGORY]
     project_gh_count, project_total_count, project_ratio = github_ratio(project_entries)
-    featured = featured_readings(entries, limit=12)
+    featured = featured_readings(entries, limit=17)
     verified = catalog["catalog"]["last_verified"]
 
     # English README
