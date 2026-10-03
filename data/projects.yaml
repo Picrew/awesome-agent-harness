@@ -4666,6 +4666,21 @@ entries:
   license: Apache-2.0
   why_included: README explicitly calls Flock a comprehensive multi-agent harness and documents workflow nodes, autonomous
     loops, approvals, filesystem/bash/browser tools, sandbox containers, VNC streaming, MCP and hot-reload skills.
+- name: agent-qa
+  repo_url: https://github.com/vostride/agent-qa
+  category: Reference Harness Implementations
+  summary_en: Agentic QA harness for natural-language web and mobile test execution with self-healing actions, run memory,
+    CLI/dashboard workflows, and MCP support.
+  summary_zh: Web 与移动测试 agentic QA harness，支持自然语言用例、自愈操作、运行记忆、CLI/仪表盘和 MCP 集成。
+  tags:
+  - qa
+  - testing
+  - mcp
+  stars_snapshot: 897
+  updated_at: '2026-08-03'
+  license: FSL-1.1-ALv2
+  why_included: Concrete product-QA harness that combines natural-language tests, self-healing browser/mobile actions, execution
+    memory, version-controlled test artifacts, and MCP/CLI surfaces for agent-driven regression workflows.
 - name: codex-autorunner
   repo_url: https://github.com/Git-on-my-level/codex-autorunner
   category: Reference Harness Implementations
