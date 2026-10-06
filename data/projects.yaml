@@ -5284,3 +5284,16 @@ entries:
   updated_at: '2025-01-01'
   license: n/a
   why_included: High-signal practitioner framing for harness-first implementation.
+- name: Tianshu Harness
+  repo_url: https://github.com/huiliyi37/Tianshu-harness
+  category: Reference Harness Implementations
+  summary_en: TypeScript coding-agent harness shared by a terminal TUI and a desktop GUI. A cognitive runtime externalizes goals, evidence, and completion so a model claim of done is not treated as done.
+  summary_zh: TypeScript 编程智能体 harness，终端 TUI 与桌面端共用同一内核。认知运行时把目标、证据和完成条件外置，模型声称完成不等于运行时确认完成。
+  tags:
+  - coding-agent
+  - tui
+  - evidence-gate
+  stars_snapshot: 1042
+  updated_at: '2026-10-05'
+  license: Apache-2.0
+  why_included: Self-built coding harness rather than a shell over another agent loop. The runtime owns task contracts, evidence-gated delivery, and prefix-cache stability for a shared TUI and desktop kernel.
