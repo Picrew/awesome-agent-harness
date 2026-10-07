@@ -2,11 +2,11 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **373**
-- GitHub entries: **339 (90.9%)**
-- GitHub in project categories (excluding readings): **334/334 (100.0%)**
+- Total entries: **376**
+- GitHub entries: **342 (91.0%)**
+- GitHub in project categories (excluding readings): **337/337 (100.0%)**
 - Categories: **9**
-- Last verified: **2026-09-25**
+- Last verified: **2026-10-08**
 - Language: [English](./README.md) | [中文](./README_zh.md)
 
 <a id="featured-harness-blogs"></a>
@@ -52,13 +52,13 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Category | Entries |
 | --- | ---: |
 | Harness Architecture & Orchestration | 66 |
-| Context & Working-State Engineering | 31 |
+| Context & Working-State Engineering | 33 |
 | Execution Substrates & Sandboxing | 27 |
 | Protocols, Tool Interfaces & Agent Contracts | 42 |
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 21 |
 | Guardrails, Security & Governance | 27 |
-| Reference Harness Implementations | 91 |
+| Reference Harness Implementations | 92 |
 | Essential Readings & Ecosystem Maps | 39 |
 
 ## Catalog
@@ -153,6 +153,7 @@ Notes:
 | MemPalace | [GitHub](https://github.com/MemPalace/mempalace) | [![star](https://img.shields.io/badge/star-59173-f4b400?style=flat-square)](https://github.com/MemPalace/mempalace) | memory, local-first, mcp | Local-first verbatim memory layer with scoped semantic retrieval, pluggable storage backends, conversation mining, MCP integration, and reproducible LongMemEval results. |
 | OpenViking | [GitHub](https://github.com/volcengine/OpenViking) | [![star](https://img.shields.io/badge/star-38171-f4b400?style=flat-square)](https://github.com/volcengine/OpenViking) | context-database, memory, retrieval | Context database for agents that unifies memory, resources, and skills in a virtual filesystem with tiered loading, recursive retrieval, observable trajectories, and session-to-memory extraction. |
 | code-review-graph | [GitHub](https://github.com/tirth8205/code-review-graph) | [![star](https://img.shields.io/badge/star-31651-f4b400?style=flat-square)](https://github.com/tirth8205/code-review-graph) | code-context, mcp, incremental-indexing | Local-first code intelligence graph that incrementally maps dependencies and exposes targeted review context, blast-radius analysis, and risk-scored CI gates through MCP and CLI. |
+| Cognee | [GitHub](https://github.com/topoteretes/cognee) | [![star](https://img.shields.io/badge/star-31543-f4b400?style=flat-square)](https://github.com/topoteretes/cognee) | memory, knowledge-graph, sessions | Persistent agent memory platform combining knowledge graphs, vector retrieval, session distillation, feedback, and MCP or SDK integration across runs. |
 | agentmemory | [GitHub](https://github.com/rohitg00/agentmemory) | [![star](https://img.shields.io/badge/star-28639-f4b400?style=flat-square)](https://github.com/rohitg00/agentmemory) | memory, mcp, hooks | Persistent memory server for coding agents using hooks, MCP/REST integration, hybrid search, and shared session recall. |
 | Beads | [GitHub](https://github.com/gastownhall/beads) | [![star](https://img.shields.io/badge/star-27326-f4b400?style=flat-square)](https://github.com/gastownhall/beads) | memory, issue-tracking, work-state | Agent-optimized distributed issue tracker that stores long-horizon coding work as dependency-aware graph state with memory recall and multi-branch sync. |
 | TencentDB Agent Memory | [GitHub](https://github.com/TencentCloud/TencentDB-Agent-Memory) | [![star](https://img.shields.io/badge/star-27035-f4b400?style=flat-square)](https://github.com/TencentCloud/TencentDB-Agent-Memory) | memory, context-offloading, openclaw | Local agent memory plugin combining symbolic short-term state, layered long-term memory, traceability, and OpenClaw/Hermes integrations. |
@@ -162,6 +163,7 @@ Notes:
 | Screenpipe | [GitHub](https://github.com/screenpipe/screenpipe) | [![star](https://img.shields.io/badge/star-21708-f4b400?style=flat-square)](https://github.com/screenpipe/screenpipe) | context-capture, memory, mcp | Captures screen text and audio locally and exposes searchable work history through MCP and a local API for agent context. Source-available; configured cloud services can transmit context off-device. |
 | Agent Skills for Context Engineering | [GitHub](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) | [![star](https://img.shields.io/badge/star-18010-f4b400?style=flat-square)](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) | skills, context, production | Large skill library oriented around context engineering and production agents. |
 | SkillOpt | [GitHub](https://github.com/microsoft/SkillOpt) | [![star](https://img.shields.io/badge/star-17287-f4b400?style=flat-square)](https://github.com/microsoft/SkillOpt) | skills, optimization, validation-gates | Microsoft optimizer that trains reusable natural-language agent skills through trajectory edits, validation gates, and deployable skill artifacts. |
+| Memori | [GitHub](https://github.com/MemoriLabs/Memori) | [![star](https://img.shields.io/badge/star-17099-f4b400?style=flat-square)](https://github.com/MemoriLabs/Memori) | memory, context-injection, sessions | Agent memory layer with entity and process attribution, session capture, persistent recall, context injection, and SDK, MCP, OpenClaw, and Hermes integrations. |
 | Trellis | [GitHub](https://github.com/mindfold-ai/Trellis) | [![star](https://img.shields.io/badge/star-14744-f4b400?style=flat-square)](https://github.com/mindfold-ai/Trellis) | specs, memory, workflow | Multi-platform coding-agent workflow framework with task context, project memory, and spec injection. |
 | memU | [GitHub](https://github.com/NevaMind-AI/memU) | [![star](https://img.shields.io/badge/star-14418-f4b400?style=flat-square)](https://github.com/NevaMind-AI/memU) | memory, context, retrieval | Memory harness for AI agents that turns raw workspace data into structured, queryable context for agent retrieval. |
 | EverOS | [GitHub](https://github.com/EverMind-AI/EverOS) | [![star](https://img.shields.io/badge/star-13089-f4b400?style=flat-square)](https://github.com/EverMind-AI/EverOS) | memory, local-first, skills | Portable self-evolving memory runtime for agents, persisting readable Markdown with local SQLite/LanceDB indexes and reusable cases and skills. |
@@ -401,6 +403,7 @@ Notes:
 | Grok Build | [GitHub](https://github.com/xai-org/grok-build) | [![star](https://img.shields.io/badge/star-26912-f4b400?style=flat-square)](https://github.com/xai-org/grok-build) | coding-agent, tui, acp | Official Rust coding-agent harness and TUI with interactive, headless, and ACP modes plus MCP, skills, plugins, hooks, sandboxing, subagents, and long-running task support. |
 | Compound Engineering | [GitHub](https://github.com/EveryInc/compound-engineering-plugin) | [![star](https://img.shields.io/badge/star-25174-f4b400?style=flat-square)](https://github.com/EveryInc/compound-engineering-plugin) | plugins, worktrees, review | Cross-agent engineering plugin that codifies brainstorming, planning, worktree execution, review, and knowledge compounding loops. |
 | SuperClaude Framework | [GitHub](https://github.com/SuperClaude-Org/SuperClaude_Framework) | [![star](https://img.shields.io/badge/star-23902-f4b400?style=flat-square)](https://github.com/SuperClaude-Org/SuperClaude_Framework) | config, personas, workflow | Configuration framework adding commands, personas, and method templates to coding agents. |
+| Prime Agent | [GitHub](https://github.com/PrimeIntellect-ai/prime-agent) | [![star](https://img.shields.io/badge/star-21595-f4b400?style=flat-square)](https://github.com/PrimeIntellect-ai/prime-agent) | long-running, rlm, quality-gates | Long-running coding and research harness with a persistent Python REPL, recursive subagents, resumable daemon sessions, durable harness state, and budgeted autonomous quality gates. |
 | SWE-agent | [GitHub](https://github.com/SWE-agent/SWE-agent) | [![star](https://img.shields.io/badge/star-20370-f4b400?style=flat-square)](https://github.com/SWE-agent/SWE-agent) | swe, issue-fixing, tooling | Research-grade coding agent that resolves GitHub issues with explicit tooling loops. |
 | jcode | [GitHub](https://github.com/1jehuang/jcode) | [![star](https://img.shields.io/badge/star-19934-f4b400?style=flat-square)](https://github.com/1jehuang/jcode) | coding-agent, terminal, rust | Rust coding-agent harness built for multi-session workflows, customization, memory, and terminal performance. |
 | Devika | [GitHub](https://github.com/stitionai/devika) | [![star](https://img.shields.io/badge/star-19566-f4b400?style=flat-square)](https://github.com/stitionai/devika) | assistant, planning, coding | Open-source coding assistant system for planning and implementing development tasks. |
