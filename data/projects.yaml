@@ -1210,6 +1210,23 @@ entries:
   license: NOASSERTION
   why_included: Primary README describes concrete context-window reduction, session continuity, hooks, and MCP tools for coding-agent
     harnesses.
+- name: Screenpipe
+  repo_url: https://github.com/screenpipe/screenpipe
+  category: Context & Working-State Engineering
+  summary_en: Captures screen text and audio locally and exposes searchable work history through MCP and a local API for agent
+    context. Source-available; configured cloud services can transmit context off-device.
+  summary_zh: 在本机采集屏幕文字与音频，通过 MCP 和本地 API 提供可检索的工作历史作为代理上下文。源码可查看；配置的云服务可能将上下文传出设备。
+  tags:
+  - context-capture
+  - memory
+  - mcp
+  stars_snapshot: 21708
+  updated_at: '2026-09-25'
+  license: NOASSERTION
+  why_included: Provides captured cross-application history as a retrievable context source for agent harnesses. Official
+    MCP documentation describes the recorder and local API key prerequisites, search_content, meeting and activity tools.
+    Uses the Screenpipe Commercial License, not an OSI open-source license; configured cloud AI, transcription, sync, integrations
+    and connected clients may transmit context off-device.
 - name: Agent Skills for Context Engineering
   repo_url: https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering
   category: Context & Working-State Engineering
