@@ -2,11 +2,11 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **373**
-- GitHub 条目: **339 (90.9%)**
-- 项目分类 GitHub 占比（不含阅读类）: **334/334 (100.0%)**
+- 当前条目数: **376**
+- GitHub 条目: **342 (91.0%)**
+- 项目分类 GitHub 占比（不含阅读类）: **337/337 (100.0%)**
 - 分类数量: **9**
-- 最近核对日期: **2026-09-21**
+- 最近核对日期: **2026-10-08**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
 
 <a id="featured-harness-blogs"></a>
@@ -52,13 +52,13 @@
 | 分类 | 条目数 |
 | --- | ---: |
 | Harness Architecture & Orchestration | 66 |
-| Context & Working-State Engineering | 31 |
+| Context & Working-State Engineering | 33 |
 | Execution Substrates & Sandboxing | 27 |
 | Protocols, Tool Interfaces & Agent Contracts | 42 |
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 21 |
 | Guardrails, Security & Governance | 27 |
-| Reference Harness Implementations | 91 |
+| Reference Harness Implementations | 92 |
 | Essential Readings & Ecosystem Maps | 39 |
 
 ## 项目清单
@@ -153,6 +153,7 @@
 | MemPalace | [GitHub](https://github.com/MemPalace/mempalace) | [![star](https://img.shields.io/badge/star-59173-f4b400?style=flat-square)](https://github.com/MemPalace/mempalace) | memory, local-first, mcp | 本地优先的原文记忆层，提供可分域语义检索、可插拔存储后端、对话挖掘、MCP 集成与可复现的 LongMemEval 结果。 |
 | OpenViking | [GitHub](https://github.com/volcengine/OpenViking) | [![star](https://img.shields.io/badge/star-38171-f4b400?style=flat-square)](https://github.com/volcengine/OpenViking) | context-database, memory, retrieval | 面向代理的上下文数据库，以虚拟文件系统统一记忆、资源与技能，并提供分层加载、递归检索、可观测轨迹和会话记忆提取。 |
 | code-review-graph | [GitHub](https://github.com/tirth8205/code-review-graph) | [![star](https://img.shields.io/badge/star-31651-f4b400?style=flat-square)](https://github.com/tirth8205/code-review-graph) | code-context, mcp, incremental-indexing | 本地优先的代码智能图谱，可增量映射依赖，并通过 MCP 与 CLI 提供定向评审上下文、影响范围分析和风险评分 CI 门禁。 |
+| Cognee | [GitHub](https://github.com/topoteretes/cognee) | [![star](https://img.shields.io/badge/star-31543-f4b400?style=flat-square)](https://github.com/topoteretes/cognee) | memory, knowledge-graph, sessions | 持久化代理记忆平台，整合知识图谱、向量检索、会话经验提炼、反馈及 MCP 或 SDK 集成，实现跨运行上下文复用。 |
 | agentmemory | [GitHub](https://github.com/rohitg00/agentmemory) | [![star](https://img.shields.io/badge/star-28639-f4b400?style=flat-square)](https://github.com/rohitg00/agentmemory) | memory, mcp, hooks | 面向编码代理的持久记忆服务器，使用钩子、MCP/REST 集成、混合搜索与跨会话召回。 |
 | Beads | [GitHub](https://github.com/gastownhall/beads) | [![star](https://img.shields.io/badge/star-27326-f4b400?style=flat-square)](https://github.com/gastownhall/beads) | memory, issue-tracking, work-state | 面向代理优化的分布式 issue tracker，将长任务编码工作存为依赖感知图状态，并支持记忆召回与多分支同步。 |
 | TencentDB Agent Memory | [GitHub](https://github.com/TencentCloud/TencentDB-Agent-Memory) | [![star](https://img.shields.io/badge/star-27035-f4b400?style=flat-square)](https://github.com/TencentCloud/TencentDB-Agent-Memory) | memory, context-offloading, openclaw | 本地 agent 记忆插件，结合符号化短期状态、分层长期记忆、可追溯链路，并支持 OpenClaw 与 Hermes 集成。 |
@@ -161,6 +162,7 @@
 | Context Mode | [GitHub](https://github.com/mksglu/context-mode) | [![star](https://img.shields.io/badge/star-23749-f4b400?style=flat-square)](https://github.com/mksglu/context-mode) | context, mcp, session | MCP 上下文优化服务器，可隔离工具输出、索引会话事件，并在代理压缩上下文后恢复连续性。 |
 | Agent Skills for Context Engineering | [GitHub](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) | [![star](https://img.shields.io/badge/star-18010-f4b400?style=flat-square)](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) | skills, context, production | 面向上下文工程与生产代理的大型技能库。 |
 | SkillOpt | [GitHub](https://github.com/microsoft/SkillOpt) | [![star](https://img.shields.io/badge/star-17287-f4b400?style=flat-square)](https://github.com/microsoft/SkillOpt) | skills, optimization, validation-gates | Microsoft 的自然语言 agent skill 优化器，通过轨迹驱动编辑、验证门禁与可部署技能产物训练可复用技能。 |
+| Memori | [GitHub](https://github.com/MemoriLabs/Memori) | [![star](https://img.shields.io/badge/star-17099-f4b400?style=flat-square)](https://github.com/MemoriLabs/Memori) | memory, context-injection, sessions | 代理记忆层，提供实体与进程归属、会话采集、持久记忆召回、上下文注入，以及 SDK、MCP、OpenClaw 和 Hermes 集成。 |
 | Trellis | [GitHub](https://github.com/mindfold-ai/Trellis) | [![star](https://img.shields.io/badge/star-14744-f4b400?style=flat-square)](https://github.com/mindfold-ai/Trellis) | specs, memory, workflow | 面向多平台编码代理的工作流框架，提供任务上下文、项目记忆与规范注入。 |
 | memU | [GitHub](https://github.com/NevaMind-AI/memU) | [![star](https://img.shields.io/badge/star-14418-f4b400?style=flat-square)](https://github.com/NevaMind-AI/memU) | memory, context, retrieval | 面向 AI 代理的记忆 harness，可将原始工作区数据转为结构化、可查询的代理上下文。 |
 | EverOS | [GitHub](https://github.com/EverMind-AI/EverOS) | [![star](https://img.shields.io/badge/star-13089-f4b400?style=flat-square)](https://github.com/EverMind-AI/EverOS) | memory, local-first, skills | 面向代理的可移植自演化记忆运行时，以 Markdown 持久化内容，并用本地 SQLite/LanceDB 索引复用案例与技能。 |
@@ -401,6 +403,7 @@
 | Grok Build | [GitHub](https://github.com/xai-org/grok-build) | [![star](https://img.shields.io/badge/star-26912-f4b400?style=flat-square)](https://github.com/xai-org/grok-build) | coding-agent, tui, acp | 官方 Rust 编码代理 harness 与 TUI，提供交互式、headless 和 ACP 模式，并集成 MCP、技能、插件、hooks、沙箱、子代理与长任务支持。 |
 | Compound Engineering | [GitHub](https://github.com/EveryInc/compound-engineering-plugin) | [![star](https://img.shields.io/badge/star-25174-f4b400?style=flat-square)](https://github.com/EveryInc/compound-engineering-plugin) | plugins, worktrees, review | 面向多种 coding agent 的工程插件，将 brainstorm、planning、worktree 执行、review 与知识沉淀回路标准化。 |
 | SuperClaude Framework | [GitHub](https://github.com/SuperClaude-Org/SuperClaude_Framework) | [![star](https://img.shields.io/badge/star-23902-f4b400?style=flat-square)](https://github.com/SuperClaude-Org/SuperClaude_Framework) | config, personas, workflow | 为编码代理增强命令、角色与方法模板的配置框架。 |
+| Prime Agent | [GitHub](https://github.com/PrimeIntellect-ai/prime-agent) | [![star](https://img.shields.io/badge/star-21595-f4b400?style=flat-square)](https://github.com/PrimeIntellect-ai/prime-agent) | long-running, rlm, quality-gates | 面向长任务编码与研究的 harness，具备持久 Python REPL、递归子代理、可恢复的守护进程会话、持久 harness 状态及带预算限制的自治质量门禁。 |
 | SWE-agent | [GitHub](https://github.com/SWE-agent/SWE-agent) | [![star](https://img.shields.io/badge/star-20370-f4b400?style=flat-square)](https://github.com/SWE-agent/SWE-agent) | swe, issue-fixing, tooling | 研究级编码代理，通过明确的工具回路自动修复 GitHub issue。 |
 | jcode | [GitHub](https://github.com/1jehuang/jcode) | [![star](https://img.shields.io/badge/star-19934-f4b400?style=flat-square)](https://github.com/1jehuang/jcode) | coding-agent, terminal, rust | 面向多会话工作流、可定制性、记忆与终端性能优化的 Rust 编码代理 harness。 |
 | Devika | [GitHub](https://github.com/stitionai/devika) | [![star](https://img.shields.io/badge/star-19566-f4b400?style=flat-square)](https://github.com/stitionai/devika) | assistant, planning, coding | 开源编码助手系统，支持任务规划与实现。 |

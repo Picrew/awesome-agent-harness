@@ -1,7 +1,7 @@
 catalog:
   title_en: Awesome Agent Harness
   title_zh: Awesome Agent Harness
-  last_verified: '2026-09-21'
+  last_verified: '2026-10-08'
   description_en: Curated implementation-first list for agent harness engineering.
   description_zh: 面向 Agent Harness Engineering 的工程实践清单。
 categories:
@@ -1107,6 +1107,21 @@ entries:
   license: MIT
   why_included: README documents deterministic local parsing, incremental graph updates, cross-agent MCP setup, reproducible
     context-reduction benchmarks, dependency impact analysis, and optional merge gates.
+- name: Cognee
+  repo_url: https://github.com/topoteretes/cognee
+  category: Context & Working-State Engineering
+  summary_en: Persistent agent memory platform combining knowledge graphs, vector retrieval, session distillation, feedback,
+    and MCP or SDK integration across runs.
+  summary_zh: 持久化代理记忆平台，整合知识图谱、向量检索、会话经验提炼、反馈及 MCP 或 SDK 集成，实现跨运行上下文复用。
+  tags:
+  - memory
+  - knowledge-graph
+  - sessions
+  stars_snapshot: 31543
+  updated_at: '2026-10-07'
+  license: Apache-2.0
+  why_included: Official README and session APIs document scoped session state, durable knowledge, retrieval, and feedback,
+    with coding-agent plugins, MCP interfaces, and dedicated tests.
 - name: agentmemory
   repo_url: https://github.com/rohitg00/agentmemory
   category: Context & Working-State Engineering
@@ -1195,6 +1210,21 @@ entries:
   license: NOASSERTION
   why_included: Primary README describes concrete context-window reduction, session continuity, hooks, and MCP tools for coding-agent
     harnesses.
+- name: Hyperconsciousness
+  repo_url: https://github.com/louis030195/hyperconsciousness
+  category: Context & Working-State Engineering
+  summary_en: Developer-alpha Rust engine, CLI, and MCP server for encrypted, append-only knowledge records, with scoped,
+    expiring grants for agent retrieval and optional capture. Requires source installation.
+  summary_zh: 开发者 alpha 阶段的 Rust 引擎、CLI 和 MCP 服务器，用于加密的只追加知识记录，通过限定范围且可过期的授权支持代理检索和可选写入。需要从源码安装。
+  tags:
+  - memory
+  - mcp
+  - encrypted
+  stars_snapshot: 1
+  updated_at: '2026-09-26'
+  why_included: Provides persistent knowledge and revocable, scoped MCP access for agent context workflows. Grants constrain
+    HC tool access, not the host process; hosted models can see returned plaintext.
+  license: MIT
 - name: Agent Skills for Context Engineering
   repo_url: https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering
   category: Context & Working-State Engineering
@@ -1223,6 +1253,21 @@ entries:
   license: MIT
   why_included: README describes treating skill documents as trainable agent state, with validation-gated updates and deployment
     across Codex CLI and Claude Code harnesses.
+- name: Memori
+  repo_url: https://github.com/MemoriLabs/Memori
+  category: Context & Working-State Engineering
+  summary_en: Agent memory layer with entity and process attribution, session capture, persistent recall, context injection,
+    and SDK, MCP, OpenClaw, and Hermes integrations.
+  summary_zh: 代理记忆层，提供实体与进程归属、会话采集、持久记忆召回、上下文注入，以及 SDK、MCP、OpenClaw 和 Hermes 集成。
+  tags:
+  - memory
+  - context-injection
+  - sessions
+  stars_snapshot: 17099
+  updated_at: '2026-10-03'
+  license: NOASSERTION
+  why_included: Official README and memori/llm/pipelines/recall_injection.py show attributed memory capture and retrieval
+    injected into model calls, with lifecycle integrations and cloud or own-database configurations.
 - name: Trellis
   repo_url: https://github.com/mindfold-ai/Trellis
   category: Context & Working-State Engineering
@@ -1421,21 +1466,6 @@ entries:
   license: MIT
   why_included: README maps concrete code to harness sub-problems including state-machine gates, lifecycle interceptors, context
     recovery across compaction, tool gating, and review loops.
-- name: Hyperconsciousness
-  repo_url: https://github.com/louis030195/hyperconsciousness
-  category: Context & Working-State Engineering
-  summary_en: Developer-alpha Rust engine, CLI, and MCP server for encrypted, append-only knowledge records, with scoped,
-    expiring grants for agent retrieval and optional capture. Requires source installation.
-  summary_zh: 开发者 alpha 阶段的 Rust 引擎、CLI 和 MCP 服务器，用于加密的只追加知识记录，通过限定范围且可过期的授权支持代理检索和可选写入。需要从源码安装。
-  tags:
-  - memory
-  - mcp
-  - encrypted
-  stars_snapshot: 1
-  updated_at: '2026-09-26'
-  why_included: Provides persistent knowledge and revocable, scoped MCP access for agent context workflows. Grants constrain
-    HC tool access, not the host process; hosted models can see returned plaintext.
-  license: MIT
 - name: Daytona
   repo_url: https://github.com/daytonaio/daytona
   category: Execution Substrates & Sandboxing
@@ -4082,6 +4112,21 @@ entries:
   updated_at: '2026-09-15'
   license: MIT
   why_included: Demonstrates repo-local harness customization at scale.
+- name: Prime Agent
+  repo_url: https://github.com/PrimeIntellect-ai/prime-agent
+  category: Reference Harness Implementations
+  summary_en: Long-running coding and research harness with a persistent Python REPL, recursive subagents, resumable daemon
+    sessions, durable harness state, and budgeted autonomous quality gates.
+  summary_zh: 面向长任务编码与研究的 harness，具备持久 Python REPL、递归子代理、可恢复的守护进程会话、持久 harness 状态及带预算限制的自治质量门禁。
+  tags:
+  - long-running
+  - rlm
+  - quality-gates
+  stars_snapshot: 21595
+  updated_at: '2026-10-07'
+  license: NOASSERTION
+  why_included: Official README and crates/pa-core/src/autonomous/gates.rs expose programmatic tools, bounded continuation,
+    quality gates, and refinement with rollback; worker isolation is explicitly not a security sandbox.
 - name: SWE-agent
   repo_url: https://github.com/SWE-agent/SWE-agent
   category: Reference Harness Implementations
