@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **375**
-- GitHub 条目: **341 (90.9%)**
-- 项目分类 GitHub 占比（不含阅读类）: **336/336 (100.0%)**
+- 当前条目数: **376**
+- GitHub 条目: **342 (91.0%)**
+- 项目分类 GitHub 占比（不含阅读类）: **337/337 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-10-08**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -51,7 +51,7 @@
 
 | 分类 | 条目数 |
 | --- | ---: |
-| Harness Architecture & Orchestration | 66 |
+| Harness Architecture & Orchestration | 67 |
 | Context & Working-State Engineering | 32 |
 | Execution Substrates & Sandboxing | 27 |
 | Protocols, Tool Interfaces & Agent Contracts | 42 |
@@ -120,6 +120,7 @@
 | AIOS | [GitHub](https://github.com/agiresearch/AIOS) | [![star](https://img.shields.io/badge/star-6403-f4b400?style=flat-square)](https://github.com/agiresearch/AIOS) | agent-os, kernel, runtime | AI Agent Operating System，通过 kernel 与 SDK 管理调度、上下文、记忆、存储、工具、部署模式与 computer-use 沙箱。 |
 | Nexent | [GitHub](https://github.com/ModelEngine-Group/nexent) | [![star](https://img.shields.io/badge/star-5875-f4b400?style=flat-square)](https://github.com/ModelEngine-Group/nexent) | zero-code, control-plane, multi-agent | 基于 harness engineering 原则的零代码代理平台，统一工具、技能、记忆、编排、约束、反馈回路与控制平面。 |
 | Cloudflare Agents | [GitHub](https://github.com/cloudflare/agents) | [![star](https://img.shields.io/badge/star-5609-f4b400?style=flat-square)](https://github.com/cloudflare/agents) | platform, deployment, runtime | 提供面向生产基础设施的 agent 构建与部署运行时。 |
+| Raven | [GitHub](https://github.com/EverMind-AI/Raven) | [![star](https://img.shields.io/badge/star-5252-f4b400?style=flat-square)](https://github.com/EverMind-AI/Raven) | multi-agent, dag, harness-optimization | 为递归自我改进（RSI）而构建的 Harness of Harnesses，由 Host Agent 将内置与第三方代理编排为任务 DAG，结合 EverOS 长期记忆，并由实验性的 Curator 改写各代理的策略模块、只安装通过验证的改动。 |
 | Embabel Agent Framework | [GitHub](https://github.com/embabel/embabel-agent) | [![star](https://img.shields.io/badge/star-4456-f4b400?style=flat-square)](https://github.com/embabel/embabel-agent) | jvm, planning, typed-flows | 面向 JVM 的代理框架，通过强类型目标、动作、条件、动态规划、平台模式与可测试性组织 agentic flows。 |
 | cascadeflow | [GitHub](https://github.com/lemony-ai/cascadeflow) | [![star](https://img.shields.io/badge/star-3946-f4b400?style=flat-square)](https://github.com/lemony-ai/cascadeflow) | runtime-policy, model-routing, budget-gates | 进程内 agent harness，在代理循环内部提供逐步模型路由、工具预算门禁、运行时策略动作与可审计控制。 |
 | OpenAI Agents SDK (JS/TS) | [GitHub](https://github.com/openai/openai-agents-js) | [![star](https://img.shields.io/badge/star-3836-f4b400?style=flat-square)](https://github.com/openai/openai-agents-js) | typescript, workflows, sandbox-agents | 面向 JavaScript/TypeScript 的多代理工作流框架，支持交接、工具、护栏、会话、追踪与沙箱代理。 |

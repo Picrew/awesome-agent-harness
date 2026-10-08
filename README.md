@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **375**
-- GitHub entries: **341 (90.9%)**
-- GitHub in project categories (excluding readings): **336/336 (100.0%)**
+- Total entries: **376**
+- GitHub entries: **342 (91.0%)**
+- GitHub in project categories (excluding readings): **337/337 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-10-08**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -51,7 +51,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 
 | Category | Entries |
 | --- | ---: |
-| Harness Architecture & Orchestration | 66 |
+| Harness Architecture & Orchestration | 67 |
 | Context & Working-State Engineering | 32 |
 | Execution Substrates & Sandboxing | 27 |
 | Protocols, Tool Interfaces & Agent Contracts | 42 |
@@ -120,6 +120,7 @@ Notes:
 | AIOS | [GitHub](https://github.com/agiresearch/AIOS) | [![star](https://img.shields.io/badge/star-6403-f4b400?style=flat-square)](https://github.com/agiresearch/AIOS) | agent-os, kernel, runtime | AI Agent Operating System with a kernel and SDK for scheduling, context management, memory, storage, tools, deployment modes, and computer-use sandboxing. |
 | Nexent | [GitHub](https://github.com/ModelEngine-Group/nexent) | [![star](https://img.shields.io/badge/star-5875-f4b400?style=flat-square)](https://github.com/ModelEngine-Group/nexent) | zero-code, control-plane, multi-agent | Zero-code agent platform built around harness engineering principles, unifying tools, skills, memory, orchestration, constraints, feedback loops, and control planes. |
 | Cloudflare Agents | [GitHub](https://github.com/cloudflare/agents) | [![star](https://img.shields.io/badge/star-5609-f4b400?style=flat-square)](https://github.com/cloudflare/agents) | platform, deployment, runtime | Platform runtime for building and deploying agents with production infrastructure primitives. |
+| Raven | [GitHub](https://github.com/EverMind-AI/Raven) | [![star](https://img.shields.io/badge/star-5252-f4b400?style=flat-square)](https://github.com/EverMind-AI/Raven) | multi-agent, dag, harness-optimization | Harness of harnesses built for recursive self-improvement, with a host agent that orchestrates built-in and third-party agents as task DAGs, EverOS long-term memory, and an experimental Curator that installs only verified changes to each agent's strategy modules. |
 | Embabel Agent Framework | [GitHub](https://github.com/embabel/embabel-agent) | [![star](https://img.shields.io/badge/star-4456-f4b400?style=flat-square)](https://github.com/embabel/embabel-agent) | jvm, planning, typed-flows | JVM agent framework for typed agentic flows with goals, actions, conditions, dynamic planning, platform modes, and testability. |
 | cascadeflow | [GitHub](https://github.com/lemony-ai/cascadeflow) | [![star](https://img.shields.io/badge/star-3946-f4b400?style=flat-square)](https://github.com/lemony-ai/cascadeflow) | runtime-policy, model-routing, budget-gates | In-process agent harness for per-step model routing, tool budget gates, runtime policy actions, and auditable control inside agent loops. |
 | OpenAI Agents SDK (JS/TS) | [GitHub](https://github.com/openai/openai-agents-js) | [![star](https://img.shields.io/badge/star-3836-f4b400?style=flat-square)](https://github.com/openai/openai-agents-js) | typescript, workflows, sandbox-agents | JavaScript/TypeScript framework for multi-agent workflows with handoffs, tools, guardrails, sessions, tracing, and sandbox agents. |
