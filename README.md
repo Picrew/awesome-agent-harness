@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **375**
-- GitHub entries: **341 (90.9%)**
-- GitHub in project categories (excluding readings): **336/336 (100.0%)**
+- Total entries: **376**
+- GitHub entries: **342 (91.0%)**
+- GitHub in project categories (excluding readings): **337/337 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-10-08**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -51,7 +51,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 
 | Category | Entries |
 | --- | ---: |
-| Harness Architecture & Orchestration | 66 |
+| Harness Architecture & Orchestration | 67 |
 | Context & Working-State Engineering | 32 |
 | Execution Substrates & Sandboxing | 27 |
 | Protocols, Tool Interfaces & Agent Contracts | 42 |
@@ -139,6 +139,7 @@ Notes:
 | Water | [GitHub](https://github.com/manthanguptaa/water) | [![star](https://img.shields.io/badge/star-337-f4b400?style=flat-square)](https://github.com/manthanguptaa/water) | python, framework, approval-gates | Python agent harness framework for orchestration, resilience, observability, guardrails, approval gates, sandboxing, and deployment. |
 | OmniCoreAgent | [GitHub](https://github.com/omnirexflora-labs/omnicoreagent) | [![star](https://img.shields.io/badge/star-245-f4b400?style=flat-square)](https://github.com/omnirexflora-labs/omnicoreagent) | python, mcp, serving | Python production harness with model loop, tools, MCP, memory, workspace files, guardrails, events, subagents, background tasks, and REST/SSE serving. |
 | hankweave | [GitHub](https://github.com/SouthBridgeAI/hankweave-runtime) | [![star](https://img.shields.io/badge/star-135-f4b400?style=flat-square)](https://github.com/SouthBridgeAI/hankweave-runtime) | long-horizon, runtime, checkpoints | Headless-first long-horizon runtime that orchestrates existing agent harnesses with sentinels, loops, checkpoints, and event journals. |
+| Tale | [GitHub](https://github.com/tale-project/tale) | [![star](https://img.shields.io/badge/star-32-f4b400?style=flat-square)](https://github.com/tale-project/tale) | coding-agents, orchestration, sandboxes | Project workspace coordinating reusable coding agents through task assignment, persistent sandbox execution, permissioned delegation, and reports and deliverables for review. |
 
 <a id="context-working-state-engineering"></a>
 ### Context & Working-State Engineering

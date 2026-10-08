@@ -989,6 +989,21 @@ entries:
   updated_at: '2026-09-18'
   license: Apache-2.0
   why_included: Strong example of a harness runtime built around repairability, rollback, and controlled long-running execution.
+- name: Tale
+  repo_url: https://github.com/tale-project/tale
+  category: Harness Architecture & Orchestration
+  summary_en: Project workspace coordinating reusable coding agents through task assignment, persistent sandbox execution,
+    permissioned delegation, and reports and deliverables for review.
+  summary_zh: 项目工作空间，通过任务分配、持久化沙箱执行、权限控制的委派及报告与交付物评审来协调可复用的编码代理。
+  tags:
+  - coding-agents
+  - orchestration
+  - sandboxes
+  stars_snapshot: 32
+  updated_at: '2026-10-08'
+  license: MIT
+  why_included: Official project-agent and harness documentation describes reusable Claude Code, Codex, Cursor, Gemini CLI,
+    and OpenCode agents, separately started task runs in persistent sandboxes, scoped delegation tools, and review handoffs.
 - name: Graphify
   repo_url: https://github.com/Graphify-Labs/graphify
   category: Context & Working-State Engineering
