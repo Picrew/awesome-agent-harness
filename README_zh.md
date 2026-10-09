@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **375**
-- GitHub 条目: **341 (90.9%)**
-- 项目分类 GitHub 占比（不含阅读类）: **336/336 (100.0%)**
+- 当前条目数: **376**
+- GitHub 条目: **342 (91.0%)**
+- 项目分类 GitHub 占比（不含阅读类）: **337/337 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-10-08**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -52,7 +52,7 @@
 | 分类 | 条目数 |
 | --- | ---: |
 | Harness Architecture & Orchestration | 66 |
-| Context & Working-State Engineering | 32 |
+| Context & Working-State Engineering | 33 |
 | Execution Substrates & Sandboxing | 27 |
 | Protocols, Tool Interfaces & Agent Contracts | 42 |
 | Evaluation Harnesses & Benchmarks | 29 |
@@ -177,6 +177,7 @@
 | context-space | [GitHub](https://github.com/context-space/context-space) | [![star](https://img.shields.io/badge/star-814-f4b400?style=flat-square)](https://github.com/context-space/context-space) | context, infrastructure, mcp | 聚焦上下文工程基础设施的项目，强调 MCP 生态集成能力。 |
 | Memorix | [GitHub](https://github.com/AVIDS2/memorix) | [![star](https://img.shields.io/badge/star-792-f4b400?style=flat-square)](https://github.com/AVIDS2/memorix) | memory, mcp, cross-agent | 本地优先的跨代理记忆控制平面，支持 MCP、工作区同步、会话与编排状态。 |
 | sd0x-dev-flow | [GitHub](https://github.com/sd0xdev/sd0x-dev-flow) | [![star](https://img.shields.io/badge/star-189-f4b400?style=flat-square)](https://github.com/sd0xdev/sd0x-dev-flow) | hooks, state-machine, claude-code | Claude Code harness 层，提供钩子强制双重评审、持久状态机门禁、上下文压缩恢复与 fail-closed 安全机制。 |
+| drevon | [GitHub](https://github.com/csakash/drevon) | [![star](https://img.shields.io/badge/star-4-f4b400?style=flat-square)](https://github.com/csakash/drevon) | memory, cross-agent, skills | `npx drevon init` 可将任意目录变为 AI 工作区，为 Claude Code、Codex、Copilot、Cursor、Windsurf、Cline、Aider 与 Continue 提供统一共享配置、跨会话持久记忆、提示词与技能。 |
 
 <a id="execution-substrates-sandboxing"></a>
 ### Execution Substrates & Sandboxing
