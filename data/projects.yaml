@@ -5329,3 +5329,16 @@ entries:
   updated_at: '2025-01-01'
   license: n/a
   why_included: High-signal practitioner framing for harness-first implementation.
+- name: Markus
+  repo_url: https://github.com/markus-global/markus
+  category: Reference Harness Implementations
+  summary_en: Open-source AI workforce platform for building and running agent teams — role-based agents, task delegation, persistent memory, and inter-agent communication.
+  summary_zh: 开源 AI 劳动力平台，用于组建与运营 AI agent 团队——含角色系统、任务委派、持久记忆与 agent 间通信。
+  tags:
+  - ai-workforce
+  - agent-teams
+  - orchestration
+  stars_snapshot: 200
+  updated_at: '2026-10-06'
+  license: Apache-2.0
+  why_included: Concrete open-source platform for constructing and coordinating multi-agent teams with roles, delegation, persistent memory, and delivery.

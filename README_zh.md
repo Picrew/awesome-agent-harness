@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **375**
-- GitHub 条目: **341 (90.9%)**
-- 项目分类 GitHub 占比（不含阅读类）: **336/336 (100.0%)**
+- 当前条目数: **376**
+- GitHub 条目: **342 (91.0%)**
+- 项目分类 GitHub 占比（不含阅读类）: **337/337 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-10-08**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -58,7 +58,7 @@
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 21 |
 | Guardrails, Security & Governance | 27 |
-| Reference Harness Implementations | 92 |
+| Reference Harness Implementations | 93 |
 | Essential Readings & Ecosystem Maps | 39 |
 
 ## 项目清单
@@ -450,6 +450,7 @@
 | CheetahClaws | [GitHub](https://github.com/SafeRL-Lab/cheetahclaws) | [![star](https://img.shields.io/badge/star-780-f4b400?style=flat-square)](https://github.com/SafeRL-Lab/cheetahclaws) | coding-agent, python, mcp | 面向长任务、多模型、工具调用编码助手的 Python agent harness 基础设施，集成 MCP、技能、记忆、审批、检查点与多通道桥接。 |
 | Dexto | [GitHub](https://github.com/truffle-ai/dexto) | [![star](https://img.shields.io/badge/star-650-f4b400?style=flat-square)](https://github.com/truffle-ai/dexto) | coding-agent, sessions, mcp | 面向 AI 应用的开放 agent harness，提供 YAML 配置、有状态会话、工具编排、记忆、可观测性、权限与子代理。 |
 | OpenClaw.NET | [GitHub](https://github.com/clawdotnet/openclaw.net) | [![star](https://img.shields.io/badge/star-508-f4b400?style=flat-square)](https://github.com/clawdotnet/openclaw.net) | dotnet, gateway, governance | NativeAOT 友好的 .NET 代理运行时与网关，提供工具、记忆、MCP、治理账本、证据包与 harness 回归测试。 |
+| Markus | [GitHub](https://github.com/markus-global/markus) | [![star](https://img.shields.io/badge/star-200-f4b400?style=flat-square)](https://github.com/markus-global/markus) | ai-workforce, agent-teams, orchestration | 开源 AI 劳动力平台，用于组建与运营 AI agent 团队——含角色系统、任务委派、持久记忆与 agent 间通信。 |
 | Utah | [GitHub](https://github.com/inngest/utah) | [![star](https://img.shields.io/badge/star-137-f4b400?style=flat-square)](https://github.com/inngest/utah) | durable-execution, event-driven, multi-channel | 基于 Inngest 的持久代理 harness，提供思考-行动-观察循环、步骤级重试、单例并发、取消与多通道适配。 |
 
 <a id="essential-readings-ecosystem-maps"></a>
