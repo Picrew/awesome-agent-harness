@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **375**
-- GitHub entries: **341 (90.9%)**
-- GitHub in project categories (excluding readings): **336/336 (100.0%)**
+- Total entries: **376**
+- GitHub entries: **342 (91.0%)**
+- GitHub in project categories (excluding readings): **337/337 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-10-08**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -58,7 +58,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 21 |
 | Guardrails, Security & Governance | 27 |
-| Reference Harness Implementations | 92 |
+| Reference Harness Implementations | 93 |
 | Essential Readings & Ecosystem Maps | 39 |
 
 ## Catalog
@@ -451,6 +451,7 @@ Notes:
 | Dexto | [GitHub](https://github.com/truffle-ai/dexto) | [![star](https://img.shields.io/badge/star-650-f4b400?style=flat-square)](https://github.com/truffle-ai/dexto) | coding-agent, sessions, mcp | Open agent harness for AI applications with YAML configs, stateful sessions, tool orchestration, memory, observability, permissions, and subagents. |
 | OpenClaw.NET | [GitHub](https://github.com/clawdotnet/openclaw.net) | [![star](https://img.shields.io/badge/star-508-f4b400?style=flat-square)](https://github.com/clawdotnet/openclaw.net) | dotnet, gateway, governance | NativeAOT-friendly .NET agent runtime and gateway with tools, memory, MCP, governance ledger, evidence bundles, and harness regression tests. |
 | Utah | [GitHub](https://github.com/inngest/utah) | [![star](https://img.shields.io/badge/star-137-f4b400?style=flat-square)](https://github.com/inngest/utah) | durable-execution, event-driven, multi-channel | Inngest-powered durable agent harness with a think-act-observe loop, step-level retries, singleton concurrency, cancellation, and multi-channel adapters. |
+| SuperAgent | [GitHub](https://github.com/pungme/superagent-desktop) | [![star](https://img.shields.io/badge/star-29-f4b400?style=flat-square)](https://github.com/pungme/superagent-desktop) | macos, browser, ios-simulator | macOS desktop harness for Claude Code and Codex that adds a driveable browser on the user's own logins, an iOS Simulator, scheduled routines, and a phone companion for remote approvals. |
 
 <a id="essential-readings-ecosystem-maps"></a>
 ### Essential Readings & Ecosystem Maps
