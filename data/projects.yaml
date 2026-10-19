@@ -1152,6 +1152,22 @@ entries:
   license: MIT
   why_included: README explicitly positions Beads as persistent structured memory for coding agents with JSON output, dependency
     tracking, auto-ready tasks, compaction, and AGENTS.md/Codex integration.
+- name: kadence
+  repo_url: https://github.com/bogutskiandriy/kadence
+  category: Context & Working-State Engineering
+  summary_en: Offline CLI that keeps a repository's tasks, decisions (with the reason and the rejected alternatives) and
+    notes as append-only event files in git, so a team and its coding agents read the same working state.
+  summary_zh: 离线 CLI，将仓库的任务、决策（附理由及被否决的方案）和笔记以仅追加的事件文件形式保存在 git 中，让团队与编码代理读取同一份工作状态。
+  tags:
+  - memory
+  - issue-tracking
+  - work-state
+  - decisions
+  stars_snapshot: 2
+  updated_at: '2026-10-19'
+  license: MIT
+  why_included: Repo-local working state for coding agents with no server; JSON output with a published schema, a
+    session-start hook (Claude Code; Codex, Cursor and Copilot optional) and an agent skill package.
 - name: TencentDB Agent Memory
   repo_url: https://github.com/TencentCloud/TencentDB-Agent-Memory
   category: Context & Working-State Engineering
