@@ -258,6 +258,7 @@ Notes:
 | Microsoft Learn MCP | [GitHub](https://github.com/MicrosoftDocs/mcp) | [![star](https://img.shields.io/badge/star-1896-f4b400?style=flat-square)](https://github.com/MicrosoftDocs/mcp) | mcp, docs, grounding | MCP server and CLI for grounding agents with Microsoft documentation sources. |
 | IBM MCP | [GitHub](https://github.com/IBM/mcp) | [![star](https://img.shields.io/badge/star-405-f4b400?style=flat-square)](https://github.com/IBM/mcp) | mcp, clients, tooling | IBM collection of MCP servers, clients, and developer tooling. |
 | AGENT.md | [GitHub](https://github.com/agentmd/agent.md) | [![star](https://img.shields.io/badge/star-105-f4b400?style=flat-square)](https://github.com/agentmd/agent.md) | standard, agent-file, interoperability | Standardized machine-readable file format for agentic coding tools. |
+| Doomsday Network | [GitHub](https://github.com/doomsday-network/doomsday) | [![star](https://img.shields.io/badge/star-8-f4b400?style=flat-square)](https://github.com/doomsday-network/doomsday) | escrow, mcp, agent-contracts | Agent-native Layer-1 Proof-of-Escrow & HTTP 402 micropayment protocol (`DOOM` & Base `wDOOM`) with MCP server and 11 agent framework integrations. |
 
 <a id="evaluation-harnesses-benchmarks"></a>
 ### Evaluation Harnesses & Benchmarks
