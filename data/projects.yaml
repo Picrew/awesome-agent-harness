@@ -5329,3 +5329,16 @@ entries:
   updated_at: '2025-01-01'
   license: n/a
   why_included: High-signal practitioner framing for harness-first implementation.
+- name: agent-coexist
+  repo_url: https://github.com/RatmmmhSquishyRat/agent-coexist
+  category: Protocols, Tool Interfaces & Agent Contracts
+  summary_en: Repo-local convention and CLI for agents that cannot see each other's context, keeping threads, expiring directory claims, reading routes, and profiles as plain Markdown beside the code.
+  summary_zh: 面向彼此看不到上下文的 agent 的仓库内协作约定与命令行工具，将讨论串、带过期的目录声明、阅读路线与身份档案以纯 Markdown 形式保存在代码旁。
+  tags:
+  - multi-agent
+  - coding-agent
+  - skills
+  stars_snapshot: 1
+  updated_at: '2026-10-24'
+  license: MIT
+  why_included: README defines a file-format convention plus CLI for cross-agent coordination within one checkout, covering different harnesses, different sessions, and sibling subagents; records stay readable with ordinary file tools and require no server, database, or network. Ships a skill file under the vendor-neutral .agents/skills/ path for agent discovery.

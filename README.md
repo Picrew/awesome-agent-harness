@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **375**
-- GitHub entries: **341 (90.9%)**
-- GitHub in project categories (excluding readings): **336/336 (100.0%)**
+- Total entries: **376**
+- GitHub entries: **342 (91.0%)**
+- GitHub in project categories (excluding readings): **337/337 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-10-08**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -54,7 +54,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Harness Architecture & Orchestration | 66 |
 | Context & Working-State Engineering | 32 |
 | Execution Substrates & Sandboxing | 27 |
-| Protocols, Tool Interfaces & Agent Contracts | 42 |
+| Protocols, Tool Interfaces & Agent Contracts | 43 |
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 21 |
 | Guardrails, Security & Governance | 27 |
@@ -258,6 +258,7 @@ Notes:
 | Microsoft Learn MCP | [GitHub](https://github.com/MicrosoftDocs/mcp) | [![star](https://img.shields.io/badge/star-1896-f4b400?style=flat-square)](https://github.com/MicrosoftDocs/mcp) | mcp, docs, grounding | MCP server and CLI for grounding agents with Microsoft documentation sources. |
 | IBM MCP | [GitHub](https://github.com/IBM/mcp) | [![star](https://img.shields.io/badge/star-405-f4b400?style=flat-square)](https://github.com/IBM/mcp) | mcp, clients, tooling | IBM collection of MCP servers, clients, and developer tooling. |
 | AGENT.md | [GitHub](https://github.com/agentmd/agent.md) | [![star](https://img.shields.io/badge/star-105-f4b400?style=flat-square)](https://github.com/agentmd/agent.md) | standard, agent-file, interoperability | Standardized machine-readable file format for agentic coding tools. |
+| agent-coexist | [GitHub](https://github.com/RatmmmhSquishyRat/agent-coexist) | [![star](https://img.shields.io/badge/star-1-f4b400?style=flat-square)](https://github.com/RatmmmhSquishyRat/agent-coexist) | multi-agent, coding-agent, skills | Repo-local convention and CLI for agents that cannot see each other's context, keeping threads, expiring directory claims, reading routes, and profiles as plain Markdown beside the code. |
 
 <a id="evaluation-harnesses-benchmarks"></a>
 ### Evaluation Harnesses & Benchmarks
