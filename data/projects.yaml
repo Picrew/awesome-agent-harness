@@ -3101,6 +3101,21 @@ entries:
   license: MIT
   why_included: README describes an open system that traces coding-agent rollouts, distills failures, and applies auditable
     edits to prompts, tools, middleware, skills, subagents, and memory.
+- name: agentglass
+  repo_url: https://github.com/SirAllap/agentglass
+  category: Observability & Reliability Operations
+  summary_en: Linux desktop app that shows live cost, tokens, and tool calls for Claude Code, Codex, Gemini CLI, and OpenCode,
+    and holds dangerous tool calls until a person approves.
+  summary_zh: Linux 桌面应用，实时显示 Claude Code、Codex、Gemini CLI 和 OpenCode 的成本、token 与工具调用，并在人工批准前拦截危险的工具调用。
+  tags:
+  - cost-tracking
+  - approvals
+  - multi-agent
+  stars_snapshot: 340
+  updated_at: '2026-10-24'
+  license: MIT
+  why_included: README describes one dashboard over several coding agents with per-session spend, tool-call history, and a hold-and-approve
+    gate for risky tool calls.
 - name: OmniRoute
   repo_url: https://github.com/diegosouzapw/OmniRoute
   category: Guardrails, Security & Governance

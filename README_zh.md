@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **375**
-- GitHub 条目: **341 (90.9%)**
-- 项目分类 GitHub 占比（不含阅读类）: **336/336 (100.0%)**
+- 当前条目数: **376**
+- GitHub 条目: **342 (91.0%)**
+- 项目分类 GitHub 占比（不含阅读类）: **337/337 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-10-08**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -56,7 +56,7 @@
 | Execution Substrates & Sandboxing | 27 |
 | Protocols, Tool Interfaces & Agent Contracts | 42 |
 | Evaluation Harnesses & Benchmarks | 29 |
-| Observability & Reliability Operations | 21 |
+| Observability & Reliability Operations | 22 |
 | Guardrails, Security & Governance | 27 |
 | Reference Harness Implementations | 92 |
 | Essential Readings & Ecosystem Maps | 39 |
@@ -320,6 +320,7 @@
 | OpenInference | [GitHub](https://github.com/Arize-ai/openinference) | [![star](https://img.shields.io/badge/star-1225-f4b400?style=flat-square)](https://github.com/Arize-ai/openinference) | spec, instrumentation, observability | 面向 AI 可观测性的开放埋点规范与工具。 |
 | Judgeval | [GitHub](https://github.com/JudgmentLabs/judgeval) | [![star](https://img.shields.io/badge/star-1063-f4b400?style=flat-square)](https://github.com/JudgmentLabs/judgeval) | tracing, agent-judges, monitoring | 面向代理改进的 SDK，提供 OpenTelemetry 追踪、agent judge、在线监控、回放评测、CLI 流程与 MCP 访问轨迹/行为。 |
 | Agentic Harness Engineering | [GitHub](https://github.com/china-qijizhifeng/agentic-harness-engineering) | [![star](https://img.shields.io/badge/star-896-f4b400?style=flat-square)](https://github.com/china-qijizhifeng/agentic-harness-engineering) | harness-optimization, trace-analysis, terminal-bench | 通过评测、分析与改进闭环自动演进编码代理 harness 组件的可观测系统。 |
+| agentglass | [GitHub](https://github.com/SirAllap/agentglass) | [![star](https://img.shields.io/badge/star-340-f4b400?style=flat-square)](https://github.com/SirAllap/agentglass) | cost-tracking, approvals, multi-agent | Linux 桌面应用，实时显示 Claude Code、Codex、Gemini CLI 和 OpenCode 的成本、token 与工具调用，并在人工批准前拦截危险的工具调用。 |
 
 <a id="guardrails-security-governance"></a>
 ### Guardrails, Security & Governance
