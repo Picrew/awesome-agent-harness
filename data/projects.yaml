@@ -5329,3 +5329,17 @@ entries:
   updated_at: '2025-01-01'
   license: n/a
   why_included: High-signal practitioner framing for harness-first implementation.
+- name: personal-agent-dossier
+  repo_url: https://github.com/AidaShika/personal-agent-dossier
+  category: Protocols, Tool Interfaces & Agent Contracts
+  summary_en: Platform-neutral dossier format for moving a personal AI agent between platforms without losing its role, routines, or memory, with adapters for Grok Bot, Muse, Hermes, and OpenClaw.
+  summary_zh: 平台中立的档案格式，用于在不丢失职能、定时任务与长期记忆的前提下把个人 AI agent 迁移到另一个平台，附 Grok Bot、Muse、Hermes 与 OpenClaw 适配器。
+  tags:
+  - agent-portability
+  - memory
+  - spec
+  - skills
+  stars_snapshot: 6
+  updated_at: '2026-10-28'
+  license: MIT
+  why_included: Defines an inspectable handover file for personal agents whose contents are check-verified after a move, with a sensitive-data scan on export/import and per-platform adapters that report loss explicitly instead of dropping fields silently.
