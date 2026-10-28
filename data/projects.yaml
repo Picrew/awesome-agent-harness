@@ -886,6 +886,21 @@ entries:
   updated_at: '2026-09-18'
   license: MIT
   why_included: Official JavaScript harness implementation with explicit batteries-included control-loop primitives.
+- name: Ouroboros
+  repo_url: https://github.com/razzant/ouroboros
+  category: Harness Architecture & Orchestration
+  summary_en: Long-horizon agent runtime with durable identity and memory, multi-agent coordination, reviewed self-modification,
+    restart verification, and rollback.
+  summary_zh: 长任务代理运行时，提供持久身份与记忆、多代理协作、经评审的自修改、重启验证与回滚。
+  tags:
+  - long-horizon
+  - self-modification
+  - multi-agent
+  stars_snapshot: 1587
+  updated_at: '2026-10-28'
+  license: MIT
+  why_included: Primary documentation describes persistent identity and memory, external project work, subagent orchestration,
+    and reviewed changes to the agent's own implementation with Git history and recovery.
 - name: oh-my-agent
   repo_url: https://github.com/first-fluke/oh-my-agent
   category: Harness Architecture & Orchestration
