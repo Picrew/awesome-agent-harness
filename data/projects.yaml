@@ -4011,6 +4011,19 @@ entries:
   updated_at: '2026-09-19'
   license: Apache-2.0
   why_included: README documents branch, terminal, dev-server, diff review, and PR workflows for supervising coding agents.
+- name: Aixle Flow
+  repo_url: https://github.com/AixleHQ/flow
+  category: Reference Harness Implementations
+  summary_en: Self-hosted Kanban board where each card starts a durable Temporal workflow that runs Claude Code, Codex, Gemini CLI, or other CLI coding agents in their own containers, with approval gates and per-session token and cost tracking.
+  summary_zh: 面向团队的自托管编码代理看板：每张卡片启动一个基于 Temporal 的持久工作流，Claude Code、Codex、Gemini CLI 等 CLI 代理各自在独立容器中运行，支持人工审批关卡，并记录每次会话的令牌与成本。
+  tags:
+  - coding-agent
+  - orchestration
+  - sandboxing
+  stars_snapshot: 29
+  updated_at: '2026-10-29'
+  license: Apache-2.0
+  why_included: README and ARCHITECTURE.md document column-to-workflow bindings, Temporal DAG steps with retries and approval gates, per-step container isolation for seven CLI agents, and per-session cost metering.
 - name: Qwen Code
   repo_url: https://github.com/QwenLM/qwen-code
   category: Reference Harness Implementations
