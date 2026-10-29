@@ -5329,3 +5329,17 @@ entries:
   updated_at: '2025-01-01'
   license: n/a
   why_included: High-signal practitioner framing for harness-first implementation.
+- name: nodecode
+  repo_url: https://github.com/nodecode-ai/nodecode
+  category: Reference Harness Implementations
+  summary_en: A living agent organism in Lisp. It becomes yours and evolves over time.
+  summary_zh: 一个用 Lisp 写成的活的智能体有机体。它会成为你的，并随时间进化。
+  tags:
+  - coding-agent
+  - terminal
+  - self-modifying
+  stars_snapshot: 158
+  updated_at: '2026-10-29'
+  license: MIT
+  why_included: Open-source harness whose agent works inside a live Common Lisp image, redefining its own tools while it runs
+    and keeping those changes across restarts.
