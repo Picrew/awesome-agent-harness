@@ -4801,6 +4801,32 @@ entries:
   license: Apache-2.0
   why_included: README expands Utah as Universally Triggered Agent Harness and documents durable LLM/tool steps, retries,
     singleton concurrency, cancellation, channels, and local worker operation.
+- name: pulse-brownfield-feature-demo
+  repo_url: https://github.com/OktoLabsAI/pulse-brownfield-feature-demo
+  category: Reference Harness Implementations
+  summary_en: Worked example of a threaded-comments feature built on an existing codebase by two independent agents on an Okto Pulse board.
+  summary_zh: 在已有代码库上由两个独立代理基于 Okto Pulse 看板完成的线程化评论功能示例。
+  tags:
+  - reference-implementation
+  - brownfield
+  - governance
+  stars_snapshot: 8
+  updated_at: '2026-10-29'
+  license: Elastic-2.0
+  why_included: README walks through a real feature built end to end under Okto Pulse governance, with the board and demo data included. Source-available under the Elastic License 2.0.
+- name: nexus-brownfield-handoff-demo
+  repo_url: https://github.com/OktoLabsAI/nexus-brownfield-handoff-demo
+  category: Reference Harness Implementations
+  summary_en: Worked example of a migration handled by two independent agents whose handoffs are coordinated by Okto Nexus.
+  summary_zh: 两个独立代理在 Okto Nexus 协调下完成数据迁移交接的示例。
+  tags:
+  - reference-implementation
+  - brownfield
+  - handoffs
+  stars_snapshot: 8
+  updated_at: '2026-10-29'
+  license: Elastic-2.0
+  why_included: README walks through a small real change built on a real codebase under Okto Nexus coordination, with the workspace and demo data included. Source-available under the Elastic License 2.0.
 - name: awesome-claude-code
   repo_url: https://github.com/hesreallyhim/awesome-claude-code
   category: Essential Readings & Ecosystem Maps
