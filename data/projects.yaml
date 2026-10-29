@@ -1451,6 +1451,19 @@ entries:
   license: MIT
   why_included: README maps concrete code to harness sub-problems including state-machine gates, lifecycle interceptors, context
     recovery across compaction, tool gating, and review loops.
+- name: Okto Neuron
+  repo_url: https://github.com/OktoLabsAI/okto-neuron
+  category: Context & Working-State Engineering
+  summary_en: Local-first knowledge graph memory for agents, with cited sources and an MCP server.
+  summary_zh: 面向代理的本地优先知识图谱记忆，带有引用来源，并提供 MCP 服务器。
+  tags:
+  - memory
+  - knowledge-graph
+  - mcp
+  stars_snapshot: 9
+  updated_at: '2026-10-29'
+  license: Elastic-2.0
+  why_included: README presents a local vault that ingests documents into a knowledge graph and answers with cited sources over MCP. Source-available under the Elastic License 2.0.
 - name: Daytona
   repo_url: https://github.com/daytonaio/daytona
   category: Execution Substrates & Sandboxing
