@@ -5329,3 +5329,18 @@ entries:
   updated_at: '2025-01-01'
   license: n/a
   why_included: High-signal practitioner framing for harness-first implementation.
+- name: Bivy
+  repo_url: https://github.com/bivysh/bivy
+  category: Harness Architecture & Orchestration
+  summary_en: Runs Claude Code, Codex, OpenCode, Pi and other agent CLIs on your own machines or a cloud computer, with sessions
+    reachable from a phone web app, browser and CLI, plus event-triggered runs from GitHub, CI, webhooks or schedules.
+  summary_zh: 在自己的机器或云电脑上运行 Claude Code、Codex、OpenCode、Pi 等编码智能体 CLI，可从手机网页应用、浏览器和命令行访问会话，并支持由 GitHub、CI、Webhook 或定时任务触发运行。
+  tags:
+  - control-plane
+  - sessions
+  - coding-agents
+  stars_snapshot: 2
+  updated_at: '2026-10-29'
+  license: MIT
+  why_included: README documents a multi-agent runner with an agent adapter table, end-to-end encrypted relay, per-tool approvals,
+    automations-as-code with run receipts, and a self-hostable control plane, relay and fleet.
