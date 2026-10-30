@@ -5329,3 +5329,18 @@ entries:
   updated_at: '2025-01-01'
   license: n/a
   why_included: High-signal practitioner framing for harness-first implementation.
+- name: Agent Role Contracts
+  repo_url: https://github.com/suirindo/agent-role-contracts
+  category: Protocols, Tool Interfaces & Agent Contracts
+  summary_en: Offline Node.js checker for declared agent roles, task scopes, review separation, and handoffs; does not grant
+    execution authority or enforce runtime permissions.
+  summary_zh: 离线 Node.js 检查器，用于验证声明的代理角色、任务范围、评审职责分离与交接；不授予执行权限，也不强制实施运行时权限。
+  tags:
+  - agent-contract
+  - validation
+  - coding-agents
+  stars_snapshot: 3
+  updated_at: '2026-10-29'
+  license: MIT
+  why_included: Provides explicit role and authority schemas, deterministic declaration checks, and reproducible scope-failure
+    examples for pre-dispatch harness validation; runtime enforcement remains external.
