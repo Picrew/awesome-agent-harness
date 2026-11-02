@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **375**
-- GitHub 条目: **341 (90.9%)**
-- 项目分类 GitHub 占比（不含阅读类）: **336/336 (100.0%)**
+- 当前条目数: **376**
+- GitHub 条目: **342 (91.0%)**
+- 项目分类 GitHub 占比（不含阅读类）: **337/337 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-10-08**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -58,7 +58,7 @@
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 21 |
 | Guardrails, Security & Governance | 27 |
-| Reference Harness Implementations | 92 |
+| Reference Harness Implementations | 93 |
 | Essential Readings & Ecosystem Maps | 39 |
 
 ## 项目清单
@@ -404,6 +404,7 @@
 | SuperClaude Framework | [GitHub](https://github.com/SuperClaude-Org/SuperClaude_Framework) | [![star](https://img.shields.io/badge/star-23902-f4b400?style=flat-square)](https://github.com/SuperClaude-Org/SuperClaude_Framework) | config, personas, workflow | 为编码代理增强命令、角色与方法模板的配置框架。 |
 | Prime Agent | [GitHub](https://github.com/PrimeIntellect-ai/prime-agent) | [![star](https://img.shields.io/badge/star-21595-f4b400?style=flat-square)](https://github.com/PrimeIntellect-ai/prime-agent) | long-running, rlm, quality-gates | 面向长任务编码与研究的 harness，具备持久 Python REPL、递归子代理、可恢复的守护进程会话、持久 harness 状态及带预算限制的自治质量门禁。 |
 | SWE-agent | [GitHub](https://github.com/SWE-agent/SWE-agent) | [![star](https://img.shields.io/badge/star-20370-f4b400?style=flat-square)](https://github.com/SWE-agent/SWE-agent) | swe, issue-fixing, tooling | 研究级编码代理，通过明确的工具回路自动修复 GitHub issue。 |
+| Kortix | [GitHub](https://github.com/kortix-ai/suna) | [![star](https://img.shields.io/badge/star-20349-f4b400?style=flat-square)](https://github.com/kortix-ai/suna) | harness-runtime, sandboxing, self-hosted | 开源 CompanyOS，其代理运行时把 harness 收敛在一个契约之后：单一适配器模块、每个沙箱在其生命周期内只运行一个 harness，迁移到其他 harness 时记录 harness.history。 |
 | jcode | [GitHub](https://github.com/1jehuang/jcode) | [![star](https://img.shields.io/badge/star-19934-f4b400?style=flat-square)](https://github.com/1jehuang/jcode) | coding-agent, terminal, rust | 面向多会话工作流、可定制性、记忆与终端性能优化的 Rust 编码代理 harness。 |
 | Devika | [GitHub](https://github.com/stitionai/devika) | [![star](https://img.shields.io/badge/star-19566-f4b400?style=flat-square)](https://github.com/stitionai/devika) | assistant, planning, coding | 开源编码助手系统，支持任务规划与实现。 |
 | OpenFang | [GitHub](https://github.com/RightNow-AI/openfang) | [![star](https://img.shields.io/badge/star-18205-f4b400?style=flat-square)](https://github.com/RightNow-AI/openfang) | agent-os, guardrails, rust | Rust agent 操作系统，包含自治能力包、manifest、护栏、工具、记忆、沙箱、审计链路与渠道适配器。 |
