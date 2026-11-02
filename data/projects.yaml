@@ -989,6 +989,25 @@ entries:
   updated_at: '2026-09-18'
   license: Apache-2.0
   why_included: Strong example of a harness runtime built around repairability, rollback, and controlled long-running execution.
+- name: TaskHandoff
+  repo_url: https://github.com/edgestorage/task-handoff
+  category: Harness Architecture & Orchestration
+  summary_en: Free, open-source, self-hostable control plane for AI remote work that runs Codex and OpenCode sessions across
+    machines, Docker workspaces, and repositories, with per-task checkouts, a diff view before commit, and access from desktop
+    clients or a browser.
+  summary_zh: 免费、开源、可自托管的 AI 远程工作控制面板：跨机器、Docker 工作区和代码仓库运行 Codex 与 OpenCode 会话，提交前可查看 diff，桌面客户端和浏览器都能接入。
+  tags:
+  - control-plane
+  - docker
+  - workspaces
+  - remote-access
+  stars_snapshot: 5
+  updated_at: '2026-11-02'
+  license: Apache-2.0
+  why_included: >-
+    Makes the harness deployable as a control plane: workspace provisioning, Docker isolation, and review are enforced by
+    the runtime rather than by prompt instructions, and sessions stay reachable remotely through desktop clients, a browser,
+    or encrypted relay nodes.
 - name: Graphify
   repo_url: https://github.com/Graphify-Labs/graphify
   category: Context & Working-State Engineering
