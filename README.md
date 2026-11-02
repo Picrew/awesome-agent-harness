@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **375**
-- GitHub entries: **341 (90.9%)**
-- GitHub in project categories (excluding readings): **336/336 (100.0%)**
+- Total entries: **376**
+- GitHub entries: **342 (91.0%)**
+- GitHub in project categories (excluding readings): **337/337 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-10-08**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -58,7 +58,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 21 |
 | Guardrails, Security & Governance | 27 |
-| Reference Harness Implementations | 92 |
+| Reference Harness Implementations | 93 |
 | Essential Readings & Ecosystem Maps | 39 |
 
 ## Catalog
@@ -352,8 +352,6 @@ Notes:
 | Cordum | [GitHub](https://github.com/cordum-io/cordum) | [![star](https://img.shields.io/badge/star-508-f4b400?style=flat-square)](https://github.com/cordum-io/cordum) | governance, approvals, audit | Agent control plane for pre-execution policies, approval gates, safety-kernel verdicts, live monitoring, audit trails, and Claude Code compliance firewall hooks. |
 | Sponsio | [GitHub](https://github.com/SponsioLabs/Sponsio) | [![star](https://img.shields.io/badge/star-441-f4b400?style=flat-square)](https://github.com/SponsioLabs/Sponsio) | contracts, runtime-safety, guardrails | Runtime enforcement layer that checks every agent action against deterministic contracts before execution. |
 | DashClaw | [GitHub](https://github.com/ucsandman/DashClaw) | [![star](https://img.shields.io/badge/star-306-f4b400?style=flat-square)](https://github.com/ucsandman/DashClaw) | approvals, policy, audit | Governance layer that intercepts risky agent actions, enforces policy, routes approvals, and records audit-ready decision trails. |
-| Kortix harness config | [GitHub](https://github.com/Kortix-seo/kortix-harness-config) | | manifest, grants, change-requests | Open-source Kortix project directory that shows where a harness keeps its boundaries: two agents, the connectors/secrets/permissions each is granted in `kortix.yaml`, a scheduled trigger, and the harness-neutral layout every loop reads. |
-
 | Tandem | [GitHub](https://github.com/frumu-ai/tandem) | [![star](https://img.shields.io/badge/star-121-f4b400?style=flat-square)](https://github.com/frumu-ai/tandem) | runtime-authority, approvals, audit | Governed runtime authority layer for agents with scoped execution, tool visibility, permissioned memory, approval gates, and audit trails. |
 
 <a id="reference-harness-implementations"></a>
@@ -406,6 +404,7 @@ Notes:
 | SuperClaude Framework | [GitHub](https://github.com/SuperClaude-Org/SuperClaude_Framework) | [![star](https://img.shields.io/badge/star-23902-f4b400?style=flat-square)](https://github.com/SuperClaude-Org/SuperClaude_Framework) | config, personas, workflow | Configuration framework adding commands, personas, and method templates to coding agents. |
 | Prime Agent | [GitHub](https://github.com/PrimeIntellect-ai/prime-agent) | [![star](https://img.shields.io/badge/star-21595-f4b400?style=flat-square)](https://github.com/PrimeIntellect-ai/prime-agent) | long-running, rlm, quality-gates | Long-running coding and research harness with a persistent Python REPL, recursive subagents, resumable daemon sessions, durable harness state, and budgeted autonomous quality gates. |
 | SWE-agent | [GitHub](https://github.com/SWE-agent/SWE-agent) | [![star](https://img.shields.io/badge/star-20370-f4b400?style=flat-square)](https://github.com/SWE-agent/SWE-agent) | swe, issue-fixing, tooling | Research-grade coding agent that resolves GitHub issues with explicit tooling loops. |
+| Kortix | [GitHub](https://github.com/kortix-ai/suna) | [![star](https://img.shields.io/badge/star-20349-f4b400?style=flat-square)](https://github.com/kortix-ai/suna) | harness-runtime, sandboxing, self-hosted | Open-source CompanyOS whose agent runtime keeps the harness behind a contract - one adapter module, one harness per sandbox for the life of that sandbox, and a recorded harness.history when a box is migrated to another harness. |
 | jcode | [GitHub](https://github.com/1jehuang/jcode) | [![star](https://img.shields.io/badge/star-19934-f4b400?style=flat-square)](https://github.com/1jehuang/jcode) | coding-agent, terminal, rust | Rust coding-agent harness built for multi-session workflows, customization, memory, and terminal performance. |
 | Devika | [GitHub](https://github.com/stitionai/devika) | [![star](https://img.shields.io/badge/star-19566-f4b400?style=flat-square)](https://github.com/stitionai/devika) | assistant, planning, coding | Open-source coding assistant system for planning and implementing development tasks. |
 | OpenFang | [GitHub](https://github.com/RightNow-AI/openfang) | [![star](https://img.shields.io/badge/star-18205-f4b400?style=flat-square)](https://github.com/RightNow-AI/openfang) | agent-os, guardrails, rust | Rust agent operating system with autonomous capability packages, manifests, guardrails, tools, memory, sandboxing, audit trails, and channel adapters. |
