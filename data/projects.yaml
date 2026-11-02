@@ -2421,6 +2421,22 @@ entries:
   updated_at: '2025-07-10'
   license: MIT
   why_included: Alternative standardization path worth tracking in harness ecosystems.
+- name: agent-feishu-bridge
+  repo_url: https://github.com/Jokerautowrite/agent-feishu-bridge
+  category: Protocols, Tool Interfaces & Agent Contracts
+  summary_en: Feishu/Lark bridge for coding agents (Codex, Claude, OpenCode) with streaming cards, full reasoning-trace rendering,
+    and approval flows — the only known bridge that renders GPT reasoning output end-to-end in chat.
+  summary_zh: 面向编码代理（Codex/Claude/OpenCode）的飞书/Lark 桥，支持流式卡片、完整推理过程渲染与审批流——目前唯一能在聊天中端到端展示 GPT 推理输出的桥。
+  tags:
+  - feishu
+  - lark
+  - reasoning-trace
+  - streaming
+  stars_snapshot: 5
+  updated_at: '2026-10-23'
+  license: NOASSERTION
+  why_included: README documents a multi-backend bridge (Codex/Claude/OpenCode) into Feishu/Lark with streaming card rendering,
+    full reasoning-trace display, and approval flows — a distinctive chat-surface integration for harness workflows.
 - name: Promptfoo
   repo_url: https://github.com/promptfoo/promptfoo
   category: Evaluation Harnesses & Benchmarks
