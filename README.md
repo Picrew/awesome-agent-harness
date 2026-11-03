@@ -2,8 +2,8 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **375**
-- GitHub entries: **341 (90.9%)**
+- Total entries: **376**
+- GitHub entries: **341 (90.7%)**
 - GitHub in project categories (excluding readings): **336/336 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-10-08**
@@ -59,7 +59,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Observability & Reliability Operations | 21 |
 | Guardrails, Security & Governance | 27 |
 | Reference Harness Implementations | 92 |
-| Essential Readings & Ecosystem Maps | 39 |
+| Essential Readings & Ecosystem Maps | 40 |
 
 ## Catalog
 
@@ -493,6 +493,7 @@ Notes:
 | The next evolution of the Agents SDK | [Reference](https://openai.com/index/the-next-evolution-of-the-agents-sdk/) | - | reading, openai, sdk | OpenAI's product and engineering post on model-native agent harnesses, native sandbox execution, manifests, memory, and filesystem and shell tools. |
 | Unlocking the Codex harness: how we built the App Server | [Reference](https://openai.com/index/unlocking-the-codex-harness/) | - | reading, openai, architecture | OpenAI's architecture deep dive into sharing the Codex harness across clients through App Server, thread persistence, JSON-RPC, sandboxed tools, MCP, skills, and reconnectable sessions. |
 | Unrolling the Codex agent loop | [Reference](https://openai.com/index/unrolling-the-codex-agent-loop/) | - | reading, openai, architecture | OpenAI engineering deep dive into the Codex harness loop, prompt growth, tool-call replay, and stateless execution tradeoffs. |
+| What Does It Cost to Run an OpenClaw Agent? About $50 a Month | [Reference](https://engineering.kenmazaika.com/blog/cost-to-run-an-agent) | - | reading, cost, routing | A 30-day measured agent bill of $50.93, plus the three controls that bound it — routing, not model price, turns out to be the cost center. |
 | What We Learned Building Cloud Agents | [Reference](https://cognition.ai/blog/what-we-learned-building-cloud-agents) | - | reading, cognition, cloud-agents | Cognition's field report on secure cloud-agent infrastructure, VM isolation, full-state snapshots, orchestration, governance, integrations, and enterprise adoption. |
 | Writing effective tools for AI agents | [Reference](https://www.anthropic.com/engineering/writing-tools-for-agents) | - | reading, anthropic, tools | Best practices for tool interface design so agents call tools safely and reliably. |
 | Your Agent Needs a Harness, Not a Framework | [Reference](https://www.inngest.com/blog/your-agent-needs-a-harness-not-a-framework) | - | reading, inngest, reliability | Argument for reliability-first infrastructure around agents instead of framework-only thinking. |

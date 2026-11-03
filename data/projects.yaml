@@ -5329,3 +5329,18 @@ entries:
   updated_at: '2025-01-01'
   license: n/a
   why_included: High-signal practitioner framing for harness-first implementation.
+- name: 'What Does It Cost to Run an OpenClaw Agent? About $50 a Month'
+  repo_url: https://engineering.kenmazaika.com/blog/cost-to-run-an-agent
+  category: Essential Readings & Ecosystem Maps
+  summary_en: A 30-day measured agent bill of $50.93, plus the three controls that bound it — routing, not
+    model price, turns out to be the cost center.
+  summary_zh: 一份 30 天实测的 Agent 账单（50.93 美元）及三项成本控制；真正的成本中心是路由，而不是模型单价。
+  tags:
+  - reading
+  - cost
+  - routing
+  stars_snapshot: 0
+  updated_at: '2026-11-03'
+  license: n/a
+  why_included: Gives harness builders a measured operating cost baseline and named controls instead of a
+    token-count guess.
