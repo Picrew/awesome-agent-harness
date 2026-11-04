@@ -989,6 +989,32 @@ entries:
   updated_at: '2026-09-18'
   license: Apache-2.0
   why_included: Strong example of a harness runtime built around repairability, rollback, and controlled long-running execution.
+- name: Okto Pulse
+  repo_url: https://github.com/OktoLabsAI/okto-pulse
+  category: Harness Architecture & Orchestration
+  summary_en: Spec-driven project management for AI coding agents, with governance gates between stages and an MCP server.
+  summary_zh: 面向 AI 编码代理的规格驱动项目管理，阶段之间设有治理关卡，并提供 MCP 服务器。
+  tags:
+  - spec-driven
+  - governance
+  - mcp
+  stars_snapshot: 86
+  updated_at: '2026-10-29'
+  license: Elastic-2.0
+  why_included: README describes agents operating a governed board of ideas, specs, tasks, tests and bugs through MCP, with gates between stages. Source-available under the Elastic License 2.0.
+- name: Okto Nexus
+  repo_url: https://github.com/OktoLabsAI/okto-nexus
+  category: Harness Architecture & Orchestration
+  summary_en: Local-first MCP coordination hub for teams of AI agents, with durable messaging, handoffs, governance controls and a live dashboard.
+  summary_zh: 面向 AI 代理团队的本地优先 MCP 协调中心，提供持久消息、交接、治理控制与实时仪表盘。
+  tags:
+  - coordination
+  - handoffs
+  - mcp
+  stars_snapshot: 58
+  updated_at: '2026-10-29'
+  license: Elastic-2.0
+  why_included: README describes an MCP server and operator hub giving agents identities, presence, messages, handoffs, an event log and governance controls without a cloud broker. Source-available under the Elastic License 2.0.
 - name: Graphify
   repo_url: https://github.com/Graphify-Labs/graphify
   category: Context & Working-State Engineering
