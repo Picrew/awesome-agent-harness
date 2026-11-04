@@ -598,6 +598,21 @@ entries:
   license: AGPL-3.0
   why_included: README documents background agent tasks, multiple managed instances, per-task isolated git workspaces, change
     review, checkout, commit, and push operations.
+- name: pando
+  repo_url: https://github.com/xseman/pando
+  category: Harness Architecture & Orchestration
+  summary_en: Terminal workspace whose daemon owns Claude Code, Codex, Gemini CLI, OpenCode and shell sessions in per-session
+    git worktrees, with diff review in the TUI and a CLI that blocks on session status.
+  summary_zh: 终端工作区：守护进程在每个会话独立的 git worktree 中托管 Claude Code、Codex、Gemini CLI、OpenCode 与 shell 会话，TUI 内审查 diff，CLI 可阻塞等待会话状态。
+  tags:
+  - terminal
+  - sessions
+  - worktrees
+  stars_snapshot: 6
+  updated_at: '2026-11-04'
+  license: Apache-2.0
+  why_included: README documents a daemon that keeps agent PTYs alive across TUI restarts and resumes their conversations,
+    running/blocked/idle detection, diff review and commit, and a CLI agent guide (skills/pando/SKILL.md) for driving sessions.
 - name: Flue
   repo_url: https://github.com/withastro/flue
   category: Harness Architecture & Orchestration
