@@ -2,8 +2,8 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **375**
-- GitHub 条目: **341 (90.9%)**
+- 当前条目数: **376**
+- GitHub 条目: **341 (90.7%)**
 - 项目分类 GitHub 占比（不含阅读类）: **336/336 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-10-08**
@@ -59,7 +59,7 @@
 | Observability & Reliability Operations | 21 |
 | Guardrails, Security & Governance | 27 |
 | Reference Harness Implementations | 92 |
-| Essential Readings & Ecosystem Maps | 39 |
+| Essential Readings & Ecosystem Maps | 40 |
 
 ## 项目清单
 
@@ -493,6 +493,7 @@
 | The next evolution of the Agents SDK | [Reference](https://openai.com/index/the-next-evolution-of-the-agents-sdk/) | - | reading, openai, sdk | OpenAI 关于 Agents SDK 演进的产品与工程文章，介绍模型原生 harness、原生沙箱执行、Manifest、记忆、文件系统与 shell 工具。 |
 | Unlocking the Codex harness: how we built the App Server | [Reference](https://openai.com/index/unlocking-the-codex-harness/) | - | reading, openai, architecture | OpenAI 对 Codex App Server 架构的深入拆解，介绍如何通过线程持久化、JSON-RPC、沙箱工具、MCP、skills 与可重连会话在多种客户端间复用 harness。 |
 | Unrolling the Codex agent loop | [Reference](https://openai.com/index/unrolling-the-codex-agent-loop/) | - | reading, openai, architecture | OpenAI 工程向拆解 Codex harness 回路，涵盖提示增长、工具调用回放与无状态执行权衡。 |
+| What Does It Cost to Run an OpenClaw Agent? About $50 a Month | [Reference](https://engineering.kenmazaika.com/blog/cost-to-run-an-agent) | - | reading, cost, routing | 一份 30 天实测的 Agent 账单（50.93 美元）及三项成本控制；真正的成本中心是路由，而不是模型单价。 |
 | What We Learned Building Cloud Agents | [Reference](https://cognition.ai/blog/what-we-learned-building-cloud-agents) | - | reading, cognition, cloud-agents | Cognition 关于 Devin 云端代理基础设施的实践复盘，涵盖 VM 隔离、全状态快照、编排、治理、集成与企业落地。 |
 | Writing effective tools for AI agents | [Reference](https://www.anthropic.com/engineering/writing-tools-for-agents) | - | reading, anthropic, tools | 讲解如何设计工具接口，使代理更稳定且更安全地调用工具。 |
 | Your Agent Needs a Harness, Not a Framework | [Reference](https://www.inngest.com/blog/your-agent-needs-a-harness-not-a-framework) | - | reading, inngest, reliability | 强调代理系统应优先建设可靠性基础设施，而非仅依赖框架思维。 |
