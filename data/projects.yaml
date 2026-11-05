@@ -2814,6 +2814,21 @@ entries:
   license: Apache-2.0
   why_included: README explicitly frames HarnessBench as a benchmark for comparing agent harnesses, fixing the base model
     while varying harnesses, containers, and leaderboard outputs.
+- name: EC2-Bench
+  repo_url: https://github.com/OpenBMB/EC2-Bench
+  category: Evaluation Harnesses & Benchmarks
+  summary_en: Edge-cloud collaboration benchmark for long-horizon agents on OpenClaw, with 128 executable digital-workspace
+    tasks scored jointly on task completion, cloud cost, and privacy exposure.
+  summary_zh: 基于 OpenClaw 的长程 agent 端云协同评测基准，包含 128 个可执行的数字办公任务，同时衡量任务完成度、云端成本与隐私暴露。
+  tags:
+  - edge-cloud
+  - benchmark
+  - privacy
+  stars_snapshot: 21
+  updated_at: '2026-10-24'
+  license: MIT
+  why_included: README documents a runnable evaluation harness that compares query routing, per-step routing, edge-controlled
+    delegation, and edge-controlled advisory between an on-device and a cloud model, with privacy-annotated tasks.
 - name: Langfuse
   repo_url: https://github.com/langfuse/langfuse
   category: Observability & Reliability Operations
