@@ -773,6 +773,21 @@ entries:
   license: Apache-2.0
   why_included: README documents feedback-driven harness evolution with candidate evaluation and versioned publication of
     prompts, rules, and skills, alongside model weight training.
+- name: PluginRSI
+  repo_url: https://github.com/syr-cn/PluginRSI
+  category: Harness Architecture & Orchestration
+  summary_en: Harness optimizer that atomizes agent harnesses into reusable plugins, evolves them in a shared library, and
+    recombines them into new harnesses across coding, CLI, and QA tasks.
+  summary_zh: 将 agent harness 拆分为可复用插件，在共享插件库中独立演化并重组为新 harness 的优化框架，覆盖代码、命令行与问答任务。
+  tags:
+  - harness-optimization
+  - plugins
+  - self-improvement
+  stars_snapshot: 1
+  updated_at: '2026-10-07'
+  why_included: Open-source implementation that automatically improves harness mechanisms as reusable plugins that transfer
+    across tasks and solver models.
+  license: MIT
 - name: Docker Agent
   repo_url: https://github.com/docker/docker-agent
   category: Harness Architecture & Orchestration
