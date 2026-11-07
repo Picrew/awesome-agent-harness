@@ -4296,8 +4296,8 @@ entries:
   license: Apache-2.0
   why_included: README documents an Agent-Computer Interface framework, cross-platform GUI control, grounding model parameters,
     optional local coding environment, and OSWorld/WindowsAgentArena/AndroidWorld evaluation results.
-- name: Agent Orchestrator
-  repo_url: https://github.com/Untrivial-ai/agent-orchestrator
+- name: Orchestrator
+  repo_url: https://github.com/OrchestratorInc/agent-orchestrator
   category: Reference Harness Implementations
   summary_en: Worktree-based orchestration layer for parallel coding agents with autonomous CI and review feedback handling.
   summary_zh: 基于 worktree 的并行编码代理编排层，可自治处理 CI 与评审反馈。
@@ -4305,8 +4305,8 @@ entries:
   - worktrees
   - parallel
   - dashboard
-  stars_snapshot: 12215
-  updated_at: '2026-09-20'
+  stars_snapshot: 14190
+  updated_at: '2026-11-07'
   license: Apache-2.0
   why_included: Strong end-to-end reference for supervising parallel coding agents across worktrees, CI loops, and review
     workflows.
