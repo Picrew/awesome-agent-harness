@@ -2,7 +2,7 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **375**
+- 当前条目数: **376**
 - GitHub 条目: **341 (90.9%)**
 - 项目分类 GitHub 占比（不含阅读类）: **336/336 (100.0%)**
 - 分类数量: **9**
@@ -57,7 +57,7 @@
 | Protocols, Tool Interfaces & Agent Contracts | 42 |
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 21 |
-| Guardrails, Security & Governance | 27 |
+| Guardrails, Security & Governance | 28 |
 | Reference Harness Implementations | 92 |
 | Essential Readings & Ecosystem Maps | 39 |
 
@@ -352,6 +352,7 @@
 | Cordum | [GitHub](https://github.com/cordum-io/cordum) | [![star](https://img.shields.io/badge/star-508-f4b400?style=flat-square)](https://github.com/cordum-io/cordum) | governance, approvals, audit | 代理控制平面，提供执行前策略、审批门禁、安全内核裁决、实时监控、审计轨迹与 Claude Code 合规防火墙钩子。 |
 | Sponsio | [GitHub](https://github.com/SponsioLabs/Sponsio) | [![star](https://img.shields.io/badge/star-441-f4b400?style=flat-square)](https://github.com/SponsioLabs/Sponsio) | contracts, runtime-safety, guardrails | 运行时强制执行层，在代理动作执行前用确定性契约逐项检查。 |
 | DashClaw | [GitHub](https://github.com/ucsandman/DashClaw) | [![star](https://img.shields.io/badge/star-306-f4b400?style=flat-square)](https://github.com/ucsandman/DashClaw) | approvals, policy, audit | 面向代理的治理层，可拦截高风险动作、执行策略、路由审批，并记录可审计的决策轨迹。 |
+| SandBase CLI | [GitHub](https://github.com/sandbaseai/cli) | [![star](https://img.shields.io/badge/star-185-f4b400?style=flat-square)](https://github.com/sandbaseai/cli) | gateway, mcp, cli | 本地 MCP 桥接/CLI，将 25 个 AI 编码客户端连接至 2,000+ 模型与 API，支持 OAuth、运行前检视定价与回滚。 |
 | Tandem | [GitHub](https://github.com/frumu-ai/tandem) | [![star](https://img.shields.io/badge/star-121-f4b400?style=flat-square)](https://github.com/frumu-ai/tandem) | runtime-authority, approvals, audit | 面向代理的运行时权限治理层，提供作用域执行、工具可见性、权限化记忆、审批门禁与审计轨迹。 |
 
 <a id="reference-harness-implementations"></a>
