@@ -3,8 +3,8 @@
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
 - Total entries: **376**
-- GitHub entries: **341 (90.9%)**
-- GitHub in project categories (excluding readings): **336/336 (100.0%)**
+- GitHub entries: **342 (91.0%)**
+- GitHub in project categories (excluding readings): **337/337 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-10-08**
 - Language: [English](./README.md) | [中文](./README_zh.md)
