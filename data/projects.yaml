@@ -3465,6 +3465,21 @@ entries:
   license: MIT
   why_included: High-signal example of action-level governance for existing coding-agent and MCP runtimes without requiring
     a full framework rewrite.
+- name: SandBase CLI
+  repo_url: https://github.com/sandbaseai/cli
+  category: Guardrails, Security & Governance
+  summary_en: Local MCP bridge/CLI that connects 25 AI coding clients to 2,000+ models and APIs with OAuth, inspect-before-run
+    pricing, and rollback.
+  summary_zh: 本地 MCP 桥接/CLI，将 25 个 AI 编码客户端连接至 2,000+ 模型与 API，支持 OAuth、运行前检视定价与回滚。
+  tags:
+  - gateway
+  - mcp
+  - cli
+  stars_snapshot: 185
+  updated_at: '2026-11-07'
+  license: Apache-2.0
+  why_included: Production MCP/AI gateway for coding-agent harnesses—one local bridge plus remote MCP (API Key at https://sandbase.ai/v1/mcp)
+    instead of per-provider keys.
 - name: Tandem
   repo_url: https://github.com/frumu-ai/tandem
   category: Guardrails, Security & Governance

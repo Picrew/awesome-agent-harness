@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **375**
-- GitHub entries: **341 (90.9%)**
-- GitHub in project categories (excluding readings): **336/336 (100.0%)**
+- Total entries: **376**
+- GitHub entries: **342 (91.0%)**
+- GitHub in project categories (excluding readings): **337/337 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-10-08**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -57,7 +57,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Protocols, Tool Interfaces & Agent Contracts | 42 |
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 21 |
-| Guardrails, Security & Governance | 27 |
+| Guardrails, Security & Governance | 28 |
 | Reference Harness Implementations | 92 |
 | Essential Readings & Ecosystem Maps | 39 |
 
@@ -352,6 +352,7 @@ Notes:
 | Cordum | [GitHub](https://github.com/cordum-io/cordum) | [![star](https://img.shields.io/badge/star-508-f4b400?style=flat-square)](https://github.com/cordum-io/cordum) | governance, approvals, audit | Agent control plane for pre-execution policies, approval gates, safety-kernel verdicts, live monitoring, audit trails, and Claude Code compliance firewall hooks. |
 | Sponsio | [GitHub](https://github.com/SponsioLabs/Sponsio) | [![star](https://img.shields.io/badge/star-441-f4b400?style=flat-square)](https://github.com/SponsioLabs/Sponsio) | contracts, runtime-safety, guardrails | Runtime enforcement layer that checks every agent action against deterministic contracts before execution. |
 | DashClaw | [GitHub](https://github.com/ucsandman/DashClaw) | [![star](https://img.shields.io/badge/star-306-f4b400?style=flat-square)](https://github.com/ucsandman/DashClaw) | approvals, policy, audit | Governance layer that intercepts risky agent actions, enforces policy, routes approvals, and records audit-ready decision trails. |
+| SandBase CLI | [GitHub](https://github.com/sandbaseai/cli) | [![star](https://img.shields.io/badge/star-185-f4b400?style=flat-square)](https://github.com/sandbaseai/cli) | gateway, mcp, cli | Local MCP bridge/CLI that connects 25 AI coding clients to 2,000+ models and APIs with OAuth, inspect-before-run pricing, and rollback. |
 | Tandem | [GitHub](https://github.com/frumu-ai/tandem) | [![star](https://img.shields.io/badge/star-121-f4b400?style=flat-square)](https://github.com/frumu-ai/tandem) | runtime-authority, approvals, audit | Governed runtime authority layer for agents with scoped execution, tool visibility, permissioned memory, approval gates, and audit trails. |
 
 <a id="reference-harness-implementations"></a>
