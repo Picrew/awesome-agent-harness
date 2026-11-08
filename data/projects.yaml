@@ -916,6 +916,21 @@ entries:
   license: MIT
   why_included: README explicitly documents a unified API across agent runtimes, access control, persistent sessions, scheduled
     runs, memory, tools, and skills.
+- name: LightAgent
+  repo_url: https://github.com/wanxingai/LightAgent
+  category: Harness Architecture & Orchestration
+  summary_en: Python agent runtime with checkpointed workflows, persistent dynamic DAGs, bounded concurrent workers, restart recovery,
+    and application-owned artifact verification.
+  summary_zh: Python Agent 运行时，支持检查点工作流、持久化动态 DAG、有界并发 Worker、重启恢复和应用侧产物验证。
+  tags:
+  - multi-agent
+  - durable-execution
+  - verification
+  stars_snapshot: 1244
+  updated_at: '2026-10-28'
+  license: Apache-2.0
+  why_included: v0.11.0 documents SQLite-backed dynamic task graphs, durable events, leases and fencing, immutable verified artifacts,
+    and narrowing-only security contexts for multi-agent execution.
 - name: Chorus
   repo_url: https://github.com/Chorus-AIDLC/Chorus
   category: Harness Architecture & Orchestration
