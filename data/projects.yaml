@@ -3480,6 +3480,21 @@ entries:
   license: NOASSERTION
   why_included: README explicitly frames Tandem as a runtime authority layer below the model, governing tools, memory, approvals,
     tenant-aware state, artifacts, and audit evidence.
+- name: claude-bulkhead
+  repo_url: https://github.com/dooly6276/claude-bulkhead
+  category: Guardrails, Security & Governance
+  summary_en: PreToolUse hooks for Claude Code that stop parallel sessions and subagents on one machine from killing each
+    other's processes by name, clashing on ports, committing each other's edits, or running heavy commands when RAM is low.
+  summary_zh: Claude Code 的 PreToolUse 钩子，防止同一台机器上并行运行的会话及其子代理按名称误杀彼此的进程、抢占端口、提交彼此的改动，或在内存不足时运行重负载命令。
+  tags:
+  - hooks
+  - claude-code
+  - parallel-sessions
+  stars_snapshot: 23
+  updated_at: '2026-11-08'
+  license: MIT
+  why_included: Local guard for multi-session harness setups that returns the block reason and a safer command to the agent;
+    it parses command strings and is not a sandbox.
 - name: OpenClaw
   repo_url: https://github.com/openclaw/openclaw
   category: Reference Harness Implementations
