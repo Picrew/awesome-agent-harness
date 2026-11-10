@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **375**
-- GitHub 条目: **341 (90.9%)**
-- 项目分类 GitHub 占比（不含阅读类）: **336/336 (100.0%)**
+- 当前条目数: **376**
+- GitHub 条目: **342 (91.0%)**
+- 项目分类 GitHub 占比（不含阅读类）: **337/337 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-10-08**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -52,7 +52,7 @@
 | 分类 | 条目数 |
 | --- | ---: |
 | Harness Architecture & Orchestration | 66 |
-| Context & Working-State Engineering | 32 |
+| Context & Working-State Engineering | 33 |
 | Execution Substrates & Sandboxing | 27 |
 | Protocols, Tool Interfaces & Agent Contracts | 42 |
 | Evaluation Harnesses & Benchmarks | 29 |
@@ -174,6 +174,7 @@
 | Acontext | [GitHub](https://github.com/memodb-io/Acontext) | [![star](https://img.shields.io/badge/star-3691-f4b400?style=flat-square)](https://github.com/memodb-io/Acontext) | skills, memory, progressive-disclosure | 技能式记忆层，可将代理运行经验沉淀为可检查的技能文件，并通过代理可控工具召回。 |
 | Awesome Context Engineering | [GitHub](https://github.com/Meirtz/Awesome-Context-Engineering) | [![star](https://img.shields.io/badge/star-3308-f4b400?style=flat-square)](https://github.com/Meirtz/Awesome-Context-Engineering) | awesome-list, context, survey | 面向上下文工程的综述型清单，覆盖资源与框架。 |
 | agentic-stack | [GitHub](https://github.com/codejunkie99/agentic-stack) | [![star](https://img.shields.io/badge/star-2271-f4b400?style=flat-square)](https://github.com/codejunkie99/agentic-stack) | cross-harness, memory, skills | 可移植的记忆、技能、协议与仪表盘层，可在多个编码代理 harness 之间保持状态连续。 |
+| deja | [GitHub](https://github.com/vshulcz/deja-vu) | [![star](https://img.shields.io/badge/star-1488-f4b400?style=flat-square)](https://github.com/vshulcz/deja-vu) | cross-harness, memory, mcp | 本地优先的跨 harness 会话记忆、MCP 服务与故障恢复 CLI，索引 Claude Code、Codex、Cursor、Gemini CLI、OpenCode 等 44+ 编码代理会话，支持跨会话检索、行级溯源与任务交接。 |
 | context-space | [GitHub](https://github.com/context-space/context-space) | [![star](https://img.shields.io/badge/star-814-f4b400?style=flat-square)](https://github.com/context-space/context-space) | context, infrastructure, mcp | 聚焦上下文工程基础设施的项目，强调 MCP 生态集成能力。 |
 | Memorix | [GitHub](https://github.com/AVIDS2/memorix) | [![star](https://img.shields.io/badge/star-792-f4b400?style=flat-square)](https://github.com/AVIDS2/memorix) | memory, mcp, cross-agent | 本地优先的跨代理记忆控制平面，支持 MCP、工作区同步、会话与编排状态。 |
 | sd0x-dev-flow | [GitHub](https://github.com/sd0xdev/sd0x-dev-flow) | [![star](https://img.shields.io/badge/star-189-f4b400?style=flat-square)](https://github.com/sd0xdev/sd0x-dev-flow) | hooks, state-machine, claude-code | Claude Code harness 层，提供钩子强制双重评审、持久状态机门禁、上下文压缩恢复与 fail-closed 安全机制。 |

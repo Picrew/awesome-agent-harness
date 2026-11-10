@@ -1409,6 +1409,21 @@ entries:
   license: Apache-2.0
   why_included: README documents a portable .agent folder, harness adapters, local data layer, and flywheel artifacts across
     Claude Code, Cursor, OpenCode, Codex, Gemini, and other coding-agent harnesses.
+- name: deja
+  repo_url: https://github.com/vshulcz/deja-vu
+  category: Context & Working-State Engineering
+  summary_en: Local cross-harness session memory, MCP server, and failure-recovery CLI that indexes transcripts across 44+
+    coding agents (Claude Code, Codex, Cursor, Gemini CLI, OpenCode) for cross-session recall, blame, and handoff.
+  summary_zh: 本地优先的跨 harness 会话记忆、MCP 服务与故障恢复 CLI，索引 Claude Code、Codex、Cursor、Gemini CLI、OpenCode 等 44+ 编码代理会话，支持跨会话检索、行级溯源与任务交接。
+  tags:
+  - cross-harness
+  - memory
+  - mcp
+  stars_snapshot: 1488
+  updated_at: '2026-11-10'
+  license: MIT
+  why_included: README documents local session indexing across 44+ coding-agent harnesses, an MCP server (`deja`), skills,
+    failure-triggered hooks, and cross-harness session handoff.
 - name: context-space
   repo_url: https://github.com/context-space/context-space
   category: Context & Working-State Engineering
