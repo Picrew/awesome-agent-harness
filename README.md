@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **375**
-- GitHub entries: **341 (90.9%)**
-- GitHub in project categories (excluding readings): **336/336 (100.0%)**
+- Total entries: **376**
+- GitHub entries: **342 (91.0%)**
+- GitHub in project categories (excluding readings): **337/337 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-10-08**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -52,7 +52,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Category | Entries |
 | --- | ---: |
 | Harness Architecture & Orchestration | 66 |
-| Context & Working-State Engineering | 32 |
+| Context & Working-State Engineering | 33 |
 | Execution Substrates & Sandboxing | 27 |
 | Protocols, Tool Interfaces & Agent Contracts | 42 |
 | Evaluation Harnesses & Benchmarks | 29 |
@@ -174,6 +174,7 @@ Notes:
 | Acontext | [GitHub](https://github.com/memodb-io/Acontext) | [![star](https://img.shields.io/badge/star-3691-f4b400?style=flat-square)](https://github.com/memodb-io/Acontext) | skills, memory, progressive-disclosure | Skill-memory layer that distills agent runs into inspectable skill files and recalls them through agent-controlled tools. |
 | Awesome Context Engineering | [GitHub](https://github.com/Meirtz/Awesome-Context-Engineering) | [![star](https://img.shields.io/badge/star-3308-f4b400?style=flat-square)](https://github.com/Meirtz/Awesome-Context-Engineering) | awesome-list, context, survey | Survey-style list for context engineering resources and frameworks. |
 | agentic-stack | [GitHub](https://github.com/codejunkie99/agentic-stack) | [![star](https://img.shields.io/badge/star-2271-f4b400?style=flat-square)](https://github.com/codejunkie99/agentic-stack) | cross-harness, memory, skills | Portable memory, skills, protocols, and dashboard layer that keeps state across multiple coding-agent harnesses. |
+| deja | [GitHub](https://github.com/vshulcz/deja-vu) | [![star](https://img.shields.io/badge/star-1488-f4b400?style=flat-square)](https://github.com/vshulcz/deja-vu) | cross-harness, memory, mcp | Local cross-harness session memory, MCP server, and failure-recovery CLI that indexes transcripts across 44+ coding agents (Claude Code, Codex, Cursor, Gemini CLI, OpenCode) for cross-session recall, blame, and handoff. |
 | context-space | [GitHub](https://github.com/context-space/context-space) | [![star](https://img.shields.io/badge/star-814-f4b400?style=flat-square)](https://github.com/context-space/context-space) | context, infrastructure, mcp | Infrastructure project focused on context engineering building blocks and MCP-centric integrations. |
 | Memorix | [GitHub](https://github.com/AVIDS2/memorix) | [![star](https://img.shields.io/badge/star-792-f4b400?style=flat-square)](https://github.com/AVIDS2/memorix) | memory, mcp, cross-agent | Local-first cross-agent memory control plane with MCP support, workspace sync, sessions, and orchestration state. |
 | sd0x-dev-flow | [GitHub](https://github.com/sd0xdev/sd0x-dev-flow) | [![star](https://img.shields.io/badge/star-189-f4b400?style=flat-square)](https://github.com/sd0xdev/sd0x-dev-flow) | hooks, state-machine, claude-code | Claude Code harness layer with hook-enforced dual review, durable state-machine gates, context-compaction recovery, and fail-closed safety. |
