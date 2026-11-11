@@ -728,6 +728,24 @@ entries:
   license: Apache-2.0
   why_included: README describes agentic flows built from Actions, Goals, Conditions, dynamic replanning, AgentPlatform execution
     modes, strong typing, and end-to-end agent testing.
+- name: Raven
+  repo_url: https://github.com/EverMind-AI/Raven
+  category: Harness Architecture & Orchestration
+  summary_en: Harness of harnesses built for recursive self-improvement, with a host agent that orchestrates built-in and
+    third-party agents as task DAGs, EverOS long-term memory, and an experimental Curator that installs only verified changes
+    to each agent's strategy modules.
+  summary_zh: 为递归自我改进（RSI）而构建的 Harness of Harnesses，由 Host Agent 将内置与第三方代理编排为任务 DAG，结合 EverOS 长期记忆，并由实验性的 Curator 改写各代理的策略模块、只安装通过验证的改动。
+  tags:
+  - multi-agent
+  - dag
+  - harness-optimization
+  stars_snapshot: 5252
+  updated_at: '2026-10-07'
+  license: Apache-2.0
+  why_included: README documents a host agent that generates task DAGs across built-in research, coding, design, and on-call
+    agents plus presets for 13 third-party agents over ACP, CLI, or OpenAI-compatible APIs, and an agent loop split into
+    Memory, Planning, Capability, and Action strategy modules that an experimental Curator rewrites per agent, installing a
+    change only after it is verified.
 - name: cascadeflow
   repo_url: https://github.com/lemony-ai/cascadeflow
   category: Harness Architecture & Orchestration
