@@ -1,7 +1,7 @@
 catalog:
   title_en: Awesome Agent Harness
   title_zh: Awesome Agent Harness
-  last_verified: '2026-10-08'
+  last_verified: '2026-11-11'
   description_en: Curated implementation-first list for agent harness engineering.
   description_zh: 面向 Agent Harness Engineering 的工程实践清单。
 categories:
@@ -2421,6 +2421,23 @@ entries:
   updated_at: '2025-07-10'
   license: MIT
   why_included: Alternative standardization path worth tracking in harness ecosystems.
+- name: Repo-Template
+  repo_url: https://github.com/The-Urcydo/Repo-Template
+  category: Protocols, Tool Interfaces & Agent Contracts
+  summary_en: Copier template for agent-ready repositories with a short AGENTS.md, Diátaxis docs, work items and handoffs, tool-neutral roles and skills, git worktrees, and a one-command health check; generates adapters for Claude Code, Cursor, Copilot, and Gemini CLI.
+  summary_zh: 面向代理就绪仓库的 Copier 模板，提供简短 AGENTS.md、Diátaxis 文档、带交接的工作项、工具无关的角色与技能、git worktree 与一条命令的健康检查，并可生成 Claude Code、Cursor、Copilot 与 Gemini CLI 适配器。
+  tags:
+  - copier
+  - template
+  - agents-md
+  - repo-local
+  - worktrees
+  - multi-agent
+  - tool-neutral
+  stars_snapshot: 2
+  updated_at: '2026-11-11'
+  license: MIT
+  why_included: Concrete repo-local harness template with AGENTS.md, tool-neutral roles and skills, work items with handoffs, git worktrees, and a health check; supports multiple coding-agent CLIs.
 - name: Promptfoo
   repo_url: https://github.com/promptfoo/promptfoo
   category: Evaluation Harnesses & Benchmarks
