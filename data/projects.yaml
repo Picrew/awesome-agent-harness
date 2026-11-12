@@ -259,6 +259,23 @@ entries:
   license: Apache-2.0
   why_included: README documents a background terminal server that preserves agent sessions across disconnects, exposes CLI
     and socket APIs for agent-to-agent control, reports working and blocked states, and supports multiple coding-agent CLIs.
+- name: Agent Guild
+  repo_url: https://github.com/oddessentials/agent-guild
+  category: Harness Architecture & Orchestration
+  summary_en: Runs Claude Code, Codex CLI, Antigravity CLI, Grok Build and Docker Agent side by side in real terminals, with
+    the same live sessions on phone, VS Code or any browser and an MCP server so a coding agent can see and steer them.
+  summary_zh: 在真实终端中并排运行 Claude Code、Codex CLI、Antigravity CLI、Grok Build 与 Docker Agent，可在手机、VS Code 或任意浏览器中接续同一实时会话，并提供
+    MCP 服务器供编码代理查看与操控会话。
+  tags:
+  - terminal-runtime
+  - multi-device
+  - mcp
+  stars_snapshot: 4
+  updated_at: '2026-11-12'
+  license: AGPL-3.0
+  why_included: README documents unchanged agent CLIs in real terminals that survive page reloads, one view of every session
+    with helper agents and model, the same session on browser, phone, VS Code and native apps without a relay server, and
+    `agent-guild mcp` for agent-driven control.
 - name: Claude Code Router
   repo_url: https://github.com/musistudio/claude-code-router
   category: Harness Architecture & Orchestration
