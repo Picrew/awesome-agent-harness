@@ -5329,3 +5329,18 @@ entries:
   updated_at: '2025-01-01'
   license: n/a
   why_included: High-signal practitioner framing for harness-first implementation.
+- name: CloudGPU MCP
+  repo_url: https://github.com/cloudgpu-app/cloudgpu-mcp
+  category: Execution Substrates & Sandboxing
+  summary_en: MCP server that lets agents quote, rent, run commands and jobs on, download from and stop remote GPU instances,
+    with server-enforced spend, time and idle limits.
+  summary_zh: MCP 服务器，让 agent 报价、租用远程 GPU 实例、在上面运行命令和任务、下载结果并关机，花费、时长和空闲上限由服务端强制执行。
+  tags:
+  - gpu
+  - mcp
+  - remote-execution
+  stars_snapshot: 1
+  updated_at: '2026-11-13'
+  license: MIT
+  why_included: Gives a harness a GPU execution substrate behind explicit approval steps (estimate_cost before create) and
+    budget limits enforced by the server even after the client disconnects.

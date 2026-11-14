@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **375**
-- GitHub 条目: **341 (90.9%)**
-- 项目分类 GitHub 占比（不含阅读类）: **336/336 (100.0%)**
+- 当前条目数: **376**
+- GitHub 条目: **342 (91.0%)**
+- 项目分类 GitHub 占比（不含阅读类）: **337/337 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-10-08**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -53,7 +53,7 @@
 | --- | ---: |
 | Harness Architecture & Orchestration | 66 |
 | Context & Working-State Engineering | 32 |
-| Execution Substrates & Sandboxing | 27 |
+| Execution Substrates & Sandboxing | 28 |
 | Protocols, Tool Interfaces & Agent Contracts | 42 |
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 21 |
@@ -210,6 +210,7 @@
 | agentbox | [GitHub](https://github.com/mattolson/agent-sandbox) | [![star](https://img.shields.io/badge/star-205-f4b400?style=flat-square)](https://github.com/mattolson/agent-sandbox) | sandbox, coding-agents, network-policy | 面向 AI 编码代理的本地锁定沙箱，提供限定文件访问、出站策略、密钥注入、防火墙与持久代理状态。 |
 | HexAgent | [GitHub](https://github.com/UnicomAI/hexagent) | [![star](https://img.shields.io/badge/star-142-f4b400?style=flat-square)](https://github.com/UnicomAI/hexagent) | computer-layer, sandbox, runtime | 将代理运行时与其操作的计算机分离的 agent harness，支持本地、VM 与云端沙箱后端。 |
 | terminal-bench-env | [GitHub](https://github.com/ucsb-mlsec/terminal-bench-env) | [![star](https://img.shields.io/badge/star-75-f4b400?style=flat-square)](https://github.com/ucsb-mlsec/terminal-bench-env) | terminal, benchmark-env, sandbox | 为终端代理基准测试提供执行环境层。 |
+| CloudGPU MCP | [GitHub](https://github.com/cloudgpu-app/cloudgpu-mcp) | [![star](https://img.shields.io/badge/star-1-f4b400?style=flat-square)](https://github.com/cloudgpu-app/cloudgpu-mcp) | gpu, mcp, remote-execution | MCP 服务器，让 agent 报价、租用远程 GPU 实例、在上面运行命令和任务、下载结果并关机，花费、时长和空闲上限由服务端强制执行。 |
 
 <a id="protocols-tool-interfaces-agent-contracts"></a>
 ### Protocols, Tool Interfaces & Agent Contracts
