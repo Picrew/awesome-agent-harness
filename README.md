@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **375**
-- GitHub entries: **341 (90.9%)**
-- GitHub in project categories (excluding readings): **336/336 (100.0%)**
+- Total entries: **376**
+- GitHub entries: **342 (91.0%)**
+- GitHub in project categories (excluding readings): **337/337 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-10-08**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -53,7 +53,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | --- | ---: |
 | Harness Architecture & Orchestration | 66 |
 | Context & Working-State Engineering | 32 |
-| Execution Substrates & Sandboxing | 27 |
+| Execution Substrates & Sandboxing | 28 |
 | Protocols, Tool Interfaces & Agent Contracts | 42 |
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 21 |
@@ -210,6 +210,7 @@ Notes:
 | agentbox | [GitHub](https://github.com/mattolson/agent-sandbox) | [![star](https://img.shields.io/badge/star-205-f4b400?style=flat-square)](https://github.com/mattolson/agent-sandbox) | sandbox, coding-agents, network-policy | Locked-down local sandbox for AI coding agents with scoped filesystem access, egress policy, secret injection, firewalling, and persistent agent state. |
 | HexAgent | [GitHub](https://github.com/UnicomAI/hexagent) | [![star](https://img.shields.io/badge/star-142-f4b400?style=flat-square)](https://github.com/UnicomAI/hexagent) | computer-layer, sandbox, runtime | Agent harness that separates the runtime from the computer it operates on through local, VM, and cloud sandbox backends. |
 | terminal-bench-env | [GitHub](https://github.com/ucsb-mlsec/terminal-bench-env) | [![star](https://img.shields.io/badge/star-75-f4b400?style=flat-square)](https://github.com/ucsb-mlsec/terminal-bench-env) | terminal, benchmark-env, sandbox | Environment layer for terminal-agent benchmark execution. |
+| CloudGPU MCP | [GitHub](https://github.com/cloudgpu-app/cloudgpu-mcp) | [![star](https://img.shields.io/badge/star-1-f4b400?style=flat-square)](https://github.com/cloudgpu-app/cloudgpu-mcp) | gpu, mcp, remote-execution | MCP server that lets agents quote, rent, run commands and jobs on, download from and stop remote GPU instances, with server-enforced spend, time and idle limits. |
 
 <a id="protocols-tool-interfaces-agent-contracts"></a>
 ### Protocols, Tool Interfaces & Agent Contracts
