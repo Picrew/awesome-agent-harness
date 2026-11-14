@@ -4786,6 +4786,24 @@ entries:
   license: MIT
   why_included: README lists agent runtime, gateway, passive harness contracts, evidence bundles, plan-execute-verify mode,
     governance ledger, and harness regression suite as shipped capabilities.
+- name: uncut
+  repo_url: https://github.com/Balanov/uncut
+  category: Reference Harness Implementations
+  summary_en: Headless coding agent harness in a single 7 MB static Go binary with four tools over plain stdin/stdout; it
+    never truncates output and exits with an error when a provider cuts a response. Works with any OpenAI-compatible Chat
+    Completions endpoint, including a local Ollama server, and keeps sessions in append-only JSONL.
+  summary_zh: 单个 7 MB 静态 Go 二进制的无头编码智能体 harness，提供四个工具，仅使用标准输入输出；从不截断输出，模型返回被截断时直接报错退出。可对接任意 OpenAI 兼容的 Chat Completions 端点（含本地
+    Ollama），并以追加写入的 JSONL 保存会话。
+  tags:
+  - coding-agent
+  - headless
+  - single-binary
+  - cli
+  stars_snapshot: 267
+  updated_at: '2026-11-14'
+  license: MIT
+  why_included: README documents a single static Go binary with four tools over plain stdin/stdout, append-only JSONL sessions,
+    no TUI or telemetry, and an explicit error when a provider cuts a response rather than silently truncating output.
 - name: Utah
   repo_url: https://github.com/inngest/utah
   category: Reference Harness Implementations
