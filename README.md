@@ -503,6 +503,10 @@ Notes:
 - Regenerate README files: `python3 scripts/render_readme.py`
 - Verify catalog and links: `python3 scripts/verify_catalog.py`
 
+## Vertical MCP Endpoints
+
+- [No Stairs Please MCP](https://nostairsplease.com/mcp) — Read-only MCP server and directory covering small live-music venues across all 50 US states ([nostairsplease.com](https://nostairsplease.com/)).
+
 ## Citation
 
 ```bibtex
