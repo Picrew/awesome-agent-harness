@@ -989,6 +989,22 @@ entries:
   updated_at: '2026-09-18'
   license: Apache-2.0
   why_included: Strong example of a harness runtime built around repairability, rollback, and controlled long-running execution.
+- name: Diagrid Python AI
+  repo_url: https://github.com/diagridio/python-ai
+  category: Harness Architecture & Orchestration
+  summary_en: Runs Python agent frameworks such as LangGraph, CrewAI, Pydantic AI, OpenAI Agents, Google ADK and Strands on
+    Dapr Workflows, so a crashed run resumes instead of replaying completed LLM calls.
+  summary_zh: 将 LangGraph、CrewAI、Pydantic AI、OpenAI Agents、Google ADK、Strands 等 Python 代理框架运行在 Dapr Workflows 之上，崩溃后从中断处恢复，而不是重复执行已完成的
+    LLM 调用。
+  tags:
+  - durable-execution
+  - dapr
+  - agent-frameworks
+  stars_snapshot: 9
+  updated_at: '2026-11-18'
+  license: BUSL-1.1
+  why_included: Each model call and tool invocation becomes a Dapr Workflow activity, so a harness survives process restarts
+    without re-running completed LLM work; one runner per framework across eleven Python agent SDKs.
 - name: Graphify
   repo_url: https://github.com/Graphify-Labs/graphify
   category: Context & Working-State Engineering
