@@ -3465,6 +3465,22 @@ entries:
   license: MIT
   why_included: High-signal example of action-level governance for existing coding-agent and MCP runtimes without requiring
     a full framework rewrite.
+- name: Speakeasy control plane
+  repo_url: https://github.com/speakeasy-api/gram
+  category: Guardrails, Security & Governance
+  summary_en: MCP gateway that governs enterprise agent tool access with identity-based permissions, per-action security policies,
+    and audit logs.
+  summary_zh: 面向企业代理的 MCP 网关，通过基于身份的权限、每次操作的安全策略和审计日志治理工具访问。
+  tags:
+  - mcp
+  - gateway
+  - identity
+  - policy
+  - audit
+  stars_snapshot: 275
+  updated_at: '2026-10-26'
+  license: AGPL-3.0
+  why_included: Provides a concrete authorization boundary for MCP tool calls, separate from the agent model and its prompts.
 - name: Tandem
   repo_url: https://github.com/frumu-ai/tandem
   category: Guardrails, Security & Governance
