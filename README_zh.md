@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **375**
-- GitHub 条目: **341 (90.9%)**
-- 项目分类 GitHub 占比（不含阅读类）: **336/336 (100.0%)**
+- 当前条目数: **377**
+- GitHub 条目: **343 (91.0%)**
+- 项目分类 GitHub 占比（不含阅读类）: **338/338 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-10-08**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -52,7 +52,7 @@
 | 分类 | 条目数 |
 | --- | ---: |
 | Harness Architecture & Orchestration | 66 |
-| Context & Working-State Engineering | 32 |
+| Context & Working-State Engineering | 34 |
 | Execution Substrates & Sandboxing | 27 |
 | Protocols, Tool Interfaces & Agent Contracts | 42 |
 | Evaluation Harnesses & Benchmarks | 29 |
@@ -177,6 +177,8 @@
 | context-space | [GitHub](https://github.com/context-space/context-space) | [![star](https://img.shields.io/badge/star-814-f4b400?style=flat-square)](https://github.com/context-space/context-space) | context, infrastructure, mcp | 聚焦上下文工程基础设施的项目，强调 MCP 生态集成能力。 |
 | Memorix | [GitHub](https://github.com/AVIDS2/memorix) | [![star](https://img.shields.io/badge/star-792-f4b400?style=flat-square)](https://github.com/AVIDS2/memorix) | memory, mcp, cross-agent | 本地优先的跨代理记忆控制平面，支持 MCP、工作区同步、会话与编排状态。 |
 | sd0x-dev-flow | [GitHub](https://github.com/sd0xdev/sd0x-dev-flow) | [![star](https://img.shields.io/badge/star-189-f4b400?style=flat-square)](https://github.com/sd0xdev/sd0x-dev-flow) | hooks, state-machine, claude-code | Claude Code harness 层，提供钩子强制双重评审、持久状态机门禁、上下文压缩恢复与 fail-closed 安全机制。 |
+| SpineCodex | [GitHub](https://github.com/GhabiX/SpineCodex) | [![star](https://img.shields.io/badge/star-151-f4b400?style=flat-square)](https://github.com/GhabiX/SpineCodex) | context, codex, prompt-caching | 开源的 OpenAI Codex CLI 发行版，将代理显式声明的子任务树（Open、Close、Next、Spawn）即时编译为保持前缀缓存命中的线性上下文。 |
+| Spine SDK & Host Plugins | [GitHub](https://github.com/GhabiX/spine-plugin) | [![star](https://img.shields.io/badge/star-3-f4b400?style=flat-square)](https://github.com/GhabiX/spine-plugin) | context, sdk, cross-agent | 可移植的 TypeScript/WASM Spine SDK 及面向 Pi（@spinejit/pi-spinejit）与 DeepSeek Harness（@spinejit/dsh-spinejit）的子任务树上下文管理插件。 |
 
 <a id="execution-substrates-sandboxing"></a>
 ### Execution Substrates & Sandboxing
