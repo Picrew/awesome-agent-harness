@@ -1451,6 +1451,32 @@ entries:
   license: MIT
   why_included: README maps concrete code to harness sub-problems including state-machine gates, lifecycle interceptors, context
     recovery across compaction, tool gating, and review loops.
+- name: SpineCodex
+  repo_url: https://github.com/GhabiX/SpineCodex
+  category: Context & Working-State Engineering
+  summary_en: Open-source OpenAI Codex CLI distribution that compiles agent-declared subtask trees (Open, Close, Next, Spawn) into prefix-cache-friendly linear context.
+  summary_zh: 开源的 OpenAI Codex CLI 发行版，将代理显式声明的子任务树（Open、Close、Next、Spawn）即时编译为保持前缀缓存命中的线性上下文。
+  tags:
+  - context
+  - codex
+  - prompt-caching
+  stars_snapshot: 151
+  updated_at: '2026-11-18'
+  license: Apache-2.0
+  why_included: Primary README documents a persistent SpineTree context compiler, sampling-boundary projection that preserves parent prompt caches, and reproducible SWE-Milestone and ProgramBench evaluations (32%–74% lower token cost).
+- name: Spine SDK & Host Plugins
+  repo_url: https://github.com/GhabiX/spine-plugin
+  category: Context & Working-State Engineering
+  summary_en: Portable TypeScript/WASM Spine SDK and subtask-tree context-management plugins for Pi (@spinejit/pi-spinejit) and DeepSeek Harness (@spinejit/dsh-spinejit).
+  summary_zh: 可移植的 TypeScript/WASM Spine SDK 及面向 Pi（@spinejit/pi-spinejit）与 DeepSeek Harness（@spinejit/dsh-spinejit）的子任务树上下文管理插件。
+  tags:
+  - context
+  - sdk
+  - cross-agent
+  stars_snapshot: 3
+  updated_at: '2026-11-19'
+  license: Apache-2.0
+  why_included: Provides a host-agnostic WASM/TypeScript context-compilation runtime with tested adapters for two distinct coding-agent harnesses (Pi and DeepSeek Harness).
 - name: Daytona
   repo_url: https://github.com/daytonaio/daytona
   category: Execution Substrates & Sandboxing
