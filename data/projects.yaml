@@ -3480,6 +3480,22 @@ entries:
   license: NOASSERTION
   why_included: README explicitly frames Tandem as a runtime authority layer below the model, governing tools, memory, approvals,
     tenant-aware state, artifacts, and audit evidence.
+- name: POCP
+  repo_url: https://github.com/harriswekselblatt/pocp
+  category: Guardrails, Security & Governance
+  summary_en: CI gate for coding agents that re-runs required checks on the exact code being merged, runs the old tests against
+    the new code when tests change, and holds risky test edits for maintainer approval.
+  summary_zh: 面向编码代理的 CI 门禁：在待合并的确切代码上重新运行必需检查；测试被修改时用旧测试验证新代码，并将有风险的测试修改交由维护者审批。
+  tags:
+  - ci-gate
+  - test-integrity
+  - approvals
+  stars_snapshot: 1
+  updated_at: '2026-11-19'
+  license: MIT
+  why_included: 'Harness-level check against coding agents weakening tests: re-runs required checks in CI on the merged code,
+    runs previous tests against new code when a pull request edits tests, and requires a maintainer label for risky test or
+    policy changes.'
 - name: OpenClaw
   repo_url: https://github.com/openclaw/openclaw
   category: Reference Harness Implementations
