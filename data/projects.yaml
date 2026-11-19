@@ -1006,8 +1006,7 @@ entries:
   license: Apache-2.0
   why_included: >-
     Makes the harness deployable as a control plane: workspace provisioning, Docker isolation, and review are enforced by
-    the runtime rather than by prompt instructions, and sessions stay reachable remotely through desktop clients, a browser,
-    or encrypted relay nodes.
+    the runtime rather than by prompt instructions, and sessions stay reachable remotely through desktop clients or a browser.
 - name: Graphify
   repo_url: https://github.com/Graphify-Labs/graphify
   category: Context & Working-State Engineering
