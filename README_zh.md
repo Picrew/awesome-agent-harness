@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **375**
-- GitHub 条目: **341 (90.9%)**
-- 项目分类 GitHub 占比（不含阅读类）: **336/336 (100.0%)**
+- 当前条目数: **376**
+- GitHub 条目: **342 (91.0%)**
+- 项目分类 GitHub 占比（不含阅读类）: **337/337 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-10-08**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -57,7 +57,7 @@
 | Protocols, Tool Interfaces & Agent Contracts | 42 |
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 21 |
-| Guardrails, Security & Governance | 27 |
+| Guardrails, Security & Governance | 28 |
 | Reference Harness Implementations | 92 |
 | Essential Readings & Ecosystem Maps | 39 |
 
@@ -353,6 +353,7 @@
 | Sponsio | [GitHub](https://github.com/SponsioLabs/Sponsio) | [![star](https://img.shields.io/badge/star-441-f4b400?style=flat-square)](https://github.com/SponsioLabs/Sponsio) | contracts, runtime-safety, guardrails | 运行时强制执行层，在代理动作执行前用确定性契约逐项检查。 |
 | DashClaw | [GitHub](https://github.com/ucsandman/DashClaw) | [![star](https://img.shields.io/badge/star-306-f4b400?style=flat-square)](https://github.com/ucsandman/DashClaw) | approvals, policy, audit | 面向代理的治理层，可拦截高风险动作、执行策略、路由审批，并记录可审计的决策轨迹。 |
 | Tandem | [GitHub](https://github.com/frumu-ai/tandem) | [![star](https://img.shields.io/badge/star-121-f4b400?style=flat-square)](https://github.com/frumu-ai/tandem) | runtime-authority, approvals, audit | 面向代理的运行时权限治理层，提供作用域执行、工具可见性、权限化记忆、审批门禁与审计轨迹。 |
+| Trina AX | [GitHub](https://github.com/trina-app/trina-ax) | [![star](https://img.shields.io/badge/star-2-f4b400?style=flat-square)](https://github.com/trina-app/trina-ax) | team-workspace, permissions, sandbox | 团队共享的自托管 AI 服务器，以 Claude Code 和 Codex 为引擎，每个文件请求都按提问者的权限检查，并用 bubblewrap、Landlock 与 seccomp 沙箱运行引擎。 |
 
 <a id="reference-harness-implementations"></a>
 ### Reference Harness Implementations
