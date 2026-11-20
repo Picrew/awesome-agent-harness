@@ -3480,6 +3480,21 @@ entries:
   license: NOASSERTION
   why_included: README explicitly frames Tandem as a runtime authority layer below the model, governing tools, memory, approvals,
     tenant-aware state, artifacts, and audit evidence.
+- name: Trina AX
+  repo_url: https://github.com/trina-app/trina-ax
+  category: Guardrails, Security & Governance
+  summary_en: Self-hosted team server that runs Claude Code and Codex behind one workspace, checks every file request against
+    the asking person's permissions, and sandboxes the engine with bubblewrap, Landlock and seccomp.
+  summary_zh: 团队共享的自托管 AI 服务器，以 Claude Code 和 Codex 为引擎，每个文件请求都按提问者的权限检查，并用 bubblewrap、Landlock 与 seccomp 沙箱运行引擎。
+  tags:
+  - team-workspace
+  - permissions
+  - sandbox
+  stars_snapshot: 2
+  updated_at: '2026-11-20'
+  license: AGPL-3.0
+  why_included: README documents a per-person permission check on every file request, token limits per person or group,
+    and a sandboxed Claude Code and Codex engine on Linux.
 - name: OpenClaw
   repo_url: https://github.com/openclaw/openclaw
   category: Reference Harness Implementations
