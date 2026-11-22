@@ -3101,6 +3101,23 @@ entries:
   license: MIT
   why_included: README describes an open system that traces coding-agent rollouts, distills failures, and applies auditable
     edits to prompts, tools, middleware, skills, subagents, and memory.
+- name: Codealong
+  repo_url: https://github.com/codealong/codealong
+  category: Observability & Reliability Operations
+  summary_en: Desktop app for macOS and Linux that finds every Claude Code, Codex, OpenCode, Antigravity, and Cursor session
+    on a machine and tracks them on one board by repo, worktree, branch, and PR, lets you answer approvals and questions in
+    place, and shows per-account plan limits.
+  summary_zh: 面向 macOS 与 Linux 的桌面应用，发现本机所有 Claude Code、Codex、OpenCode、Antigravity 与 Cursor 会话，按仓库、worktree、分支与 PR 汇总到同一看板，可就地处理审批与提问，并显示各账户的套餐额度。
+  tags:
+  - coding-agents
+  - sessions
+  - monitoring
+  stars_snapshot: 1
+  updated_at: '2026-10-20'
+  license: Apache-2.0
+  why_included: README documents reading the records each coding agent already writes (no wrapper, proxy, or server) to show
+    what every session is doing, surface the ones waiting on an approval or question, join each PR to the worktree and sessions
+    behind it, and show each account's 5-hour and weekly limits.
 - name: OmniRoute
   repo_url: https://github.com/diegosouzapw/OmniRoute
   category: Guardrails, Security & Governance

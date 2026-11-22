@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **375**
-- GitHub entries: **341 (90.9%)**
-- GitHub in project categories (excluding readings): **336/336 (100.0%)**
+- Total entries: **376**
+- GitHub entries: **342 (91.0%)**
+- GitHub in project categories (excluding readings): **337/337 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-10-08**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -56,7 +56,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Execution Substrates & Sandboxing | 27 |
 | Protocols, Tool Interfaces & Agent Contracts | 42 |
 | Evaluation Harnesses & Benchmarks | 29 |
-| Observability & Reliability Operations | 21 |
+| Observability & Reliability Operations | 22 |
 | Guardrails, Security & Governance | 27 |
 | Reference Harness Implementations | 92 |
 | Essential Readings & Ecosystem Maps | 39 |
@@ -320,6 +320,7 @@ Notes:
 | OpenInference | [GitHub](https://github.com/Arize-ai/openinference) | [![star](https://img.shields.io/badge/star-1225-f4b400?style=flat-square)](https://github.com/Arize-ai/openinference) | spec, instrumentation, observability | Open instrumentation specification and tooling for AI observability. |
 | Judgeval | [GitHub](https://github.com/JudgmentLabs/judgeval) | [![star](https://img.shields.io/badge/star-1063-f4b400?style=flat-square)](https://github.com/JudgmentLabs/judgeval) | tracing, agent-judges, monitoring | Agent improvement SDK with OpenTelemetry tracing, agent judges, online monitoring, replay evaluations, CLI workflows, and MCP access to traces and behaviors. |
 | Agentic Harness Engineering | [GitHub](https://github.com/china-qijizhifeng/agentic-harness-engineering) | [![star](https://img.shields.io/badge/star-896-f4b400?style=flat-square)](https://github.com/china-qijizhifeng/agentic-harness-engineering) | harness-optimization, trace-analysis, terminal-bench | Observability-driven system for evolving coding-agent harness components through evaluate, analyze, and improve loops. |
+| Codealong | [GitHub](https://github.com/codealong/codealong) | [![star](https://img.shields.io/badge/star-1-f4b400?style=flat-square)](https://github.com/codealong/codealong) | coding-agents, sessions, monitoring | Desktop app for macOS and Linux that finds every Claude Code, Codex, OpenCode, Antigravity, and Cursor session on a machine and tracks them on one board by repo, worktree, branch, and PR, lets you answer approvals and questions in place, and shows per-account plan limits. |
 
 <a id="guardrails-security-governance"></a>
 ### Guardrails, Security & Governance
