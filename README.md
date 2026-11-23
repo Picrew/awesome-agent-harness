@@ -353,6 +353,7 @@ Notes:
 | Sponsio | [GitHub](https://github.com/SponsioLabs/Sponsio) | [![star](https://img.shields.io/badge/star-441-f4b400?style=flat-square)](https://github.com/SponsioLabs/Sponsio) | contracts, runtime-safety, guardrails | Runtime enforcement layer that checks every agent action against deterministic contracts before execution. |
 | DashClaw | [GitHub](https://github.com/ucsandman/DashClaw) | [![star](https://img.shields.io/badge/star-306-f4b400?style=flat-square)](https://github.com/ucsandman/DashClaw) | approvals, policy, audit | Governance layer that intercepts risky agent actions, enforces policy, routes approvals, and records audit-ready decision trails. |
 | Tandem | [GitHub](https://github.com/frumu-ai/tandem) | [![star](https://img.shields.io/badge/star-121-f4b400?style=flat-square)](https://github.com/frumu-ai/tandem) | runtime-authority, approvals, audit | Governed runtime authority layer for agents with scoped execution, tool visibility, permissioned memory, approval gates, and audit trails. |
+| Vibe Security Checklist | [GitHub](https://github.com/zColdWater/vibe-security-checklist) | [![star](https://img.shields.io/badge/star-new-f4b400?style=flat-square)](https://github.com/zColdWater/vibe-security-checklist) | rules, guardrails, pre-launch | MIT repo-local agent security instructions (`.cursor/rules/security.mdc`), zero-dependency local bundle secret scanner, 8 deployment/RLS templates, and a passive `--fail-below` pre-launch verification gate. |
 
 <a id="reference-harness-implementations"></a>
 ### Reference Harness Implementations
