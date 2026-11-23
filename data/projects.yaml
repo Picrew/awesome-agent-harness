@@ -1819,6 +1819,21 @@ entries:
   updated_at: '2026-03-24'
   license: none
   why_included: Shows environment packaging patterns for reproducible evaluations.
+- name: virtx
+  repo_url: https://github.com/brekkylab/virtx
+  category: Execution Substrates & Sandboxing
+  summary_en: Disposable libkrun microVMs driven from Python, Node.js or Rust, run locally or on your own server, with optional
+    network cut-off and GPU access.
+  summary_zh: 基于 libkrun 的一次性微虚拟机，可通过 Python、Node.js 或 Rust 调用，可在本地或自建服务器上运行，支持断网和 GPU 访问。
+  tags:
+  - microvm
+  - sandbox
+  - libkrun
+  stars_snapshot: 10
+  updated_at: '2026-11-23'
+  license: Apache-2.0
+  why_included: README documents a client-server sandbox runtime where each sandbox is a libkrun microVM with its own guest
+    kernel behind the hypervisor, for running agent-chosen commands off the host.
 - name: Anthropic Agent Skills
   repo_url: https://github.com/anthropics/skills
   category: Protocols, Tool Interfaces & Agent Contracts
@@ -4801,6 +4816,21 @@ entries:
   license: Apache-2.0
   why_included: README expands Utah as Universally Triggered Agent Harness and documents durable LLM/tool steps, retries,
     singleton concurrency, cancellation, channels, and local worker operation.
+- name: Ailoy
+  repo_url: https://github.com/brekkylab/ailoy
+  category: Reference Harness Implementations
+  summary_en: Open-source agent SDK for Python, Node.js and Rust that gives every agent its own Linux microVM, so it can install
+    software, run code and keep files off the host.
+  summary_zh: 开源智能体 SDK（Python、Node.js、Rust），为每个智能体分配独立的 Linux 微虚拟机，可在其中安装软件、运行代码和保存文件，而不影响宿主机。
+  tags:
+  - sdk
+  - sandbox
+  - microvm
+  stars_snapshot: 159
+  updated_at: '2026-11-23'
+  license: Apache-2.0
+  why_included: README shows an agent SDK where the sandbox is part of building the agent, with commands and file tools running
+    in a per-agent VM and model access through Claude Code, Codex, Gemini CLI or provider APIs.
 - name: awesome-claude-code
   repo_url: https://github.com/hesreallyhim/awesome-claude-code
   category: Essential Readings & Ecosystem Maps
