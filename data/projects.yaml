@@ -4801,6 +4801,21 @@ entries:
   license: Apache-2.0
   why_included: README expands Utah as Universally Triggered Agent Harness and documents durable LLM/tool steps, retries,
     singleton concurrency, cancellation, channels, and local worker operation.
+- name: Vis
+  repo_url: https://github.com/Blockether/vis
+  category: Reference Harness Implementations
+  summary_en: Open-source coding-agent harness that you adapt to your tools; the model works in a Python sandbox, folds its own
+    context, and is measured on your own tasks.
+  summary_zh: 可按自有工具定制的开源编码代理 harness：模型在 Python 沙箱中工作，自行折叠上下文，并在你自己的任务上评测。
+  tags:
+  - context-folding
+  - evals
+  - python-sandbox
+  stars_snapshot: 20
+  updated_at: '2026-11-23'
+  license: Apache-2.0
+  why_included: Docs describe one Python tool for the model, model-written context folds (fold_session) with budget hints instead
+    of compaction, extensions as Python packages, and evals on the user's own task folders.
 - name: awesome-claude-code
   repo_url: https://github.com/hesreallyhim/awesome-claude-code
   category: Essential Readings & Ecosystem Maps
