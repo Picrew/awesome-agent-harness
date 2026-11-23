@@ -2,9 +2,9 @@
 
 一个面向 **Agent Harness Engineering** 的工程实践清单，优先收录可直接落地的 GitHub 项目。
 
-- 当前条目数: **375**
-- GitHub 条目: **341 (90.9%)**
-- 项目分类 GitHub 占比（不含阅读类）: **336/336 (100.0%)**
+- 当前条目数: **377**
+- GitHub 条目: **343 (91.0%)**
+- 项目分类 GitHub 占比（不含阅读类）: **338/338 (100.0%)**
 - 分类数量: **9**
 - 最近核对日期: **2026-10-08**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
@@ -53,12 +53,12 @@
 | --- | ---: |
 | Harness Architecture & Orchestration | 66 |
 | Context & Working-State Engineering | 32 |
-| Execution Substrates & Sandboxing | 27 |
+| Execution Substrates & Sandboxing | 28 |
 | Protocols, Tool Interfaces & Agent Contracts | 42 |
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 21 |
 | Guardrails, Security & Governance | 27 |
-| Reference Harness Implementations | 92 |
+| Reference Harness Implementations | 93 |
 | Essential Readings & Ecosystem Maps | 39 |
 
 ## 项目清单
@@ -210,6 +210,7 @@
 | agentbox | [GitHub](https://github.com/mattolson/agent-sandbox) | [![star](https://img.shields.io/badge/star-205-f4b400?style=flat-square)](https://github.com/mattolson/agent-sandbox) | sandbox, coding-agents, network-policy | 面向 AI 编码代理的本地锁定沙箱，提供限定文件访问、出站策略、密钥注入、防火墙与持久代理状态。 |
 | HexAgent | [GitHub](https://github.com/UnicomAI/hexagent) | [![star](https://img.shields.io/badge/star-142-f4b400?style=flat-square)](https://github.com/UnicomAI/hexagent) | computer-layer, sandbox, runtime | 将代理运行时与其操作的计算机分离的 agent harness，支持本地、VM 与云端沙箱后端。 |
 | terminal-bench-env | [GitHub](https://github.com/ucsb-mlsec/terminal-bench-env) | [![star](https://img.shields.io/badge/star-75-f4b400?style=flat-square)](https://github.com/ucsb-mlsec/terminal-bench-env) | terminal, benchmark-env, sandbox | 为终端代理基准测试提供执行环境层。 |
+| virtx | [GitHub](https://github.com/brekkylab/virtx) | [![star](https://img.shields.io/badge/star-10-f4b400?style=flat-square)](https://github.com/brekkylab/virtx) | microvm, sandbox, libkrun | 基于 libkrun 的一次性微虚拟机，可通过 Python、Node.js 或 Rust 调用，可在本地或自建服务器上运行，支持断网和 GPU 访问。 |
 
 <a id="protocols-tool-interfaces-agent-contracts"></a>
 ### Protocols, Tool Interfaces & Agent Contracts
@@ -450,6 +451,7 @@
 | CheetahClaws | [GitHub](https://github.com/SafeRL-Lab/cheetahclaws) | [![star](https://img.shields.io/badge/star-780-f4b400?style=flat-square)](https://github.com/SafeRL-Lab/cheetahclaws) | coding-agent, python, mcp | 面向长任务、多模型、工具调用编码助手的 Python agent harness 基础设施，集成 MCP、技能、记忆、审批、检查点与多通道桥接。 |
 | Dexto | [GitHub](https://github.com/truffle-ai/dexto) | [![star](https://img.shields.io/badge/star-650-f4b400?style=flat-square)](https://github.com/truffle-ai/dexto) | coding-agent, sessions, mcp | 面向 AI 应用的开放 agent harness，提供 YAML 配置、有状态会话、工具编排、记忆、可观测性、权限与子代理。 |
 | OpenClaw.NET | [GitHub](https://github.com/clawdotnet/openclaw.net) | [![star](https://img.shields.io/badge/star-508-f4b400?style=flat-square)](https://github.com/clawdotnet/openclaw.net) | dotnet, gateway, governance | NativeAOT 友好的 .NET 代理运行时与网关，提供工具、记忆、MCP、治理账本、证据包与 harness 回归测试。 |
+| Ailoy | [GitHub](https://github.com/brekkylab/ailoy) | [![star](https://img.shields.io/badge/star-159-f4b400?style=flat-square)](https://github.com/brekkylab/ailoy) | sdk, sandbox, microvm | 开源智能体 SDK（Python、Node.js、Rust），为每个智能体分配独立的 Linux 微虚拟机，可在其中安装软件、运行代码和保存文件，而不影响宿主机。 |
 | Utah | [GitHub](https://github.com/inngest/utah) | [![star](https://img.shields.io/badge/star-137-f4b400?style=flat-square)](https://github.com/inngest/utah) | durable-execution, event-driven, multi-channel | 基于 Inngest 的持久代理 harness，提供思考-行动-观察循环、步骤级重试、单例并发、取消与多通道适配。 |
 
 <a id="essential-readings-ecosystem-maps"></a>
