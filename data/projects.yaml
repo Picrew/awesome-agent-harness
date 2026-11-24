@@ -289,6 +289,20 @@ entries:
   license: Apache-2.0
   why_included: README documents ChatDev 2.0 as a multi-agent orchestration platform and ChatDev 1.0 as an automated software
     development lifecycle harness with agents, Git, Docker, and human-agent interaction modes.
+- name: Alook
+  repo_url: https://github.com/alookai/alook
+  category: Harness Architecture & Orchestration
+  summary_en: Local-first group chat where people and local coding agents collaborate in shared rooms.
+  summary_zh: 本地优先的群聊，供人和本地编程代理在共享房间协作。
+  tags:
+  - collaboration
+  - local-first
+  - multi-agent
+  stars_snapshot: 1533
+  updated_at: '2026-11-24'
+  license: Apache-2.0
+  why_included: Official README documents shared rooms for people and local coding-agent runtimes, with agent identity, memory
+    and workspace on the user's machine.
 - name: Buzz
   repo_url: https://github.com/block/buzz
   category: Harness Architecture & Orchestration
