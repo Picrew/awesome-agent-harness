@@ -55,7 +55,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Context & Working-State Engineering | 32 |
 | Execution Substrates & Sandboxing | 27 |
 | Protocols, Tool Interfaces & Agent Contracts | 42 |
-| Evaluation Harnesses & Benchmarks | 29 |
+| Evaluation Harnesses & Benchmarks | 30 |
 | Observability & Reliability Operations | 21 |
 | Guardrails, Security & Governance | 27 |
 | Reference Harness Implementations | 92 |
@@ -293,6 +293,7 @@ Notes:
 | OpenHands Benchmarks | [GitHub](https://github.com/OpenHands/benchmarks) | [![star](https://img.shields.io/badge/star-124-f4b400?style=flat-square)](https://github.com/OpenHands/benchmarks) | openhands, eval, harness | Evaluation harness and benchmark definitions for OpenHands systems. |
 | WebArena-Verified | [GitHub](https://github.com/ServiceNow/webarena-verified) | [![star](https://img.shields.io/badge/star-60-f4b400?style=flat-square)](https://github.com/ServiceNow/webarena-verified) | web-agent, benchmark, deterministic | Verified web-agent benchmark with deterministic evaluators. |
 | HarnessBench | [GitHub](https://github.com/reacher-z/HarnessBench) | [![star](https://img.shields.io/badge/star-54-f4b400?style=flat-square)](https://github.com/reacher-z/HarnessBench) | harness-comparison, browser-agent, benchmark | Benchmark for comparing agent harnesses on the same everyday web tasks with fixed models and per-harness containers. |
+| AiEnsured agentest | [GitHub](https://github.com/srpadmanabhuni/agentest) | [![star](https://img.shields.io/badge/star-27-f4b400?style=flat-square)](https://github.com/srpadmanabhuni/agentest) | evaluation, opentelemetry, ci | Offline, deterministic agentic eval harness running 165 tests on recorded OpenTelemetry GenAI traces, A2A cards, and MCP tool lists. |
 
 <a id="observability-reliability-operations"></a>
 ### Observability & Reliability Operations
