@@ -5329,3 +5329,22 @@ entries:
   updated_at: '2025-01-01'
   license: n/a
   why_included: High-signal practitioner framing for harness-first implementation.
+- name: Aleph
+  repo_url: https://github.com/josuecuguy1307/Aleph
+  category: Harness Architecture & Orchestration
+  summary_en: macOS agent workspace with user-selected models, installed coding-CLI bridges, explicit tool configuration and
+    durable file/artifact workflows. Apple silicon release; source implements stdio and Streamable HTTP MCP client paths.
+  summary_zh: 面向 macOS 的代理工作区，可选择模型、连接已安装的编码 CLI、配置工具，并组织文件与产物工作流。当前发行版仅支持 Apple silicon；源码包含 stdio 和 Streamable HTTP MCP
+    客户端路径。
+  tags:
+  - desktop
+  - agent-workspace
+  - byok
+  - mcp-client
+  stars_snapshot: 3
+  updated_at: '2026-10-12'
+  license: Apache-2.0
+  why_included: 'Inspectable harness boundary between model reasoning and tool dispatch: platform/assembler/models.py and
+    cli_brain/registry.py, plus MCP transport selection in platform/inspection/transporte.py. README and Getting Started document
+    agent composition and separate connector setup. New source repository; no adoption claim. Packaged interoperability is
+    not certified by this entry; ad-hoc signed/non-notarized macOS binary and source-build limitations remain documented.'
