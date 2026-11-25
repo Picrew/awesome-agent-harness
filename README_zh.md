@@ -450,8 +450,8 @@
 | CheetahClaws | [GitHub](https://github.com/SafeRL-Lab/cheetahclaws) | [![star](https://img.shields.io/badge/star-780-f4b400?style=flat-square)](https://github.com/SafeRL-Lab/cheetahclaws) | coding-agent, python, mcp | 面向长任务、多模型、工具调用编码助手的 Python agent harness 基础设施，集成 MCP、技能、记忆、审批、检查点与多通道桥接。 |
 | Dexto | [GitHub](https://github.com/truffle-ai/dexto) | [![star](https://img.shields.io/badge/star-650-f4b400?style=flat-square)](https://github.com/truffle-ai/dexto) | coding-agent, sessions, mcp | 面向 AI 应用的开放 agent harness，提供 YAML 配置、有状态会话、工具编排、记忆、可观测性、权限与子代理。 |
 | OpenClaw.NET | [GitHub](https://github.com/clawdotnet/openclaw.net) | [![star](https://img.shields.io/badge/star-508-f4b400?style=flat-square)](https://github.com/clawdotnet/openclaw.net) | dotnet, gateway, governance | NativeAOT 友好的 .NET 代理运行时与网关，提供工具、记忆、MCP、治理账本、证据包与 harness 回归测试。 |
-| uncut | [GitHub](https://github.com/Balanov/uncut) | [![star](https://img.shields.io/badge/star-267-f4b400?style=flat-square)](https://github.com/Balanov/uncut) | coding-agent, headless, single-binary, cli | 单个 7 MB 静态 Go 二进制的无头编码智能体 harness，提供四个工具，仅使用标准输入输出；从不截断输出，模型返回被截断时直接报错退出。可对接任意 OpenAI 兼容的 Chat Completions 端点（含本地 Ollama），并以追加写入的 JSONL 保存会话。 |
 | Utah | [GitHub](https://github.com/inngest/utah) | [![star](https://img.shields.io/badge/star-137-f4b400?style=flat-square)](https://github.com/inngest/utah) | durable-execution, event-driven, multi-channel | 基于 Inngest 的持久代理 harness，提供思考-行动-观察循环、步骤级重试、单例并发、取消与多通道适配。 |
+| uncut | [GitHub](https://github.com/Balanov/uncut) | [![star](https://img.shields.io/badge/star-105-f4b400?style=flat-square)](https://github.com/Balanov/uncut) | coding-agent, headless, single-binary, cli | 单个 7 MB 静态 Go 二进制的无头编码智能体 harness，提供四个工具，仅使用标准输入输出；从不截断输出，模型返回被截断时直接报错退出。可对接任意 OpenAI 兼容的 Chat Completions 端点（含本地 Ollama），并以追加写入的 JSONL 保存会话。 |
 
 <a id="essential-readings-ecosystem-maps"></a>
 ### Essential Readings & Ecosystem Maps

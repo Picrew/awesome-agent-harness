@@ -4799,7 +4799,7 @@ entries:
   - headless
   - single-binary
   - cli
-  stars_snapshot: 267
+  stars_snapshot: 105
   updated_at: '2026-11-14'
   license: MIT
   why_included: README documents a single static Go binary with four tools over plain stdin/stdout, append-only JSONL sessions,
