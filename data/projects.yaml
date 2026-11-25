@@ -989,6 +989,21 @@ entries:
   updated_at: '2026-09-18'
   license: Apache-2.0
   why_included: Strong example of a harness runtime built around repairability, rollback, and controlled long-running execution.
+- name: Ponder
+  repo_url: https://github.com/Quinnod345/ponder
+  category: Harness Architecture & Orchestration
+  summary_en: Coverage-gated deliberative harness and multi-agent review loop that enforces skeptic, builder, dreamer, and empath perspectives with zero churn before task exit.
+  summary_zh: 覆盖率门控审议工具与多智能体评审循环，在任务退出前强制执行怀疑者、构建者、梦想家和同理心四重视角及零变动收敛。
+  tags:
+  - review
+  - deliberation
+  - multi-agent
+  - convergence-gate
+  stars_snapshot: 3
+  updated_at: '2026-11-02'
+  license: MIT
+  why_included: >-
+    Provides a coverage-gated deliberation harness that prevents premature agent exit by running iterative multi-pass audits across four distinct analytical perspectives until findings reach 1.00 coverage and 0.00 churn.
 - name: Graphify
   repo_url: https://github.com/Graphify-Labs/graphify
   category: Context & Working-State Engineering
