@@ -2,9 +2,9 @@
 
 A curated, implementation-first list of **agent harness engineering** resources, with GitHub projects as the primary focus.
 
-- Total entries: **375**
-- GitHub entries: **341 (90.9%)**
-- GitHub in project categories (excluding readings): **336/336 (100.0%)**
+- Total entries: **376**
+- GitHub entries: **342 (91.0%)**
+- GitHub in project categories (excluding readings): **337/337 (100.0%)**
 - Categories: **9**
 - Last verified: **2026-10-08**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -58,7 +58,7 @@ A curated, implementation-first list of **agent harness engineering** resources,
 | Evaluation Harnesses & Benchmarks | 29 |
 | Observability & Reliability Operations | 21 |
 | Guardrails, Security & Governance | 27 |
-| Reference Harness Implementations | 92 |
+| Reference Harness Implementations | 93 |
 | Essential Readings & Ecosystem Maps | 39 |
 
 ## Catalog
@@ -404,6 +404,7 @@ Notes:
 | SuperClaude Framework | [GitHub](https://github.com/SuperClaude-Org/SuperClaude_Framework) | [![star](https://img.shields.io/badge/star-23902-f4b400?style=flat-square)](https://github.com/SuperClaude-Org/SuperClaude_Framework) | config, personas, workflow | Configuration framework adding commands, personas, and method templates to coding agents. |
 | Prime Agent | [GitHub](https://github.com/PrimeIntellect-ai/prime-agent) | [![star](https://img.shields.io/badge/star-21595-f4b400?style=flat-square)](https://github.com/PrimeIntellect-ai/prime-agent) | long-running, rlm, quality-gates | Long-running coding and research harness with a persistent Python REPL, recursive subagents, resumable daemon sessions, durable harness state, and budgeted autonomous quality gates. |
 | SWE-agent | [GitHub](https://github.com/SWE-agent/SWE-agent) | [![star](https://img.shields.io/badge/star-20370-f4b400?style=flat-square)](https://github.com/SWE-agent/SWE-agent) | swe, issue-fixing, tooling | Research-grade coding agent that resolves GitHub issues with explicit tooling loops. |
+| Kortix | [GitHub](https://github.com/kortix-ai/suna) | [![star](https://img.shields.io/badge/star-20349-f4b400?style=flat-square)](https://github.com/kortix-ai/suna) | harness-runtime, sandboxing, self-hosted | Open-source CompanyOS whose agent runtime keeps the harness behind a contract - one adapter module, one harness per sandbox for the life of that sandbox, and a recorded harness.history when a box is migrated to another harness. |
 | jcode | [GitHub](https://github.com/1jehuang/jcode) | [![star](https://img.shields.io/badge/star-19934-f4b400?style=flat-square)](https://github.com/1jehuang/jcode) | coding-agent, terminal, rust | Rust coding-agent harness built for multi-session workflows, customization, memory, and terminal performance. |
 | Devika | [GitHub](https://github.com/stitionai/devika) | [![star](https://img.shields.io/badge/star-19566-f4b400?style=flat-square)](https://github.com/stitionai/devika) | assistant, planning, coding | Open-source coding assistant system for planning and implementing development tasks. |
 | OpenFang | [GitHub](https://github.com/RightNow-AI/openfang) | [![star](https://img.shields.io/badge/star-18205-f4b400?style=flat-square)](https://github.com/RightNow-AI/openfang) | agent-os, guardrails, rust | Rust agent operating system with autonomous capability packages, manifests, guardrails, tools, memory, sandboxing, audit trails, and channel adapters. |

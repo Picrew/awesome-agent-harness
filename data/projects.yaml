@@ -42,6 +42,18 @@ categories:
   name_en: Essential Readings & Ecosystem Maps
   name_zh: 关键阅读与生态地图
 entries:
+- name: Kortix
+  repo_url: https://github.com/kortix-ai/suna
+  category: Reference Harness Implementations
+  summary_en: Open-source CompanyOS whose agent runtime keeps the harness behind a contract - one adapter module, one harness per sandbox for the life of that sandbox, and a recorded harness.history when a box is migrated to another harness.
+  summary_zh: 开源 CompanyOS，其代理运行时把 harness 收敛在一个契约之后：单一适配器模块、每个沙箱在其生命周期内只运行一个 harness，迁移到其他 harness 时记录 harness.history。
+  tags:
+  - harness-runtime
+  - sandboxing
+  - self-hosted
+  stars_snapshot: 20349
+  updated_at: '2026-11-02'
+  why_included: The harness boundary README states the rules this list cares about - harness.ts is the only module that imports a concrete adapter, an unknown id fails the boot, and there is no per-request switching.
 - name: Superpowers
   repo_url: https://github.com/obra/superpowers
   category: Harness Architecture & Orchestration
