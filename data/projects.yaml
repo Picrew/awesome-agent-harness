@@ -4786,6 +4786,22 @@ entries:
   license: MIT
   why_included: README lists agent runtime, gateway, passive harness contracts, evidence bundles, plan-execute-verify mode,
     governance ledger, and harness regression suite as shipped capabilities.
+- name: Octomind
+  repo_url: https://github.com/muvon/octomind
+  category: Reference Harness Implementations
+  summary_en: Single-binary Rust coding-agent runtime with any-provider models per role, MCP-native tools, deterministic TOML
+    guardrail scripts, adaptive context compression, and piped, daemon, WebSocket, and ACP modes.
+  summary_zh: 单一二进制的 Rust 编码代理运行时，支持任意模型提供商并可按角色配置模型、原生 MCP 工具、以 TOML 与脚本定义的确定性护栏、自适应上下文压缩，以及管道、守护进程、WebSocket 与 ACP 运行模式。
+  tags:
+  - coding-agent
+  - mcp
+  - guardrails
+  stars_snapshot: 165
+  updated_at: '2026-10-17'
+  license: Apache-2.0
+  why_included: README documents a CLI-first agent runtime with deterministic guardrails as TOML plus scripts, per-role models
+    with spend caps, shareable specialist agents (taps), adaptive context compression for long sessions, and headless stdin,
+    daemon, WebSocket, and ACP entry points.
 - name: Utah
   repo_url: https://github.com/inngest/utah
   category: Reference Harness Implementations
