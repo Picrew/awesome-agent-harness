@@ -4801,6 +4801,21 @@ entries:
   license: Apache-2.0
   why_included: README expands Utah as Universally Triggered Agent Harness and documents durable LLM/tool steps, retries,
     singleton concurrency, cancellation, channels, and local worker operation.
+- name: SuperAgent
+  repo_url: https://github.com/pungme/superagent-desktop
+  category: Reference Harness Implementations
+  summary_en: macOS desktop harness for Claude Code and Codex that adds a driveable browser on the user's own logins, an iOS
+    Simulator, scheduled routines, and a phone companion for remote approvals.
+  summary_zh: 面向 Claude Code 与 Codex 的 macOS 桌面 harness，提供可驱动的浏览器（复用用户自身登录态）、iOS 模拟器、定时例程与手机端远程审批。
+  tags:
+  - macos
+  - browser
+  - ios-simulator
+  stars_snapshot: 29
+  updated_at: '2026-10-12'
+  license: MIT
+  why_included: Wraps an existing coding-agent CLI with the environment it cannot reach on its own - a real logged-in browser,
+    an iOS Simulator for install-and-screenshot loops, scheduled re-runs, and remote monitoring from a phone.
 - name: awesome-claude-code
   repo_url: https://github.com/hesreallyhim/awesome-claude-code
   category: Essential Readings & Ecosystem Maps
