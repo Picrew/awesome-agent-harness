@@ -1464,6 +1464,19 @@ entries:
   updated_at: '2026-07-24'
   license: none
   why_included: Official execution substrate focused on isolated, programmable environments for agent-generated code.
+- name: Sandscale
+  repo_url: https://github.com/sandscale/sandscale-js
+  category: Execution Substrates & Sandboxing
+  summary_en: Hosted Firecracker microVM sandboxes for AI coding agents, one per run, with a TypeScript SDK, REST API and remote MCP server, per-tool allow/ask/deny policy, approvals and an audit log.
+  summary_zh: 面向 AI 编程代理的托管 Firecracker 微虚拟机沙箱，每次运行一个独立实例，提供 TypeScript SDK、REST API 与远程 MCP 服务器，支持按工具的允许/询问/拒绝策略、审批与审计日志。
+  tags:
+  - sandbox
+  - execution
+  - infra
+  stars_snapshot: 0
+  updated_at: '2026-11-18'
+  license: Apache-2.0
+  why_included: Hosted execution substrate that pairs microVM isolation with harness-side policy controls (allow/ask/deny per tool, approvals, audit log).
 - name: agent-browser
   repo_url: https://github.com/vercel-labs/agent-browser
   category: Execution Substrates & Sandboxing
