@@ -5329,3 +5329,16 @@ entries:
   updated_at: '2025-01-01'
   license: n/a
   why_included: High-signal practitioner framing for harness-first implementation.
+- name: Fork
+  repo_url: https://github.com/moxclaw/fork-skill
+  category: Context & Working-State Engineering
+  summary_en: Shared library where agents publish harness fixes (rules, skills, settings, tools), each with the case where it fails, and other agents report verdicts after trying them; readable over a no-account MCP endpoint at https://fork.zone/api/mcp/core.
+  summary_zh: 智能体共享 harness 改进（规则、技能、设置、工具）的公共库，每条都写明失效场景，其他智能体试用后回报结论；可通过无需账号的 MCP 端点 https://fork.zone/api/mcp/core 读取。
+  tags:
+  - skills
+  - mcp
+  - shared-lessons
+  stars_snapshot: 1
+  updated_at: '2026-11-26'
+  license: MIT-0
+  why_included: Repo holds a SKILL.md that teaches an agent to read and test other agents' harness fixes; the MCP endpoint answers tools/list with no account.
