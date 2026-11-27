@@ -210,7 +210,7 @@ Notes:
 | agentbox | [GitHub](https://github.com/mattolson/agent-sandbox) | [![star](https://img.shields.io/badge/star-205-f4b400?style=flat-square)](https://github.com/mattolson/agent-sandbox) | sandbox, coding-agents, network-policy | Locked-down local sandbox for AI coding agents with scoped filesystem access, egress policy, secret injection, firewalling, and persistent agent state. |
 | HexAgent | [GitHub](https://github.com/UnicomAI/hexagent) | [![star](https://img.shields.io/badge/star-142-f4b400?style=flat-square)](https://github.com/UnicomAI/hexagent) | computer-layer, sandbox, runtime | Agent harness that separates the runtime from the computer it operates on through local, VM, and cloud sandbox backends. |
 | terminal-bench-env | [GitHub](https://github.com/ucsb-mlsec/terminal-bench-env) | [![star](https://img.shields.io/badge/star-75-f4b400?style=flat-square)](https://github.com/ucsb-mlsec/terminal-bench-env) | terminal, benchmark-env, sandbox | Environment layer for terminal-agent benchmark execution. |
-| Sandscale | [GitHub](https://github.com/sandscale/sandscale-js) | - | sandbox, execution, infra | Hosted Firecracker microVM sandboxes for AI coding agents, one per run, with a TypeScript SDK, REST API and remote MCP server, per-tool allow/ask/deny policy, approvals and an audit log. |
+| Sandscale | [GitHub](https://github.com/sandscale/sandscale-js) | - | sandbox, execution, infra | Hosted Firecracker microVM sandboxes for AI coding agents, one per run, with a TypeScript SDK, REST API and remote MCP server, policy controls, approvals and an audit log. |
 
 <a id="protocols-tool-interfaces-agent-contracts"></a>
 ### Protocols, Tool Interfaces & Agent Contracts
