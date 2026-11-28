@@ -2421,6 +2421,23 @@ entries:
   updated_at: '2025-07-10'
   license: MIT
   why_included: Alternative standardization path worth tracking in harness ecosystems.
+- name: PACT
+  repo_url: https://github.com/Balanov/pact
+  category: Protocols, Tool Interfaces & Agent Contracts
+  summary_en: Verifiable trail format for agent-initiated payments - quote, consent, commit, receipt - chained by
+    digests, so each step can be checked offline without a shared service.
+  summary_zh: 面向智能体发起支付的可验证轨迹格式 - 报价、同意、提交、回执 - 以摘要串联，每一步都可在离线环境中独立校验，无需共享服务。
+  tags:
+  - payments
+  - agents
+  - protocol
+  - verification
+  stars_snapshot: 0
+  updated_at: '2026-11-28'
+  license: MIT
+  why_included: SPEC.md defines a four-step content-addressed contract (quote, consent, commit, receipt) in which every
+    step carries the digest of the step before it, and the repository ships a reference CLI, a JSON Schema, conformance
+    vectors, and an independent Go verifier for offline replay checks.
 - name: Promptfoo
   repo_url: https://github.com/promptfoo/promptfoo
   category: Evaluation Harnesses & Benchmarks
